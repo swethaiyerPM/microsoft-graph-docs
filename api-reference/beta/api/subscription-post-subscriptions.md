@@ -191,8 +191,8 @@ The following are valid values for the resource property.
 |:------ |:----- |
 |[baseTask](../resources/basetask.md) (deprecated) | `/me/tasks/lists/{Id}/tasks`
 |[Call records](../resources/callrecords-callrecord.md)|`communications/callRecords`|
-|[callTranscript](/graph/api/resources/calltranscript.md) | `communications/onlineMeetings/getAllTranscripts`, <br> `communications/onlineMeetings/{onlineMeetingId}/transcripts`|
-|[callRecording](/graph/api/resources/callrecording.md)| `Communications/onlineMeetings/getAllRecordings`, <br> `communications/onlineMeetings/{onlineMeetingId}/recordings`|
+|[callTranscript](/graph/api/resources/calltranscript) | `communications/onlineMeetings/getAllTranscripts`, <br> `communications/onlineMeetings/{onlineMeetingId}/transcripts`|
+|[callRecording](/graph/api/resources/callrecording)| `Communications/onlineMeetings/getAllRecordings`, <br> `communications/onlineMeetings/{onlineMeetingId}/recordings`|
 |[Channels](../resources/channel.md)|`/teams/getAllChannels`, `/teams/{id}/channels`|
 |[Chat](../resources/chat.md)|`/chats`, `/chats/{id}`|
 |[Chat message](../resources/chatmessage.md) | `chats/{id}/messages`, `chats/getAllMessages`, `teams/{id}/channels/{id}/messages`, `teams/getAllMessages` |
