@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Policies/DeviceRegistrationPolicy"
+	  graphpolicies "github.com/microsoftgraph/msgraph-beta-sdk-go/policies"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewDeviceRegistrationPolicyPutRequestBody()
+requestBody := graphpolicies.NewDeviceRegistrationPolicyPutRequestBody()
 additionalData := map[string]interface{}{
 	"id" : "deviceRegistrationPolicy", 
 	"displayName" : "Device Registration Policy", 

@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Identity/B2xUserFlows/Item/UserFlowIdentityProviders/Ref"
+	  graphidentity "github.com/microsoftgraph/msgraph-beta-sdk-go/identity"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.New$refPatchRequestBody()
+requestBody := graphidentity.New$refPatchRequestBody()
 additionalData := map[string]interface{}{
 	"odataId" : "https://graph.microsoft.com/beta/identity/identityProviders/B2X_1_Test", 
 }

@@ -78,6 +78,10 @@ PUT https://graph.microsoft.com/beta/me/activities/13881113971988980728/historyI
 [!INCLUDE [sample-code](../includes/snippets/php/delete-historyitem-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/delete-historyitem-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
 ---
 
 ##### Response

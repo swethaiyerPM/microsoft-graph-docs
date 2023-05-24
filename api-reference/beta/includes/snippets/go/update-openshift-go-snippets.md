@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Teams/Item/Schedule/OpenShifts/Item"
+	  graphteams "github.com/microsoftgraph/msgraph-beta-sdk-go/teams"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewOpenShift()
+requestBody := graphteams.NewOpenShift()
 additionalData := map[string]interface{}{
 	"schedulingGroupId" : "TAG_228940ed-ff84-4e25-b129-1b395cf78be0", 
 sharedOpenShift := graphmodels.New()

@@ -9,21 +9,20 @@ import (
 	  "context"
 	  abstractions "github.com/microsoft/kiota-abstractions-go"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-sdk-go/Teams/Item/Schedule/SchedulingGroups/Item"
-	  graphconfig "github.com/microsoftgraph/msgraph-sdk-go/teams"
+	  graphteams "github.com/microsoftgraph/msgraph-sdk-go/teams"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 headers := abstractions.NewRequestHeaders()
 headers.Add("Prefer", "return=representation")
 
-configuration := &graphconfig.TeamItemScheduleSchedulingGroupItemRequestBuilderPutRequestConfiguration{
+configuration := &graphteams.TeamItemScheduleSchedulingGroupItemRequestBuilderPutRequestConfiguration{
 	Headers: headers,
 }
-requestBody := graphmodels.NewSchedulingGroup()
+requestBody := graphteams.NewSchedulingGroup()
 additionalData := map[string]interface{}{
 	"displayName" : "Cashiers", 
 	isActive := true

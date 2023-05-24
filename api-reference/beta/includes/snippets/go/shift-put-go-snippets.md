@@ -9,21 +9,20 @@ import (
 	  "context"
 	  abstractions "github.com/microsoft/kiota-abstractions-go"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Teams/Item/Schedule/Shifts/Item"
-	  graphconfig "github.com/microsoftgraph/msgraph-beta-sdk-go/teams"
+	  graphteams "github.com/microsoftgraph/msgraph-beta-sdk-go/teams"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 headers := abstractions.NewRequestHeaders()
 headers.Add("Prefer", "return=representation")
 
-configuration := &graphconfig.TeamItemScheduleShiftItemRequestBuilderPutRequestConfiguration{
+configuration := &graphteams.TeamItemScheduleShiftItemRequestBuilderPutRequestConfiguration{
 	Headers: headers,
 }
-requestBody := graphmodels.NewShift()
+requestBody := graphteams.NewShift()
 additionalData := map[string]interface{}{
 	"id" : "SHFT_577b75d2-a927-48c0-a5d1-dc984894e7b8", 
 	"createdDateTime" : "2019-03-14T04:32:51.451Z", 

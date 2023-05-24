@@ -8,20 +8,20 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphconfig "github.com/microsoftgraph/msgraph-beta-sdk-go/groups"
+	  graphgroups "github.com/microsoftgraph/msgraph-beta-sdk-go/groups"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 
 requestId := "https://graph.microsoft.com/beta/groups/{other-group-id}"
 
-requestParameters := &graphconfig.GroupItemAcceptedSenders$refRequestBuilderDeleteQueryParameters{
+requestParameters := &graphgroups.GroupItemAcceptedSenders$refRequestBuilderDeleteQueryParameters{
 	Id: &requestId,
 }
-configuration := &graphconfig.GroupItemAcceptedSenders$refRequestBuilderDeleteRequestConfiguration{
+configuration := &graphgroups.GroupItemAcceptedSenders$refRequestBuilderDeleteRequestConfiguration{
 	QueryParameters: requestParameters,
 }
 

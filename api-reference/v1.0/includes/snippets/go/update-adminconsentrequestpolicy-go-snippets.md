@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-sdk-go/Policies/AdminConsentRequestPolicy"
+	  graphpolicies "github.com/microsoftgraph/msgraph-sdk-go/policies"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewAdminConsentRequestPolicyPutRequestBody()
+requestBody := graphpolicies.NewAdminConsentRequestPolicyPutRequestBody()
 additionalData := map[string]interface{}{
 	isEnabled := true
 requestBody.SetIsEnabled(&isEnabled) 

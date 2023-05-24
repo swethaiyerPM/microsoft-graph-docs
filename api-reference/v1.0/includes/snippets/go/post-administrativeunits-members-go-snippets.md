@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-sdk-go/Directory/AdministrativeUnits/Item/Members"
+	  graphdirectory "github.com/microsoftgraph/msgraph-sdk-go/directory"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewMembersPostRequestBody()
+requestBody := graphdirectory.NewMembersPostRequestBody()
 additionalData := map[string]interface{}{
 	"description" : "Self help community for golf", 
 	"displayName" : "Golf Assist", 

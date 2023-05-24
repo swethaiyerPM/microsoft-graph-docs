@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-sdk-go/Directory/DeletedItems/Item"
+	  graphdirectory "github.com/microsoftgraph/msgraph-sdk-go/directory"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewDeletedItem()
+requestBody := graphdirectory.NewDeletedItem()
 additionalData := map[string]interface{}{
 	"userId" : "55ac777c-109e-4022-b58c-470c8fcb6892", 
 	"type" : "Group", 

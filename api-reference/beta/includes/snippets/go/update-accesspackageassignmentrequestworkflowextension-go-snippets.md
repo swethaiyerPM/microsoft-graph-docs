@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/IdentityGovernance/EntitlementManagement/AccessPackageCatalogs/Item/AccessPackageCustomWorkflowExtensions/Item"
+	  graphidentitygovernance "github.com/microsoftgraph/msgraph-beta-sdk-go/identitygovernance"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewAccessPackageCustomWorkflowExtension()
+requestBody := graphidentitygovernance.NewAccessPackageCustomWorkflowExtension()
 additionalData := map[string]interface{}{
 	"displayName" : "test_action_0124_email", 
 	"description" : "this is for graph testing only", 

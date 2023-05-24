@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Directory/FederationConfigurations/Item"
+	  graphdirectory "github.com/microsoftgraph/msgraph-beta-sdk-go/directory"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewFederationConfiguration()
+requestBody := graphdirectory.NewFederationConfiguration()
 additionalData := map[string]interface{}{
 	"issuerUri" : "https://contoso.com/issuerUri", 
 	"displayName" : "contoso display name", 

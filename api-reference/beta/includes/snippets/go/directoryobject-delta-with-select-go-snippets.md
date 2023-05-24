@@ -8,21 +8,21 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphconfig "github.com/microsoftgraph/msgraph-beta-sdk-go/directoryobjects"
+	  graphdirectoryobjects "github.com/microsoftgraph/msgraph-beta-sdk-go/directoryobjects"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 
 requestFilter := "isof or isof"
 
-requestParameters := &graphconfig.DirectoryObjectsDelta()RequestBuilderGetQueryParameters{
+requestParameters := &graphdirectoryobjects.DirectoryObjectsDelta()RequestBuilderGetQueryParameters{
 	Filter: &requestFilter,
 	Select: [] string {"microsoft.graph.user/surname","microsoft.graph.group/displayName"},
 }
-configuration := &graphconfig.DirectoryObjectsDelta()RequestBuilderGetRequestConfiguration{
+configuration := &graphdirectoryobjects.DirectoryObjectsDelta()RequestBuilderGetRequestConfiguration{
 	QueryParameters: requestParameters,
 }
 

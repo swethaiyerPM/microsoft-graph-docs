@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-sdk-go/Identity/B2xUserFlows/Item/IdentityProviders/Item"
+	  graphidentity "github.com/microsoftgraph/msgraph-sdk-go/identity"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewIdentityProvider()
+requestBody := graphidentity.NewIdentityProvider()
 additionalData := map[string]interface{}{
 	"odataId" : "https://graph.microsoft.com/v1.0/identityProviders/Facebook-OAUTH", 
 }

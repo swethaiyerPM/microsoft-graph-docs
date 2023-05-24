@@ -9,21 +9,20 @@ import (
 	  "context"
 	  abstractions "github.com/microsoft/kiota-abstractions-go"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Teams/Item/Schedule/TimeOffReasons/Item"
-	  graphconfig "github.com/microsoftgraph/msgraph-beta-sdk-go/teams"
+	  graphteams "github.com/microsoftgraph/msgraph-beta-sdk-go/teams"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 headers := abstractions.NewRequestHeaders()
 headers.Add("Prefer", "return=representation")
 
-configuration := &graphconfig.TeamItemScheduleTimeOffReasonItemRequestBuilderPutRequestConfiguration{
+configuration := &graphteams.TeamItemScheduleTimeOffReasonItemRequestBuilderPutRequestConfiguration{
 	Headers: headers,
 }
-requestBody := graphmodels.NewTimeOffReason()
+requestBody := graphteams.NewTimeOffReason()
 additionalData := map[string]interface{}{
 	"displayName" : "Vacation", 
 	"iconType" : "plane", 

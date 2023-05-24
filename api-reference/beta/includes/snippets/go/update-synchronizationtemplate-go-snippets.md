@@ -9,21 +9,20 @@ import (
 	  "context"
 	  abstractions "github.com/microsoft/kiota-abstractions-go"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Applications/Item/Synchronization/Templates/Item"
-	  graphconfig "github.com/microsoftgraph/msgraph-beta-sdk-go/applications"
+	  graphapplications "github.com/microsoftgraph/msgraph-beta-sdk-go/applications"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 headers := abstractions.NewRequestHeaders()
 headers.Add("Authorization", "Bearer <token>")
 
-configuration := &graphconfig.ApplicationItemSynchronizationTemplateItemRequestBuilderPutRequestConfiguration{
+configuration := &graphapplications.ApplicationItemSynchronizationTemplateItemRequestBuilderPutRequestConfiguration{
 	Headers: headers,
 }
-requestBody := graphmodels.NewTemplate()
+requestBody := graphapplications.NewTemplate()
 additionalData := map[string]interface{}{
 	"id" : "Slack", 
 	"applicationId" : "{id}", 

@@ -9,21 +9,20 @@ import (
 	  "context"
 	  abstractions "github.com/microsoft/kiota-abstractions-go"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Teams/Item/Schedule/TimesOff/Item"
-	  graphconfig "github.com/microsoftgraph/msgraph-beta-sdk-go/teams"
+	  graphteams "github.com/microsoftgraph/msgraph-beta-sdk-go/teams"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 headers := abstractions.NewRequestHeaders()
 headers.Add("Prefer", "return=representation")
 
-configuration := &graphconfig.TeamItemScheduleTimesOffItemRequestBuilderPutRequestConfiguration{
+configuration := &graphteams.TeamItemScheduleTimesOffItemRequestBuilderPutRequestConfiguration{
 	Headers: headers,
 }
-requestBody := graphmodels.NewTimesOff()
+requestBody := graphteams.NewTimesOff()
 additionalData := map[string]interface{}{
 	"userId" : "c5d0c76b-80c4-481c-be50-923cd8d680a1", 
 sharedTimeOff := graphmodels.New()

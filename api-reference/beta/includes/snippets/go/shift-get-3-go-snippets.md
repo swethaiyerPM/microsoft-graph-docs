@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Users/Item/Settings/ShiftPreferences"
+	  graphusers "github.com/microsoftgraph/msgraph-beta-sdk-go/users"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewShiftPreferencesPutRequestBody()
+requestBody := graphusers.NewShiftPreferencesPutRequestBody()
 additionalData := map[string]interface{}{
 	"id" : "SHPR_eeab4fb1-20e5-48ca-ad9b-98119d94bee7", 
 	"odataEtag" : "1a371e53-f0a6-4327-a1ee-e3c56e4b38aa", 

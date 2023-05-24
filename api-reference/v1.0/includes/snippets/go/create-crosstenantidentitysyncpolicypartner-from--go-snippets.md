@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-sdk-go/Policies/CrossTenantAccessPolicy/Partners/Item/IdentitySynchronization"
+	  graphpolicies "github.com/microsoftgraph/msgraph-sdk-go/policies"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewIdentitySynchronizationPutRequestBody()
+requestBody := graphpolicies.NewIdentitySynchronizationPutRequestBody()
 additionalData := map[string]interface{}{
 	"displayName" : "Fabrikam", 
 userSyncInbound := graphmodels.New()

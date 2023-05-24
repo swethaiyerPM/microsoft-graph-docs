@@ -8,14 +8,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 import (
 	  "context"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphmodels "github.com/microsoftgraph/msgraph-beta-sdk-go/Teams/Item/Schedule/TimeCards/Item"
+	  graphteams "github.com/microsoftgraph/msgraph-beta-sdk-go/teams"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphmodels.NewTimeCard()
+requestBody := graphteams.NewTimeCard()
 additionalData := map[string]interface{}{
 	"userId" : "70e47528-2fae-42b5-9d8e-ee73ccd90603", 
 	"state" : "clockedOut", 
