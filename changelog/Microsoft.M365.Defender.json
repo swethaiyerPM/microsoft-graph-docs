@@ -901,7 +901,7 @@
 					"ApiChange": "Property",
 					"ChangedApiName": "detailedRoles",
 					"ChangeType": "Addition",
-                    "Description": "Added **detailedRoles** property to [alertEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-alertevidence?view=graph-rest-1.0#properties).",
+                    "Description": "Added the **detailedRoles** property to the [alertEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-alertevidence?view=graph-rest-1.0) resource.",
                     "Target": "alertEvidence"
 				},
 				{
@@ -909,7 +909,7 @@
 					"ApiChange": "Property",
 					"ChangedApiName": "ipInterfaces",
 					"ChangeType": "Addition",
-					"Description": "Added **ipInterfaces** property to [deviceEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-deviceevidence?view=graph-rest-1.0#properties).",
+					"Description": "Added the **ipInterfaces** property to the [deviceEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-deviceevidence?view=graph-rest-1.0) resource.",
 					"Target": "deviceevidence"
 				},
 				{
@@ -917,7 +917,7 @@
 					"ApiChange": "Property",
 					"ChangedApiName": "mdeDeviceId",
 					"ChangeType": "Addition",
-					"Description": "Added **mdeDeviceId** property to [registryValueEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-registryvalueevidence?view=graph-rest-1.0#properties).",
+					"Description": "Added the **mdeDeviceId** property to the [registryValueEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-registryvalueevidence?view=graph-rest-1.0) resource.",
 					"Target": "registryValueEvidence"
 				}
 			],
@@ -935,7 +935,7 @@
 					"ApiChange": "Property",
 					"ChangedApiName": "detailedRoles",
 					"ChangeType": "Addition",
-                    "Description": "Added **detailedRoles** property to [alertEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-alertevidence?view=graph-rest-1.0#properties).",
+                    "Description": "Added the **detailedRoles** property to the [alertEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-alertevidence?view=graph-rest-beta) resource.",
                     "Target": "alertEvidence"
 				},
 				{
@@ -943,7 +943,7 @@
 					"ApiChange": "Property",
 					"ChangedApiName": "ipInterfaces",
 					"ChangeType": "Addition",
-					"Description": "Added **ipInterfaces** property to [deviceEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-deviceevidence?view=graph-rest-1.0#properties).",
+					"Description": "Added the **ipInterfaces** property to the [deviceEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-deviceevidence?view=graph-rest-beta) resource.",
 					"Target": "deviceevidence"
 				},
 				{
@@ -951,7 +951,7 @@
 					"ApiChange": "Property",
 					"ChangedApiName": "mdeDeviceId",
 					"ChangeType": "Addition",
-					"Description": "Added **mdeDeviceId** property to [registryValueEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-registryvalueevidence?view=graph-rest-1.0#properties).",
+					"Description": "Added the **mdeDeviceId** property to the [registryValueEvidence](https://learn.microsoft.com/en-us/graph/api/resources/security-registryvalueevidence?view=graph-rest-beta) resource.",
 					"Target": "registryValueEvidence"
 				}
 			],
