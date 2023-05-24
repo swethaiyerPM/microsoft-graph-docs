@@ -28,7 +28,7 @@ To get change notifications for any transcript being available for any online me
 ### Example
 
 ```http
-POST https://graph.microsoft.com/v1.0/subscriptions
+POST https://graph.microsoft.com/beta/subscriptions
 Content-Type: application/json
 {
   "changeType": "created",
@@ -55,7 +55,7 @@ To get change notifications for any transcript being available for a particular 
 ### Example
 
 ```http
-POST https://graph.microsoft.com/v1.0/subscriptions
+POST https://graph.microsoft.com/beta/subscriptions
 Content-Type: application/json
 {
   "changeType": "created",
@@ -82,7 +82,7 @@ To get change notifications for any recording being available for any online mee
 ### Example
 
 ```http
-POST https://graph.microsoft.com/v1.0/subscriptions
+POST https://graph.microsoft.com/beta/subscriptions
 Content-Type: application/json
 {
   "changeType": "created",
@@ -111,7 +111,7 @@ To get change notifications for any recording being available for a particular o
 ### Example
 
 ```http
-POST https://graph.microsoft.com/v1.0/subscriptions
+POST https://graph.microsoft.com/beta/subscriptions
 Content-Type: application/json
 {
   "changeType": "created",
