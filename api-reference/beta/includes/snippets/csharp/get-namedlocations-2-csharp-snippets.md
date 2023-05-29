@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var result = await graphClient.Identity.ConditionalAccess.NamedLocations.GetAsync((requestConfiguration) =>
 {
-	requestConfiguration.QueryParameters.Filter = "isof('microsoft.graph.ipNamedLocation')";
+	requestConfiguration.QueryParameters.Filter = "isof";
 });
 
 

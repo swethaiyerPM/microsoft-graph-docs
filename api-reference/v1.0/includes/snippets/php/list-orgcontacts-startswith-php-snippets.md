@@ -16,7 +16,7 @@ $headers = [
 $requestConfiguration->headers = $headers;
 
 $queryParameters = ContactsRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->filter = "startswith(displayName,'A')";
+$queryParameters->filter = "startswith";
 $queryParameters->count = true;
 $queryParameters->top = 1;
 $queryParameters->orderby = ["displayName"];

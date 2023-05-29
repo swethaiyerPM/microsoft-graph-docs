@@ -12,7 +12,7 @@ var result = await graphClient.Users.GetAsync((requestConfiguration) =>
 {
 	requestConfiguration.QueryParameters.Count = true;
 	requestConfiguration.QueryParameters.Select = new string []{ "id","displayName","customSecurityAttributes" };
-	requestConfiguration.QueryParameters.Filter = "startsWith(customSecurityAttributes/Marketing/EmployeeId,'GS')";
+	requestConfiguration.QueryParameters.Filter = "startsWith";
 	requestConfiguration.Headers.Add("ConsistencyLevel", "eventual");
 });
 

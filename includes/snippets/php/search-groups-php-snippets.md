@@ -16,7 +16,7 @@ $headers = [
 $requestConfiguration->headers = $headers;
 
 $queryParameters = GroupsRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"displayName:OneVideo\" OR \"mail:onevideo\"";
+$queryParameters->search = "\\"displayName:OneVideo\\" OR \\"mail:onevideo\\"";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

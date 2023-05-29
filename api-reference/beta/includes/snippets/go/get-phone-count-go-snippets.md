@@ -9,25 +9,25 @@ import (
 	  "context"
 	  abstractions "github.com/microsoft/kiota-abstractions-go"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-beta-sdk-go"
-	  graphconfig "github.com/microsoftgraph/msgraph-beta-sdk-go/contacts"
+	  graphcontacts "github.com/microsoftgraph/msgraph-beta-sdk-go/contacts"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 headers := abstractions.NewRequestHeaders()
 headers.Add("ConsistencyLevel", "eventual")
 
 
-requestSearch := "\"displayName:wa\""
+requestSearch := "\\"displayName:wa\\""
 requestCount := true
 
-requestParameters := &graphconfig.ContactsRequestBuilderGetQueryParameters{
+requestParameters := &graphcontacts.ContactsRequestBuilderGetQueryParameters{
 	Search: &requestSearch,
 	Count: &requestCount,
 }
-configuration := &graphconfig.ContactsRequestBuilderGetRequestConfiguration{
+configuration := &graphcontacts.ContactsRequestBuilderGetRequestConfiguration{
 	Headers: headers,
 	QueryParameters: requestParameters,
 }

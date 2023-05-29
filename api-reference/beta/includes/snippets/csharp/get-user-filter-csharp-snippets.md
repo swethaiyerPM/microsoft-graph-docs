@@ -12,7 +12,7 @@ var result = await graphClient.Users.GetAsync((requestConfiguration) =>
 {
 	requestConfiguration.QueryParameters.Count = true;
 	requestConfiguration.QueryParameters.ConsistencyLevel = "eventual";
-	requestConfiguration.QueryParameters.Filter = "endsWith(mail,'@contoso.com')";
+	requestConfiguration.QueryParameters.Filter = "endsWith";
 });
 
 

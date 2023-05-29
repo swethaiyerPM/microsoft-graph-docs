@@ -18,7 +18,7 @@ $requestConfiguration->headers = $headers;
 $queryParameters = UsersRequestBuilderGetRequestConfiguration::createQueryParameters();
 $queryParameters->count = true;
 $queryParameters->select = ["id","displayName","customSecurityAttributes"];
-$queryParameters->filter = "startsWith(customSecurityAttributes/Marketing/EmployeeId,'GS')";
+$queryParameters->filter = "startsWith";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

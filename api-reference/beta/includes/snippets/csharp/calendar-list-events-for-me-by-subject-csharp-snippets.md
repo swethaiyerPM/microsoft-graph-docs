@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var result = await graphClient.Me.Calendar.Events.GetAsync((requestConfiguration) =>
 {
-	requestConfiguration.QueryParameters.Filter = "startsWith(subject,'All')";
+	requestConfiguration.QueryParameters.Filter = "startsWith";
 });
 
 

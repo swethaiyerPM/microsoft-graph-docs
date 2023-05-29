@@ -11,7 +11,7 @@ $graphServiceClient = new GraphServiceClient($requestAdapter);
 
 $requestConfiguration = new MessagesRequestBuilderGetRequestConfiguration();
 $queryParameters = MessagesRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"pizza\"";
+$queryParameters->search = "\\"pizza\\"";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

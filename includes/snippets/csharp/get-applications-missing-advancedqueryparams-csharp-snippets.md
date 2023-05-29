@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var result = await graphClient.Applications.GetAsync((requestConfiguration) =>
 {
-	requestConfiguration.QueryParameters.Search = "\"displayName:Browser\"";
+	requestConfiguration.QueryParameters.Search = "\\"displayName:Browser\\"";
 });
 
 

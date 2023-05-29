@@ -11,7 +11,7 @@ $graphServiceClient = new GraphServiceClient($requestAdapter);
 
 $requestConfiguration = new UsersRequestBuilderGetRequestConfiguration();
 $queryParameters = UsersRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->filter = "endsWith(mail,'@outlook.com')";
+$queryParameters->filter = "endsWith";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

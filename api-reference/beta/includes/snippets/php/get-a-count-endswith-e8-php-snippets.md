@@ -16,7 +16,7 @@ $headers = [
 $requestConfiguration->headers = $headers;
 
 $queryParameters = UsersRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->filter = "endswith(mail,'a@contoso.com')";
+$queryParameters->filter = "endswith";
 $queryParameters->orderby = ["userPrincipalName"];
 $queryParameters->count = true;
 $requestConfiguration->queryParameters = $queryParameters;

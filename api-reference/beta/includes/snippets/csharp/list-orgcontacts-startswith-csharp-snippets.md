@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var result = await graphClient.Contacts.GetAsync((requestConfiguration) =>
 {
-	requestConfiguration.QueryParameters.Filter = "startswith(displayName,'A')";
+	requestConfiguration.QueryParameters.Filter = "startswith";
 	requestConfiguration.QueryParameters.Count = true;
 	requestConfiguration.QueryParameters.Top = 1;
 	requestConfiguration.QueryParameters.Orderby = new string []{ "displayName" };

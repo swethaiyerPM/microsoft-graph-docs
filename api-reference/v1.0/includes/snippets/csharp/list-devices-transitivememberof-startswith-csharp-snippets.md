@@ -12,7 +12,7 @@ var result = await graphClient.Devices["{device-id}"].TransitiveMemberOf.GraphGr
 {
 	requestConfiguration.QueryParameters.Count = true;
 	requestConfiguration.QueryParameters.Orderby = new string []{ "displayName" };
-	requestConfiguration.QueryParameters.Filter = "startswith(displayName,%20'a')";
+	requestConfiguration.QueryParameters.Filter = "startswith";
 	requestConfiguration.Headers.Add("ConsistencyLevel", "eventual");
 });
 

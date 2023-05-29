@@ -17,7 +17,7 @@ $requestConfiguration->headers = $headers;
 
 $queryParameters = GroupsRequestBuilderGetRequestConfiguration::createQueryParameters();
 $queryParameters->filter = "mailEnabled eq true";
-$queryParameters->search = "\"displayName:OneVideo\"";
+$queryParameters->search = "\\"displayName:OneVideo\\"";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

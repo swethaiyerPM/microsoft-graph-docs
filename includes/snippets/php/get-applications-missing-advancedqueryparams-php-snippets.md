@@ -11,7 +11,7 @@ $graphServiceClient = new GraphServiceClient($requestAdapter);
 
 $requestConfiguration = new ApplicationsRequestBuilderGetRequestConfiguration();
 $queryParameters = ApplicationsRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"displayName:Browser\"";
+$queryParameters->search = "\\"displayName:Browser\\"";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

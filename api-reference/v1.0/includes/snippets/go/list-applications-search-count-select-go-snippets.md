@@ -9,26 +9,26 @@ import (
 	  "context"
 	  abstractions "github.com/microsoft/kiota-abstractions-go"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
-	  graphconfig "github.com/microsoftgraph/msgraph-sdk-go/applications"
+	  graphapplications "github.com/microsoftgraph/msgraph-sdk-go/applications"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 headers := abstractions.NewRequestHeaders()
 headers.Add("ConsistencyLevel", "eventual")
 
 
-requestSearch := "\"displayName:Web\""
+requestSearch := "\\"displayName:Web\\""
 requestCount := true
 
-requestParameters := &graphconfig.ApplicationsRequestBuilderGetQueryParameters{
+requestParameters := &graphapplications.ApplicationsRequestBuilderGetQueryParameters{
 	Search: &requestSearch,
 	Count: &requestCount,
 	Select: [] string {"appId","identifierUris","displayName","publisherDomain","signInAudience"},
 }
-configuration := &graphconfig.ApplicationsRequestBuilderGetRequestConfiguration{
+configuration := &graphapplications.ApplicationsRequestBuilderGetRequestConfiguration{
 	Headers: headers,
 	QueryParameters: requestParameters,
 }

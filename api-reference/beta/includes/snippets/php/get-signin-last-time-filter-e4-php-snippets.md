@@ -11,7 +11,7 @@ $graphServiceClient = new GraphServiceClient($requestAdapter);
 
 $requestConfiguration = new UsersRequestBuilderGetRequestConfiguration();
 $queryParameters = UsersRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->filter = "startswith(displayName,'Eric')";
+$queryParameters->filter = "startswith";
 $queryParameters->select = ["displayName","signInActivity"];
 $requestConfiguration->queryParameters = $queryParameters;
 

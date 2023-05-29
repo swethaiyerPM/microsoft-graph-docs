@@ -11,7 +11,7 @@ $graphServiceClient = new GraphServiceClient($requestAdapter);
 
 $requestConfiguration = new EventsRequestBuilderGetRequestConfiguration();
 $queryParameters = EventsRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->filter = "startsWith(subject,'All')";
+$queryParameters->filter = "startsWith";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

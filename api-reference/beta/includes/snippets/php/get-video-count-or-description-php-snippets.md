@@ -16,7 +16,7 @@ $headers = [
 $requestConfiguration->headers = $headers;
 
 $queryParameters = GroupsRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"displayName:Video\" OR \"description:prod\"";
+$queryParameters->search = "\\"displayName:Video\\" OR \\"description:prod\\"";
 $queryParameters->orderby = ["displayName"];
 $queryParameters->count = true;
 $requestConfiguration->queryParameters = $queryParameters;

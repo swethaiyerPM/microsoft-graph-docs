@@ -16,7 +16,7 @@ $headers = [
 $requestConfiguration->headers = $headers;
 
 $queryParameters = ApplicationsRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"displayName:Web\"";
+$queryParameters->search = "\\"displayName:Web\\"";
 $queryParameters->count = true;
 $queryParameters->select = ["appId","identifierUris","displayName","publisherDomain","signInAudience"];
 $requestConfiguration->queryParameters = $queryParameters;

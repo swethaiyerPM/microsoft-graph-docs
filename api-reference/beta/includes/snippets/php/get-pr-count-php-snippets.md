@@ -18,7 +18,7 @@ $requestConfiguration->headers = $headers;
 $queryParameters = UserRequestBuilderGetRequestConfiguration::createQueryParameters();
 $queryParameters->count = true;
 $queryParameters->orderby = ["displayName"];
-$queryParameters->search = "\"displayName:Pr\"";
+$queryParameters->search = "\\"displayName:Pr\\"";
 $queryParameters->select = ["displayName","id"];
 $requestConfiguration->queryParameters = $queryParameters;
 

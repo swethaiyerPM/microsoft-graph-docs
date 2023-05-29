@@ -9,25 +9,25 @@ import (
 	  "context"
 	  abstractions "github.com/microsoft/kiota-abstractions-go"
 	  msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
-	  graphconfig "github.com/microsoftgraph/msgraph-sdk-go/devices"
+	  graphdevices "github.com/microsoftgraph/msgraph-sdk-go/devices"
 	  //other-imports
 )
 
-graphClient := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
+graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
 headers := abstractions.NewRequestHeaders()
 headers.Add("ConsistencyLevel", "eventual")
 
 
-requestSearch := "\"displayName:Android\""
+requestSearch := "\\"displayName:Android\\""
 requestCount := true
 
-requestParameters := &graphconfig.DevicesRequestBuilderGetQueryParameters{
+requestParameters := &graphdevices.DevicesRequestBuilderGetQueryParameters{
 	Search: &requestSearch,
 	Count: &requestCount,
 }
-configuration := &graphconfig.DevicesRequestBuilderGetRequestConfiguration{
+configuration := &graphdevices.DevicesRequestBuilderGetRequestConfiguration{
 	Headers: headers,
 	QueryParameters: requestParameters,
 }

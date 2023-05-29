@@ -11,7 +11,7 @@ $graphServiceClient = new GraphServiceClient($requestAdapter);
 
 $requestConfiguration = new OutcomesRequestBuilderGetRequestConfiguration();
 $queryParameters = OutcomesRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->filter = "isof('microsoft.graph.educationFeedbackResourceOutcome')";
+$queryParameters->filter = "isof";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

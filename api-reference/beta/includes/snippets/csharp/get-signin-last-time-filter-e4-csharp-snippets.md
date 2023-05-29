@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var result = await graphClient.Users.GetAsync((requestConfiguration) =>
 {
-	requestConfiguration.QueryParameters.Filter = "startswith(displayName,'Eric')";
+	requestConfiguration.QueryParameters.Filter = "startswith";
 	requestConfiguration.QueryParameters.Select = new string []{ "displayName","signInActivity" };
 });
 

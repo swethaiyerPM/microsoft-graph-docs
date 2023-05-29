@@ -11,7 +11,7 @@ $graphServiceClient = new GraphServiceClient($requestAdapter);
 
 $requestConfiguration = new NamedLocationsRequestBuilderGetRequestConfiguration();
 $queryParameters = NamedLocationsRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->filter = "isof('microsoft.graph.ipNamedLocation')";
+$queryParameters->filter = "isof";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

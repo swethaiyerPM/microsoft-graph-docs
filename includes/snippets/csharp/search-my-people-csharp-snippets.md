@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var result = await graphClient.Me.People.GetAsync((requestConfiguration) =>
 {
-	requestConfiguration.QueryParameters.Search = "\"Irene McGowen\"";
+	requestConfiguration.QueryParameters.Search = "\\"Irene McGowen\\"";
 });
 
 

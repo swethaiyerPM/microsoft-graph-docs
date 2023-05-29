@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var result = await graphClient.Education.Classes["{educationClass-id}"].Assignments["{educationAssignment-id}"].Submissions["{educationSubmission-id}"].Outcomes.GetAsync((requestConfiguration) =>
 {
-	requestConfiguration.QueryParameters.Filter = "isof('microsoft.graph.educationFeedbackResourceOutcome')";
+	requestConfiguration.QueryParameters.Filter = "isof";
 });
 
 

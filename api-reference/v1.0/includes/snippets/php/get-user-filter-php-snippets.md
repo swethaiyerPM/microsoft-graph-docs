@@ -13,7 +13,7 @@ $requestConfiguration = new UsersRequestBuilderGetRequestConfiguration();
 $queryParameters = UsersRequestBuilderGetRequestConfiguration::createQueryParameters();
 $queryParameters->count = true;
 $queryParameters->consistencyLevel = "eventual";
-$queryParameters->filter = "endsWith(mail,'@contoso.com')";
+$queryParameters->filter = "endsWith";
 $requestConfiguration->queryParameters = $queryParameters;
 
 
