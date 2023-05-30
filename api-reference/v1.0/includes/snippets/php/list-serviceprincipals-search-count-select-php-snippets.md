@@ -16,7 +16,7 @@ $headers = [
 $requestConfiguration->headers = $headers;
 
 $queryParameters = ServicePrincipalsRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"displayName:Team\"";
+$queryParameters->search = "\\"displayName:Team\\"";
 $queryParameters->count = true;
 $queryParameters->select = ["accountEnabled","displayName","publisherName","servicePrincipalType","signInAudience"];
 $requestConfiguration->queryParameters = $queryParameters;

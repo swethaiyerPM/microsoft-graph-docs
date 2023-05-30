@@ -11,7 +11,7 @@ $graphServiceClient = new GraphServiceClient($requestAdapter);
 
 $requestConfiguration = new PeopleRequestBuilderGetRequestConfiguration();
 $queryParameters = PeopleRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"Irene McGowen\"";
+$queryParameters->search = "\\"Irene McGowen\\"";
 $requestConfiguration->queryParameters = $queryParameters;
 
 

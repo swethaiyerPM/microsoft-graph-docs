@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var result = await graphClient.Me.Messages.GetAsync((requestConfiguration) =>
 {
-	requestConfiguration.QueryParameters.Search = "\"pizza\"";
+	requestConfiguration.QueryParameters.Search = "\\"pizza\\"";
 });
 
 

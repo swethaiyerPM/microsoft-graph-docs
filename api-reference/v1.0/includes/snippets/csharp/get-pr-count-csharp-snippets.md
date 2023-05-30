@@ -12,7 +12,7 @@ var result = await graphClient.Groups["{group-id}"].Members.GraphUser.GetAsync((
 {
 	requestConfiguration.QueryParameters.Count = true;
 	requestConfiguration.QueryParameters.Orderby = new string []{ "displayName" };
-	requestConfiguration.QueryParameters.Search = "\"displayName:Pr\"";
+	requestConfiguration.QueryParameters.Search = "\\"displayName:Pr\\"";
 	requestConfiguration.QueryParameters.Select = new string []{ "displayName","id" };
 	requestConfiguration.Headers.Add("ConsistencyLevel", "eventual");
 });

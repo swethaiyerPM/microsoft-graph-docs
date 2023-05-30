@@ -16,7 +16,7 @@ $headers = [
 $requestConfiguration->headers = $headers;
 
 $queryParameters = UsersRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"displayName:wa\"";
+$queryParameters->search = "\\"displayName:wa\\"";
 $queryParameters->orderby = ["displayName"];
 $queryParameters->count = true;
 $requestConfiguration->queryParameters = $queryParameters;

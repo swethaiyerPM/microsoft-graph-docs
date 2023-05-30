@@ -16,7 +16,7 @@ $headers = [
 $requestConfiguration->headers = $headers;
 
 $queryParameters = DevicesRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"displayName:Android\"";
+$queryParameters->search = "\\"displayName:Android\\"";
 $queryParameters->count = true;
 $requestConfiguration->queryParameters = $queryParameters;
 

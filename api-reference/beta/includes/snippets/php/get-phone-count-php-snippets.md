@@ -16,7 +16,7 @@ $headers = [
 $requestConfiguration->headers = $headers;
 
 $queryParameters = ContactsRequestBuilderGetRequestConfiguration::createQueryParameters();
-$queryParameters->search = "\"displayName:wa\"";
+$queryParameters->search = "\\"displayName:wa\\"";
 $queryParameters->count = true;
 $requestConfiguration->queryParameters = $queryParameters;
 
