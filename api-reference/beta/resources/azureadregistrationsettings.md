@@ -1,12 +1,12 @@
 ---
-title: "azureADRegistrationPolicy resource type"
+title: "azureADRegistrationSettings resource type"
 description: "Represents the policy scope of an Azure Active Directory tenant that controls device registration using Azure AD registered."
 author: "myra-ramdenbourg"
 ms.localizationpriority: medium
 ms.prod: "directory-management"
 doc_type: resourcePageType
 ---
-# azureADRegistrationPolicy resource type
+# azureADRegistrationSettings resource type
 
 Namespace: microsoft.graph
 
@@ -32,12 +32,12 @@ None.
 The following is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
-  "@odata.type": "microsoft.graph.azureADRegistrationPolicy"
+  "@odata.type": "microsoft.graph.azureADRegistrationSettings"
 }
 -->
 ``` json
 {
-  "@odata.type": "#microsoft.graph.azureADRegistrationPolicy",
+  "@odata.type": "#microsoft.graph.azureADRegistrationSettings",
   "appliesTo": "String",
   "isAdminConfigurable": "Boolean",
   "allowedUsers": [

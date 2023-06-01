@@ -1,12 +1,12 @@
 ---
-title: "azureAdJoinPolicy resource type"
+title: "azureADJoinSettings resource type"
 description: "Represents the policy scope of an Azure Active Directory tenant that controls device registration using Azure AD Join."
 author: "myra-ramdenbourg"
 ms.localizationpriority: medium
 ms.prod: "directory-management"
 doc_type: resourcePageType
 ---
-# azureAdJoinPolicy resource type
+# azureADJoinSettings resource type
 
 Namespace: microsoft.graph
 
@@ -32,12 +32,12 @@ None.
 The following is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
-  "@odata.type": "microsoft.graph.azureAdJoinPolicy"
+  "@odata.type": "microsoft.graph.azureADJoinSettings"
 }
 -->
 ``` json
 {
-  "@odata.type": "#microsoft.graph.azureAdJoinPolicy",
+  "@odata.type": "#microsoft.graph.azureADJoinSettings",
   "appliesTo": "String",
   "isAdminConfigurable": "Boolean",
   "allowedUsers": [

@@ -25,8 +25,8 @@ Represents the policy scope that controls quota restrictions, additional authent
 
 |Property|Type|Description|
 |:---|:---|:---|
-|azureADJoin|[azureAdJoinPolicy](../resources/azureadjoinpolicy.md)|Specifies the authorization policy for controlling registration of new devices using **Azure AD Join** within your organization. Required. For more information, see [What is a device identity?](/azure/active-directory/devices/overview).|
-|azureADRegistration|[azureADRegistrationPolicy](../resources/azureadregistrationpolicy.md)|Specifies the authorization policy for controlling registration of new devices using **Azure AD registered** within your organization. Required. For more information, see [What is a device identity?](/azure/active-directory/devices/overview).|
+|azureADJoin|[azureADJoinSettings](../resources/azureadjoinsettings.md)|Specifies the authorization policy for controlling registration of new devices using **Azure AD Join** within your organization. Required. For more information, see [What is a device identity?](/azure/active-directory/devices/overview).|
+|azureADRegistration|[azureADRegistrationSettings](../resources/azureadregistrationsettings.md)|Specifies the authorization policy for controlling registration of new devices using **Azure AD registered** within your organization. Required. For more information, see [What is a device identity?](/azure/active-directory/devices/overview).|
 |description|String|The description of the device registration policy. It is always set to `Tenant-wide policy that manages intial provisioning controls using quota restrictions, additional authentication and authorization checks`. Read-only.|
 |displayName|String|The name of the device registration policy. It is always set to `Device Registration Policy`. Read-only.|
 |id|String| The identifier of the device registration policy. It is always set to `deviceRegistrationPolicy`. Read-only.|
@@ -58,10 +58,10 @@ The following is a JSON representation of the resource.
   "userDeviceQuota": "Integer",
   "multiFactorAuthConfiguration": "String",
   "azureADRegistration": {
-    "@odata.type": "microsoft.graph.azureADRegistrationPolicy"
+    "@odata.type": "microsoft.graph.azureADRegistrationSettings"
   },
   "azureADJoin": {
-    "@odata.type": "microsoft.graph.azureAdJoinPolicy"
+    "@odata.type": "microsoft.graph.azureAdJoinSettings"
   },
   "localAdminPassword": {
     "@odata.type": "microsoft.graph.localAdminPasswordSettings"
