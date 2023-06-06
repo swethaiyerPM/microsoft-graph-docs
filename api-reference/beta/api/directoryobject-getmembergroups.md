@@ -141,7 +141,6 @@ If successful, this method returns `200 OK` response code and String collection 
 
 #### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "directoryobject_getmembergroups"
@@ -154,16 +153,6 @@ Content-type: application/json
     "securityEnabledOnly": false
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/directoryobject-getmembergroups-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/directoryobject-getmembergroups-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -193,7 +182,6 @@ Content-type: application/json
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "directoryobject_getmembergroups_me"
@@ -206,16 +194,6 @@ Content-type: application/json
   "securityEnabledOnly": true
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/directoryobject-getmembergroups-me-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/directoryobject-getmembergroups-me-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 >**Note:** The response object shown here might be shortened for readability.

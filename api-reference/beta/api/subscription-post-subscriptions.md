@@ -130,7 +130,6 @@ The `clientState` and `latestSupportedTlsVersion` fields are optional.
 
 This request creates a subscription for change notifications about new mail received by the currently signed in user.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_subscription_from_subscriptions"
@@ -149,16 +148,6 @@ Content-type: application/json
    "latestSupportedTlsVersion": "v1_2"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-subscription-from-subscriptions-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-subscription-from-subscriptions-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 In the request body, supply a JSON representation of the [subscription](../resources/subscription.md) object.
 

@@ -111,14 +111,6 @@ Content-type: application/json
 }
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-priviledroles-create-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-priviledroles-create-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-priviledroles-create-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
@@ -236,14 +228,6 @@ In the following request, replace `57457d7c-af59-470c-ae71-aa72c657fe0f` with th
 GET https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/57457d7c-af59-470c-ae71-aa72c657fe0f/instances
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-priviegedroles-getinstances-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-priviegedroles-getinstances-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-priviegedroles-getinstances-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
@@ -332,14 +316,6 @@ In the following request, replace the following values:
 ```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/57457d7c-af59-470c-ae71-aa72c657fe0f/instances/ad0dd148-5d16-4cfd-86e9-ab502f819aaf/decisions
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-priviegedroles-getnodecisions-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-priviegedroles-getnodecisions-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-priviegedroles-getnodecisions-cli-snippets.md)]
@@ -465,7 +441,6 @@ In the following requests, replace the following values:
 In the following request, you approve access for the IT Helpdesk group.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial-accessreviews-priviegedroles-decisionsforgroup"
@@ -479,20 +454,6 @@ Content-type: application/json
     "justification": "The IT Helpdesk requires continued access to the User Administrator role to manage user account support requests, lifecycle, and access to resources"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-priviegedroles-decisionsforgroup-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 <!-- {
@@ -510,7 +471,6 @@ HTTP/1.1 204 No Content
 In the following request, you deny access for Aline Dupuy.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial-accessreviews-priviegedroles-decisionsforuser"
@@ -524,20 +484,6 @@ Content-type: application/json
     "justification": "Aline Dupuy should join an allowed group to maintain access to the User Administrator role. For more details, refer to the company policy '#132487: Privileged roles'"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-priviegedroles-decisionsforuser-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -577,14 +523,6 @@ As an admin, after the **status** of the access review instance is set to `Compl
 ```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/57457d7c-af59-470c-ae71-aa72c657fe0f/instances/ad0dd148-5d16-4cfd-86e9-ab502f819aaf/applyDecisions
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-priviegedroles-applydecisions-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-priviegedroles-applydecisions-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-priviegedroles-applydecisions-cli-snippets.md)]
@@ -748,14 +686,6 @@ Delete the **accessReviewScheduleDefinition** object that you created for this t
 ```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/57457d7c-af59-470c-ae71-aa72c657fe0f
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-priviegedroles-deleteaccessreview-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-priviegedroles-deleteaccessreview-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-priviegedroles-deleteaccessreview-cli-snippets.md)]

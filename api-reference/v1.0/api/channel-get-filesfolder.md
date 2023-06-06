@@ -63,14 +63,6 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/teams/{id}/channels/{id}/filesFolder
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-filesfolder-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-filesfolder-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-filesfolder-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]

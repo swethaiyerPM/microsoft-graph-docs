@@ -69,7 +69,6 @@ If successful, this function returns a `200 OK` response code and a [workbookTab
 ### Request
 The following example shows a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["0195cfac-bd22-4f91-b276-dece0aa2378b", "01CCETFLK7GVZTZHSQNRD2AEI5XWTCU6FJ"],
@@ -79,12 +78,6 @@ The following example shows a request.
 ``` http
 GET https://graph.microsoft.com/beta/me/drive/items/01CCETFLK7GVZTZHSQNRD2AEI5XWTCU6FJ/workbook/tableRowOperationResult(key='0195cfac-bd22-4f91-b276-dece0aa2378b')
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/workbook-tablerowoperationresult-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

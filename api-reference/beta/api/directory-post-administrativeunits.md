@@ -67,7 +67,6 @@ If successful, this method returns a `201 Created` response code and an [adminis
 
 The following is an example of a request that creates a new administrative unit with a dynamic membership rule to include all users whose country is United States.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_administrativeunit_from_administrativeunits"
@@ -84,16 +83,6 @@ Content-type: application/json
     "membershipRuleProcessingState": "On"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-administrativeunit-from-administrativeunits-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-administrativeunit-from-administrativeunits-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

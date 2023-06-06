@@ -56,7 +56,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 
 #### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_accessreviewinstancedecisionitem"
@@ -65,16 +64,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ``` http
 GET https://graph.microsoft.com/beta/identityGovernance/accessReviews/definitions/60860cdd-fb4d-4054-91ba-444404f3baa6/instances/14444cdb-6a18-4c08-ba2c-48c02f0a0138/decisions?$top=100&$skip=0
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-accessreviewinstancedecisionitem-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-accessreviewinstancedecisionitem-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 >**Note:** The response object shown here might be shortened for readability.
@@ -173,7 +162,6 @@ Content-Type: application/json
 The following example shows a request to retrieve all the decisions on every instance and defintion that the calling user is the reviewer for.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_accessReviewInstanceDecisionItem_expand"
@@ -181,16 +169,6 @@ The following example shows a request to retrieve all the decisions on every ins
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/identityGovernance/accessReviews/decisions/filterByCurrentUser(on='reviewer')?$expand=instance($expand=definition)
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-accessreviewinstancedecisionitem-expand-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-accessreviewinstancedecisionitem-expand-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 
@@ -246,7 +224,6 @@ Content-type: application/json
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_accessreviewinstancedecisionitem_expandinsights"
@@ -255,16 +232,6 @@ Content-type: application/json
 ``` http
 GET https://graph.microsoft.com/beta/identityGovernance/accessReviews/definitions/60860cdd-fb4d-4054-91ba-444404f3baa6/instances/14444cdb-6a18-4c08-ba2c-48c02f0a0138/decisions?$expand=insights
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-accessreviewinstancedecisionitem-expandinsights-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 >**Note:** The response object shown here might be shortened for readability.

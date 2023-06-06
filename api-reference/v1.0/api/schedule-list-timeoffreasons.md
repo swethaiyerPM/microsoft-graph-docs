@@ -62,14 +62,6 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/teams/{teamId}/schedule/timeOffReasons
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/schedule-list-timeoffreasons-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/schedule-list-timeoffreasons-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/schedule-list-timeoffreasons-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]

@@ -59,7 +59,6 @@ The following is example shows how to call this API.
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "application_removepassword"
@@ -73,16 +72,6 @@ Content-type: application/json
     "keyId": "f0b0b335-1d71-4883-8f98-567911bfdca6"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/application-removepassword-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/application-removepassword-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

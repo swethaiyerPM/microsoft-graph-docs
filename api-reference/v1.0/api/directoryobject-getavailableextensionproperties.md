@@ -71,14 +71,6 @@ If successful, this action returns a `200 OK` response code and an [extensionPro
 POST https://graph.microsoft.com/v1.0/directoryObjects/getAvailableExtensionProperties
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/directoryobject-getavailableextensionproperties-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/directoryobject-getavailableextensionproperties-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/directoryobject-getavailableextensionproperties-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]

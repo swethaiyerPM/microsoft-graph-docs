@@ -65,7 +65,6 @@ If successful, this method returns a `200 OK` response code and a [microsoft.gra
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_get_customtaskextension"
@@ -74,16 +73,6 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/identityGovernance/lifecycleWorkflows/customTaskExtensions/ffcc4c85-5a14-448e-a390-77abf2700369
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/lifecycleworkflows-get-customtaskextension-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/lifecycleworkflows-get-customtaskextension-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

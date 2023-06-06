@@ -47,7 +47,6 @@ The following is an example of how to call this API.
 ##### Request
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "bookingbusiness_unpublish",
@@ -56,16 +55,6 @@ The following is an example of the request.
 ```http
 POST https://graph.microsoft.com/beta/bookingBusinesses/contosolunchdelivery@contoso.onmicrosoft.com/unpublish
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/bookingbusiness-unpublish-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/bookingbusiness-unpublish-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 The following is an example of the response.

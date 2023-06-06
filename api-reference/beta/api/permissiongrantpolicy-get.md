@@ -58,7 +58,6 @@ If successful, this method returns a `200 OK` response code and the requested [p
 The following is an example of the request. In this example, the requested policy is the built-in permission grant policy `microsoft-user-default-low`, which includes delegated permissions classified low, for apps from verified publishers or apps registered in this tenant.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_permissiongrantpolicy",
@@ -68,16 +67,6 @@ The following is an example of the request. In this example, the requested polic
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/policies/permissionGrantPolicies/microsoft-user-default-low
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-permissiongrantpolicy-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-permissiongrantpolicy-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

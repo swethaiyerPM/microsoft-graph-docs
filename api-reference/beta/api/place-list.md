@@ -114,7 +114,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 
 The following example shows how to get all the [room](../resources/room.md) objects in the tenant.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_all_rooms"
@@ -123,12 +122,6 @@ The following example shows how to get all the [room](../resources/room.md) obje
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/places/microsoft.graph.room
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-all-rooms-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -222,7 +215,6 @@ Content-type: application/json
 The following example shows how to get all the [workspaces](../resources/workspace.md) objects in the tenant.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_all_workspaces"
@@ -231,12 +223,6 @@ The following example shows how to get all the [workspaces](../resources/workspa
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/places/microsoft.graph.workspace
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-all-workspaces-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -320,7 +306,6 @@ Content-type: application/json
 
 The following example shows how to get all the [roomList](../resources/roomlist.md) objects in the tenant.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_all_roomlists"
@@ -329,12 +314,6 @@ The following example shows how to get all the [roomList](../resources/roomlist.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/places/microsoft.graph.roomlist
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-all-roomlists-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

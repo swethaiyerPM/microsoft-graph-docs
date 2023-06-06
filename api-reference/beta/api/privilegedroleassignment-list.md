@@ -53,7 +53,6 @@ Note that the tenant needs to be registered to PIM. Otherwise, the HTTP 403 Forb
 ##### Request
 The following example shows a request to get all role assignments:
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_privilegedroleassignments_1"
@@ -61,16 +60,6 @@ The following example shows a request to get all role assignments:
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/privilegedRoleAssignments
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-privilegedroleassignments-1-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-privilegedroleassignments-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 
@@ -102,7 +91,6 @@ Content-type: application/json
 ##### Request 
 The following example shows a request to query active role assignments:
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_privilegedroleassignments_2"
@@ -110,16 +98,6 @@ The following example shows a request to query active role assignments:
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/privilegedRoleAssignments?$filter=isElevated%20eq%20true
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-privilegedroleassignments-2-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-privilegedroleassignments-2-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 
@@ -159,7 +137,6 @@ Content-type: application/json
 ##### Request 
 The following example shows a request to query permanent role assignments, where ``expirationDateTime`` value is ``null``:
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_privilegedroleassignments_3"
@@ -167,16 +144,6 @@ The following example shows a request to query permanent role assignments, where
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/privilegedRoleAssignments?$filter=isElevated%20eq%20true%20and%20expirationDateTime%20eq%20null
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-privilegedroleassignments-3-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-privilegedroleassignments-3-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 
@@ -216,7 +183,6 @@ Content-type: application/json
 ##### Request 
 The following example shows a request to query eligible role assignments, including the active and non-active ones:
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_privilegedroleassignments_4"
@@ -224,16 +190,6 @@ The following example shows a request to query eligible role assignments, includ
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/privilegedRoleAssignments?$filter=isElevated%20eq%20true%20and%20expirationDateTime%20ne%20null%20or%20isElevated%20eq%20false
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-privilegedroleassignments-4-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-privilegedroleassignments-4-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response 
 

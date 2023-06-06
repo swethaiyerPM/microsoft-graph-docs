@@ -62,7 +62,6 @@ If successful, this method returns a `201 Created` response code and an [microso
 #### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_unifiedgroupsource_for_associated_custodain"
@@ -79,16 +78,6 @@ Content-Type: application/json
     "includedSources": "mailbox, site"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-unifiedgroupsource-for-associated-custodain-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-unifiedgroupsource-for-associated-custodain-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 The following is an example of the response.
@@ -129,7 +118,6 @@ Content-Type: application/json
 #### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_unifiedgroupsource_withgroup_odata_bind"
@@ -144,16 +132,6 @@ Content-Type: application/json
     "includedSources": "mailbox"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-unifiedgroupsource-withgroup-odata-bind-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-unifiedgroupsource-withgroup-odata-bind-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 The following is an example of the response.

@@ -55,7 +55,6 @@ If successful, this method returns a `204 No Content` response code. It does not
 #### Request
 The following example shows the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete-specific_call_participant"
@@ -63,16 +62,6 @@ The following example shows the request.
 ```http
 DELETE https://graph.microsoft.com/beta/communications/calls/{id}/participants/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-specific-call-participant-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-specific-call-participant-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -101,7 +90,6 @@ HTTP/1.1 204 No Content
 #### Invite a participant to an existing call
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "cancel-participant-invite-noninvited"
@@ -129,16 +117,6 @@ Content-Length: 464
   "clientContext": "f2fa86af-3c51-4bc2-8fc0-475452d9764f"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/cancel-participant-invite-noninvited-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/cancel-participant-invite-noninvited-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -182,7 +160,6 @@ Content-Type: application/json
 #### Delete invited participant before participant is added to the roster
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete-participant_before_invited_to_roster"
@@ -190,16 +167,6 @@ Content-Type: application/json
 ```http
 DELETE https://graph.microsoft.com/beta/communications/calls/{id}/participants/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-participant-before-invited-to-roster-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-participant-before-invited-to-roster-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

@@ -57,7 +57,6 @@ If successful, this method returns a `200 OK` response code and an updated [trus
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_trustframeworkkeyset"
@@ -92,12 +91,6 @@ Content-type: application/json
   ]
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-trustframeworkkeyset-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

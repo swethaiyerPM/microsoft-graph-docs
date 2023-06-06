@@ -62,7 +62,6 @@ If successful, this method returns a `200 OK` response code and the requested [f
 The following is an example of the request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_featurerolloutpolicy_policies"
@@ -71,16 +70,6 @@ The following is an example of the request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/policies/featureRolloutPolicies/df85e4d9-e8c4-4033-a41c-73419a95c29c
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-featurerolloutpolicy-policies-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-featurerolloutpolicy-policies-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -116,7 +105,6 @@ Content-type: application/json
 The following is an example of the request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_featurerolloutpolicy_expandAppliesTo_policies"
@@ -125,16 +113,6 @@ The following is an example of the request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/policies/featureRolloutPolicies/df85e4d9-e8c4-4033-a41c-73419a95c29c?$expand=appliesTo
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-featurerolloutpolicy-expandappliesto-policies-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-featurerolloutpolicy-expandappliesto-policies-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

@@ -52,7 +52,6 @@ If successful, this method returns a `200 OK` response with a [directoryDefiniti
 ### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "discover_directorydefinition"
@@ -60,16 +59,6 @@ The following is an example of a request.
 ```http
 POST https://graph.microsoft.com/beta/servicePrincipals/{id}/synchronization/jobs/{jobId}/schema/directories/{directoryId}/discover
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/discover-directorydefinition-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/discover-directorydefinition-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

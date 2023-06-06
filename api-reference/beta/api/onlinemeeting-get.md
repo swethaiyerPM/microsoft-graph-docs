@@ -129,7 +129,6 @@ If successful, this method returns a `200 OK` response code. The response also i
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["123456789"],
@@ -138,16 +137,6 @@ The following is an example of a request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/communications/onlineMeetings/?$filter=VideoTeleconferenceId%20eq%20'123456789'
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-onlinemeeting-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-onlinemeeting-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -391,7 +380,6 @@ You can retrieve meeting information via the **joinMeetingId** by using either a
 
 The following is an example of a request that uses a user (delegated) token.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get-an-online-meeting-by-joinmeetingid"
@@ -399,16 +387,6 @@ The following is an example of a request that uses a user (delegated) token.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/onlineMeetings?$filter=joinMeetingIdSettings/joinMeetingId%20eq%20'1234567890'
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-an-online-meeting-by-joinmeetingid-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-an-online-meeting-by-joinmeetingid-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 The following request uses an app token.
 <!-- { "blockType": "ignored" } -->
@@ -485,7 +463,6 @@ The following example shows a request to download an attendee report.
 
 The following request uses delegated permission.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_attendee_report",
@@ -495,16 +472,6 @@ The following request uses delegated permission.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/onlineMeetings/MSpkYzE3Njc0Yy04MWQ5LTRhZGItYmZiMi04ZdFpHRTNaR1F6WGhyZWFkLnYy/attendeeReport
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-attendee-report-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-attendee-report-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 The following request uses application permission.
 
@@ -536,7 +503,6 @@ The following example shows a request to download a recording.
 
 The following request uses delegated permission.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_live_event_recording",
@@ -545,16 +511,6 @@ The following request uses delegated permission.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/onlineMeetings/MSpkYzE3Njc0Yy04MWQ5LTRhZGItYmZiMi04ZdFpHRTNaR1F6WGhyZWFkLnYy/recording
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-live-event-recording-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-live-event-recording-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 The following request uses application permission.
 <!-- { "blockType": "ignored" }-->

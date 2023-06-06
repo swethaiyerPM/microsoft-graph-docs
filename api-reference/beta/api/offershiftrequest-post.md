@@ -52,7 +52,6 @@ If successful, this method returns a `200 OK` response code and an [offerShiftRe
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_offershiftrequest_3"
@@ -69,16 +68,6 @@ Content-type: application/json
   "recipientUserId": "fe278b61-21ac-4872-8b41-1962bbb98e3c"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-offershiftrequest-3-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-offershiftrequest-3-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

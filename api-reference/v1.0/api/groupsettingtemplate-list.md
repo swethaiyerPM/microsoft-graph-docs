@@ -66,10 +66,6 @@ If successful, this method returns a `200 OK` response code and collection of [g
 GET https://graph.microsoft.com/v1.0/groupSettingTemplates
 ```
 
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-groupsettingtemplates-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-groupsettingtemplates-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]

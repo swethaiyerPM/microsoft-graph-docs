@@ -48,7 +48,6 @@ If successful, this method returns `200 OK` response code. It does not return an
 ### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "filter_clear"
@@ -56,12 +55,6 @@ The following is an example of a request.
 ```http
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/tables/{id|name}/columns/{id|name}/filter/clear
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/filter-clear-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

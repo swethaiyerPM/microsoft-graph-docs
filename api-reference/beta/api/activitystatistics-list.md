@@ -58,7 +58,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 
 The following is an example of a request of all related activity statistics for the signed-in user.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_activitystatistics"
@@ -68,16 +67,6 @@ The following is an example of a request of all related activity statistics for 
 GET https://graph.microsoft.com/beta/me/analytics/activitystatistics
 
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-activitystatistics-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-activitystatistics-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

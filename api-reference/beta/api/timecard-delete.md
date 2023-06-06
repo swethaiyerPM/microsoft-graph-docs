@@ -55,7 +55,6 @@ If successful, this method returns a `204 No Content` response code.
 The following is an example of the request. 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "timecard-delete"
@@ -64,16 +63,6 @@ The following is an example of the request.
 ```http
 DELETE https://graph.microsoft.com/beta/teams/871dbd5c-3a6a-4392-bfe1-042452793a50/schedule/timecards/3895809b-a618-4c0d-86a0-d42b25b7d74f
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/timecard-delete-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/timecard-delete-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

@@ -59,7 +59,6 @@ If successful, this method returns a `201 Created` response code and an [onPremi
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_onpremisesagent_from_onpremisesagentgroup"
@@ -68,16 +67,6 @@ The following is an example of the request.
 ```http
 POST https://graph.microsoft.com/beta/onPremisesPublishingProfiles/provisioning/agentGroups
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-onpremisesagent-from-onpremisesagentgroup-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-onpremisesagent-from-onpremisesagentgroup-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 In the request body, supply a JSON representation of [onPremisesAgentGroup](../resources/onpremisesagentgroup.md) object.
 

@@ -54,7 +54,6 @@ The following example deletes a **trustFrameworkPolicy**.
 ##### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_trustFrameworkPolicy",
@@ -63,16 +62,6 @@ The following example deletes a **trustFrameworkPolicy**.
 ```http
 DELETE https://graph.microsoft.com/beta/trustFramework/policies/B2C_1A_SocialAndLocalAccounts_Base
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-trustframeworkpolicy-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-trustframeworkpolicy-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

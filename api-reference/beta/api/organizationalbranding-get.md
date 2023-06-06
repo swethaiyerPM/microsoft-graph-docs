@@ -63,7 +63,6 @@ If successful, this method returns a `200 OK` response code and an [organization
 The following is an example of the request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_organizationalbranding"
@@ -73,16 +72,6 @@ The following is an example of the request.
 GET https://graph.microsoft.com/beta/organization/84841066-274d-4ec0-a5c1-276be684bdd3/branding
 Accept-Language: 0
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-organizationalbranding-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-organizationalbranding-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -152,7 +141,6 @@ Content-Type: application/json
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_organizationalbranding_Error"
@@ -162,16 +150,6 @@ The following is an example of the request.
 GET https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding
 Accept-Language: 0
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-organizationalbranding-error-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-organizationalbranding-error-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -193,7 +171,6 @@ In the following example, the **Accept-Language** header is used specify to retr
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_organizationalbranding_locale"
@@ -203,16 +180,6 @@ The following is an example of the request.
 GET https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding
 Accept-Language: fr-FR
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-organizationalbranding-locale-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-organizationalbranding-locale-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -288,7 +255,6 @@ The following example returns the **bannerLogo** object which hadn't been set fo
 The following is an example of the request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_organizationalbranding_frlocale_defaultbannerLogo"
@@ -297,16 +263,6 @@ The following is an example of the request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/default/bannerLogo
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-organizationalbranding-frlocale-defaultbannerlogo-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-organizationalbranding-frlocale-defaultbannerlogo-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

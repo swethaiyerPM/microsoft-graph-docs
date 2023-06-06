@@ -51,7 +51,6 @@ If successful, this method returns a `200 OK` response code and collection of [a
 ##### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_agreements"
@@ -59,16 +58,6 @@ If successful, this method returns a `200 OK` response code and collection of [a
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/identityGovernance/termsOfUse/agreements
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-agreements-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-agreements-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 >**Note:** The response object shown here might be shortened for readability.

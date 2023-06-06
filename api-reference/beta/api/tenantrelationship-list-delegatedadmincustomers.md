@@ -56,7 +56,6 @@ Each **delegatedAdminCustomer** object contains an **@odata.etag** property as p
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_delegatedadmincustomer"
@@ -65,12 +64,6 @@ Each **delegatedAdminCustomer** object contains an **@odata.etag** property as p
 ``` http
 GET https://graph.microsoft.com/beta/tenantRelationships/delegatedAdminCustomers
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-delegatedadmincustomer-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 >**Note:** The response object shown here might be shortened for readability.

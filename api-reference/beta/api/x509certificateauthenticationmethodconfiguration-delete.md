@@ -54,7 +54,6 @@ If successful, this method returns a `204 No Content` response code.
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_x509certificateauthenticationmethodconfiguration"
@@ -63,16 +62,6 @@ If successful, this method returns a `204 No Content` response code.
 ``` http
 DELETE https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations/x509Certificate
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-x509certificateauthenticationmethodconfiguration-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-x509certificateauthenticationmethodconfiguration-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 <!-- {

@@ -56,7 +56,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 The following example shows a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get-presence-multiple-users"
@@ -70,16 +69,6 @@ Content-Type: application/json
   "ids": ["fa8bf3dc-eca7-46b7-bad1-db199b62afc3", "66825e03-7ef5-42da-9069-724602c31f6b"]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-presence-multiple-users-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-presence-multiple-users-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

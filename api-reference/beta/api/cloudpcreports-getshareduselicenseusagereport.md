@@ -70,7 +70,6 @@ If successful, this action returns a `200 OK` response code and a Stream in the 
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "cloudpcreportsthis.getSharedUseLicenseUsageReport"
@@ -89,16 +88,6 @@ Content-length: 199
     "top": 100
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/cloudpcreportsthisgetshareduselicenseusagereport-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/cloudpcreportsthisgetshareduselicenseusagereport-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

@@ -85,7 +85,6 @@ This method returns `202 Accepted` when the request has been processed successfu
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_user"
@@ -93,20 +92,6 @@ This method returns `202 Accepted` when the request has been processed successfu
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-user-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-user-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 
@@ -142,7 +127,6 @@ Content-type: application/json
 The following example shows a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_other_user"
@@ -150,20 +134,6 @@ The following example shows a request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-other-user-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-other-user-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -207,14 +177,6 @@ To retrieve specific properties, use the OData `$select` query parameter. For ex
 ```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/users/{id | userPrincipalName}?$select=displayName,givenName,postalCode,identities
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-user-select-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-user-select-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-user-select-cli-snippets.md)]
@@ -285,7 +247,6 @@ To get custom security attribute assignments, the calling principal must be assi
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_user_customsecurityattributes"
@@ -293,20 +254,6 @@ To get custom security attribute assignments, the calling principal must be assi
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/{id}?$select=customSecurityAttributes
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-user-customsecurityattributes-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-user-customsecurityattributes-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -361,7 +308,6 @@ This example shows how to use the `$filter` query parameter along with the `ends
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_user_filter"
@@ -369,20 +315,6 @@ This example shows how to use the `$filter` query parameter along with the `ends
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users?$count=true&ConsistencyLevel=eventual&$filter=endsWith(mail,'@contoso.com')
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-user-filter-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-user-filter-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -425,7 +357,6 @@ In this example, the ID of the schema extension is `ext55gb1l09_msLearnCourses`.
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_schemaextension_for_ext55gb1l09_msLearnCourses_"
@@ -433,20 +364,6 @@ In this example, the ID of the schema extension is `ext55gb1l09_msLearnCourses`.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/4562bcc8-c436-4f95-b7c0-4f8ce89dca5e?$select=ext55gb1l09_msLearnCourses
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-schemaextension-for-ext55gb1l09-mslearncourses--powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-schemaextension-for-ext55gb1l09-mslearncourses--typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

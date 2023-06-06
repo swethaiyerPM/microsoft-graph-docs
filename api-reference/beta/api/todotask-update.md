@@ -72,7 +72,6 @@ If successful, this method returns a `200 OK` response code and an updated [todo
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_todotask",
@@ -91,16 +90,6 @@ Content-Type: application/json
    }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-todotask-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-todotask-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 **Note:** The response object shown here might be shortened for readability.

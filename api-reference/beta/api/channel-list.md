@@ -68,7 +68,6 @@ If successful, this method returns a `200 OK` response code and collection of [C
 The following example shows a request to list all channels.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_channels"
@@ -76,12 +75,6 @@ The following example shows a request to list all channels.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/teams/893075dd-2487-4122-925f-022c42e20265/channels
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-channels-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -120,7 +113,6 @@ The following example shows a request to list all private channels.
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_private_channels"
@@ -128,12 +120,6 @@ The following example shows a request to list all private channels.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/teams/64c323f2-226a-4e64-8ba4-3e6e3f7b9330/channels?$filter=membershipType eq 'private'
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-private-channels-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -172,7 +158,6 @@ The following example shows a request to list all shared channels.
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_shared_channels"
@@ -180,12 +165,6 @@ The following example shows a request to list all shared channels.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/teams/6a720ba5-7373-463b-bc9f-4cd04b5c6742/channels?$filter=membershipType eq 'shared'
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-shared-channels-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 
 #### Response

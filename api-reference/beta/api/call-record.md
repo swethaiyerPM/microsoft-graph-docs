@@ -76,7 +76,6 @@ The following example shows how to call this API.
 The following example shows the request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "call-recordResponse"
@@ -105,16 +104,6 @@ Content-Length: 394
   "stopTones": [ "#", "1", "*" ]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/call-recordresponse-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/call-recordresponse-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 The following example shows the response.

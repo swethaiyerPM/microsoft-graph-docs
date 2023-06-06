@@ -64,7 +64,6 @@ If successful, this method returns a `201 Created` response code and a [taskFile
 ### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_taskFileAttachment_from_",
@@ -82,16 +81,6 @@ Content-Type: application/json
   "contentType": "image/gif"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-taskfileattachment-from--powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-taskfileattachment-from--typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

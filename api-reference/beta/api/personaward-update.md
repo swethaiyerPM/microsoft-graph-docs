@@ -62,7 +62,6 @@ If successful, this method returns a `200 OK` response code and an updated [pers
 ## Examples
 
 ### Request
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_personaward"
@@ -77,16 +76,6 @@ Content-Type: application/json
   "thumbnailUrl": "https://iabm.io/sdhdfhsdhshsd.jpg"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-personaward-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-personaward-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

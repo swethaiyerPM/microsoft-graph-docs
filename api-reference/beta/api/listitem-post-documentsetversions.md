@@ -62,7 +62,6 @@ If successful, this method returns a `201 Created` response code and a [document
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_documentsetversion",
@@ -79,16 +78,6 @@ Content-length: 70
   "shouldCaptureMinorVersion": false
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-documentsetversion-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-documentsetversion-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

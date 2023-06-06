@@ -108,7 +108,6 @@ If successful, this method returns a `200 OK` response code and one of the follo
 The first example gets all the mailbox settings of the signed-in user's mailbox, which include settings for automatic replies, date format, 
 locale (language and country/region), time format, time zone, working hours, and user purpose.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_mailboxsettings_1"
@@ -116,12 +115,6 @@ locale (language and country/region), time format, time zone, working hours, and
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/mailboxSettings
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-mailboxsettings-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

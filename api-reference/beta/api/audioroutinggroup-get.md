@@ -52,7 +52,6 @@ If successful, this method returns a `200 OK` response code and an [audioRouting
 The following example shows the request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get-audioRoutingGroup"
@@ -60,16 +59,6 @@ The following example shows the request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/communications/calls/{id}/audioRoutingGroups/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-audioroutinggroup-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-audioroutinggroup-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

@@ -58,7 +58,6 @@ This is an example of updating a one-time (not reoccurring) access review with a
 In the request body, supply a JSON representation of the id of the user object.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "add_accessReview_reviewer"
@@ -71,16 +70,6 @@ Content-Type: application/json
     "id":"006111db-0810-4494-a6df-904d368bd81b"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/add-accessreview-reviewer-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/add-accessreview-reviewer-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 <!-- {

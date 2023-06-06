@@ -47,7 +47,6 @@ If successful, this method returns a `200 OK` response code and collection of [C
 ### Request
 Here is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_calendargroups"
@@ -55,16 +54,6 @@ Here is an example of the request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/calendarGroups
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-calendargroups-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-calendargroups-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

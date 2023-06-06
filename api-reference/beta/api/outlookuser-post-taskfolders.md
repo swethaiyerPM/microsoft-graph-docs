@@ -49,7 +49,6 @@ If successful, this method returns `201 Created` response code and [outlookTaskF
 ##### Request
 The following example creates a task folder called Volunteer in the default task group (`My Tasks`) of the user's mailbox.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_outlooktaskfolder_from_outlookuser"
@@ -62,16 +61,6 @@ Content-type: application/json
   "name": "Volunteer"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-outlooktaskfolder-from-outlookuser-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-outlooktaskfolder-from-outlookuser-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 In the request body, supply a JSON representation of [outlookTaskFolder](../resources/outlooktaskfolder.md) object.
 

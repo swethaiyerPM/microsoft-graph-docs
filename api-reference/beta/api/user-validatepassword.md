@@ -56,7 +56,6 @@ If successful, this action returns a `200 OK` response code and a [passwordValid
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "user_validatepassword"
@@ -70,16 +69,6 @@ Content-Type: application/json
     "password": "1234567890"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/user-validatepassword-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/user-validatepassword-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

@@ -65,7 +65,6 @@ The following example gets a single attribute set named `Engineering`.
 
 #### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_attributeset_single"
@@ -74,12 +73,6 @@ The following example gets a single attribute set named `Engineering`.
 ``` http
 GET https://graph.microsoft.com/beta/directory/attributeSets/Engineering
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-attributeset-single-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

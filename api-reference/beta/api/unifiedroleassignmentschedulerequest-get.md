@@ -52,7 +52,6 @@ If successful, this method returns a `200 OK` response code and an [unifiedRoleA
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_unifiedroleassignmentschedulerequest"
@@ -61,16 +60,6 @@ If successful, this method returns a `200 OK` response code and an [unifiedRoleA
 ``` http
 GET https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/b5a22921-656a-4429-9c4e-59a5f576614d
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-unifiedroleassignmentschedulerequest-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-unifiedroleassignmentschedulerequest-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

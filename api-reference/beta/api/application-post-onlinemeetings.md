@@ -69,7 +69,6 @@ If successful, this method returns a `201 Created` response code and an [onlineM
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create-onlinemeeting-user-token"
@@ -84,16 +83,6 @@ Content-Type: application/json
   "subject":"User Token Meeting"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-onlinemeeting-user-token-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-onlinemeeting-user-token-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -273,7 +262,6 @@ The following is an example of a request.
 >**Note:** The passcode is automatically generated and a custom passcode is not supported.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create-online-meeting-with-passcode"
@@ -292,16 +280,6 @@ Content-Type: application/json
   }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-online-meeting-with-passcode-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-online-meeting-with-passcode-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -369,7 +347,6 @@ When **isPasscodeRequired** is set to `false` or when **joinMeetingIdSettings** 
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create-online-meeting-without-passcode"
@@ -388,16 +365,6 @@ Content-Type: application/json
   }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-online-meeting-without-passcode-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-online-meeting-without-passcode-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 or
 

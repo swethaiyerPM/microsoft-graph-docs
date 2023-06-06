@@ -63,7 +63,6 @@ If successful, this method returns a `200 OK` response code and a new [passwordS
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "serviceprincipal_getpasswordsinglesignoncredentials"
@@ -76,16 +75,6 @@ Content-type: application/json
   "id": "5793aa3b-cca9-4794-679a240f8b58"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/serviceprincipal-getpasswordsinglesignoncredentials-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/serviceprincipal-getpasswordsinglesignoncredentials-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

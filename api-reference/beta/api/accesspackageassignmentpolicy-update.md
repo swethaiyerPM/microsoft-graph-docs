@@ -67,7 +67,6 @@ If successful, this method returns a `200 OK` response code and an updated [acce
 In this policy update, one of the options for the multiple choice question was removed. Future requestors will no longer have the removed option available to them.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_accesspackageassignmentpolicy"
@@ -157,16 +156,6 @@ Content-Type: application/json
 }
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-accesspackageassignmentpolicy-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-accesspackageassignmentpolicy-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
-
 #### Response
 > **Note:** The response object shown here might be shortened for readability.
 <!-- {
@@ -246,7 +235,6 @@ To remove the collection of **customExtensionHandlers** and their associated cus
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_accesspackageassignmentpolicy_delete_customExtensionHandlers"
@@ -276,16 +264,6 @@ Content-Type: application/json
     "customExtensionHandlers": []
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-accesspackageassignmentpolicy-delete-customextensionhandlers-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-accesspackageassignmentpolicy-delete-customextensionhandlers-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 
 #### Response

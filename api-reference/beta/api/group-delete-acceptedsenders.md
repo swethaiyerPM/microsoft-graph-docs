@@ -54,7 +54,6 @@ If successful, this method returns `204 No Content` response code. It does not r
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "remove_user_from_acceptedsenderslist_of_group"
@@ -63,12 +62,6 @@ If successful, this method returns `204 No Content` response code. It does not r
 ```http
 DELETE https://graph.microsoft.com/beta/groups/{id}/acceptedSenders/$ref?$id=https://graph.microsoft.com/beta/users/{user-id}
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/remove-user-from-acceptedsenderslist-of-group-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -89,7 +82,6 @@ HTTP/1.1 204 No Content
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "remove_group_from_acceptedsenderslist_of_group"
@@ -98,12 +90,6 @@ HTTP/1.1 204 No Content
 ```http
 DELETE https://graph.microsoft.com/beta/groups/{id}/acceptedSenders/$ref?$id=https://graph.microsoft.com/beta/groups/{other-group-id}
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/remove-group-from-acceptedsenderslist-of-group-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

@@ -52,7 +52,6 @@ If successful, this method returns a `204 No Content` response code.
 The following is an example of a request to delete the `fr-FR` localization object.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_organizationalbrandinglocalization",
@@ -62,16 +61,6 @@ The following is an example of a request to delete the `fr-FR` localization obje
 ```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/fr-FR
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-organizationalbrandinglocalization-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-organizationalbrandinglocalization-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

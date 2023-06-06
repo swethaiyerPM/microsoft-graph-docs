@@ -54,7 +54,6 @@ The following example gets the resource namespace with the identifier of `micros
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_unifiedrbacresourcenamespace",
@@ -64,12 +63,6 @@ The following example gets the resource namespace with the identifier of `micros
 ``` http
 GET https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/microsoft.aad.b2c
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-unifiedrbacresourcenamespace-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 <!-- {

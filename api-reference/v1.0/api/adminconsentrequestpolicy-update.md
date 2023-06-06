@@ -65,7 +65,6 @@ If successful, this method returns a `204 No content` response code and an updat
 ### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_adminconsentrequestpolicy"
@@ -92,12 +91,6 @@ Content-Type: application/json
   ]
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-adminconsentrequestpolicy-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

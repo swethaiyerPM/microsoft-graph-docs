@@ -58,7 +58,6 @@ The following example shows how to call this API.
 ##### Request
 The following example shows the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "participant-muteAll"
@@ -75,16 +74,6 @@ Content-Length: 81
   "clientContext": "clientContext-value"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/participant-muteall-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/participant-muteall-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

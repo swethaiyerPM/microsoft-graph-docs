@@ -56,7 +56,6 @@ If successful, this action returns a `204 No Content` response code.
 
 # [HTTP](#tab/http)
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "case_close"
@@ -66,12 +65,6 @@ If successful, this action returns a `204 No Content` response code.
 ``` http
 POST https://graph.microsoft.com/beta/compliance/ediscovery/cases/061b9a92-8926-4bd9-b41d-abf35edc7583/close
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/case-close-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

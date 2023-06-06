@@ -52,7 +52,6 @@ Here is an example of how to call this API.
 ##### Request
 Here is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "workbookworksheetprotection_protect"
@@ -77,12 +76,6 @@ Content-type: application/json
   }
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/workbookworksheetprotection-protect-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 Here is an example of the response. 

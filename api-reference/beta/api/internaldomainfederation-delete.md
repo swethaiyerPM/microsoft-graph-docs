@@ -51,7 +51,6 @@ If successful, this method returns a `204 No Content` response code.
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_internaldomainfederation",
@@ -61,12 +60,6 @@ If successful, this method returns a `204 No Content` response code.
 ``` http
 DELETE https://graph.microsoft.com/beta/domains/contoso.com/federationConfiguration/96db02e2-80c1-5555-bc3a-de92ffb8c5be
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-internaldomainfederation-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 <!-- {

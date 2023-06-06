@@ -51,7 +51,6 @@ If successful, this method returns a `201 Created` response code and a [director
 #### Request
 The following example assigns a built-in role to a user.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_directoryobject_from_directoryrole_1"
@@ -64,16 +63,6 @@ Content-type: application/json
     "@odata.id":"https://graph.microsoft.com/beta/users/0f933635-5b77-4cf4-a577-f78a5eb090a2"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-directoryobject-from-directoryrole-1-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-directoryobject-from-directoryrole-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -90,7 +79,6 @@ HTTP/1.1 204 No content
 You can use a specific resource set like users or groups in the request body, or you can use generic **directoryObjects**. This example shows how you can use **directoryObjects**.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_directoryobject_from_directoryrole_2"
@@ -103,16 +91,6 @@ Content-type: application/json
     "@odata.id":"https://graph.microsoft.com/beta/directoryObjects/2c891f12-928d-4da2-8d83-7d2434a0d8dc"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-directoryobject-from-directoryrole-2-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-directoryobject-from-directoryrole-2-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

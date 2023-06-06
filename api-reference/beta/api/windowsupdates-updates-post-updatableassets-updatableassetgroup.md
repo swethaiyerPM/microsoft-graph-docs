@@ -55,7 +55,6 @@ If successful, this method returns a `201 Created` response code and an [updatab
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_updatableassetgroup_from_"
@@ -69,16 +68,6 @@ Content-Type: application/json
   "@odata.type": "#microsoft.graph.windowsUpdates.updatableAssetGroup"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-updatableassetgroup-from--powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-updatableassetgroup-from--typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

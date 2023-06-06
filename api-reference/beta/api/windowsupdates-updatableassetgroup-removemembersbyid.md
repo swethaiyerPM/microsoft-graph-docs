@@ -59,7 +59,6 @@ If successful, this action returns a `202 Accepted` response code. It does not r
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "updatableassetgroup_removemembersbyid"
@@ -78,12 +77,6 @@ Content-Type: application/json
   "memberEntityType": "#microsoft.graph.windowsUpdates.azureADDevice"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/updatableassetgroup-removemembersbyid-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

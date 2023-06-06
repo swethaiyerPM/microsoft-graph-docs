@@ -61,7 +61,6 @@ If successful, this method returns a `200 OK` response code and a [unmutePartici
 
 ##### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "call-unmute"
@@ -75,16 +74,6 @@ Content-Length: 46
   "clientContext": "clientContext-value"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/call-unmute-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/call-unmute-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

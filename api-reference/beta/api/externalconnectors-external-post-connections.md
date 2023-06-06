@@ -54,7 +54,6 @@ If successful, this method returns `201 Created` response code and a new [extern
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_connection_from_external"
@@ -70,16 +69,6 @@ Content-type: application/json
   "description": "Connection to index Contoso HR system"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-connection-from-external-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-connection-from-external-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 <!-- markdownlint-disable MD024 -->
 ### Response

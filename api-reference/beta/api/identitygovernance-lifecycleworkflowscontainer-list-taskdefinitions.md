@@ -67,7 +67,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_list_taskdefinition"
@@ -76,16 +75,6 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/identityGovernance/lifecycleWorkflows/taskDefinitions
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/lifecycleworkflows-list-taskdefinition-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/lifecycleworkflows-list-taskdefinition-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -288,7 +277,6 @@ Content-Type: application/json
 The following is an example of a request. Because the **category** is a flagged enumeration that can be one of `joiner`, `joiner,leaver`, or `leaver`, the `has` operator checks tasks where the category includes "joiner".
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_list_taskdefinition_filter_category"
@@ -297,16 +285,6 @@ The following is an example of a request. Because the **category** is a flagged 
 ``` http
 GET https://graph.microsoft.com/beta/identityGovernance/lifecycleWorkflows/taskDefinitions?$filter=category has 'joiner'
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/lifecycleworkflows-list-taskdefinition-filter-category-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/lifecycleworkflows-list-taskdefinition-filter-category-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

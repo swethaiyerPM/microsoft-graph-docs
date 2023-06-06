@@ -58,7 +58,6 @@ This method returns a maximum of 100 actions. If there are more actions, you can
 
 #### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_unifiedrbacresourceaction_directory",
@@ -68,16 +67,6 @@ This method returns a maximum of 100 actions. If there are more actions, you can
 ``` http
 GET https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/microsoft.directory/resourceActions
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-unifiedrbacresourceaction-directory-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-unifiedrbacresourceaction-directory-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 >**Note:** The response object shown here has been shortened for readability.
@@ -126,7 +115,6 @@ The following example gets the actions for the resource namespace with the ident
 
 #### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_unifiedrbacresourceaction_insights",
@@ -136,16 +124,6 @@ The following example gets the actions for the resource namespace with the ident
 ``` http
 GET https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/microsoft.insights/resourceActions
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-unifiedrbacresourceaction-insights-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-unifiedrbacresourceaction-insights-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 <!-- {

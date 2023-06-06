@@ -64,7 +64,6 @@ If successful, this method returns `202 Accepted` response code. It does not ret
 #### Request
 Here is an example of a request that includes a file as an attachment when creating a post.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_file_attachment_with_post",
@@ -89,16 +88,6 @@ Content-type: application/json
 }
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-file-attachment-with-post-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-file-attachment-with-post-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
-
 #### Response
 
 Here is an example of the response. 
@@ -116,7 +105,6 @@ HTTP/1.1 202 Accpted
 Here is an example of a request that includes an event as an attachment when creating a post.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_item_attachment_with_post",
@@ -156,16 +144,6 @@ Content-type: application/json
 }
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-item-attachment-with-post-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-item-attachment-with-post-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
-
 #### Response
 Here is an example of the response. 
 <!-- {
@@ -182,7 +160,6 @@ HTTP/1.1 202 Accepted
 Here is an example of a request that includes a reference attachment when creating a post.
 The attachment points to a folder on OneDrive.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_reference_attachment_with_post",
@@ -209,16 +186,6 @@ Content-type: application/json
   }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-reference-attachment-with-post-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-reference-attachment-with-post-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 Here is an example of the response.

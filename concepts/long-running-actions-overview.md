@@ -25,7 +25,6 @@ In this scenario, your app requests to copy a folder that contains a large amoun
 This request will likely take several seconds to complete since the amount of data is large.
 
 
-# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "lro-copy-item-example", "scopes": "files.readwrite" } -->
 
 ```http
@@ -39,16 +38,6 @@ Content-Type: application/json
   "name": "Copy of LargeFolder1"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/lro-copy-item-example-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/lro-copy-item-example-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 The API responds that the action was accepted and the URL for retrieving the status of the long running action.
 

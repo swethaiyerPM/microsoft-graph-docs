@@ -64,7 +64,6 @@ If successful, this method returns a `201 Created` response code and a [linkedRe
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["dfsdc-f9dfdfs-dcsda9", "e2dc-f9cce2-dce29"],
@@ -82,16 +81,6 @@ Content-Type: application/json
   "externalId": "dk9cddce2-dce2-f9dd-e2dc-cdf9e2dccdf9"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-linkedresource-from-linkedresources-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-linkedresource-from-linkedresources-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 **Note:** The response object shown here might be shortened for readability.

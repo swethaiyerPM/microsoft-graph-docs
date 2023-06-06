@@ -67,7 +67,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_get_deleteditemcontainer"
@@ -76,16 +75,6 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/identityGovernance/lifecycleWorkflows/deletedItems/workflows/4557805a-1af5-4c29-b271-2cd7fb5de9bf
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/lifecycleworkflows-get-deleteditemcontainer-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/lifecycleworkflows-get-deleteditemcontainer-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -144,7 +133,6 @@ Content-Type: application/json
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_get_deleteditemcontainer_select"
@@ -153,16 +141,6 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/identityGovernance/lifecycleWorkflows/deletedItems/workflows/952b23c5-cc25-48c9-8848-95da4dd9dc6d?$select=id,category,displayName,description,version,executionConditions
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/lifecycleworkflows-get-deleteditemcontainer-select-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/lifecycleworkflows-get-deleteditemcontainer-select-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

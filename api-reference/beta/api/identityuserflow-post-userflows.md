@@ -56,7 +56,6 @@ If successful, this method returns a `201 Created` response code and a new [user
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_identityuserflow_from_identitycontainer"
@@ -72,16 +71,6 @@ Content-type: application/json
   "userFlowTypeVersion": 1
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-identityuserflow-from-identitycontainer-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-identityuserflow-from-identitycontainer-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

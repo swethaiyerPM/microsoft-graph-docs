@@ -60,7 +60,6 @@ The following is an example of the request.
 
 # [HTTP](#tab/http)
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "add_group_member"
@@ -74,16 +73,6 @@ Content-type: application/json
   "@odata.id": "https://graph.microsoft.com/beta/directoryObjects/{id}"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/add-group-member-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/add-group-member-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 In the request body, supply a JSON representation of the `id` of the [directoryObject](../resources/directoryobject.md), [user](../resources/user.md), or [group](../resources/group.md) object you want to add.
 

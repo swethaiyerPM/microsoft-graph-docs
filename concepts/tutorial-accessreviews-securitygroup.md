@@ -58,14 +58,6 @@ Content-Type: application/json
 }
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-securitygroup-createuser-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-securitygroup-createuser-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-securitygroup-createuser-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
@@ -131,14 +123,6 @@ Content-Type: application/json
     ]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-securitygroup-creategroup-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-securitygroup-creategroup-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-securitygroup-creategroup-cli-snippets.md)]
@@ -233,14 +217,6 @@ Content-type: application/json
 }
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-securitygroup-create-accessreviewscheduledefinition-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-securitygroup-create-accessreviewscheduledefinition-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-securitygroup-create-accessreviewscheduledefinition-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
@@ -322,14 +298,6 @@ In this call, replace `2d56c364-0695-4ec6-8b92-4c1db7c80f1b` with the ID of your
 GET https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/2d56c364-0695-4ec6-8b92-4c1db7c80f1b/instances
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-securitygroup-list-accessreviewinstance-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-securitygroup-list-accessreviewinstance-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-securitygroup-list-accessreviewinstance-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
@@ -389,14 +357,6 @@ In this call, replace `2d56c364-0695-4ec6-8b92-4c1db7c80f1b` with the ID of your
 GET https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/2d56c364-0695-4ec6-8b92-4c1db7c80f1b/instances/2d56c364-0695-4ec6-8b92-4c1db7c80f1b/contactedReviewers
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-securitygroup-list-contactedreviewers-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-securitygroup-list-contactedreviewers-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-securitygroup-list-contactedreviewers-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
@@ -454,14 +414,6 @@ In this call, replace `2d56c364-0695-4ec6-8b92-4c1db7c80f1b` with the ID of your
 ```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/2d56c364-0695-4ec6-8b92-4c1db7c80f1b/instances/2d56c364-0695-4ec6-8b92-4c1db7c80f1b/decisions
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-securitygroup-list-accessreviewinstancedecisionitem-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-securitygroup-list-accessreviewinstancedecisionitem-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/tutorial-accessreviews-securitygroup-list-accessreviewinstancedecisionitem-cli-snippets.md)]
@@ -708,7 +660,6 @@ Delete the resources that you created for this tutorial—the **Building securit
 In this call, replace `eb75ccd2-59ef-48b7-8f76-cc3f33f899f4` with the **id** of **Building security**.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial-accessreviews-Securitygroup-delete_group"
@@ -716,20 +667,6 @@ In this call, replace `eb75ccd2-59ef-48b7-8f76-cc3f33f899f4` with the **id** of 
 ```http
 DELETE https://graph.microsoft.com/beta/groups/eb75ccd2-59ef-48b7-8f76-cc3f33f899f4
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-securitygroup-delete-group-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-securitygroup-delete-group-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 <!-- {
@@ -747,7 +684,6 @@ In this call, replace `2d56c364-0695-4ec6-8b92-4c1db7c80f1b` with the ID of your
 
 #### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial-accessreviews-Securitygroup-delete_accessReviewScheduleDefinition"
@@ -755,20 +691,6 @@ In this call, replace `2d56c364-0695-4ec6-8b92-4c1db7c80f1b` with the ID of your
 ```http
 DELETE https://graph.microsoft.com/beta/identityGovernance/accessReviews/definitions/2d56c364-0695-4ec6-8b92-4c1db7c80f1b
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-securitygroup-delete-accessreviewscheduledefinition-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-securitygroup-delete-accessreviewscheduledefinition-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 <!-- {
@@ -785,7 +707,6 @@ In this call, replace `3b8ceebc-49e6-4e0c-9e14-c906374a7ef6` with the ID of one 
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial-accessreviews-Securitygroup-delete_user"
@@ -793,20 +714,6 @@ In this call, replace `3b8ceebc-49e6-4e0c-9e14-c906374a7ef6` with the ID of one 
 ```http
 DELETE https://graph.microsoft.com/beta/users/3b8ceebc-49e6-4e0c-9e14-c906374a7ef6
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-accessreviews-securitygroup-delete-user-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-accessreviews-securitygroup-delete-user-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 <!-- {

@@ -50,7 +50,6 @@ Here is an example that updates the Color and Quantity fields of the list item w
 All other values on the listItem are left alone. 
 
 
-# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "create-listitem-2", "scopes": "sites.readwrite.all" } -->
 
 ```http
@@ -62,16 +61,6 @@ Content-Type: application/json
     "Quantity": 934
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-listitem-2-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-listitem-2-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ## Response
 

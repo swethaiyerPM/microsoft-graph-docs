@@ -75,7 +75,6 @@ If successful, this method returns a `200 OK` response code and an array of [acc
 
 #### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_accessReviewScheduleDefinition"
@@ -83,16 +82,6 @@ If successful, this method returns a `200 OK` response code and an array of [acc
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/identityGovernance/accessReviews/definitions?$top=100&$skip=0
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-accessreviewscheduledefinition-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-accessreviewscheduledefinition-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -171,7 +160,6 @@ Content-type: application/json
 The following example shows a request to retrieve all the access review series scoped to all Microsoft 365 groups in a tenant.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_accessReviewScheduleDefinition_allgroups"
@@ -179,16 +167,6 @@ The following example shows a request to retrieve all the access review series s
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/identityGovernance/accessReviews/definitions?$filter=contains(scope/microsoft.graph.accessReviewQueryScope/query, './members')
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-accessreviewscheduledefinition-allgroups-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-accessreviewscheduledefinition-allgroups-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 >**Note:** The response object shown here might be shortened for readability.

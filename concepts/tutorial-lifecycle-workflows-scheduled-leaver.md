@@ -40,7 +40,6 @@ The following request creates an offboarding workflow with the following setting
 + Three workflow tasks are enabled to run in sequence: the user is unassigned all licenses, then removed from all teams, then their user account is deleted.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial_lifecycle_workflows_scheduledleaver_create_workflow"
@@ -102,16 +101,6 @@ Content-type: application/json
 }
 ```
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-lifecycle-workflows-scheduledleaver-create-workflow-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-lifecycle-workflows-scheduledleaver-create-workflow-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
-
 ### Response
 
 <!-- {
@@ -160,7 +149,6 @@ Because the workflow hasn't been scheduled to run, it must be run manually, on-d
 While you configured execution conditions for the workflow, this request to run the workflow on demand ignores the execution conditions. For example, if the user identified by ID `df744d9e-2148-4922-88a8-633896c1e929` isn't in the "Marketing" department or their employeeLeaveDateTime is set to `null`, this command will still run the tasks that were defined in the workflow, for the user.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial_lifecycle_workflows_scheduledleaver_run_workflow"
@@ -176,16 +164,6 @@ POST https://graph.microsoft.com/beta/identityGovernance/LifecycleWorkflows/work
     ]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-lifecycle-workflows-scheduledleaver-run-workflow-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 
@@ -205,7 +183,6 @@ At any time, you can monitor the status of the workflows and the tasks at three 
 The following request retrieves the summary of tasks run at the user level.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial_lifecycle_workflows_scheduledleaver_list_userProcessingResults"
@@ -213,16 +190,6 @@ The following request retrieves the summary of tasks run at the user level.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/identityGovernance/LifecycleWorkflows/workflows/15239232-66ed-445b-8292-2f5bbb2eb833/userProcessingResults
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-lifecycle-workflows-scheduledleaver-list-userprocessingresults-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-lifecycle-workflows-scheduledleaver-list-userprocessingresults-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 
@@ -262,7 +229,6 @@ Content-Type: application/json
 You can request the aggregate high-level summary of the user-level results for a workflow, within a specified period.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial_lifecycle_workflows_scheduledleaver_list_userProcessingResults.summary"
@@ -270,16 +236,6 @@ You can request the aggregate high-level summary of the user-level results for a
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/identityGovernance/LifecycleWorkflows/workflows/15239232-66ed-445b-8292-2f5bbb2eb833/userProcessingResults/summary(startDateTime=2022-10-01T00:00:00Z,endDateTime=2022-10-30T00:00:00Z)
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-lifecycle-workflows-scheduledleaver-list-userprocessingresultssummary-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-lifecycle-workflows-scheduledleaver-list-userprocessingresultssummary-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 
@@ -308,7 +264,6 @@ Content-Type: application/json
 You can also retrieve the detailed log of all tasks that were executed for a specific user in the workflow.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial_lifecycle_workflows_scheduledleaver_list_taskProcessingResults"
@@ -316,16 +271,6 @@ You can also retrieve the detailed log of all tasks that were executed for a spe
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/identityGovernance/LifecycleWorkflows/workflows/15239232-66ed-445b-8292-2f5bbb2eb833/userProcessingResults/40efc576-840f-47d0-ab95-5abca800f8a2/taskProcessingResults
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-lifecycle-workflows-scheduledleaver-list-taskprocessingresults-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-lifecycle-workflows-scheduledleaver-list-taskprocessingresults-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 
@@ -416,7 +361,6 @@ Content-Type: application/json
 After running your workflow on-demand and checking that everything is working fine, you may want to enable the workflow so that it can run automatically on a tenant-defined schedule. To enable the workflow schedule, you may run the following request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tutorial_lifecycle_workflows_scheduledleaver_update_workflow"
@@ -430,16 +374,6 @@ Content-type: application/json
     "isSchedulingEnabled": true
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-lifecycle-workflows-scheduledleaver-update-workflow-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tutorial-lifecycle-workflows-scheduledleaver-update-workflow-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 When a workflow is scheduled, Lifecycle Workflows will check every three hours for users in the associated execution condition and execute the configured tasks for those users. You can customize this recurrence from between one hour to 24 hours.
 

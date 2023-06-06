@@ -53,7 +53,6 @@ If the assignment is already in submitted state or if the assignment is no longe
 The following is an example of a request that triggers the creation of a SharePoint resource folder for a submission.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "setupresourcesfolder__for_submission"
@@ -65,16 +64,6 @@ Content-type: application/json
 {
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/setupresourcesfolder--for-submission-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/setupresourcesfolder--for-submission-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ---
 
@@ -140,7 +129,6 @@ The following is an example of a request that tries to set up a resource folder 
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "educationsubmission_setupresourcesfolder_nolongeropen"
@@ -152,16 +140,6 @@ Content-type: application/json
 {
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/educationsubmission-setupresourcesfolder-nolongeropen-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/educationsubmission-setupresourcesfolder-nolongeropen-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -195,7 +173,6 @@ The following is an example of a request that tries to set up a resource folder 
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "educationsubmission_setupresourcesfolder_assigmentalreadysubmitted"
@@ -207,16 +184,6 @@ Content-type: application/json
 {
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/educationsubmission-setupresourcesfolder-assigmentalreadysubmitted-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/educationsubmission-setupresourcesfolder-assigmentalreadysubmitted-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

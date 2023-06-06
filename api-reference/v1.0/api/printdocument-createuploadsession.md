@@ -81,6 +81,7 @@ The following example shows how to create an upload session that you can use in 
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "printdocument_createuploadsession"
@@ -98,6 +99,12 @@ Content-Type: application/json
   }
 }
 ```
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/printdocument-createuploadsession-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

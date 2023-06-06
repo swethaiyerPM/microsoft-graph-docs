@@ -86,7 +86,6 @@ This example shows with the consent of Alex or administrator, how to get the **c
 
 Use the least privileged delegated or application permission, `Calendars.Read`, as appropriate, for this operation. For more information, see [calendar permissions](permissions-reference.md#calendars-permissions).
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_calendarperms"
@@ -94,16 +93,6 @@ Use the least privileged delegated or application permission, `Calendars.Read`, 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/AlexW@contoso.OnMicrosoft.com/calendar/calendarPermissions
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-calendarperms-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-calendarperms-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 <!-- {
   "blockType": "response",
@@ -170,7 +159,6 @@ The example in this section updates the **role** property, changing the permissi
 
 Use the least privileged delegated or application permission, `Calendars.ReadWrite`, as appropriate, for this operation. For more information, see [calendar permissions](permissions-reference.md#calendars-permissions).
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_calendarperm",
@@ -184,16 +172,6 @@ Content-type: application/json
   "role": "write"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-calendarperm-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 <!-- {
   "blockType": "response",
@@ -252,7 +230,6 @@ Note the following properties on Alex' behalf:
 
 Use the least privileged delegated or application permission, `Calendars.Read`, as appropriate, for this operation. For more information, see [calendar permissions](permissions-reference.md#calendars-permissions).
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_calendar_props_owner",
@@ -261,16 +238,6 @@ Use the least privileged delegated or application permission, `Calendars.Read`, 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/AlexW@contoso.OnMicrosoft.com/calendar
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-calendar-props-owner-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-calendar-props-owner-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 <!-- {
   "blockType": "response",
@@ -329,7 +296,6 @@ Note the following properties:
 
 Use the least privileged delegated permission, `Calendars.Read.Shared`, or application permission, `Calendars.Read`, as appropriate, for this operation. For more information, see [calendar permissions](permissions-reference.md#calendars-permissions).
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_calendar_props_delegate",
@@ -338,16 +304,6 @@ Use the least privileged delegated permission, `Calendars.Read.Shared`, or appli
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/meganb@contoso.OnMicrosoft.com/calendars/AAMkADlAABhbftjAAA=
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-calendar-props-delegate-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-calendar-props-delegate-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 <!-- {
   "blockType": "response",
@@ -416,7 +372,6 @@ The example in this section gets the **mailboxSettings** of a calendar owner who
 
 Use the least privileged delegated or application permission, `MailboxSettings.Read`, as appropriate, for this operation. For more information about mailbox permissions, see [mail permissions](permissions-reference.md#mail-permissions).
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_mailboxsettings_owner",
@@ -425,16 +380,6 @@ Use the least privileged delegated or application permission, `MailboxSettings.R
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/AlexW@contoso.OnMicrosoft.com/mailboxsettings
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-mailboxsettings-owner-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 <!-- {
   "blockType": "response",
@@ -496,7 +441,6 @@ The example in this section updates the **delegateMeetingMessageDeliveryOptions*
 
 Use the least privileged delegated or application permission, `MailboxSettings.ReadWrite`, as appropriate, for this operation. For more information about mailbox permissions, see [mail permissions](permissions-reference.md#mail-permissions).
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "patch_mailboxsettings_owner",
@@ -510,16 +454,6 @@ Content-type: application/json
   "delegateMeetingMessageDeliveryOptions": "sendToDelegateAndPrincipal"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/patch-mailboxsettings-owner-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 <!-- {
   "blockType": "response",
@@ -546,7 +480,6 @@ In the example below, Alex deletes Megan as a sharee of the "Kids parties" calen
 
 Use the least privileged delegated or application permission, `Calendars.ReadWrite`, as appropriate, for this operation. For more information, see [calendar permissions](permissions-reference.md#calendars-permissions).
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_sharee",
@@ -555,16 +488,6 @@ Use the least privileged delegated or application permission, `Calendars.ReadWri
 ```http
 DELETE https://graph.microsoft.com/beta/users/AlexW@contoso.OnMicrosoft.com/calendars/AAMkADAwAABf02bAAAA=/calendarPermissions/L289RXhjaGFuZ2VMYWJTWVnYW5C
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-sharee-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 <!-- {
   "blockType": "response",

@@ -43,22 +43,11 @@ GET /sites/{site-id}/lists/{list-id}/items/{item-id}?expand=fields(select=Column
 ##### Request
 
 
-# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get-list-item" } -->
 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/sites/{site-id}/lists/{list-id}/items/{item-id}?expand=fields
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-list-item-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-list-item-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

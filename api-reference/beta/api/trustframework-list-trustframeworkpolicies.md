@@ -57,7 +57,6 @@ The following example retrieves all **trustFrameworkPolicies**.
 ##### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_trustFrameworks"
@@ -65,16 +64,6 @@ The following example retrieves all **trustFrameworkPolicies**.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/trustFramework/policies
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-trustframeworks-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-trustframeworks-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

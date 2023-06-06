@@ -56,7 +56,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 The following example gets the availability information for two users for the specified date, time, and time zone.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "calendar_getSchedule"
@@ -79,16 +78,6 @@ Content-Type: application/json
     "availabilityViewInterval": 60
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/calendar-getschedule-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/calendar-getschedule-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 Here is an example of the response. Note: The response object shown here might be shortened for readability.

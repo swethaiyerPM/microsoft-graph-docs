@@ -57,7 +57,6 @@ If successful, this action returns a `200 OK` response code and a Boolean value 
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "serviceupdatemessage_markread"
@@ -71,16 +70,6 @@ Content-Type: application/json
   "messageIds": ["MC172851", "MC167983"]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/serviceupdatemessage-markread-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/serviceupdatemessage-markread-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 <!-- {

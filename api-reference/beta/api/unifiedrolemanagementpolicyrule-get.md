@@ -55,7 +55,6 @@ If successful, this method returns a `200 OK` response code and an [unifiedRoleM
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_unifiedrolemanagementpolicyrule",
@@ -65,16 +64,6 @@ If successful, this method returns a `200 OK` response code and an [unifiedRoleM
 ``` http
 GET https://graph.microsoft.com/beta/policies/roleManagementPolicies/DirectoryRole_cab01047-8ad9-4792-8e42-569340767f1b_70c808b5-0d35-4863-a0ba-07888e99d448/rules/Expiration_Admin_Eligibility
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-unifiedrolemanagementpolicyrule-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-unifiedrolemanagementpolicyrule-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 **Note:** The response object shown here might be shortened for readability.

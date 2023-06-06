@@ -53,7 +53,6 @@ The following is an example of the request.
 
 # [HTTP](#tab/http)
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_acceptedsenders_from_group"
@@ -62,12 +61,6 @@ The following is an example of the request.
 ```http
 DELETE https://graph.microsoft.com/v1.0/groups/{id}/acceptedSenders/$ref?$id=https://graph.microsoft.com/v1.0/users/{user-id}
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-acceptedsenders-from-group-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

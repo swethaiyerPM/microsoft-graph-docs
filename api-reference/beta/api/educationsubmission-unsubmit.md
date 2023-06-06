@@ -49,7 +49,6 @@ The following example shows how to call this API.
 ### Request
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "educationsubmission_unsubmit"
@@ -58,16 +57,6 @@ The following is an example of the request.
 ```http
 POST https://graph.microsoft.com/beta/education/classes/2003c52e-807a-4186-9b49-60c573095461/assignments/7242e03e-048c-437b-8810-3e89b285a362/submissions/3cea5cf6-55dc-d6c7-2f5b-3b5cd2e79c3a/unsubmit
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/educationsubmission-unsubmit-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/educationsubmission-unsubmit-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

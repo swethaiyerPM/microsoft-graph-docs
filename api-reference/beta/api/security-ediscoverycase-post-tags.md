@@ -60,7 +60,6 @@ If successful, this method returns a `201 Created` response code and an [microso
 #### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_ediscoveryreviewtag_selectibility_many"
@@ -75,16 +74,6 @@ POST https://graph.microsoft.com/beta/security/cases/ediscoveryCases/58399dff-ce
     "childSelectability": "Many"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-ediscoveryreviewtag-selectibility-many-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-ediscoveryreviewtag-selectibility-many-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 The following is an example of the response.
@@ -124,7 +113,6 @@ Content-Type: application/json
 #### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_tqag_with_a_parent"
@@ -140,16 +128,6 @@ POST https://graph.microsoft.com/beta/security/cases/ediscoveryCases/58399dff-ce
     "parent@odata.bind":""
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-tqag-with-a-parent-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-tqag-with-a-parent-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 The following is an example of the response.

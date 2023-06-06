@@ -74,7 +74,6 @@ If successful, this method returns a `204 No Content` response code. It does not
 ## Example
 ##### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "updaterequest_governanceroleassignmentrequest"
@@ -82,12 +81,6 @@ If successful, this method returns a `204 No Content` response code. It does not
 ```http
 POST https://graph.microsoft.com/beta/privilegedAccess/azureResources/roleAssignmentRequests/7c53453e-d5a4-41e0-8eb1-32d5ec8bfdee/updateRequest
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/updaterequest-governanceroleassignmentrequest-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Request body
 

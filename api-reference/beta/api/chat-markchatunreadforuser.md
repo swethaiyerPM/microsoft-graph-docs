@@ -59,7 +59,6 @@ If successful, this action returns a `204 No Content` response code.
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "chat_markchatunreadforuser",
@@ -79,16 +78,6 @@ Content-length: 158
   "lastMessageReadDateTime": "2021-05-27T22:13:01.577Z"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/chat-markchatunreadforuser-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/chat-markchatunreadforuser-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

@@ -64,7 +64,6 @@ If successful, this method returns a `200 OK` response code and an updated [educ
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_educationrubric"
@@ -78,12 +77,6 @@ Content-type: application/json
   "displayName": "Example Credit Rubric after display name patch"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-educationrubric-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

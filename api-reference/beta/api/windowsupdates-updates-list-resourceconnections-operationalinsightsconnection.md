@@ -53,7 +53,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_operationalinsightsconnection"
@@ -62,16 +61,6 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/admin/windows/updates/resourceConnections/microsoft.graph.windowsUpdates.operationalInsightsConnection
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-operationalinsightsconnection-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-operationalinsightsconnection-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

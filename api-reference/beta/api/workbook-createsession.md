@@ -65,7 +65,6 @@ If successful, this method returns a `201 Created` response code and a [workbook
 
 #### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_excel_session_with_long_running"
@@ -79,12 +78,6 @@ Content-type: application/json
     "persistChanges": true
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-excel-session-with-long-running-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 >**Note:** The response object shown here might be shortened for readability. 
@@ -119,7 +112,6 @@ With the `202 Accepted` response, please see [Work with APIs that take a long ti
 ### Example 2: Basic session creation
 #### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_excel_session"
@@ -132,12 +124,6 @@ Content-type: application/json
   "persistChanges": true
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-excel-session-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

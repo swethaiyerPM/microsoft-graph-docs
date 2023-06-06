@@ -84,7 +84,6 @@ If successful, this method returns a `201 Created` response code and [identityPr
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_identityprovider_from_identityproviders"
@@ -103,12 +102,6 @@ Content-type: application/json
   "clientSecret": "000000000000"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-identityprovider-from-identityproviders-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -142,7 +135,6 @@ Content-type: application/json
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_openidconnectprovider_from_identityproviders"
@@ -174,12 +166,6 @@ Content-type: application/json
 }
 
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-openidconnectprovider-from-identityproviders-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

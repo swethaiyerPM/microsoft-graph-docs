@@ -57,7 +57,6 @@ If successful this method returns a `204 No Content` response code.
 
 The following example uninstalls an app from the specified chat.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_installedApps_in_chat",
@@ -67,16 +66,6 @@ The following example uninstalls an app from the specified chat.
 ```http
 DELETE https://graph.microsoft.com/beta/chats/19:ea28e88c00e94c7786b065394a61f296@thread.v2/installedApps/NjRiOWM3NDYtYjE1NS00MDQyLThkNDctOTQxYmQzODE2ODFiIyMwZDgyMGVjZC1kZWYyLTQyOTctYWRhZC03ODA1NmNkZTdjNzg=
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-installedapps-in-chat-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-installedapps-in-chat-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

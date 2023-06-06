@@ -69,7 +69,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 The following is an example of a request to retrieve the collection of **authenticationMethodModes** objects and their descriptions.
 .
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_authenticationmethodmodedetail"
@@ -78,16 +77,6 @@ The following is an example of a request to retrieve the collection of **authent
 ``` http
 GET https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/authenticationMethodModes
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-authenticationmethodmodedetail-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-authenticationmethodmodedetail-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 The following is an example of the response

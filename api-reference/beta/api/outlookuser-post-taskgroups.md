@@ -48,7 +48,6 @@ If successful, this method returns `201 Created` response code and [outlookTaskG
 ##### Request
 Here is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_outlooktaskgroup_from_outlookuser"
@@ -61,16 +60,6 @@ Content-type: application/json
   "name": "Leisure tasks"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-outlooktaskgroup-from-outlookuser-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-outlooktaskgroup-from-outlookuser-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 In the request body, supply a JSON representation of [outlookTaskGroup](../resources/outlooktaskgroup.md) object.
 

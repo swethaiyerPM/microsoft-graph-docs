@@ -54,7 +54,6 @@ The following is an example of the request.
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_identity_conditionalAccess_authenticationContextClassReferences",
@@ -64,16 +63,6 @@ The following is an example of the request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationContextClassReferences/c1
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-identity-conditionalaccess-authenticationcontextclassreferences-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-identity-conditionalaccess-authenticationcontextclassreferences-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 
 ### Response

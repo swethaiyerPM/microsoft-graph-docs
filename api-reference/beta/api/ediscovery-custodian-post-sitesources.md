@@ -63,7 +63,6 @@ If successful, this method returns a `201 Created` response code and a [microsof
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_sitesource_from__1"
@@ -81,16 +80,6 @@ Content-Type: application/json
 }
 
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-sitesource-from--1-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-sitesource-from--1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

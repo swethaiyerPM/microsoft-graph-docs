@@ -50,7 +50,6 @@ If successful, this method returns a `200 OK` response code and a [participant](
 ##### Request
 The following example shows the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get-participant"
@@ -58,16 +57,6 @@ The following example shows the request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/communications/calls/7531d31f-d10d-44de-802f-c569dbca451c/participants/7e1b4346-85a6-4bdd-abe3-d11c5d420efe
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-participant-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-participant-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

@@ -81,7 +81,6 @@ If successful, this method returns a `200 OK` response code and an updated [chec
 
 Here is an example to update a **checklistItem** associated to a **todoTask**.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_checklistitem_1",
@@ -96,16 +95,6 @@ Content-Type: application/json
     "displayName": "buy cake"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-checklistitem-1-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-checklistitem-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 >**Note:** The response object shown here might be shortened for readability.

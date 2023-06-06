@@ -62,7 +62,6 @@ If successful, this method returns a `201 Created` response code and a [browserS
 ### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_browsersharedcookie",
@@ -83,12 +82,6 @@ Content-Type: application/json
     "path": "/"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-browsersharedcookie-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

@@ -52,7 +52,6 @@ If successful, this method returns a `200 OK` response code and an [unifiedRoleE
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_unifiedroleeligibilityschedule"
@@ -61,16 +60,6 @@ If successful, this method returns a `200 OK` response code and an [unifiedRoleE
 ``` http
 GET https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilitySchedules/313af44a-07c9-43a7-9970-5072a6b5591f
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-unifiedroleeligibilityschedule-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-unifiedroleeligibilityschedule-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

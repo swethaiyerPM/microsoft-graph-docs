@@ -59,7 +59,6 @@ The following example updates the **isEnabled** privacy setting to disable the d
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_contactmergesuggestions"
@@ -73,12 +72,6 @@ Content-Type: application/json
   "isEnabled": false
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-contactmergesuggestions-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

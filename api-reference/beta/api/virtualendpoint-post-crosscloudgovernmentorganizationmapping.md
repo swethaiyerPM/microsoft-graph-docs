@@ -51,7 +51,6 @@ If successful, this method returns a `200 OK` response code and a [cloudPcCrossC
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_cloudpccrosscloudgovernmentorganizationmapping_from_"
@@ -64,12 +63,6 @@ X-MS-CloudPC-USGovCloudTenantAADToken: {token}
 
 {}
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-cloudpccrosscloudgovernmentorganizationmapping-from--typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 <!-- {

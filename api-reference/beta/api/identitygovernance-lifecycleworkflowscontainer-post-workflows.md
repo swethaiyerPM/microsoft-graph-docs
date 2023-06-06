@@ -77,7 +77,6 @@ The following is an example of a request that creates a workflow with the follow
 + It runs for new users that are based in Australia, on their employeeHireDate.
 + Two tasks are carried out when the workflow runs: the user's account is enabled and a "Welcome" email is sent to the user.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_create_workflow_from_"
@@ -125,16 +124,6 @@ Content-Type: application/json
     ]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/lifecycleworkflows-create-workflow-from--powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/lifecycleworkflows-create-workflow-from--typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

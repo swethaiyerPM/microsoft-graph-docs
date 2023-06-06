@@ -56,7 +56,6 @@ If successful, this method returns a `204 No Content` response code.
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "endgraceperiod_cloudpc"
@@ -66,16 +65,6 @@ If successful, this method returns a `204 No Content` response code.
 ``` http
 POST https://graph.microsoft.com/beta/deviceManagement/virtualEndpoint/cloudPCs/{cloudPCId}/endGracePeriod
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/endgraceperiod-cloudpc-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/endgraceperiod-cloudpc-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

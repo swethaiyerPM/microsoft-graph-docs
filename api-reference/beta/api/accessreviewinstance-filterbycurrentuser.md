@@ -55,7 +55,6 @@ If successful, this function returns a `200 OK` response code and a [accessRevie
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "accessreviewinstance_filterbycurrentuser"
@@ -64,16 +63,6 @@ If successful, this function returns a `200 OK` response code and a [accessRevie
 ``` http
 GET https://graph.microsoft.com/beta/identityGovernance/accessReviews/definitions/08531375-eff6-4e21-b1a8-de0eb37ec913/instances/filterByCurrentUser(on='reviewer')
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/accessreviewinstance-filterbycurrentuser-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/accessreviewinstance-filterbycurrentuser-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 >**Note:** The response object shown here might be shortened for readability.

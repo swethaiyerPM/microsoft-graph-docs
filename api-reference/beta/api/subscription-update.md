@@ -126,7 +126,6 @@ For details about how errors are returned, see [Error responses][error-response]
 
 Here is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_subscription"
@@ -140,12 +139,6 @@ Content-type: application/json
    "expirationDateTime":"2016-11-22T18:23:45.9356913Z"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-subscription-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

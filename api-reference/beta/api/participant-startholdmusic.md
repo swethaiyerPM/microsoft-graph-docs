@@ -57,7 +57,6 @@ The following is an example of a request.
 
 
 
-# [HTTP](#tab/http)
 <!-- { 
   "blockType": "request", 
   "name": "participant-startHoldMusic" 
@@ -77,16 +76,6 @@ Content-type: application/json
   "clientContext": "d45324c1-fcb5-430a-902c-f20af696537c",
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/participant-startholdmusic-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/participant-startholdmusic-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ---
 

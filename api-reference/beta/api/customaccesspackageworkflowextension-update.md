@@ -59,7 +59,6 @@ If successful, this method returns a `200 OK` response code and an updated [cust
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_customaccesspackageworkflowextension"
@@ -75,12 +74,6 @@ Content-Type: application/json
   "description": "this is for graph testing only"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-customaccesspackageworkflowextension-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 >**Note:** The response object shown here might be shortened for readability.

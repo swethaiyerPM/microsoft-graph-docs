@@ -57,7 +57,6 @@ If successful, this method returns `204 No Content` response code. It does not r
 Here is an example of the request to delete an app role assignment from the resource service principal.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "serviceprincipal_delete_approleassignedto"
@@ -66,16 +65,6 @@ Here is an example of the request to delete an app role assignment from the reso
 ```http
 DELETE https://graph.microsoft.com/beta/servicePrincipals/{resource-SP-id}/appRoleAssignedTo/{appRoleAssignment-id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/serviceprincipal-delete-approleassignedto-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/serviceprincipal-delete-approleassignedto-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 In this example, `{resource-SP-id}` is the id of the resource service principal, and `{appRoleAssignment-id}` is the id of the appRoleAssignment object that represents an assignment to the user, group, or client service principal.
 

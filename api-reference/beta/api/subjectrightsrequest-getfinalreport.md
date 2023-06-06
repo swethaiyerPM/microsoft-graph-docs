@@ -52,7 +52,6 @@ If successful, this function returns a `200 OK` response code and a Stream in th
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "subjectRightsRequest_getfinalreport"
@@ -61,12 +60,6 @@ If successful, this function returns a `200 OK` response code and a Stream in th
 ``` http
 GET https://graph.microsoft.com/beta/privacy/subjectRightsRequests/{subjectRightsRequestId}/getFinalReport
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/subjectrightsrequest-getfinalreport-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 >**Note:** The response object shown here might be shortened for readability.

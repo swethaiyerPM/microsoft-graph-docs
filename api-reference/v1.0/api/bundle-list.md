@@ -63,26 +63,11 @@ To request an enumeration of all bundles defined in the drive, you can make a re
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "list-all-bundles", "tags": "service.onedrive" } -->
 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/drive/bundles
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-all-bundles-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-all-bundles-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Cli](#tab/cli)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -133,14 +118,6 @@ The following is an example of a request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/drive/bundles?filter=bundle/album%20ne%20null
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-album-bundles-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-album-bundles-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-album-bundles-cli-snippets.md)]

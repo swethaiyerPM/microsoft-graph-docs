@@ -55,7 +55,6 @@ If successful, this method returns a `200 OK` response code and a [documentSetVe
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_documentsetversion",
@@ -65,16 +64,6 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/sites/root/lists/Documents/items/2/documentSetVersions/1
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-documentsetversion-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-documentsetversion-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

@@ -46,7 +46,6 @@ If successful, this method returns a `201 Created` response code and an [educati
 ### Request
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["9a5e4047-c1dc-4243-9628-580d3c64b80c"],
@@ -60,16 +59,6 @@ Content-type: application/json
   "displayName": "Quizzes"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-educationcategory-from-educationclass-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-educationcategory-from-educationclass-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response. 

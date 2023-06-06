@@ -146,7 +146,6 @@ The **groupType** property must also include the `"DynamicMembership"` value in 
 
 The following example request creates a new Microsoft 365 group that can only include employees in the Marketing department.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "groups_overview_createdynamicgroup"
@@ -169,16 +168,6 @@ Content-type: application/json
     "membershipRuleProcessingState": "on"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/groups-overview-createdynamicgroup-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/groups-overview-createdynamicgroup-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 The request returns a `201 Created` response code and the newly created group object in the response body.
 

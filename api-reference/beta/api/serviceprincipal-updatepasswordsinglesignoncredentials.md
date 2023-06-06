@@ -64,7 +64,6 @@ If successful, this method returns a `204 No Content` response code. It does not
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "serviceprincipal_updatepasswordsinglesignoncredentials"
@@ -90,16 +89,6 @@ Content-type: application/json
   ]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/serviceprincipal-updatepasswordsinglesignoncredentials-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/serviceprincipal-updatepasswordsinglesignoncredentials-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

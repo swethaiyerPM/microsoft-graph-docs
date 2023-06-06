@@ -46,7 +46,6 @@ If successful, this method returns a `200 OK` response code and collection of [C
 ##### Request
 Here is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "contactfolder_get_childfolders"
@@ -54,16 +53,6 @@ Here is an example of the request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/contactFolders/{id}/childFolders
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/contactfolder-get-childfolders-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/contactfolder-get-childfolders-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

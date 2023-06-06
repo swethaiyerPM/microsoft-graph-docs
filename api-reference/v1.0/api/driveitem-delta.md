@@ -96,10 +96,6 @@ Here is an example of the initial request.
 GET https://graph.microsoft.com/v1.0/me/drive/root/delta
 ```
 
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-item-delta-first-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-item-delta-first-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
@@ -156,10 +152,6 @@ Here is an example request after the initial request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/root/delta(token='MzslMjM0OyUyMzE7MzsyM2YwNDVhMS1lNmRmLTQ1N2MtOGQ5NS1hNmViZDVmZWRhNWQ7NjM3OTQzNzQwODQ3NTcwMDAwOzU4NTk2OTY0NDslMjM7JTIzOyUyMzA')
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-item-delta-last-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-item-delta-last-cli-snippets.md)]
@@ -229,20 +221,11 @@ Using `delta` is the only way to guarantee that you've read all of the data you 
 GET /me/drive/root/delta?token=latest
 ```
 
-# [C#](#tab/csharp)
-[!INCLUDE [sample-code](../includes/snippets/csharp/get-delta-latest-csharp-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/get-delta-latest-javascript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Java](#tab/java)
-[!INCLUDE [sample-code](../includes/snippets/java/get-delta-latest-java-snippets.md)]
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/get-delta-latest-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 #### Response
 
@@ -277,20 +260,11 @@ Using a timestamp in place of a token is only supported on OneDrive for Business
 GET /me/drive/root/delta?token=2021-09-29T20%3A00%3A00Z
 ```
 
-# [C#](#tab/csharp)
-[!INCLUDE [sample-code](../includes/snippets/csharp/get-delta-timestamp-csharp-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/get-delta-timestamp-javascript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Java](#tab/java)
-[!INCLUDE [sample-code](../includes/snippets/java/get-delta-timestamp-java-snippets.md)]
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/get-delta-timestamp-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 
 #### Response

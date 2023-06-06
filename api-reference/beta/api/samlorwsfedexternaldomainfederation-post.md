@@ -70,7 +70,6 @@ If successful, this method returns a `201 Created` response code and a [samlOrWs
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_samlorwsfedexternaldomainfederation_from_"
@@ -97,12 +96,6 @@ Content-Type: application/json
     "signingCertificate": "MIIDADCCAeigAwIBAgIQEX41y8r6"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-samlorwsfedexternaldomainfederation-from--typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

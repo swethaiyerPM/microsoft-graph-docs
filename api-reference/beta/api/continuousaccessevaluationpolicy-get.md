@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a [continuousAcc
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_continuousaccessevaluationpolicy"
@@ -58,16 +57,6 @@ If successful, this method returns a `200 OK` response code and a [continuousAcc
 ``` http
 GET https://graph.microsoft.com/beta/identity/continuousAccessEvaluationPolicy
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-continuousaccessevaluationpolicy-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-continuousaccessevaluationpolicy-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

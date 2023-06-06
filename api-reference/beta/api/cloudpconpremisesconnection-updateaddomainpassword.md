@@ -61,7 +61,6 @@ If successful, this action returns a `204 No Content` response code.
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "cloudpconpremisesconnection_updateaddomainpassword"
@@ -76,16 +75,6 @@ Content-Type: application/json
   "adDomainPassword": "AdDomainPassword value"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/cloudpconpremisesconnection-updateaddomainpassword-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/cloudpconpremisesconnection-updateaddomainpassword-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

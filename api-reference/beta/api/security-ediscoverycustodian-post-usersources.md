@@ -58,7 +58,6 @@ If successful, this method returns a `201 Created` response code and a [microsof
 ### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_usersource_associated_with_custodians"
@@ -72,16 +71,6 @@ POST https://graph.microsoft.com/beta/security/cases/ediscoveryCases/b0073e4e-41
     "includedSources": "mailbox, site"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-usersource-associated-with-custodians-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-usersource-associated-with-custodians-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.
