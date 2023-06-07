@@ -59,7 +59,6 @@ If successful, this action returns a `200 OK` response code.
 ### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "accesspackagethis.movetocatalog"
@@ -73,16 +72,6 @@ Content-Type: application/json
   "catalogId": "3301434b-99bd-46be-923b-d762c30c8e8b"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/accesspackagethismovetocatalog-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/accesspackagethismovetocatalog-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

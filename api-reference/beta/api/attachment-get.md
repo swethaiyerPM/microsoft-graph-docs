@@ -164,7 +164,6 @@ If you're getting the raw contents of a file or item attachment, the response bo
 
 Here is an example of the request to get the properties of a file attachment on a message.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_file_attachment_beta",
@@ -174,16 +173,6 @@ Here is an example of the request to get the properties of a file attachment on 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/messages/AAMkAGUzY5QKjAAA=/attachments/AAMkAGUzY5QKjAAABEgAQAMkpJI_X-LBFgvrv1PlZYd8=
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-file-attachment-beta-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-file-attachment-beta-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -461,7 +450,6 @@ Content-type: application/json
 
 Here is an example of the request to get a reference attachment on an event.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_reference_attachment",
@@ -471,16 +459,6 @@ Here is an example of the request to get a reference attachment on an event.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/events/AAMkAGE1M88AADUv0uAAAG=/attachments/AAMkAGE1Mg72tgf7hJp0PICVGCc0g=
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-reference-attachment-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-reference-attachment-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 Here is an example of the response. Note: The response object shown here might be shortened for readability.

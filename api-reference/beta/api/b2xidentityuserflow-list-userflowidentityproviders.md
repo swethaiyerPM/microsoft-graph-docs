@@ -59,7 +59,6 @@ If successful, this method returns a `200 OK` response code and a JSON represent
 The following is an example of the request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_b2xUserFlow_list_userflowIdentityProviders",
@@ -70,12 +69,6 @@ The following is an example of the request.
 ``` http
 GET https://graph.microsoft.com/beta/identity/b2xUserFlows/B2X_1_Test/userflowIdentityProviders
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-b2xuserflow-list-userflowidentityproviders-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

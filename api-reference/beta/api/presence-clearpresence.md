@@ -62,7 +62,6 @@ The following request shows the application with ID `22553876-f5ab-4529-bffb-cfe
 ### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "clear--presence"
@@ -76,16 +75,6 @@ Content-Type: application/json
   "sessionId": "22553876-f5ab-4529-bffb-cfe50aa89f87"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/clear--presence-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/clear--presence-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

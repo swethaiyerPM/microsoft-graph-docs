@@ -52,7 +52,6 @@ If successful, this method returns a `200 OK` response code and collection of [s
 ### Request
 The following example shows how to look among all the accessible extensions for a specific one by filtering on its unique **id**. 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_schemaextensions"
@@ -60,16 +59,6 @@ The following example shows how to look among all the accessible extensions for 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/schemaExtensions?$filter=id%20eq%20'graphlearn_test'
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-schemaextensions-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-schemaextensions-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

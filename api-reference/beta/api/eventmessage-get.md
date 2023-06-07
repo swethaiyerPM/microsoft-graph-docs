@@ -67,7 +67,6 @@ If successful, this method returns a `200 OK` response code and [eventMessage](.
 #### Request
 The first example shows how to get the properties of an event message based on the event message ID.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_eventmessage",
@@ -76,16 +75,6 @@ The first example shows how to get the properties of an event message based on t
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/messages/AAMkADYAAAImV_lAAA=
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-eventmessage-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-eventmessage-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -200,7 +189,6 @@ The second example shows how to get the event associated with an event message. 
 the event message ID to get the event message, explicitly provides a cast on the event message to access its **event** navigation property,
 and apply an $expand parameter to get the properties of the event.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_event_based_on_eventmessage",
@@ -209,16 +197,6 @@ and apply an $expand parameter to get the properties of the event.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/messages/AAMkADYAAAImV_jAAA=/?$expand=microsoft.graph.eventMessage/event
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-event-based-on-eventmessage-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-event-based-on-eventmessage-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

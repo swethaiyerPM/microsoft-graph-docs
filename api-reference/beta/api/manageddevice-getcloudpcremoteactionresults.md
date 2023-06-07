@@ -55,7 +55,6 @@ If successful, this method returns a `200 OK` response code and a [cloudPcRemote
 #### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "managedDevice_getCloudPcRemoteActionResults"
@@ -65,16 +64,6 @@ If successful, this method returns a `200 OK` response code and a [cloudPcRemote
 ``` http
 GET https://graph.microsoft.com/beta/deviceManagement/managedDevices/{managedDeviceId}/getCloudPcRemoteActionResults
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/manageddevice-getcloudpcremoteactionresults-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/manageddevice-getcloudpcremoteactionresults-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

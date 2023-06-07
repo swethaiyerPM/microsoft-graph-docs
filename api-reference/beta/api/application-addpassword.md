@@ -63,7 +63,6 @@ The following example shows how to call this API.
 
 The following is an example of the request. The **id** that is specified in the request is the value of the **id** property of the application, not the value of the **appId** property. 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "application_addpassword"
@@ -79,16 +78,6 @@ Content-type: application/json
   }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/application-addpassword-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/application-addpassword-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

@@ -53,7 +53,6 @@ If successful, this method returns a `200 OK` response code and a [browserSite](
 ### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_browsersite",
@@ -63,12 +62,6 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/20579923-e6c8-425a-b728-47f43c10bc05/sites/a22cbc85-d5d2-4e61-8414-42e6704c36f7
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-browsersite-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

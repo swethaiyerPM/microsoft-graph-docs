@@ -58,7 +58,6 @@ If successful, this method returns a `200 OK` response code and a list of [timeC
 ### Request
 The following is an example of the request. 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "timecard-list"
@@ -68,16 +67,6 @@ The following is an example of the request.
 GET https://graph.microsoft.com/beta/teams/fd15cad8-80f6-484f-9666-3caf695fbf32/schedule/timeCards?$top=2&$filter=state eq 'clockedOut'
 
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/timecard-list-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/timecard-list-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

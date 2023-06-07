@@ -56,7 +56,6 @@ If successful, this action returns a `200 OK` response code and a [tenantTag](..
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tenanttag_assigntag"
@@ -72,12 +71,6 @@ Content-Type: application/json
   ]
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/tenanttag-assigntag-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 >**Note:** The response object shown here might be shortened for readability.

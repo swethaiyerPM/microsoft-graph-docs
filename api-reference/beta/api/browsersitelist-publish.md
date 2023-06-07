@@ -64,7 +64,6 @@ If successful, this action returns a `200 OK` response code and a [browserSiteLi
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "browsersitelist_publish",
@@ -79,12 +78,6 @@ Content-Type: application/json
     "revision": "1.0"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/browsersitelist-publish-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 The following is an example of the response.

@@ -86,7 +86,6 @@ The following example shows a request to update the [moderation settings](../res
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "patch_channel_with_moderationSettings",
@@ -108,16 +107,6 @@ Content-type: application/json
     }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/patch-channel-with-moderationsettings-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/patch-channel-with-moderationsettings-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 
 #### Response

@@ -60,7 +60,6 @@ If successful, this method returns a `204 No Content` response code. If unsucces
 The following is an example of the request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_b2cuserflows_userflowIdentityProviders",
@@ -77,12 +76,6 @@ Content-type: application/json
   "@odata.type": "#microsoft.graph.identityProvider"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-b2cuserflows-userflowidentityproviders-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

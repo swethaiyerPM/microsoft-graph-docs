@@ -57,7 +57,6 @@ If successful, this method returns a `201 Created` response code and a [servicep
 Here is an example of the request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_serviceprincipal_from_serviceprincipals"
@@ -70,16 +69,6 @@ Content-type: application/json
   "appId": "65415bb1-9267-4313-bbf5-ae259732ee12",
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-serviceprincipal-from-serviceprincipals-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-serviceprincipal-from-serviceprincipals-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 Here is an example of the response.

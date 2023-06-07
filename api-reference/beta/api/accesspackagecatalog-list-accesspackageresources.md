@@ -57,7 +57,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 
 The following is an example of the request, using a filter to select resources of a particular type and `$expand` to return resource scopes of each resource.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_accesspackageresources"
@@ -66,16 +65,6 @@ The following is an example of the request, using a filter to select resources o
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/identityGovernance/entitlementManagement/accessPackageCatalogs/{id}/accessPackageResources?$filter=resourceType eq 'Application'&$expand=accessPackageResourceScopes
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-accesspackageresources-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-accesspackageresources-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

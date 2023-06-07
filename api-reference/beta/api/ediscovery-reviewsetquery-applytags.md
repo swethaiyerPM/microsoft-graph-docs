@@ -65,7 +65,6 @@ If the tagging operation is started successfully, this action returns a `202 Acc
 ### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "reviewsetquery_applytags"
@@ -84,12 +83,6 @@ Content-Type: application/json
     ]
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/reviewsetquery-applytags-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

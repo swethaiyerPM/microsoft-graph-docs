@@ -64,7 +64,6 @@ If successful, this method returns a `201 Created` response code and an **extern
 ### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_externalgroup_from_connection",
@@ -82,12 +81,6 @@ Content-Type: application/json
   "description": "The product marketing team"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-externalgroup-from-connection-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 <!-- markdownlint-disable MD024 -->
 ### Response

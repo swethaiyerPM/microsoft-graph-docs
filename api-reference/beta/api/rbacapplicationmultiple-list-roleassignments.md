@@ -86,7 +86,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 The following is an example of the request:
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_unifiedroleassignmentmultiple",
@@ -96,16 +95,6 @@ The following is an example of the request:
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments?$filter=principalId eq '9e47fc6f-2d7a-464c-944e-d3dd0de522e4'
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-unifiedroleassignmentmultiple-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-unifiedroleassignmentmultiple-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 
@@ -147,7 +136,6 @@ Content-type: application/json
 ### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_cloudpcunifiedroleassignmentmultiple_1"
@@ -156,16 +144,6 @@ Content-type: application/json
 ```msgraph-interactive
 GET  https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-cloudpcunifiedroleassignmentmultiple-1-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-cloudpcunifiedroleassignmentmultiple-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 
@@ -220,7 +198,6 @@ Content-type: application/json
 ### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_cloudpcunifiedroleassignmentmultiple_2",
@@ -230,16 +207,6 @@ Content-type: application/json
 ```msgraph-interactive
 GET  https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments?$filter=roleDefinitionId eq 'b5c08161-a7af-481c-ace2-a20a69a48fb1'
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-cloudpcunifiedroleassignmentmultiple-2-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-cloudpcunifiedroleassignmentmultiple-2-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

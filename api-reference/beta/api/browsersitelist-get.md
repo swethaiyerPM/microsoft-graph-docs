@@ -53,7 +53,6 @@ If successful, this method returns a `200 OK` response code and a [browserSiteLi
 ### Request
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_browsersitelist",
@@ -63,12 +62,6 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/e370d818-f650-5ab1-499e-5915e83f4573
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-browsersitelist-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

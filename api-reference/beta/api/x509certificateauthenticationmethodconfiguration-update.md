@@ -72,7 +72,6 @@ The following is an example of an update request with the following settings:
 + Defines multi-factor authentication as requirement.
 + Configures the binding rules for the strong authentication method against the rule type.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_x509certificateauthenticationmethodconfiguration"
@@ -117,16 +116,6 @@ Content-Type: application/json
     ]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-x509certificateauthenticationmethodconfiguration-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-x509certificateauthenticationmethodconfiguration-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

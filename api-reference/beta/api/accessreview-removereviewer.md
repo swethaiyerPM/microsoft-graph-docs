@@ -53,7 +53,6 @@ This is an example of updating a one-time (not reoccurring) access review to rem
 In the request URL, supply the id of the accessReview object and then the id of the user object.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "remove_accessReview_reviewer"
@@ -62,16 +61,6 @@ In the request URL, supply the id of the accessReview object and then the id of 
 DELETE https://graph.microsoft.com/beta/accessReviews/2b83cc42-09db-46f6-8c6e-16fec466a82d/reviewers/006111db-0810-4494-a6df-904d368bd81b
 
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/remove-accessreview-reviewer-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/remove-accessreview-reviewer-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 <!-- {

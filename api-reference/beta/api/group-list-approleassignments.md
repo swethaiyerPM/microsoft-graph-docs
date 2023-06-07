@@ -57,7 +57,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 The following example shows a request to retrieve the app roles that have been assigned to a group.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "group_get_approleassignments"
@@ -66,16 +65,6 @@ The following example shows a request to retrieve the app roles that have been a
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/groups/7679d9a4-2323-44cd-b5c2-673ec88d8b12/appRoleAssignments
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/group-get-approleassignments-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/group-get-approleassignments-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

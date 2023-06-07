@@ -52,7 +52,6 @@ If successful, this method returns a `200 OK` response code and an [personCertif
 ## Examples
 
 ### Request
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_personCertification"
@@ -61,16 +60,6 @@ If successful, this method returns a `200 OK` response code and an [personCertif
 ``` http
 GET https://graph.microsoft.com/beta/me/profile/certifications/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-personcertification-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-personcertification-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

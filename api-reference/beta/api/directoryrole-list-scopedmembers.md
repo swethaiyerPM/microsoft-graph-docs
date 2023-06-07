@@ -53,7 +53,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 #### Request
 The following is an example of a request for a directory role **id** `41d12a2f-caa8-4e3e-ba14-05e5102ce085`.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_scopedmembers_directoryrole"
@@ -61,16 +60,6 @@ The following is an example of a request for a directory role **id** `41d12a2f-c
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/directoryRoles/41d12a2f-caa8-4e3e-ba14-05e5102ce085/scopedMembers
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-scopedmembers-directoryrole-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-scopedmembers-directoryrole-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

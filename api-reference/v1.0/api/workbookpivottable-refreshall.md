@@ -55,10 +55,6 @@ Here is an example of the request.
 POST https://graph.microsoft.com/v1.0/me/drive/root/workbook/worksheets/{id|name}/pivotTables/refreshAll
 ```
 
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/workbookpivottable-refreshall-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/workbookpivottable-refreshall-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]

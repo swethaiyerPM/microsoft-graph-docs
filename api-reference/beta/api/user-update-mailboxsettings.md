@@ -90,7 +90,6 @@ The first example enables automatic replies for a date range, by setting the fol
 **status**, **scheduledStartDateTime** and **scheduledEndDateTime**.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_mailboxsettings_1"
@@ -114,12 +113,6 @@ Content-Type: application/json
     }
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-mailboxsettings-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

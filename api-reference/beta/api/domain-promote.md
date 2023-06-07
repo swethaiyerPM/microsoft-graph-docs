@@ -58,7 +58,6 @@ If successful, this call returns a `200 OK` response and a Boolean value that sp
 ### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "domain_promote",
@@ -67,16 +66,6 @@ If successful, this call returns a `200 OK` response and a Boolean value that sp
 ```http
 POST https://graph.microsoft.com/beta/domains/contoso.com/promote
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/domain-promote-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/domain-promote-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

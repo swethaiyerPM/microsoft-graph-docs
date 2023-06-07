@@ -36,7 +36,6 @@ One of the following permissions is required to call this API. To learn more, in
 
 The following is an example of a request to create an upload session.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "todo_attachment_walkthrough_createuploadsession",
@@ -55,16 +54,6 @@ Content-Type: application/json
   }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/todo-attachment-walkthrough-createuploadsession-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/todo-attachment-walkthrough-createuploadsession-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 The following example shows the **uploadSession** resource returned for the task in the response body.

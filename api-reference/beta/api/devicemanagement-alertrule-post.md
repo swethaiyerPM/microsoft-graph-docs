@@ -68,7 +68,6 @@ If successful, this method returns a `201 Created` response code and an [microso
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "post_alertrule"
@@ -114,12 +113,6 @@ Content-Type: application/json
   ]
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/post-alertrule-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

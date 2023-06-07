@@ -57,7 +57,6 @@ This is one of the most useful operations. First, you create an empty keyset. Th
 
 The following example shows the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_trustframeworkkeyset_from_trustframework1"
@@ -71,16 +70,6 @@ Content-type: application/json
   "id": "keyset1"  
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-trustframeworkkeyset-from-trustframework-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-trustframeworkkeyset-from-trustframework-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

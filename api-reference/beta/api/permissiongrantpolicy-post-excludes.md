@@ -55,7 +55,6 @@ If successful, this method returns a `201 Created` response code and an [permiss
 In this example, *all* delegated permissions for Microsoft Graph (**appId** 00000003-0000-0000-c000-000000000000) are excluded from the permission grant policy.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "truncated": true,
@@ -72,16 +71,6 @@ Content-Type: application/json
   "resourceApplication": "00000003-0000-0000-c000-000000000000"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/permissiongrantpolicy-create-excludes-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/permissiongrantpolicy-create-excludes-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

@@ -52,7 +52,6 @@ If successful, this method returns a `200 OK` response code and a [personAnnotat
 ## Examples
 
 ### Request
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_personannotation"
@@ -61,16 +60,6 @@ If successful, this method returns a `200 OK` response code and a [personAnnotat
 ``` http
 GET https://graph.microsoft.com/beta/me/profile/notes/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-personannotation-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-personannotation-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

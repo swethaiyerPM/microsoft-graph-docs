@@ -52,7 +52,6 @@ The following example shows how to call this API.
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["955e0bd5-52c2-41ad-b7e8-5b33a18c5e78","18d17255-3278-49fb-8da7-d095b7f610c4"],  
@@ -65,16 +64,6 @@ Content-type: application/json
 {
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/educationassignment-setupresourcesfolder-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/educationassignment-setupresourcesfolder-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ---
 

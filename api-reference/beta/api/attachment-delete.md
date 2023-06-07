@@ -130,7 +130,6 @@ If successful, this method returns `204 No Content` response code. It does not r
 
 Here is an example of the request to delete an attachment on an event.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_attachment"
@@ -139,16 +138,6 @@ Here is an example of the request to delete an attachment on an event.
 ```http
 DELETE https://graph.microsoft.com/beta/me/events/{id}/attachments/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-attachment-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-attachment-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

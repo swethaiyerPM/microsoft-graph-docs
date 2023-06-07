@@ -56,7 +56,6 @@ If successful, this method returns a `204, Accepted` response code and [program]
 In the request body, supply a JSON representation of the [program](../resources/program.md) object parameters to change.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_program"
@@ -69,16 +68,6 @@ Content-type: application/json
     "displayName": "testprogram3 new name"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-program-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-program-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 >**Note:** The response object shown here might be shortened for readability.

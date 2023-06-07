@@ -57,7 +57,6 @@ If successful, this method returns a `201 Created` response code and an [permiss
 In this example, *all* delegated permissions for client apps that are from verified publishers are included in the permission grant policy. Because all the other conditions from the [permissionGrantConditionSet](../resources/permissiongrantconditionset.md) were omitted, they will take their default values, which in each case is the most-inclusive.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "truncated": true,
@@ -73,16 +72,6 @@ Content-Type: application/json
   "clientApplicationsFromVerifiedPublisherOnly": true
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/permissiongrantpolicy-create-includes-for-verified-publishers-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/permissiongrantpolicy-create-includes-for-verified-publishers-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -121,7 +110,6 @@ In this example, *all* delegated permissions for all client apps that are Micros
 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "truncated": true,
@@ -137,16 +125,6 @@ Content-Type: application/json
   "certifiedClientApplicationsOnly": true
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/permissiongrantpolicy-create-includes-for-m365-certified-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/permissiongrantpolicy-create-includes-for-m365-certified-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

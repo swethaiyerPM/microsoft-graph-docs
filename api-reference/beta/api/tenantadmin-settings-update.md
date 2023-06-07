@@ -89,7 +89,6 @@ If successful, this method returns a `200 OK` response code and an updated [sett
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_tenant_settings"
@@ -111,12 +110,6 @@ Content-length: 1323
     "personalSiteDefaultStorageLimitInMB": 120000
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-tenant-settings-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

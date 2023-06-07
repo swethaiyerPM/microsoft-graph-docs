@@ -76,7 +76,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 
 The following is an example that gets the [emailAddress](../resources/emailaddress.md) objects that represent all the rooms defined in the signed-in user's tenant.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "user_get_rooms_in_tenant"
@@ -84,16 +83,6 @@ The following is an example that gets the [emailAddress](../resources/emailaddre
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/findRooms
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/user-get-rooms-in-tenant-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/user-get-rooms-in-tenant-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 The following is an example of the response.

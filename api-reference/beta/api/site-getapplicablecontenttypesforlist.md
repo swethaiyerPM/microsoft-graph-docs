@@ -62,7 +62,6 @@ If successful, this function returns a `200 OK` response code and a [contentType
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "site_getapplicablecontenttypesforlist"
@@ -71,16 +70,6 @@ If successful, this function returns a `200 OK` response code and a [contentType
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/sites/{siteId}/getApplicableContentTypesForList(listId='{list-id}')
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/site-getapplicablecontenttypesforlist-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/site-getapplicablecontenttypesforlist-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

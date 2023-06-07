@@ -61,7 +61,6 @@ The following example shows how to call this API.
 
 The following is an example of the request. The request URL specifies `8adf8e6e-67b2-4cf2-a259-e3dc5476c621` as the application template ID. This means the request is instantiating a non-gallery app.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "applicationtemplate_instantiate"
@@ -75,16 +74,6 @@ Content-type: application/json
     "displayName": "testProperties"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/applicationtemplate-instantiate-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/applicationtemplate-instantiate-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

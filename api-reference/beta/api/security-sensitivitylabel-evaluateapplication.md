@@ -89,7 +89,6 @@ If successful, this action returns a `200 OK` response code and an [informationP
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "sensitivitylabelthis.evaluateapplication",
@@ -165,12 +164,6 @@ User-agent: ContosoLobApp/1.0
     }
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/sensitivitylabelthisevaluateapplication-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

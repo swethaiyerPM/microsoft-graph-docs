@@ -48,7 +48,6 @@ If successful, this method returns a `201 Created` response code and an [educati
 ### Request
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_educationassignment_from_educationclass"
@@ -75,16 +74,6 @@ Content-type: application/json
     "allowStudentsToAddResourcesToSubmission": true
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-educationassignment-from-educationclass-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-educationassignment-from-educationclass-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 In the request body, supply a JSON representation of an [educationAssignment](../resources/educationassignment.md) object.
 

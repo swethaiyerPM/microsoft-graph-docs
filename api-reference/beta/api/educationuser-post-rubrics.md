@@ -55,7 +55,6 @@ If successful, this method returns `201 Created` response code and a new [educat
 
 The following is an example of the request to post a credit rubric (a rubric with no points).
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_educationrubric_from_educationuser_1"
@@ -131,16 +130,6 @@ Content-type: application/json
     ]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-educationrubric-from-educationuser-1-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-educationrubric-from-educationuser-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -234,7 +223,6 @@ Content-type: application/json
 
 The following is an example of the request to post a rubric with points.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_educationrubric_from_educationuser_2"
@@ -323,16 +311,6 @@ Content-type: application/json
     }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-educationrubric-from-educationuser-2-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-educationrubric-from-educationuser-2-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

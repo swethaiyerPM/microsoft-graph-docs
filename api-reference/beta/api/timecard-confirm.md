@@ -55,7 +55,6 @@ If successful, this method returns a `204 No Content` response code.
 The following is an example of the request. 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "timecard-confirm",
@@ -65,16 +64,6 @@ The following is an example of the request.
 ```http
 POST https://graph.microsoft.com/beta/teams/fd15cad8-80f6-484f-9666-3caf695fbf32/schedule/timeCards/TCK_cc09588d-d9d2-4fa0-85dc-2aa5ef983972/confirm
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/timecard-confirm-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/timecard-confirm-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

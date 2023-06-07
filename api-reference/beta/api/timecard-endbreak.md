@@ -62,7 +62,6 @@ If successful, this method returns a `204 No Content` response code.
 The following is an example of the request. 
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "timecard-endbreak",
@@ -80,16 +79,6 @@ POST https://graph.microsoft.com/beta/teams/fd15cad8-80f6-484f-9666-3caf695fbf32
     }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/timecard-endbreak-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/timecard-endbreak-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

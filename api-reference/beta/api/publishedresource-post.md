@@ -60,7 +60,6 @@ If successful, this method returns a `201 Created` response code and [publishedR
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_publishedresource_from_onpremisespublishingprofile"
@@ -75,16 +74,6 @@ Content-Type: application/json
     "resourceName": "domain1.contoso.com"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-publishedresource-from-onpremisespublishingprofile-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-publishedresource-from-onpremisespublishingprofile-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

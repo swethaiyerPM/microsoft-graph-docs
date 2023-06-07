@@ -53,22 +53,11 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ### Request
 
 
-# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "enum_contentTypes_site_list"} -->
 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/sites/{site-id}/lists/{list-id}/contentTypes
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/enum-contenttypes-site-list-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/enum-contenttypes-site-list-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

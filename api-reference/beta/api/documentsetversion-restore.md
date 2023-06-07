@@ -52,7 +52,6 @@ If successful, this action returns a `204 No Content` response code.
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "documentsetversionthis.restore",
@@ -62,16 +61,6 @@ The following is an example of a request.
 ``` http
 POST https://graph.microsoft.com/beta/sites/root/lists/Documents/items/2/documentSetVersions/1/restore
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/documentsetversionthisrestore-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/documentsetversionthisrestore-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

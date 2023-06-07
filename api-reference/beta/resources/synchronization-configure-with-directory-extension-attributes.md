@@ -89,7 +89,6 @@ You'll need the full name of the extension attribute. If you don't know the full
 The following example shows how to get the synchronization schema.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_synchronizationschema_3"
@@ -98,16 +97,6 @@ The following example shows how to get the synchronization schema.
 GET https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipalId}/synchronization/jobs/{jobId}/schema
 Authorization: Bearer {Token}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-synchronizationschema-3-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-synchronizationschema-3-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 >**Note:** The response object shown here might be shortened for readability. All the properties will be returned in an actual call.
 
