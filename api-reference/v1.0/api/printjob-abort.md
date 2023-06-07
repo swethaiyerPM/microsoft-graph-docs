@@ -56,6 +56,7 @@ If successful, this method returns a `204 No Content` response code. It does not
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "printjob_abort"
@@ -69,6 +70,12 @@ Content-Type: application/json
   "reason": "String"
 }
 ```
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/printjob-abort-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

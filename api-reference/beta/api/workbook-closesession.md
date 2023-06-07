@@ -46,7 +46,6 @@ If successful, this method returns `204 No Content` response code.
 ##### Request
 Here is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "close_excel_session"
@@ -60,12 +59,6 @@ workbook-session-id: {session-id}
 
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/close-excel-session-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 Note that workbook-session-id header is required. 
 

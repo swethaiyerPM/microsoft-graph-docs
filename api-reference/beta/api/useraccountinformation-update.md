@@ -62,7 +62,6 @@ If successful, this method returns a `200 OK` response code and an updated [user
 
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_useraccountinformation"
@@ -76,12 +75,6 @@ Content-type: application/json
   "countryCode": "NO"
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-useraccountinformation-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

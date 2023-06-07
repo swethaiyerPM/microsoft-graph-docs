@@ -47,7 +47,6 @@ If successful, this method returns a `200, OK` response code and an array of [bu
 ##### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_businessFlowTemplate"
@@ -55,16 +54,6 @@ If successful, this method returns a `200, OK` response code and an array of [bu
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/businessFlowTemplates
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-businessflowtemplate-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-businessflowtemplate-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 >**Note:** The response object shown here might be shortened for readability.

@@ -55,7 +55,6 @@ If successful, this method returns a `204 No Content` response code. It does not
 
 The following example shows how to delete the attribute named "Fax" from the profile card for the organization.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_profilecardproperty"
@@ -64,16 +63,6 @@ The following example shows how to delete the attribute named "Fax" from the pro
 ```http
 DELETE https://graph.microsoft.com/beta/organization/{organizationId}/settings/profileCardProperties/fax
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-profilecardproperty-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-profilecardproperty-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

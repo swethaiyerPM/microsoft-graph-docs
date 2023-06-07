@@ -79,7 +79,6 @@ If the optional request header is used, the method returns a `200 OK` response c
 
 The following is an example of the request without the `Prefer` header.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_tiIndicator_1"
@@ -93,16 +92,6 @@ Content-type: application/json
   "description": "description-updated",
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-tiindicator-1-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-tiindicator-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -123,7 +112,6 @@ HTTP/1.1 204 No Content
 The following is an example of the request that includes the `Prefer` header.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_tiIndicator_2"
@@ -140,16 +128,6 @@ Prefer: return=representation
   "description": "description-after-update",
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-tiindicator-2-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

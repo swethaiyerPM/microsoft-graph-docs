@@ -64,7 +64,6 @@ If successful, this method returns a `201 Created` response code and a [bookingC
 ### Request
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_bookingcustomquestion_from_",
@@ -84,12 +83,6 @@ Content-length: 165
   "answerOptions": []
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-bookingcustomquestion-from--typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

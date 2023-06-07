@@ -55,7 +55,6 @@ If successful, this method returns a `200 OK` response code and updated [outlook
 ##### Request
 The following example changes the name of the specified task folder to `Charity work`.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_outlooktaskfolder",
@@ -69,16 +68,6 @@ Content-type: application/json
   "name": "Charity work"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-outlooktaskfolder-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-outlooktaskfolder-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

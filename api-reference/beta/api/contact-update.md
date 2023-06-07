@@ -95,7 +95,6 @@ If successful, this method returns a `200 OK` response code and updated [contact
 ##### Request
 The following example updates the personal email address of the specified contact.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_contact",
@@ -121,16 +120,6 @@ Content-type: application/json
     ]
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-contact-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-contact-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

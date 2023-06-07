@@ -53,7 +53,6 @@ If successful, this method returns a `200 OK` response code and an [personAward]
 ## Examples
 
 ### Request
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_personAward"
@@ -62,16 +61,6 @@ If successful, this method returns a `200 OK` response code and an [personAward]
 ``` http
 GET https://graph.microsoft.com/beta/me/profile/awards/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-personaward-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-personaward-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 

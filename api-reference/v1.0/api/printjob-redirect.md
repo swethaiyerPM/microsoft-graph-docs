@@ -58,6 +58,7 @@ If successful, this method returns a `200 OK` response code and a [printJob](../
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "printjob_redirect"
@@ -102,6 +103,12 @@ Content-Type: application/json
   }
 }
 ```
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/printjob-redirect-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

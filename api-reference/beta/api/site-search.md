@@ -55,7 +55,6 @@ If successful, this method returns a `200 OK` response code and the collection o
 
 ### Request
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_permission_that_match_query"
@@ -64,16 +63,6 @@ If successful, this method returns a `200 OK` response code and the collection o
 ``` http
 GET https://graph.microsoft.com/beta/sites?search={query}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-permission-that-match-query-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/list-permission-that-match-query-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 >**Note:** The response object shown here might be shortened for readability.

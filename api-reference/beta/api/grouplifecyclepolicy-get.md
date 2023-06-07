@@ -57,7 +57,6 @@ If successful, this method returns a `200 OK` response code and [groupLifecycleP
 
 # [HTTP](#tab/http)
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_grouplifecyclepolicy_1"
@@ -66,16 +65,6 @@ If successful, this method returns a `200 OK` response code and [groupLifecycleP
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/groupLifecyclePolicies/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-grouplifecyclepolicy-1-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/get-grouplifecyclepolicy-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

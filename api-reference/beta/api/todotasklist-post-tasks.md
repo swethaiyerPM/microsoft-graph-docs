@@ -73,7 +73,6 @@ If successful, this method returns a `201 Created` response code and a [todoTask
 ### Request
 The following example creates a **todoTask** in the specified task list, and includes a [linkedResource](../resources/linkedresource.md).
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["AQMkADAwATM0MDAAMS0yMDkyLWVjMzYtM"],
@@ -96,12 +95,6 @@ Content-Type: application/json
    ]
 }
 ```
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/create-todotask-from-tasks-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 **Note:** The response object shown here might be shortened for readability.

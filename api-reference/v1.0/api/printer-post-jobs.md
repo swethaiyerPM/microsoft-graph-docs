@@ -56,6 +56,7 @@ If successful, this method returns a `201 Created` response code and a [printJob
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_printjob_from__1"
@@ -101,6 +102,12 @@ Content-Type: application/json
   }
 }
 ```
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/create-printjob-from--1-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

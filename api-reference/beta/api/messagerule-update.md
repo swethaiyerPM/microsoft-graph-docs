@@ -58,7 +58,6 @@ If successful, this method returns a `200 OK` response code and updated [message
 The following example changes the name of the rule, and the actions to be taken for that rule in the 
 [example](messagerule-get.md#example) in [Get rule](messagerule-get.md), from forwarding to an address to marking its importance as high. 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_messagerule",
@@ -75,16 +74,6 @@ Content-type: application/json
      }
 } 
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/update-messagerule-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/update-messagerule-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response
 

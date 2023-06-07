@@ -59,7 +59,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 Here is an example of the request to retrieve the app roles that have been assigned to a user.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "user_get_approleassignments"
@@ -68,16 +67,6 @@ Here is an example of the request to retrieve the app roles that have been assig
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/cdb555e3-b33e-4fd5-a427-17fadacbdfa7/appRoleAssignments
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/user-get-approleassignments-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/user-get-approleassignments-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 
@@ -120,7 +109,6 @@ Content-type: application/json
 Here is an example of the request to retrieve the app roles that have been assigned to a user, filtering by a `resourceId`, which is a GUID type.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "user_get_approleassignments_filterby_resourceId"
@@ -129,16 +117,6 @@ Here is an example of the request to retrieve the app roles that have been assig
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/cdb555e3-b33e-4fd5-a427-17fadacbdfa7/appRoleAssignments?$filter=resourceId eq 8e881353-1735-45af-af21-ee1344582a4d
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/user-get-approleassignments-filterby-resourceid-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/user-get-approleassignments-filterby-resourceid-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 #### Response
 

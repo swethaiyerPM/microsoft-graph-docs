@@ -64,7 +64,6 @@ If successful, this method returns `204 No Content` response code. It does not r
 ##### Request 1
 The first example deletes the specified message.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_message"
@@ -72,16 +71,6 @@ The first example deletes the specified message.
 ```http
 DELETE https://graph.microsoft.com/beta/me/messages/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-message-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-message-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response 1
 
@@ -97,7 +86,6 @@ HTTP/1.1 204 No Content
 ##### Request 2
 The next example deletes a certain **mention** in the specified message.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_mention_in_message"
@@ -105,16 +93,6 @@ The next example deletes a certain **mention** in the specified message.
 ```http
 DELETE https://graph.microsoft.com/beta/me/messages/{id}/mentions/{id}
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/delete-mention-in-message-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/delete-mention-in-message-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ##### Response 2
 

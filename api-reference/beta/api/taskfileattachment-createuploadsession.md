@@ -72,7 +72,6 @@ If successful, this action returns a `200 OK` response code and a new [uploadSes
 ### Request
 The following is an example of a request to create an upload session.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "attachmentbasethis.createuploadsession",
@@ -91,16 +90,6 @@ Content-Type: application/json
   }
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/attachmentbasethiscreateuploadsession-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/attachmentbasethiscreateuploadsession-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 The following is an example of the response.

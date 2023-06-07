@@ -58,7 +58,6 @@ If successful, this method returns a `202 Accepted` response code and an [addLar
 The following example shows how to add the large gallery view to a call.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "addLargeGalleryView-1"
@@ -72,16 +71,6 @@ Content-Length: 46
   "clientContext": "785f4929-92ca-497b-863f-c778c77c9758"
 }
 ```
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/addlargegalleryview-1-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [TypeScript](#tab/typescript)
-[!INCLUDE [sample-code](../includes/snippets/typescript/addlargegalleryview-1-typescript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 
