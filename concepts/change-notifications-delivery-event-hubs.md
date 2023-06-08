@@ -16,6 +16,8 @@ Good examples of high throughput scenarios include applications subscribing to a
 
 The article guides you through the process of managing your Microsoft Graph subscription and how to receive change notifications through Azure Event Hubs.
 
+> [!VIDEO https://www.youtube-nocookie.com/embed/d_T_DYwmN3w]
+
 ## Using Azure Event Hubs to receive change notifications
 
 [Azure Event Hubs](https://azure.microsoft.com/services/event-hubs) is a popular real-time events ingestion and distribution service built for scale. You can use Azure Events Hubs instead of traditional webhooks to receive change notifications.  
