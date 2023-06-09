@@ -8,6 +8,10 @@ ms.prod: "sites-and-lists"
 ---
 # media resource type
 
+Namespace: microsoft.graph
+
+[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+
 Contains metadata about the media (audio or video) drive item.
 
 It is available on the media property of [driveItem][item-resource] resources.
@@ -20,6 +24,10 @@ It is available on the media property of [driveItem][item-resource] resources.
 | **isTranscriptionShown** | Boolean               | If a file has a transcript, this setting controls if the closed captions / transcription for the media file should be shown to people during viewing. Read-Write.                                                    |
 | **mediaSource**          | [mediaSource](mediaSource.md)         | Information about the source of media. Read-only.                                                             | 
 
+## Relationships
+|Relationship|Type|Description|
+|:---|:---|:---|
+|transcripts|[transcript](../resources/transcript.md) collection|List of all transcripts associated with the media item.|
 
 ## JSON representation
 
@@ -30,6 +38,7 @@ It is available on the media property of [driveItem][item-resource] resources.
 
 ```json
 {
+  "@odata.type": "#microsoft.graph.media",
   "isTranscriptionShown" : true,
   "mediaSource": { "@odata.type": "microsoft.graph.mediaSource" }
 }
