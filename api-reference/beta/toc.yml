@@ -11554,6 +11554,23 @@ items:
           href: api/driveitem-extractsensitivitylabels.md
         - name: Assign sensitivity label
           href: api/driveitem-assignsensitivitylabel.md
+      - name: Transcripts
+        href: resources/transcript.md
+        items:
+        - name: List transcripts
+          href: api/transcript-list.md
+        - name: Get transcript
+          href: api/transcript-get.md
+        - name: Create transcript
+          href: api/transcript-create.md
+        - name: Update transcript
+          href: api/transcript-update.md
+        - name: Delete transcript
+          href: api/transcript-delete.md
+        - name: Get transcript content
+          href: api/transcript-get-content.md
+        - name: Upload transcript
+          href: api/transcript-put-content.md
       - name: Bundles
         href: resources/bundle.md
         items:
