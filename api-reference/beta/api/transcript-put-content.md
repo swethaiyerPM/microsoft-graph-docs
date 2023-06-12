@@ -7,7 +7,7 @@ ms.prod: "sites-and-lists"
 doc_type: apiPageType
 ---
 
-# Get transcript
+# Upload transcript content
 Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]

@@ -1,5 +1,5 @@
 ---
-title: "List transcripts"
+title: "Get transcripts list"
 description: "Get a list of the transcript objects and their properties."
 author: "elmazdremdzhe"
 ms.localizationpriority: medium
@@ -7,7 +7,7 @@ ms.prod: "sites-and-lists"
 doc_type: apiPageType
 ---
 
-# List transcripts
+# Get transcripts list
 Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
