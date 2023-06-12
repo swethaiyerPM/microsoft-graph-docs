@@ -39,7 +39,7 @@ It is available on the media property of [driveItem][item-resource] resources.
 ```json
 {
   "@odata.type": "#microsoft.graph.media",
-  "isTranscriptionShown" : "Boolean",
+  "isTranscriptionShown" : true,
   "mediaSource": { "@odata.type": "microsoft.graph.mediaSource" }
 }
 ```
