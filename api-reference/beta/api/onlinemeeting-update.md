@@ -64,6 +64,8 @@ The last column indicates whether updating this property will take effect for an
 | endDateTime                 | DateTime                                                   | The meeting end time in UTC.                                                        | No                           |
 | subject                     | String                                                     | The subject of the online meeting.                                                  | No                           |
 | participants                | [meetingParticipants](../resources/meetingparticipants.md) | The participants associated with the online meeting. Only attendees can be updated. | No                           |
+| allowRecording                | Boolean | Indicates whether recording is enabled for the meeting. | No                           |
+| allowTranscription                | Boolean | Indicates whether transcription is enabled for the meeting. | No                           |
 | isEntryExitAnnounced        | Boolean                                                    | Whether or not to announce when callers join or leave.                              | Yes                          |
 | lobbyBypassSettings         | [lobbyBypassSettings](../resources/lobbyBypassSettings.md) | Specifies which participants can bypass the meeting lobby.                          | Yes                          |
 | allowedPresenters           | onlineMeetingPresenters                                    | Specifies who can be a presenter in a meeting.                                      | Yes |
