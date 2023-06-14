@@ -7,7 +7,7 @@ ms.prod: "cloud-pc"
 doc_type: resourcePageType
 ---
 
-# cloudPcConnectivityResult resource type
+# cloudPcConnectionSettings resource type
 
 Namespace: microsoft.graph
 

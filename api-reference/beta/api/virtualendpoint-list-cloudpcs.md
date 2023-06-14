@@ -300,3 +300,89 @@ Content-Type: application/json
     ]
 }
 ```
+
+### Example 3: List all cloudPC devices with filter
+
+The following example shows how to use the `$filter` query parameter to get the [cloudPC](../resources/cloudpc.md) devices in a tenant.
+
+#### Request
+
+The following is an example of the request.
+
+# [HTTP](#tab/http)
+<!-- {
+  "blockType": "request",
+  "name": "list_cloudpcs_with_filter_query"
+}
+-->
+
+``` http
+GET https://graph.microsoft.com/beta/deviceManagement/virtualEndpoint/cloudPCs?$filter=connectionSettings/enableSingleSignOn eq true
+```
+
+
+#### Response
+
+The following is an example of the response.
+
+>**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "Collection(microsoft.graph.cloudPC)"
+}
+-->
+
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "@odata.context": "https://canary.graph.microsoft.com/testprodbeta_cpc_int/$metadata#deviceManagement/virtualEndpoint/cloudPCs",
+    "@odata.count": 1,
+    "value": [
+        {
+            "id": "fd0230cd-4e05-4ecd-ad05-72f8a30042f1",
+            "displayName": "RMS-Resize-policy - RMS-Resize-user-05",
+            "imageDisplayName": "Windows 11 Enterprise + Microsoft 365 Apps 22H2",
+            "provisioningPolicyId": "7f247338-3d25-4bcf-11a0-fe6fba68f41c",
+            "provisioningPolicyName": "RMS-Resize-policy",
+            "onPremisesConnectionName": "",
+            "servicePlanId": "23a25099-1b2f-4e07-84bd-b81606109438",
+            "servicePlanName": "Cloud PC Enterprise 2vCPU/4GB/64GB",
+            "status": "failed",
+            "userPrincipalName": "RMS-Resize-user-05@fabrikam.onmicrosoft.com",
+            "lastModifiedDateTime": "2023-04-25T06:24:02Z",
+            "managedDeviceId": null,
+            "managedDeviceName": null,
+            "aadDeviceId": null,
+            "gracePeriodEndDateTime": null,
+            "servicePlanType": "enterprise",
+            "diskEncryptionState": "notAvailable",
+            "provisioningType": "dedicated",
+            "statusDetails": {
+                "code": "intuneEnrollFailed",
+                "message": "We can’t complete MEM enrollment of this Cloud PC. Check MEM policy settings and retry. If that doesn’t work, contact Customer support.",
+                "additionalInformation": [
+                    {
+                        "name": "retriable",
+                        "value": "true"
+                    },
+                    {
+                        "name": "failedAction",
+                        "value": "Provision"
+                    },
+                    {
+                        "name": "rawError",
+                        "value": "Run Intune enrollment extension failed."
+                    }
+                ]
+            },
+            "partnerAgentInstallResults": [],
+            "connectionSettings": {
+              "enableSingleSignOn": true
+            }
+        }
+    ]
+}
+```
