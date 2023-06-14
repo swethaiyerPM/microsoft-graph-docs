@@ -4,10 +4,10 @@
       "ChangeList": [
         {
           "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
-          "ApiChange": "Resource",
+          "ApiChange": "Relationship",
           "ChangedApiName": "transcripts",
           "ChangeType": "Addition",
-          "Description": "Added the [transcripts](https://learn.microsoft.com/en-us/graph/api/resources/media?view=graph-rest-beta) resource",
+          "Description": "Added the [transcripts](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) navigation property to [media](https://learn.microsoft.com/en-us/graph/api/resources/media?view=graph-rest-beta) resource",
           "Target": "media"
         },
         {
@@ -16,6 +16,70 @@
           "ChangedApiName": "transcript",
           "ChangeType": "Addition",
           "Description": "Added the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource",
+          "Target": "transcript"
+        },
+        {
+          "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
+          "ApiChange": "Method",
+          "ChangedApiName": "GET",
+          "ChangeType": "Addition",
+          "Description": "Added the [get](https://learn.microsoft.com/en-us/graph/api/transcript-get?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
+          "Target": "transcript"
+        },
+        {
+          "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
+          "ApiChange": "Method",
+          "ChangedApiName": "GET",
+          "ChangeType": "Addition",
+          "Description": "Added the [list](https://learn.microsoft.com/en-us/graph/api/transcript-list?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
+          "Target": "transcript"
+        },
+        {
+          "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
+          "ApiChange": "Method",
+          "ChangedApiName": "GET",
+          "ChangeType": "Addition",
+          "Description": "Added the [list](https://learn.microsoft.com/en-us/graph/api/transcript-list?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
+          "Target": "transcript"
+        },
+        {
+          "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
+          "ApiChange": "Method",
+          "ChangedApiName": "POST",
+          "ChangeType": "Addition",
+          "Description": "Added the [create](https://learn.microsoft.com/en-us/graph/api/transcript-create?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
+          "Target": "transcript"
+        },
+        {
+          "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
+          "ApiChange": "Method",
+          "ChangedApiName": "DELETE",
+          "ChangeType": "Addition",
+          "Description": "Added the [delete](https://learn.microsoft.com/en-us/graph/api/transcript-delete?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
+          "Target": "transcript"
+        },
+        {
+          "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
+          "ApiChange": "Method",
+          "ChangedApiName": "PATCH",
+          "ChangeType": "Addition",
+          "Description": "Added the [update](https://learn.microsoft.com/en-us/graph/api/transcript-update?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
+          "Target": "transcript"
+        },
+        {
+          "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
+          "ApiChange": "Method",
+          "ChangedApiName": "GET",
+          "ChangeType": "Addition",
+          "Description": "Added the [get content](https://learn.microsoft.com/en-us/graph/api/transcript-get-content?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
+          "Target": "transcript"
+        },
+        {
+          "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
+          "ApiChange": "Method",
+          "ChangedApiName": "PUT",
+          "ChangeType": "Addition",
+          "Description": "Added the [put content](https://learn.microsoft.com/en-us/graph/api/transcript-put-content?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
           "Target": "transcript"
         }
       ],
