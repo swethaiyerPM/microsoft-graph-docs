@@ -43,13 +43,15 @@ As a pre-requisite, you need to complete the steps in this tutorial. Once you ha
 7. Once it loaded all the columns, you can now build visuals with your data.
 
     - Under **Data**, select Query1 to expand the columns and choose the properties you would like to visualize.
-    - Under **Visualizations**, select the **Table** option to visualize the data.
+    - Under **Visualizations**, select the **Key Influencers** option to visualize the data.
     
-> **Note** In this example we can see the sender email address and name, the email subject, the to recipients, we know if those emails contain attachments and if those emails were actually read!
+> **Note** In this example you can easily see if the messages sent by a department in your organization are being read or not by analyzing every "toRecipientName" and the property "isRead".
 
-![A screenshot that shows all the columns with content presented in a table in PowerBI](../concepts/images/data-connect-pbi-display-columns-data.png)
+![A screenshot that shows all the columns with content presented in a table in PowerBI](../concepts/images/data-connect-pbi-key-influencers.png)
 
 8. We can now see the JSON data from the Messages_v1 data set from Microsoft Graph Data Connect in a PowerBI report.
 
 > [!NOTE]
 > You can choose the desired data connectivity mode (DirectQuery or Import) depending on your data size and query requirements. We recommend using **DirectQuery** in this tutorial.
+
+ [Find solution templates using MGDC built in PowerBI](https://github.com/microsoftgraph/dataconnect-solutions/tree/main/solutions)
