@@ -1,6 +1,6 @@
 ---
 title: "accessReviewScheduleSettings resource type"
-description: "In the Azure AD access reviews feature, the `accessReviewScheduleSettings`
+description: "In the Azure AD access reviews feature, the `accessReviewScheduleSettings"
 author: "jyothig123"
 ms.localizationpriority: medium
 ms.prod: "governance"

@@ -11,11 +11,6 @@ doc_type: resourcePageType
 
 Namespace: microsoft.graph
 
-<<<<<<< HEAD
-=======
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
-
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 [!INCLUDE [accessreviews-disclaimer-v2](../../includes/accessreviews-disclaimer-v2.md)]
 
 Represents the user-to-group affiliation insights that help reviewers make decisions for an [accessReviewScheduleDefinition](accessreviewscheduledefinition.md) object. Azure AD assesses the affiliation of the user with other members within the group and provides _approve_ or _deny_ recommendation insights to the approvers.

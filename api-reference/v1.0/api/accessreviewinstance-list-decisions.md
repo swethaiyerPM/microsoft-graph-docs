@@ -52,11 +52,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 
 ### Example 1: Retrieve all decisions for an instance of an access review
 
-<<<<<<< HEAD
 ### Request
-=======
-#### Request
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 
 <!-- {
   "blockType": "request",
@@ -64,17 +60,10 @@ If successful, this method returns a `200 OK` response code and a collection of 
 }
 -->
 ``` http
-GET https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/60860cdd-fb4d-4054-91ba-444404f3baa6/instances/14444cdb-6a18-4c08-ba2c-48c02f0a0138/decisions?$top=100&$skip=0
+GET https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/2dca8959-b716-4b4c-a93d-a535c01eb6e0/instances/8d035c9d-798d-47fa-beb4-f986a4b8126f/decisions
 ```
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 ### Response
-=======
-#### Response
->>>>>>> Stashed changes
 >**Note:** The response object shown here might be shortened for readability.
 <!-- {
   "blockType": "response",
@@ -87,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 
 {
-    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/accessReviews/definitions('5eac5a70-7cd7-4f20-92b0-f9dba70dd7f0')/instances('6444d4fd-ab55-4608-8cf9-c6702d172bcc')/decisions",
-    "@odata.count": 2,
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/accessReviews/definitions('2dca8959-b716-4b4c-a93d-a535c01eb6e0')/instances('8d035c9d-798d-47fa-beb4-f986a4b8126f')/decisions",
+    "@odata.count": 1,
     "value": [
         {
-            "id": "e6cafba0-cbf0-4748-8868-0810c7f4cc06",
-            "accessReviewId": "6444d4fd-ab55-4608-8cf9-c6702d172bcc",
+            "id": "139166ec-d214-4835-95aa-3c1d89581e51",
+            "accessReviewId": "8d035c9d-798d-47fa-beb4-f986a4b8126f",
             "reviewedDateTime": null,
             "decision": "NotReviewed",
             "justification": "",
             "appliedDateTime": null,
             "applyResult": "New",
-            "recommendation": "Approve",
-            "principalLink": "https://graph.microsoft.com/v1.0/users/04777c4b-4d43-4d32-a2e7-1eba5d03f8cf",
+            "recommendation": "Deny",
+            "principalLink": "https://graph.microsoft.com/v1.0/users/1800bb2c-955d-4205-8471-3a6c3116435d",
             "resourceLink": null,
             "resource": null,
             "reviewedBy": {
@@ -120,17 +109,10 @@ Content-Type: application/json
             },
             "principal": {
                 "@odata.type": "#microsoft.graph.userIdentity",
-<<<<<<< HEAD
                 "id": "1800bb2c-955d-4205-8471-3a6c3116435d",
                 "displayName": "guest example",
                 "userPrincipalName": "guest@guest.com"
                 }
-=======
-                "id": "04777c4b-4d43-4d32-a2e7-1eba5d03f8cf",
-                "displayName": "Diego Siciliani",
-                "userPrincipalName": "DiegoS@contoso.com"
-            }
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
         },
         {
             "id": "4bde8d40-9224-4aa3-936b-08d73e1baf47",
@@ -147,13 +129,9 @@ Content-Type: application/json
             "reviewedBy": {
                 "id": "00000000-0000-0000-0000-000000000000",
                 "displayName": "",
-<<<<<<< HEAD
                 "displayName": "guest example",
                 "userPrincipalName": ""
                 "userPrincipalName": "guest@guest.com"
-=======
-                "userPrincipalName": ""
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
             },
             "appliedBy": {
                 "id": "00000000-0000-0000-0000-000000000000",
@@ -177,29 +155,17 @@ Content-Type: application/json
 }
 ```
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 ### Example 2: Retrieve all decision items for which you're a reviewer and expand the definitions
 
 #### Request
 The following example shows a request to retrieve all the decisions on every instance and defintion that the calling user is the reviewer for.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 <!-- {
   "blockType": "request",
   "name": "list_accessReviewInstanceDecisionItem_expand"
 }-->
 ```msgraph-interactive
-<<<<<<< HEAD
 GET https://graph.microsoft.com/beta/identityGovernance/accessReviews/decisions/filterByCurrentUser(on='reviewer')?$expand=instance($expand=definition)
-=======
-GET https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/decisions/filterByCurrentUser(on='reviewer')?$expand=instance($expand=definition)
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 ```
 
 ### Response
@@ -216,11 +182,7 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-<<<<<<< HEAD
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#accessReviewInstanceDecisionItems",
-=======
-    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#accessReviewInstanceDecisionItems",
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
     "@odata.count": 10,
     "value": [
         {
@@ -259,21 +221,13 @@ Content-type: application/json
 
 #### Request
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 <!-- {
   "blockType": "request",
   "name": "list_accessreviewinstancedecisionitem_expandinsights"
 }
 -->
 ``` http
-<<<<<<< HEAD
 GET https://graph.microsoft.com/beta/identityGovernance/accessReviews/definitions/60860cdd-fb4d-4054-91ba-444404f3baa6/instances/14444cdb-6a18-4c08-ba2c-48c02f0a0138/decisions?$expand=insights
-=======
-GET https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions/60860cdd-fb4d-4054-91ba-444404f3baa6/instances/14444cdb-6a18-4c08-ba2c-48c02f0a0138/decisions?$expand=insights
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 ```
 
 #### Response
@@ -289,11 +243,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 
 {
-<<<<<<< HEAD
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#identityGovernance/accessReviews/definitions('5eac5a70-7cd7-4f20-92b0-f9dba70dd7f0')/instances('6444d4fd-ab55-4608-8cf9-c6702d172bcc')/decisions(insights())",
-=======
-    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/accessReviews/definitions('5eac5a70-7cd7-4f20-92b0-f9dba70dd7f0')/instances('6444d4fd-ab55-4608-8cf9-c6702d172bcc')/decisions(insights())",
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
     "@odata.count": 2,
     "value": [
         {
@@ -318,11 +268,7 @@ Content-Type: application/json
                 "@odata.type": "#microsoft.graph.userIdentity",
                 "id": "04777c4b-4d43-4d32-a2e7-1eba5d03f8cf"
             },
-<<<<<<< HEAD
             "insights@odata.context": "https://graph.microsoft.com/beta/$metadata#identityGovernance/accessReviews/definitions('5eac5a70-7cd7-4f20-92b0-f9dba70dd7f0')/instances('6444d4fd-ab55-4608-8cf9-c6702d172bcc')/decisions('e6cafba0-cbf0-4748-8868-0810c7f4cc06')/insights",
-=======
-            "insights@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/accessReviews/definitions('5eac5a70-7cd7-4f20-92b0-f9dba70dd7f0')/instances('6444d4fd-ab55-4608-8cf9-c6702d172bcc')/decisions('e6cafba0-cbf0-4748-8868-0810c7f4cc06')/insights",
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
             "insights": [
                 {
                     "@odata.type": "#microsoft.graph.userSignInInsight",
@@ -343,8 +289,4 @@ Content-Type: application/json
         }
     ]
 }
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb

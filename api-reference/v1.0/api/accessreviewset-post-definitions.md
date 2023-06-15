@@ -2,7 +2,7 @@
 title: "Create definitions"
 description: "Create a new accessReviewScheduleDefinition object."
 ms.localizationpriority: medium
-author: "jyothig123"
+author: isabelleatmsft
 ms.prod: "governance"
 doc_type: apiPageType
 ---
@@ -45,7 +45,7 @@ The following table shows the properties accepted to create an accessReview.
 |:-------------|:------------|:------------|
 | additionalNotificationRecipients   |[accessReviewNotificationRecipientItem](../resources/accessReviewNotificationRecipientItem.md) collection| Defines the list of additional users or group members to be notified of the access review progress. |
 | descriptionForAdmins | String | Context of the review provided to admins. Required. |
-  descriptionForReviewers | String | Context of the review provided to reviewers in email notifications. Email notifications support up to 256 characters. Required. |
+| descriptionForReviewers | String | Context of the review provided to reviewers in email notifications. Email notifications support up to 256 characters. Required. |
 | displayName | String | Name of access review series. Required.|
 | fallbackReviewers |[accessReviewReviewerScope](../resources/accessreviewreviewerscope.md) collection|If provided, the fallback reviewers are asked to complete a review if the primary reviewers do not exist. For example, if managers are selected as `reviewers` and a principal under review does not have a manager in Azure AD, the fallback reviewers are asked to review that principal. <br/><br/>**NOTE:** The value of this property will be ignored if fallback reviewers are assigned through the **stageSettings** property.|
 | instanceEnumerationScope | [accessReviewScope](../resources/accessreviewscope.md) | In the case of an all groups review, this determines the scope of which groups will be reviewed. See [accessReviewScope](../resources/accessreviewscope.md) and also learn how to [configure the scope of your access review definition](/graph/accessreviews-scope-concept).| 
@@ -114,34 +114,6 @@ Content-type: application/json
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-# [C#](#tab/csharp)
-[!INCLUDE [sample-code](../includes/snippets/csharp/create-accessreviewscheduledefinition-csharp-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/create-accessreviewscheduledefinition-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Java](#tab/java)
-[!INCLUDE [sample-code](../includes/snippets/java/create-accessreviewscheduledefinition-java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/create-accessreviewscheduledefinition-javascript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-accessreviewscheduledefinition-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
-
-=======
->>>>>>> Stashed changes
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 #### Response
 >**Note:** The response object shown here might be shortened for readability.
 <!-- {
@@ -223,10 +195,6 @@ The following example creates an access review with the following settings:
 #### Request
 In the request body, supply a JSON representation of the [accessReviewScheduleDefinition](../resources/accessreviewscheduledefinition.md) object.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 <!-- {
   "blockType": "request",
   "name": "create_accessReviewScheduleDefinition_inactiveguests_M365"
@@ -286,34 +254,6 @@ Content-type: application/json
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-# [C#](#tab/csharp)
-[!INCLUDE [sample-code](../includes/snippets/csharp/create-accessreviewscheduledefinition-inactiveguests-m365-csharp-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/create-accessreviewscheduledefinition-inactiveguests-m365-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Java](#tab/java)
-[!INCLUDE [sample-code](../includes/snippets/java/create-accessreviewscheduledefinition-inactiveguests-m365-java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/create-accessreviewscheduledefinition-inactiveguests-m365-javascript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-accessreviewscheduledefinition-inactiveguests-m365-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
-
-=======
->>>>>>> Stashed changes
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 #### Response
 >**Note:** The response object shown here might be shortened for readability.
 <!-- {
@@ -391,11 +331,7 @@ Content-type: application/json
         "numberOfOccurrences": 0,
         "recurrenceTimeZone": null,
         "startDate": "2021-05-05",
-<<<<<<< HEAD
         "endDate": "null"
-=======
-        "endDate": null
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
       }
     },
     "applyActions": []
@@ -403,6 +339,7 @@ Content-type: application/json
   "additionalNotificationRecipients": []
 }
 ```
+
 ### Example 3: Create an access review of all users to an application
 
 The following example creates an access review with the following settings:
@@ -485,34 +422,6 @@ Content-type: application/json
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-# [C#](#tab/csharp)
-[!INCLUDE [sample-code](../includes/snippets/csharp/create-accessreviewscheduledefinition-allusers-m365-aadrole-csharp-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/create-accessreviewscheduledefinition-allusers-m365-aadrole-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Java](#tab/java)
-[!INCLUDE [snippet-not-available](../includes/snippets/snippet-not-available.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/create-accessreviewscheduledefinition-allusers-m365-aadrole-javascript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-accessreviewscheduledefinition-allusers-m365-aadrole-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
-=======
->>>>>>> Stashed changes
-
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 #### Response
 >**Note:** The response object shown here might be shortened for readability.
 <!-- {
@@ -567,10 +476,6 @@ The following example creates an access review with the following settings:
 #### Request
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 <!-- {
   "blockType": "request",
   "name": "create_accessReviewScheduleDefinition_group_multiStage"
@@ -644,33 +549,6 @@ Content-type: application/json
 
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-# [C#](#tab/csharp)
-[!INCLUDE [sample-code](../includes/snippets/csharp/create-accessreviewscheduledefinition-group-multistage-csharp-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/create-accessreviewscheduledefinition-group-multistage-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Java](#tab/java)
-[!INCLUDE [sample-code](../includes/snippets/java/create-accessreviewscheduledefinition-group-multistage-java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/create-accessreviewscheduledefinition-group-multistage-javascript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/create-accessreviewscheduledefinition-group-multistage-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
-=======
->>>>>>> Stashed changes
->>>>>>> 5cdc4e7e0f4d55fa688491c362ce858095451cfb
 
 #### Response
 >**Note:** The response object shown here might be shortened for readability.
@@ -686,12 +564,21 @@ Content-type: application/json
 {
   "id": "29f2d16e-9ca6-4052-bbfe-802c48944448",
   "displayName": "Group Multi-stage Access Review",
+  "createdDateTime": "0001-01-01T00:00:00Z",
+  "lastModifiedDateTime": "0001-01-01T00:00:00Z",
+  "status": "NotStarted",
+  "descriptionForAdmins": "New scheduled access review",
+  "descriptionForReviewers": "If you have any questions, contact jerry@contoso.com",
+  "instanceEnumerationScope": null,
   "createdBy": {
-    "id": "957f1027-c0ee-460d-9269-b8444459e0fe"
+    "id": "957f1027-c0ee-460d-9269-b8444459e0fe",
+    "displayName": "MOD Administrator",
+    "userPrincipalName": "admin@contoso.com"
   },
   "scope": {
     "@odata.type": "#microsoft.graph.accessReviewQueryScope",
-    "query": "/groups/b74444cb-038a-4802-8fc9-b9d1ed0cf11f/transitiveMembers"
+    "query": "/groups/b74444cb-038a-4802-8fc9-b9d1ed0cf11f/transitiveMembers",
+    "queryType": "MicrosoftGraph"
   },
   "stageSettings": [
     {
@@ -730,107 +617,49 @@ Content-type: application/json
         }
       ]
     }
+  ], 
+  "settings": {
+    "mailNotificationsEnabled": true,
+    "reminderNotificationsEnabled": true,
+    "justificationRequiredOnApproval": true,
+    "defaultDecisionEnabled": false,
+    "defaultDecision": "None",
+    "instanceDurationInDays": 1,
+    "autoApplyDecisionsEnabled": false,
+    "recommendationsEnabled": false,
+    "recurrence": {
+      "pattern": {
+        "type": "weekly",
+        "interval": 1,
+        "month": 0,
+        "dayOfMonth": 0,
+        "daysOfWeek": [],
+        "firstDayOfWeek": "sunday",
+        "index": "first"
+      },
+      "range": {
+        "type": "noEnd",
+        "numberOfOccurrences": 0,
+        "recurrenceTimeZone": null,
+        "startDate": "2020-09-08",
+        "endDate": null
+      }
+    },
+    "decisionHistoriesForReviewersEnabled": true,
+    "applyActions": []
+  },
+  "additionalNotificationRecipients": []
+}
+```
+
+<!--
+{
+  "type": "#page.annotation",
+  "description": "Create accessReviewScheduleDefinition",
+  "keywords": "",
+  "section": "documentation",
+  "tocPath": "",
+  "suppressions": [
   ]
 }
-```
-
-### Example 5: Create an access review on a group with insights about user-to-group affiliation and user sign in for recommendations
-
-The following example creates an access review with the following settings:
-+ The review reviews all members of a group with the **id** `02f3bafb-448c-487c-88c2-5fd65ce49a41`.
-+ A specific user with the user **id** `398164b1-5196-49dd-ada2-364b49f99b27` is the reviewer.
-+ It recurs weekly and continues indefinitely.
-+ Both user-to-group affiliation and user sign in are insights for reviewers.
-
-#### Request
-
-<!-- {
-  "blockType": "request",
-  "name": "create_accessReviewScheduleDefinition_insights"
-}-->
-```http
-POST https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions
-Content-type: application/json
-
-{
-    "displayName": "Test create",
-    "descriptionForAdmins": "New scheduled access review",
-    "descriptionForReviewers": "If you have any questions, contact jerry@contoso.com",
-    "scope": {
-        "@odata.type": "#microsoft.graph.accessReviewQueryScope",
-        "query": "/groups/02f3bafb-448c-487c-88c2-5fd65ce49a41/transitiveMembers",
-        "queryType": "MicrosoftGraph"
-    },
-    "reviewers": [
-        {
-            "query": "/users/398164b1-5196-49dd-ada2-364b49f99b27",
-            "queryType": "MicrosoftGraph"
-        }
-    ],
-    "settings": {
-        "instanceDurationInDays": 1,
-        "recurrence": {
-            "pattern": {
-                "type": "weekly",
-                "interval": 1
-            },
-            "range": {
-                "type": "noEnd",
-                "startDate": "2020-09-08T12:02:30.667Z"
-            }
-        },
-        "recommendationInsightSettings": [
-            {
-                "@odata.type": "#microsoft.graph.userLastSignInRecommendationInsightSetting",
-                "recommendationLookBackDuration": "P30D",
-                "signInScope": "tenant"
-            },
-            {
-                "@odata.type": "#microsoft.graph.groupPeerOutlierRecommendationInsightSettings"
-            }
-        ]
-    }
-}
-```
-
-
-#### Response
->**Note:** The response object shown here might be shortened for readability.
-<!-- {
-  "blockType": "response",
-  "truncated": true,
-  "@odata.type": "microsoft.graph.accessReviewScheduleDefinition"
-} -->
-```http
-HTTP/1.1 201 Created
-Content-type: application/json
-
-{
-  "id": "29f2d16e-9ca6-4052-bbfe-802c48944448",
-  "displayName": "Test create",
-  "createdBy": {
-    "id": "957f1027-c0ee-460d-9269-b8444459e0fe"
-  },
-  "scope": {
-    "@odata.type": "#microsoft.graph.accessReviewQueryScope",
-    "query": "/groups/b74444cb-038a-4802-8fc9-b9d1ed0cf11f/transitiveMembers"
-  },
-  "reviewers": [
-    {
-      "query": "/users/7eae986b-d425-48b2-adf2-3c777f4444f3"
-    }
-  ],
-  "settings": {
-    "recommendationInsightSettings": [
-      {
-        "@odata.type": "#microsoft.graph.userLastSignInRecommendationInsightSetting",
-        "recommendationLookBackDuration": "P30D",
-        "signInScope": "tenant"
-      },
-      {
-        "@odata.type": "#microsoft.graph.groupPeerOutlierRecommendationInsightSettings"
-      }
-    ]
-  }
-}
-```
+-->
