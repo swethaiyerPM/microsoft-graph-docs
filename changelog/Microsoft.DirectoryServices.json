@@ -17,7 +17,7 @@
       "CreatedDateTime": "2023-06-12T00:00:00.077762Z",
       "WorkloadArea": "Application",
       "SubArea": ""
-    },    
+    },
     {
       "ChangeList": [
             {
@@ -194,7 +194,7 @@
     },
     {
       "ChangeList": [
-        { 
+        {
           "Id": "12f096a3-6bd8-49db-8753-24c9272a288b",
           "ApiChange": "Property",
           "ChangedApiName": "isMemberManagementRestricted",
@@ -202,7 +202,7 @@
           "Description": "Added the **isMemberManagementRestricted** property to the [administrativeUnit](https://learn.microsoft.com/en-us/graph/api/resources/administrativeunit?view=graph-rest-beta) resource.",
           "Target": "administrativeUnit"
         },
-        { 
+        {
           "Id": "12f096a3-6bd8-49db-8753-24c9272a288b",
           "ApiChange": "Property",
           "ChangedApiName": "isManagementRestricted",
@@ -210,7 +210,7 @@
           "Description": "Added the **isManagementRestricted** property to the [device](https://learn.microsoft.com/en-us/graph/api/resources/device?view=graph-rest-beta) resource.",
           "Target": "device"
         },
-        { 
+        {
           "Id": "12f096a3-6bd8-49db-8753-24c9272a288b",
           "ApiChange": "Property",
           "ChangedApiName": "isManagementRestricted",
@@ -218,7 +218,7 @@
           "Description": "Added the **isManagementRestricted** property to the [group](https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-beta) resource.",
           "Target": "group"
         },
-        { 
+        {
           "Id": "12f096a3-6bd8-49db-8753-24c9272a288b",
           "ApiChange": "Property",
           "ChangedApiName": "isManagementRestricted",
@@ -13785,6 +13785,24 @@
       "CreatedDateTime": "2023-05-15T08:54:08.6528325Z",
       "WorkloadArea": "Users",
       "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "56cdbd29-fbd8-4f13-b0fe-8b85c84207ab",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesSyncStatus",
+          "ChangeType": "Addition",
+          "Description": "Added the `onPremisesSyncStatus` property to the [organization](https://learn.microsoft.com/en-us/graph/api/resources/organization?view=graph-rest-1.0) resource.",
+          "Target": "organization"
+        }
+      ],
+      "Id": "56cdbd29-fbd8-4f13-b0fe-8b85c84207ab",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2023-06-14T19:36:18.7892237Z",
+      "WorkloadArea": "Identity and access",
+      "SubArea": "Directory management"
     }
   ]
 }
