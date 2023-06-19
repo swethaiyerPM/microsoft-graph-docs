@@ -18,7 +18,7 @@ var requestBody = new Microsoft.Graph.Models.Security.RetentionEvent
 	{
 		OdataType = "microsoft.graph.identitySet",
 	},
-	EventPropagationResults = new List<Microsoft.Graph.Models.Security.EventPropagationResult>
+	EventPropagationResults = new List<EventPropagationResult>
 	{
 		new Microsoft.Graph.Models.Security.EventPropagationResult
 		{

@@ -51,10 +51,9 @@ additionalData := map[string]interface{}{
 }
 userMatchingSetting1.SetAdditionalData(additionalData)
 
-userMatchingSettings := []graphmodelsindustrydata.UserMatchingSettingable {
+userMatchingSettings := []graphmodels.UserMatchingSettingable {
 	userMatchingSetting,
 	userMatchingSetting1,
-
 }
 requestBody.SetUserMatchingSettings(userMatchingSettings)
 

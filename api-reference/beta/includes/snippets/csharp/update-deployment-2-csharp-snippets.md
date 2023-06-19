@@ -16,7 +16,7 @@ var requestBody = new Microsoft.Graph.Beta.Models.WindowsUpdates.Deployment
 		OdataType = "microsoft.graph.windowsUpdates.deploymentSettings",
 		Monitoring = new Microsoft.Graph.Beta.Models.WindowsUpdates.MonitoringSettings
 		{
-			MonitoringRules = new List<Microsoft.Graph.Beta.Models.WindowsUpdates.MonitoringRule>
+			MonitoringRules = new List<MonitoringRule>
 			{
 				new Microsoft.Graph.Beta.Models.WindowsUpdates.MonitoringRule
 				{

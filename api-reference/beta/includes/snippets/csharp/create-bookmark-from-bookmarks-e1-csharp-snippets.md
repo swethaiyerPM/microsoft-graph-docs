@@ -32,7 +32,7 @@ var requestBody = new Microsoft.Graph.Beta.Models.Search.Bookmark
 	{
 		DevicePlatformType.Android,
 	},
-	TargetedVariations = new List<Microsoft.Graph.Beta.Models.Search.AnswerVariant>
+	TargetedVariations = new List<AnswerVariant>
 	{
 		new Microsoft.Graph.Beta.Models.Search.AnswerVariant
 		{

@@ -26,9 +26,8 @@ requestBody.SetDescription(&description)
 
 eventQuery := graphmodelssecurity.NewEventQuery()
 
-eventQueries := []graphmodelssecurity.EventQueryable {
+eventQueries := []graphmodels.EventQueryable {
 	eventQuery,
-
 }
 requestBody.SetEventQueries(eventQueries)
 eventTriggerDateTime , err := time.Parse(time.RFC3339, "String (timestamp)")
@@ -39,9 +38,8 @@ requestBody.SetCreatedBy(createdBy)
 
 eventPropagationResult := graphmodelssecurity.NewEventPropagationResult()
 
-eventPropagationResults := []graphmodelssecurity.EventPropagationResultable {
+eventPropagationResults := []graphmodels.EventPropagationResultable {
 	eventPropagationResult,
-
 }
 requestBody.SetEventPropagationResults(eventPropagationResults)
 eventStatus := graphmodelssecurity.NewRetentionEventStatus()

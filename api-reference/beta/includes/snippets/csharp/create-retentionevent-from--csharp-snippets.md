@@ -13,7 +13,7 @@ var requestBody = new Microsoft.Graph.Beta.Models.Security.RetentionEvent
 	OdataType = "#microsoft.graph.security.retentionEvent",
 	DisplayName = "String",
 	Description = "String",
-	EventQueries = new List<Microsoft.Graph.Beta.Models.Security.EventQuery>
+	EventQueries = new List<EventQuery>
 	{
 		new Microsoft.Graph.Beta.Models.Security.EventQuery
 		{
@@ -25,7 +25,7 @@ var requestBody = new Microsoft.Graph.Beta.Models.Security.RetentionEvent
 	{
 		OdataType = "microsoft.graph.identitySet",
 	},
-	EventPropagationResults = new List<Microsoft.Graph.Beta.Models.Security.EventPropagationResult>
+	EventPropagationResults = new List<EventPropagationResult>
 	{
 		new Microsoft.Graph.Beta.Models.Security.EventPropagationResult
 		{

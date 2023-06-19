@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var requestBody = new Microsoft.Graph.Models.TermStore.Term
 {
-	Labels = new List<Microsoft.Graph.Models.TermStore.LocalizedLabel>
+	Labels = new List<LocalizedLabel>
 	{
 		new Microsoft.Graph.Models.TermStore.LocalizedLabel
 		{

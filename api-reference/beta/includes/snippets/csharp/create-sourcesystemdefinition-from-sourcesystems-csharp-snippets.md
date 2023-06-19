@@ -11,7 +11,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 var requestBody = new Microsoft.Graph.Beta.Models.IndustryData.SourceSystemDefinition
 {
 	DisplayName = "Rostering source",
-	UserMatchingSettings = new List<Microsoft.Graph.Beta.Models.IndustryData.UserMatchingSetting>
+	UserMatchingSettings = new List<UserMatchingSetting>
 	{
 		new Microsoft.Graph.Beta.Models.IndustryData.UserMatchingSetting
 		{

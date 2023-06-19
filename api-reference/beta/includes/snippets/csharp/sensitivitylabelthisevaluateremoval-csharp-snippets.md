@@ -15,7 +15,7 @@ var requestBody = new Microsoft.Graph.Beta.Users.Item.Security.InformationProtec
 		OdataType = "#microsoft.graph.security.contentInfo",
 		Identifier = null,
 		State = Microsoft.Graph.Beta.Models.Security.ContentState.Rest,
-		Metadata = new List<Microsoft.Graph.Beta.Models.Security.KeyValuePair>
+		Metadata = new List<KeyValuePair>
 		{
 			new Microsoft.Graph.Beta.Models.Security.KeyValuePair
 			{

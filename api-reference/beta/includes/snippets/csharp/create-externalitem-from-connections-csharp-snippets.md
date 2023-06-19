@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var requestBody = new Microsoft.Graph.Beta.Models.ExternalConnectors.ExternalItem
 {
-	Acl = new List<Microsoft.Graph.Beta.Models.ExternalConnectors.Acl>
+	Acl = new List<Acl>
 	{
 		new Microsoft.Graph.Beta.Models.ExternalConnectors.Acl
 		{

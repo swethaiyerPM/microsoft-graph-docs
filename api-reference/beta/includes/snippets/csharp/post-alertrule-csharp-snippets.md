@@ -23,7 +23,7 @@ var requestBody = new Microsoft.Graph.Beta.Models.DeviceManagement.AlertRule
 		Operator = Microsoft.Graph.Beta.Models.DeviceManagement.OperatorType.GreaterOrEqual,
 		Target = 90,
 	},
-	NotificationChannels = new List<Microsoft.Graph.Beta.Models.DeviceManagement.NotificationChannel>
+	NotificationChannels = new List<NotificationChannel>
 	{
 		new Microsoft.Graph.Beta.Models.DeviceManagement.NotificationChannel
 		{
@@ -43,7 +43,7 @@ var requestBody = new Microsoft.Graph.Beta.Models.DeviceManagement.AlertRule
 			{
 				"serena.davis@contoso.com",
 			},
-			NotificationReceivers = new List<Microsoft.Graph.Beta.Models.DeviceManagement.NotificationReceiver>
+			NotificationReceivers = new List<NotificationReceiver>
 			{
 				new Microsoft.Graph.Beta.Models.DeviceManagement.NotificationReceiver
 				{

@@ -11,9 +11,9 @@ var graphClient = new GraphServiceClient(requestAdapter);
 var requestBody = new Microsoft.Graph.Beta.Admin.Windows.Updates.UpdatableAssets.MicrosoftGraphWindowsUpdatesUnenrollAssets.UnenrollAssetsPostRequestBody
 {
 	UpdateCategory = Microsoft.Graph.Beta.Models.WindowsUpdates.UpdateCategory.Feature,
-	Assets = new List<Microsoft.Graph.Beta.Models.WindowsUpdates.UpdatableAsset>
+	Assets = new List<UpdatableAsset>
 	{
-		new Microsoft.Graph.Beta.Models.WindowsUpdates.UpdatableAsset
+		new Microsoft.Graph.Beta.Models.WindowsUpdates.AzureADDevice
 		{
 			OdataType = "#microsoft.graph.windowsUpdates.azureADDevice",
 			Id = "String (identifier)",

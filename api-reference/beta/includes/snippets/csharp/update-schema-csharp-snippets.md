@@ -11,7 +11,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 var requestBody = new Microsoft.Graph.Beta.Models.ExternalConnectors.Schema
 {
 	BaseType = "microsoft.graph.externalItem",
-	Properties = new List<Microsoft.Graph.Beta.Models.ExternalConnectors.Property>
+	Properties = new List<Property>
 	{
 		new Microsoft.Graph.Beta.Models.ExternalConnectors.Property
 		{

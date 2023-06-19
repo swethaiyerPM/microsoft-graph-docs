@@ -10,7 +10,7 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var requestBody = new Microsoft.Graph.Connections.Item.Items.Item.MicrosoftGraphExternalConnectorsAddActivities.AddActivitiesPostRequestBody
 {
-	Activities = new List<Microsoft.Graph.Models.ExternalConnectors.ExternalActivity>
+	Activities = new List<ExternalActivity>
 	{
 		new Microsoft.Graph.Models.ExternalConnectors.ExternalActivity
 		{
