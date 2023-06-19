@@ -27,12 +27,12 @@ requestBody := graphmodels.NewCustomSecurityAttributeDefinition()
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "Baker"
 .SetId(&id) 
 isActive := false
 .SetIsActive(&isActive) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "Skagit"
 .SetId(&id) 
 isActive := true
@@ -41,7 +41,6 @@ isActive := true
 	allowedValues@delta := []graphmodels.Objectable {
 		,
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

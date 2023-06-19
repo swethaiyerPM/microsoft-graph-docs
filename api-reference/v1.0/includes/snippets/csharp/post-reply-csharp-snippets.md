@@ -59,9 +59,9 @@ var requestBody = new Microsoft.Graph.Groups.Item.Threads.Item.Posts.Item.Reply.
 		InReplyTo = new Post
 		{
 		},
-		Attachments = new List<Attachment>
+		Attachments = new List<FileAttachment>
 		{
-			new Attachment
+			new FileAttachment
 			{
 				OdataType = "#microsoft.graph.fileAttachment",
 				LastModifiedDateTime = DateTimeOffset.Parse("datetime-value"),

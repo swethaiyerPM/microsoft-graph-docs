@@ -17,9 +17,9 @@ var requestBody = new Microsoft.Graph.Groups.Item.Threads.Item.Reply.ReplyPostRe
 			ContentType = BodyType.Text,
 			Content = "I attached a reference to a file on OneDrive.",
 		},
-		Attachments = new List<Attachment>
+		Attachments = new List<ReferenceAttachment>
 		{
-			new Attachment
+			new ReferenceAttachment
 			{
 				OdataType = "#microsoft.graph.referenceAttachment",
 				Name = "Personal pictures",

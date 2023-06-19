@@ -19,13 +19,12 @@ graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes
 requestBody := graphadmin.NewRemoveMembersPostRequestBody()
 
 
-updatableAsset := graphmodelswindowsupdates.NewUpdatableAsset()
+updatableAsset := graphmodelswindowsupdates.NewAzureADDevice()
 id := "String (identifier)"
 updatableAsset.SetId(&id) 
 
-assets := []graphadmin.Objectable {
+assets := []graphmodels.Objectable {
 	updatableAsset,
-
 }
 requestBody.SetAssets(assets)
 

@@ -37,10 +37,9 @@ acl1.SetAccessType(&accessType)
 identitySource := graphmodels.EXTERNAL_IDENTITYSOURCETYPE 
 acl1.SetIdentitySource(&identitySource) 
 
-acl := []graphmodelsexternalconnectors.Aclable {
+acl := []graphmodels.Aclable {
 	acl,
 	acl1,
-
 }
 requestBody.SetAcl(acl)
 properties := graphmodelsexternalconnectors.NewProperties()

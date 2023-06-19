@@ -17,18 +17,13 @@ var requestBody = new Microsoft.Graph.Beta.Groups.Item.Threads.Item.Reply.ReplyP
 			ContentType = BodyType.Text,
 			Content = "Which quarter does that file cover? See my attachment.",
 		},
-		Attachments = new List<Attachment>
+		Attachments = new List<FileAttachment>
 		{
-			new Attachment
+			new FileAttachment
 			{
 				OdataType = "#microsoft.graph.fileAttachment",
 				Name = "Another file as attachment",
-				AdditionalData = new Dictionary<string, object>
-				{
-					{
-						"contentBytes" , "VGhpcyBpcyBhIGZpbGUgdG8gYmUgYXR0YWNoZWQu"
-					},
-				},
+				ContentBytes = Convert.FromBase64String("VGhpcyBpcyBhIGZpbGUgdG8gYmUgYXR0YWNoZWQu"),
 			},
 		},
 	},

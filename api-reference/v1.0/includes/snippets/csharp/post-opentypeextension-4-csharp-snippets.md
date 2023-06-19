@@ -17,16 +17,14 @@ var requestBody = new Microsoft.Graph.Groups.Item.Threads.Item.Posts.Item.Reply.
 			ContentType = BodyType.Html,
 			Content = "<html><body><div><div><div><div>When and where? </div></div></div></div></body></html>",
 		},
-		Extensions = new List<Extension>
+		Extensions = new List<OpenTypeExtension>
 		{
-			new Extension
+			new OpenTypeExtension
 			{
 				OdataType = "microsoft.graph.openTypeExtension",
+				ExtensionName = "Com.Contoso.HR",
 				AdditionalData = new Dictionary<string, object>
 				{
-					{
-						"extensionName" , "Com.Contoso.HR"
-					},
 					{
 						"companyName" , "Contoso"
 					},

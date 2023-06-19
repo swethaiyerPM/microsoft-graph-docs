@@ -13,9 +13,9 @@ var requestBody = new Channel
 	DisplayName = "My First Shared Channel",
 	Description = "This is my first shared channel",
 	MembershipType = ChannelMembershipType.Shared,
-	Members = new List<ConversationMember>
+	Members = new List<AadUserConversationMember>
 	{
-		new ConversationMember
+		new AadUserConversationMember
 		{
 			OdataType = "#microsoft.graph.aadUserConversationMember",
 			Roles = new List<string>

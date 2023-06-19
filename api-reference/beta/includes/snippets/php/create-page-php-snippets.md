@@ -120,7 +120,7 @@ $	properties->setAlignment('Center');
 
 $webpartsWebPart1->setProperties($properties);
 $serverProcessedContent = new ServerProcessedContent();
-$imageSources1 = new ();
+$imageSources1 = new Object();
 $	imageSources1->setKey('imageSource');
 
 $	imageSources1->setValue('/_LAYOUTS/IMAGES/VISUALTEMPLATEIMAGE1.JPG');
@@ -130,7 +130,7 @@ $imageSourcesArray []= $imageSources1;
 $serverProcessedContent->setImageSources($imageSourcesArray);
 
 
-$customMetadata1 = new ();
+$customMetadata1 = new Object();
 $customMetadata1->setKey('imageSource');
 
 $customMetadata1Value = new Value();

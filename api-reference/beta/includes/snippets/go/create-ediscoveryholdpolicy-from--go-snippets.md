@@ -23,17 +23,16 @@ requestBody.SetDescription(&description)
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 email := "SalesTeam@M365x809305.OnMicrosoft.com"
 .SetEmail(&email) 
 
 	odataBind := []graphmodels.Objectable {
 		,
-
 	}
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 site := graphmodels.New()
 webUrl := "https://m365x809305.sharepoint.com/sites/Design-topsecret"
 site.SetWebUrl(&webUrl) 
@@ -41,7 +40,6 @@ site.SetWebUrl(&webUrl)
 
 	odataBind := []graphmodels.Objectable {
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

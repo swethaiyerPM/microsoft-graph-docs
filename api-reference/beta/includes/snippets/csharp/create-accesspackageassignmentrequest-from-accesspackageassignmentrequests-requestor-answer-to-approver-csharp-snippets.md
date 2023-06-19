@@ -17,36 +17,26 @@ var requestBody = new AccessPackageAssignmentRequest
 		AssignmentPolicyId = "2264bf65-76ba-417b-a27d-54d291f0cbc8",
 		AccessPackageId = "a914b616-e04e-476b-aa37-91038f0b165b",
 	},
-	Answers = new List<AccessPackageAnswer>
+	Answers = new List<AccessPackageAnswerString>
 	{
-		new AccessPackageAnswer
+		new AccessPackageAnswerString
 		{
 			OdataType = "#microsoft.graph.accessPackageAnswerString",
-			AnsweredQuestion = new AccessPackageQuestion
+			Value = "Arizona",
+			AnsweredQuestion = new AccessPackageMultipleChoiceQuestion
 			{
 				OdataType = "#microsoft.graph.accessPackageMultipleChoiceQuestion",
 				Id = "A714EC6F-4EE0-4614-BD81-37E0C5ECBBFF",
 			},
-			AdditionalData = new Dictionary<string, object>
-			{
-				{
-					"value" , "Arizona"
-				},
-			},
 		},
-		new AccessPackageAnswer
+		new AccessPackageAnswerString
 		{
 			OdataType = "#microsoft.graph.accessPackageAnswerString",
-			AnsweredQuestion = new AccessPackageQuestion
+			Value = "Need access to marketing campaign material",
+			AnsweredQuestion = new AccessPackageTextInputQuestion
 			{
 				OdataType = "#microsoft.graph.accessPackageTextInputQuestion",
 				Id = "AA615EE9-D9D8-4C03-BE91-BEE37106DEDA",
-			},
-			AdditionalData = new Dictionary<string, object>
-			{
-				{
-					"value" , "Need access to marketing campaign material"
-				},
 			},
 		},
 	},

@@ -10,9 +10,9 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var requestBody = new Microsoft.Graph.Beta.Teams.Item.Members.Add.AddPostRequestBody
 {
-	Values = new List<ConversationMember>
+	Values = new List<AadUserConversationMember>
 	{
-		new ConversationMember
+		new AadUserConversationMember
 		{
 			OdataType = "microsoft.graph.aadUserConversationMember",
 			Roles = new List<String>
@@ -25,7 +25,7 @@ var requestBody = new Microsoft.Graph.Beta.Teams.Item.Members.Add.AddPostRequest
 				},
 			},
 		},
-		new ConversationMember
+		new AadUserConversationMember
 		{
 			OdataType = "microsoft.graph.aadUserConversationMember",
 			Roles = new List<string>
