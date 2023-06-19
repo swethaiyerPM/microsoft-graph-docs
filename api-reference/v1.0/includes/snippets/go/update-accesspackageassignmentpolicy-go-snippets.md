@@ -80,7 +80,6 @@ subjectSet.SetAdditionalData(additionalData)
 
 primaryApprovers := []graphmodels.SubjectSetable {
 	subjectSet,
-
 }
 accessPackageApprovalStage.SetPrimaryApprovers(primaryApprovers)
 
@@ -94,7 +93,6 @@ subjectSet.SetAdditionalData(additionalData)
 
 fallbackPrimaryApprovers := []graphmodels.SubjectSetable {
 	subjectSet,
-
 }
 accessPackageApprovalStage.SetFallbackPrimaryApprovers(fallbackPrimaryApprovers)
 escalationApprovers := []graphmodels.SubjectSetable {
@@ -108,7 +106,6 @@ accessPackageApprovalStage.SetFallbackEscalationApprovers(fallbackEscalationAppr
 
 stages := []graphmodels.AccessPackageApprovalStageable {
 	accessPackageApprovalStage,
-
 }
 requestApprovalSettings.SetStages(stages)
 requestBody.SetRequestApprovalSettings(requestApprovalSettings)

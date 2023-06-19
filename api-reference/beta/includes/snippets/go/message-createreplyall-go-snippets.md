@@ -16,7 +16,7 @@ import (
 graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphusers.NewCreateReplyAllPostRequestBody()
+requestBody := graphusers.NewItemCreateReplyAllPostRequestBody()
 message := graphmodels.NewMessage()
 
 
@@ -30,7 +30,6 @@ attachment.SetAdditionalData(additionalData)
 
 attachments := []graphmodels.Attachmentable {
 	attachment,
-
 }
 message.SetAttachments(attachments)
 requestBody.SetMessage(message)

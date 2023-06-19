@@ -47,7 +47,6 @@ accessReviewReviewerScope.SetQueryType(&queryType)
 
 reviewers := []graphmodels.Objectable {
 	accessReviewReviewerScope,
-
 }
 requestBody.SetReviewers(reviewers)
 
@@ -60,7 +59,6 @@ accessReviewReviewerScope.SetQueryType(&queryType)
 
 fallbackReviewers := []graphmodels.Objectable {
 	accessReviewReviewerScope,
-
 }
 requestBody.SetFallbackReviewers(fallbackReviewers)
 settings := graphmodels.NewAccessReviewScheduleSettings()

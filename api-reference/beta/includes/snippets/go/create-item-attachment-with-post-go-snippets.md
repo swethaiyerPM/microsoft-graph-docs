@@ -57,7 +57,6 @@ attachment.SetAdditionalData(additionalData)
 
 attachments := []graphmodels.Attachmentable {
 	attachment,
-
 }
 post.SetAttachments(attachments)
 requestBody.SetPost(post)

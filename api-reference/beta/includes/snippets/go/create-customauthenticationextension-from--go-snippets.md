@@ -43,17 +43,16 @@ requestBody.SetClientConfiguration(clientConfiguration)
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 claimIdInApiResponse := "DateOfBirth"
 .SetClaimIdInApiResponse(&claimIdInApiResponse) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 claimIdInApiResponse := "CustomRoles"
 .SetClaimIdInApiResponse(&claimIdInApiResponse) 
 
 	claimsForTokenConfiguration := []graphmodels.Objectable {
 		,
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

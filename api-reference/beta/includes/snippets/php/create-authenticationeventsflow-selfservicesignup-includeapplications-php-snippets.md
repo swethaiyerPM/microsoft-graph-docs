@@ -32,7 +32,7 @@ $additionalData = [
 	'onAuthenticationMethodLoadStart' => $requestBody = new OnAuthenticationMethodLoadStart();
 $	requestBody->set@odatatype('#microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp');
 
-$identityProviders1 = new ();
+$identityProviders1 = new Object();
 $	identityProviders1->setId('EmailPassword-OAUTH');
 
 
@@ -54,7 +54,7 @@ $requestBody->setOnInteractiveAuthFlowStart($onInteractiveAuthFlowStart);
 'onAttributeCollection' => $requestBody = new OnAttributeCollection();
 $requestBody->set@odatatype('#microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp');
 
-$attributes1 = new ();
+$attributes1 = new Object();
 $attributes1->setId('email');
 
 $attributes1->setDisplayName('Email Address');
@@ -67,7 +67,7 @@ $attributes1->setDataType('string');
 
 
 $attributesArray []= $attributes1;
-$attributes2 = new ();
+$attributes2 = new Object();
 $attributes2->setId('displayName');
 
 $attributes2->setDisplayName('Display Name');
@@ -84,8 +84,8 @@ $requestBody->setAttributes($attributesArray);
 
 
 $attributeCollectionPage = new AttributeCollectionPage();
-$views1 = new ();
-$inputs1 = new ();
+$views1 = new Object();
+$inputs1 = new Object();
 $inputs1->setAttribute('email');
 
 $inputs1->setLabel('Email Address');
@@ -104,7 +104,7 @@ $inputs1->setValidationRegEx('^[a-zA-Z0-9.!#$%&amp;&#8217;\'*+/=?^_`{|}~-]+@[a-z
 
 
 $inputsArray []= $inputs1;
-$inputs2 = new ();
+$inputs2 = new Object();
 $inputs2->setAttribute('displayName');
 
 $inputs2->setLabel('Display Name');

@@ -22,14 +22,14 @@ var requestBody = new Call
 		AdditionalData = new Dictionary<string, object>
 		{
 			{
-				"preFetchMedia" , new List<>
+				"preFetchMedia" , new List<ObjectObject>
 				{
-					new 
+					new ObjectObject
 					{
 						Uri = "https://cdn.contoso.com/beep.wav",
 						ResourceId = "f8971b04-b53e-418c-9222-c82ce681a582",
 					},
-					new 
+					new ObjectObject
 					{
 						Uri = "https://cdn.contoso.com/cool.wav",
 						ResourceId = "86dc814b-c172-4428-9112-60f8ecae1edb",

@@ -16,14 +16,14 @@ $requestBody->setDisplayName('Untrusted IP named location');
 
 $additionalData = [
 		'isTrusted' => false,
-		'ipRanges' => $ipRanges1 = new ();
+		'ipRanges' => $ipRanges1 = new Object();
 $		ipRanges1->set@odatatype('#microsoft.graph.iPv4CidrRange');
 
 $		ipRanges1->setCidrAddress('12.34.221.11/22');
 
 
 $ipRangesArray []= $ipRanges1;
-$ipRanges2 = new ();
+$ipRanges2 = new Object();
 $		ipRanges2->set@odatatype('#microsoft.graph.iPv6CidrRange');
 
 $		ipRanges2->setCidrAddress('2001:0:9d38:90d6:0:0:0:0/63');

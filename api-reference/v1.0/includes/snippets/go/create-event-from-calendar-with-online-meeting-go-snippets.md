@@ -54,7 +54,6 @@ attendee.SetType(&type)
 
 attendees := []graphmodels.Objectable {
 	attendee,
-
 }
 requestBody.SetAttendees(attendees)
 isOnlineMeeting := true

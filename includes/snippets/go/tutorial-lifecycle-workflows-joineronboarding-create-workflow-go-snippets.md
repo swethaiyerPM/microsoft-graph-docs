@@ -66,16 +66,14 @@ keyValuePair1.SetName(&name)
 value := "true"
 keyValuePair1.SetValue(&value) 
 
-arguments := []graphmodelsidentitygovernance.KeyValuePairable {
+arguments := []graphmodels.KeyValuePairable {
 	keyValuePair,
 	keyValuePair1,
-
 }
 task.SetArguments(arguments)
 
-tasks := []graphmodelsidentitygovernance.Taskable {
+tasks := []graphmodels.Taskable {
 	task,
-
 }
 requestBody.SetTasks(tasks)
 

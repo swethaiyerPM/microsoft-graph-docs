@@ -20,15 +20,15 @@ var requestBody = new AuthenticationEventsFlow
 				AttributeCollectionPage = new 
 				{
 					CustomStringsFileId = null,
-					Views = new List<>
+					Views = new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
 							Title = null,
 							Description = null,
-							Inputs = new List<>
+							Inputs = new List<ObjectObject>
 							{
-								new 
+								new ObjectObject
 								{
 									Attribute = "email",
 									Label = "Email Address",
@@ -43,7 +43,7 @@ var requestBody = new AuthenticationEventsFlow
 									{
 									},
 								},
-								new 
+								new ObjectObject
 								{
 									Attribute = "displayName",
 									Label = "Display Name",
@@ -58,7 +58,7 @@ var requestBody = new AuthenticationEventsFlow
 									{
 									},
 								},
-								new 
+								new ObjectObject
 								{
 									Attribute = "extension_6ea3bc85aec24b1c92ff4a117afb6621_Favoritecolor",
 									Label = "Favorite color",

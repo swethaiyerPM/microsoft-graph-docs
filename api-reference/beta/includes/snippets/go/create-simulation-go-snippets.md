@@ -32,7 +32,6 @@ includedAccountTarget.SetType(&type)
 additionalData := map[string]interface{}{
 	accountTargetEmails := []string {
 		"john@contoso.com",
-
 	}
 }
 includedAccountTarget.SetAdditionalData(additionalData)

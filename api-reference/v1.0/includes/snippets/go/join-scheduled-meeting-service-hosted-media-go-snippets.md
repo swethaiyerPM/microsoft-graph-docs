@@ -20,20 +20,19 @@ callbackUri := "https://bot.contoso.com/callback"
 requestBody.SetCallbackUri(&callbackUri) 
 requestedModalities := []graphmodels.Modalityable {
 	modality := graphmodels.AUDIO_MODALITY 
-	requestBody.SetModality(&modality) 
-
+	requestBody.SetModality(&modality)
 }
 requestBody.SetRequestedModalities(requestedModalities)
 mediaConfig := graphmodels.NewMediaConfig()
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 uri := "https://cdn.contoso.com/beep.wav"
 .SetUri(&uri) 
 resourceId := "f8971b04-b53e-418c-9222-c82ce681a582"
 .SetResourceId(&resourceId) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 uri := "https://cdn.contoso.com/cool.wav"
 .SetUri(&uri) 
 resourceId := "86dc814b-c172-4428-9112-60f8ecae1edb"
@@ -42,7 +41,6 @@ resourceId := "86dc814b-c172-4428-9112-60f8ecae1edb"
 	preFetchMedia := []graphmodels.Objectable {
 		,
 		,
-
 	}
 }
 mediaConfig.SetAdditionalData(additionalData)

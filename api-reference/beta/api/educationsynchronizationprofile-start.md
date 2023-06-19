@@ -71,10 +71,6 @@ POST https://graph.microsoft.com/beta/education/synchronizationProfiles/{id}/sta
 [!INCLUDE [sample-code](../includes/snippets/go/post-educationsynchronizationprofile-start-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/post-educationsynchronizationprofile-start-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [PHP](#tab/php)
 [!INCLUDE [sample-code](../includes/snippets/php/post-educationsynchronizationprofile-start-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]

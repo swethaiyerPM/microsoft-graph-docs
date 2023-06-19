@@ -77,13 +77,11 @@ userSet1.SetIsBackup(&isBackup)
 primaryApprovers := []graphmodels.UserSetable {
 	userSet,
 	userSet1,
-
 }
 approvalStage.SetPrimaryApprovers(primaryApprovers)
 
 approvalStages := []graphmodels.ApprovalStageable {
 	approvalStage,
-
 }
 requestApprovalSettings.SetApprovalStages(approvalStages)
 requestBody.SetRequestApprovalSettings(requestApprovalSettings)
@@ -105,20 +103,19 @@ accessPackageLocalizedText.SetLanguageCode(&languageCode)
 
 localizedTexts := []graphmodels.AccessPackageLocalizedTextable {
 	accessPackageLocalizedText,
-
 }
 text.SetLocalizedTexts(localizedTexts)
 accessPackageQuestion.SetText(text)
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 actualValue := "AZ"
 .SetActualValue(&actualValue) 
 displayValue := graphmodels.New()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 text := "Arizona"
 .SetText(&text) 
 languageCode := "es"
@@ -126,17 +123,16 @@ languageCode := "es"
 
 localizedTexts := []graphmodels.Objectable {
 	,
-
 }
 displayValue.SetLocalizedTexts(localizedTexts)
 .SetDisplayValue(displayValue)
- := graphmodels.New()
+ := graphmodels.NewObject()
 actualValue := "CA"
 .SetActualValue(&actualValue) 
 displayValue := graphmodels.New()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 text := "California"
 .SetText(&text) 
 languageCode := "es"
@@ -144,7 +140,6 @@ languageCode := "es"
 
 localizedTexts := []graphmodels.Objectable {
 	,
-
 }
 displayValue.SetLocalizedTexts(localizedTexts)
 .SetDisplayValue(displayValue)
@@ -152,7 +147,6 @@ displayValue.SetLocalizedTexts(localizedTexts)
 	choices := []graphmodels.Objectable {
 		,
 		,
-
 	}
 	allowsMultipleSelection := false
 accessPackageQuestion.SetAllowsMultipleSelection(&allowsMultipleSelection) 
@@ -174,7 +168,6 @@ accessPackageLocalizedText.SetLanguageCode(&languageCode)
 
 localizedTexts := []graphmodels.AccessPackageLocalizedTextable {
 	accessPackageLocalizedText,
-
 }
 text.SetLocalizedTexts(localizedTexts)
 accessPackageQuestion1.SetText(text)
@@ -187,7 +180,6 @@ accessPackageQuestion1.SetAdditionalData(additionalData)
 questions := []graphmodels.AccessPackageQuestionable {
 	accessPackageQuestion,
 	accessPackageQuestion1,
-
 }
 requestBody.SetQuestions(questions)
 

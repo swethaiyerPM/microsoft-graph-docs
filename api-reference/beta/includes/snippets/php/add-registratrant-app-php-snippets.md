@@ -16,14 +16,14 @@ $additionalData = [
 		'firstName' => 'Lisa', 
 		'lastName' => 'Adkins', 
 		'email' => 'lisa.adkins@contoso.com', 
-		'customQuestionAnswers' => $customQuestionAnswers1 = new ();
+		'customQuestionAnswers' => $customQuestionAnswers1 = new Object();
 $		customQuestionAnswers1->setQuestionId('MSM5YjlmM2Q4ZS03ZmVkLTRmN3gwMDIw94MDAyMF9hX3gwMDIwX2RldmU=');
 
 $		customQuestionAnswers1->setValue('No');
 
 
 $customQuestionAnswersArray []= $customQuestionAnswers1;
-$customQuestionAnswers2 = new ();
+$customQuestionAnswers2 = new Object();
 $		customQuestionAnswers2->setQuestionId('MSM5M2E2OWQ1Ni1jZTc4LTQDAwMjBfZGlkX3gwMDIwX3lvdV94MDAyMF8=');
 
 $		customQuestionAnswers2->setValue('Internet');

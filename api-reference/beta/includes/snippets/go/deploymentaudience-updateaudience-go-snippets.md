@@ -23,9 +23,8 @@ updatableAsset := graphmodelswindowsupdates.NewUpdatableAsset()
 id := "String (identifier)"
 updatableAsset.SetId(&id) 
 
-addMembers := []graphadmin.Objectable {
+addMembers := []graphmodels.Objectable {
 	updatableAsset,
-
 }
 requestBody.SetAddMembers(addMembers)
 

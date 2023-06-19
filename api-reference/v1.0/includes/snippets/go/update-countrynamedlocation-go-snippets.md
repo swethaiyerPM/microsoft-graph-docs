@@ -22,7 +22,6 @@ additionalData := map[string]interface{}{
 	countriesAndRegions := []string {
 		"CA",
 		"IN",
-
 	}
 	includeUnknownCountriesAndRegions := false
 requestBody.SetIncludeUnknownCountriesAndRegions(&includeUnknownCountriesAndRegions) 

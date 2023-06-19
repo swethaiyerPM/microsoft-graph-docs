@@ -22,13 +22,13 @@ additionalData := map[string]interface{}{
 onAuthenticationMethodLoadStart := graphmodels.New()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "EmailPassword-OAUTH"
 .SetId(&id) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "Google-OAUTH"
 .SetId(&id) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "Facebook-OAUTH"
 .SetId(&id) 
 
@@ -36,7 +36,6 @@ id := "Facebook-OAUTH"
 		,
 		,
 		,
-
 	}
 	onAuthenticationMethodLoadStart.SetIdentityProviders(identityProviders)
 	requestBody.SetOnAuthenticationMethodLoadStart(onAuthenticationMethodLoadStart)
@@ -47,7 +46,7 @@ onInteractiveAuthFlowStart.SetIsSignUpAllowed(&isSignUpAllowed)
 onAttributeCollection := graphmodels.New()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "email"
 .SetId(&id) 
 displayName := "Email Address"
@@ -58,7 +57,7 @@ userFlowAttributeType := "builtIn"
 .SetUserFlowAttributeType(&userFlowAttributeType) 
 dataType := "string"
 .SetDataType(&dataType) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "displayName"
 .SetId(&id) 
 displayName := "Display Name"
@@ -69,7 +68,7 @@ userFlowAttributeType := "builtIn"
 .SetUserFlowAttributeType(&userFlowAttributeType) 
 dataType := "string"
 .SetDataType(&dataType) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "extension_6ea3bc85aec24b1c92ff4a117afb6621_Favoritecolor"
 .SetId(&id) 
 displayName := "Favorite color"
@@ -85,16 +84,15 @@ dataType := "string"
 		,
 		,
 		,
-
 	}
 	onAttributeCollection.SetAttributes(attributes)
 attributeCollectionPage := graphmodels.New()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 attribute := "email"
 .SetAttribute(&attribute) 
 label := "Email Address"
@@ -111,7 +109,7 @@ required := true
 .SetRequired(&required) 
 validationRegEx := "^[a-zA-Z0-9.!#$%&amp;&#8217;'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$"
 .SetValidationRegEx(&validationRegEx) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 attribute := "displayName"
 .SetAttribute(&attribute) 
 label := "Display Name"
@@ -128,7 +126,7 @@ required := false
 .SetRequired(&required) 
 validationRegEx := "^[a-zA-Z_][0-9a-zA-Z_ ]*[0-9a-zA-Z_]+$"
 .SetValidationRegEx(&validationRegEx) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 attribute := "extension_6ea3bc85aec24b1c92ff4a117afb6621_Favoritecolor"
 .SetAttribute(&attribute) 
 label := "Favorite color"
@@ -150,13 +148,11 @@ inputs := []graphmodels.Objectable {
 	,
 	,
 	,
-
 }
 .SetInputs(inputs)
 
 	views := []graphmodels.Objectable {
 		,
-
 	}
 	attributeCollectionPage.SetViews(views)
 	onAttributeCollection.SetAttributeCollectionPage(attributeCollectionPage)

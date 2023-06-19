@@ -39,7 +39,6 @@ accessReviewReviewerScope.SetQueryType(&queryType)
 
 reviewers := []graphmodels.Objectable {
 	accessReviewReviewerScope,
-
 }
 requestBody.SetReviewers(reviewers)
 settings := graphmodels.NewAccessReviewScheduleSettings()
@@ -72,7 +71,6 @@ accessReviewRecommendationInsightSetting1 := graphmodels.NewAccessReviewRecommen
 recommendationInsightSettings := []graphmodels.AccessReviewRecommendationInsightSettingable {
 	accessReviewRecommendationInsightSetting,
 	accessReviewRecommendationInsightSetting1,
-
 }
 settings.SetRecommendationInsightSettings(recommendationInsightSettings)
 requestBody.SetSettings(settings)

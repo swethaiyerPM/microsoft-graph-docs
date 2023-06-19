@@ -224,9 +224,9 @@ var requestBody = new BookingAppointment
 					"timeZone" , "America/Chicago"
 				},
 				{
-					"customQuestionAnswers" , new List<>
+					"customQuestionAnswers" , new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
 							QuestionId = "3bc6fde0-4ad3-445d-ab17-0fc15dba0774",
 							Question = "What is your age",

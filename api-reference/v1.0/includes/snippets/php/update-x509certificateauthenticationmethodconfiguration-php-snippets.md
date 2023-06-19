@@ -17,7 +17,7 @@ $requestBody->setId('X509Certificate');
 $requestBody->setState(new AuthenticationMethodState('enabled'));
 
 $additionalData = [
-		'certificateUserBindings' => $certificateUserBindings1 = new ();
+		'certificateUserBindings' => $certificateUserBindings1 = new Object();
 $		certificateUserBindings1->setX509CertificateField('PrincipalName');
 
 $		certificateUserBindings1->setUserProperty('onPremisesUserPrincipalName');
@@ -32,7 +32,7 @@ $requestBody->setCertificateUserBindings($certificateUserBindingsArray);
 	'authenticationModeConfiguration' => $requestBody = new AuthenticationModeConfiguration();
 $	requestBody->setX509CertificateAuthenticationDefaultMode('x509CertificateMultiFactor');
 
-$rules1 = new ();
+$rules1 = new Object();
 $	rules1->setX509CertificateRuleType('issuerSubject');
 
 $	rules1->setIdentifier('CN=ContosoCA,DC=Contoso,DC=org ');
@@ -41,7 +41,7 @@ $	rules1->setX509CertificateAuthenticationMode('x509CertificateMultiFactor');
 
 
 $rulesArray []= $rules1;
-$rules2 = new ();
+$rules2 = new Object();
 $	rules2->setX509CertificateRuleType('policyOID');
 
 $	rules2->setIdentifier('1.2.3.4');
@@ -56,7 +56,7 @@ $requestBody->setRules($rulesArray);
 
 $requestBody->setAuthenticationModeConfiguration($authenticationModeConfiguration);
 
-'includeTargets' => $includeTargets1 = new ();
+'includeTargets' => $includeTargets1 = new Object();
 $includeTargets1->setTargetType('group');
 
 $includeTargets1->setId('all_users');

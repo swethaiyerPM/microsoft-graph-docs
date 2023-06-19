@@ -20,12 +20,12 @@ scope := graphmodels.NewAccessReviewScope()
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 query := "/v1.0/users"
 .SetQuery(&query) 
 queryType := "MicrosoftGraph"
 .SetQueryType(&queryType) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 query := "/v1.0/groups"
 .SetQuery(&query) 
 queryType := "MicrosoftGraph"
@@ -34,11 +34,10 @@ queryType := "MicrosoftGraph"
 	principalScopes := []graphmodels.Objectable {
 		,
 		,
-
 	}
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 query := "/beta/roleManagement/directory/roleDefinitions/9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3"
 .SetQuery(&query) 
 queryType := "MicrosoftGraph"
@@ -46,7 +45,6 @@ queryType := "MicrosoftGraph"
 
 	resourceScopes := []graphmodels.Objectable {
 		,
-
 	}
 }
 scope.SetAdditionalData(additionalData)
@@ -61,7 +59,6 @@ accessReviewReviewerScope.SetQueryType(&queryType)
 
 reviewers := []graphmodels.AccessReviewReviewerScopeable {
 	accessReviewReviewerScope,
-
 }
 requestBody.SetReviewers(reviewers)
 
@@ -80,7 +77,6 @@ accessReviewReviewerScope1.SetQueryType(&queryType)
 fallbackReviewers := []graphmodels.AccessReviewReviewerScopeable {
 	accessReviewReviewerScope,
 	accessReviewReviewerScope1,
-
 }
 requestBody.SetFallbackReviewers(fallbackReviewers)
 

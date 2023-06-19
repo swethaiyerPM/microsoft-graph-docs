@@ -75,7 +75,6 @@ userSet1.SetIsBackup(&isBackup)
 primaryApprovers := []graphmodels.UserSetable {
 	userSet,
 	userSet1,
-
 }
 approvalStage.SetPrimaryApprovers(primaryApprovers)
 
@@ -91,7 +90,6 @@ userSet.SetAdditionalData(additionalData)
 
 escalationApprovers := []graphmodels.UserSetable {
 	userSet,
-
 }
 approvalStage.SetEscalationApprovers(escalationApprovers)
 approvalStage1 := graphmodels.NewApprovalStage()
@@ -120,7 +118,6 @@ userSet1.SetIsBackup(&isBackup)
 primaryApprovers := []graphmodels.UserSetable {
 	userSet,
 	userSet1,
-
 }
 approvalStage1.SetPrimaryApprovers(primaryApprovers)
 
@@ -136,14 +133,12 @@ userSet.SetAdditionalData(additionalData)
 
 escalationApprovers := []graphmodels.UserSetable {
 	userSet,
-
 }
 approvalStage1.SetEscalationApprovers(escalationApprovers)
 
 approvalStages := []graphmodels.ApprovalStageable {
 	approvalStage,
 	approvalStage1,
-
 }
 requestApprovalSettings.SetApprovalStages(approvalStages)
 requestBody.SetRequestApprovalSettings(requestApprovalSettings)

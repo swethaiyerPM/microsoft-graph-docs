@@ -38,7 +38,7 @@ $rulesUnifiedRoleManagementPolicyRule1->setIsRequestorJustificationRequired(true
 
 $rulesUnifiedRoleManagementPolicyRule1->setApprovalMode('SingleStage');
 
-$approvalStages1 = new ();
+$approvalStages1 = new Object();
 $approvalStages1->setApprovalStageTimeOutInDays(1);
 
 $approvalStages1->setIsApproverJustificationRequired(true);

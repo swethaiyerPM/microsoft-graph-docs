@@ -23,13 +23,12 @@ additionalData := map[string]interface{}{
 requestBody.SetIsTrusted(&isTrusted) 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 cidrAddress := "6.5.4.3/18"
 .SetCidrAddress(&cidrAddress) 
 
 	ipRanges := []graphmodels.Objectable {
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

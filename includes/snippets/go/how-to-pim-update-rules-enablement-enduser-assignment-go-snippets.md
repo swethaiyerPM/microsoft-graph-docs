@@ -23,8 +23,7 @@ caller := "EndUser"
 target.SetCaller(&caller) 
 operations := []graphmodels.UnifiedRoleManagementPolicyRuleTargetOperationsable {
 	unifiedRoleManagementPolicyRuleTargetOperations := graphmodels.ALL_UNIFIEDROLEMANAGEMENTPOLICYRULETARGETOPERATIONS 
-	target.SetUnifiedRoleManagementPolicyRuleTargetOperations(&unifiedRoleManagementPolicyRuleTargetOperations) 
-
+	target.SetUnifiedRoleManagementPolicyRuleTargetOperations(&unifiedRoleManagementPolicyRuleTargetOperations)
 }
 target.SetOperations(operations)
 level := "Assignment"
@@ -43,7 +42,6 @@ additionalData := map[string]interface{}{
 		"Justification",
 		"MultiFactorAuthentication",
 		"Ticketing",
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

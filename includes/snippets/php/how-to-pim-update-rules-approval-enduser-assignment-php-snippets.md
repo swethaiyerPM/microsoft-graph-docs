@@ -42,7 +42,7 @@ $requestBody->setIsRequestorJustificationRequired(true);
 
 $requestBody->setApprovalMode('SingleStage');
 
-$approvalStages1 = new ();
+$approvalStages1 = new Object();
 $approvalStages1->set@odatatype('microsoft.graph.unifiedApprovalStage');
 
 $approvalStages1->setApprovalStageTimeOutInDays(1);
@@ -51,14 +51,14 @@ $approvalStages1->setIsApproverJustificationRequired(true);
 
 $approvalStages1->setEscalationTimeInMinutes(0);
 
-$primaryApprovers1 = new ();
+$primaryApprovers1 = new Object();
 $primaryApprovers1->set@odatatype('#microsoft.graph.singleUser');
 
 $primaryApprovers1->setUserId('10a08e2e-3ea2-4ce0-80cb-d5fdd4b05ea6');
 
 
 $primaryApproversArray []= $primaryApprovers1;
-$primaryApprovers2 = new ();
+$primaryApprovers2 = new Object();
 $primaryApprovers2->set@odatatype('#microsoft.graph.groupMembers');
 
 $primaryApprovers2->setGroupId('14f2746d-7d6f-4ac6-acd8-8cac318b041b');

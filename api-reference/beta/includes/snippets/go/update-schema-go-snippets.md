@@ -29,10 +29,9 @@ isSearchable := true
 property.SetIsSearchable(&isSearchable) 
 isRetrievable := true
 property.SetIsRetrievable(&isRetrievable) 
-labels := []graphmodelsexternalconnectors.Labelable {
+labels := []graphmodels.Labelable {
 	label := graphmodels.TITLE_LABEL 
-	property.SetLabel(&label) 
-
+	property.SetLabel(&label)
 }
 property.SetLabels(labels)
 property1 := graphmodelsexternalconnectors.NewProperty()
@@ -54,11 +53,10 @@ property2.SetType(&type)
 isRetrievable := true
 property2.SetIsRetrievable(&isRetrievable) 
 
-properties := []graphmodelsexternalconnectors.Propertyable {
+properties := []graphmodels.Propertyable {
 	property,
 	property1,
 	property2,
-
 }
 requestBody.SetProperties(properties)
 

@@ -25,10 +25,9 @@ additionalData := map[string]interface{}{
 }
 mediaConfig.SetAdditionalData(additionalData)
 requestBody.SetMediaConfig(mediaConfig)
-acceptedModalities := []graphcommunications.Modalityable {
+acceptedModalities := []graphmodels.Modalityable {
 	modality := graphmodels.AUDIO_MODALITY 
-	requestBody.SetModality(&modality) 
-
+	requestBody.SetModality(&modality)
 }
 requestBody.SetAcceptedModalities(acceptedModalities)
 callOptions := graphmodels.NewIncomingCallOptions()

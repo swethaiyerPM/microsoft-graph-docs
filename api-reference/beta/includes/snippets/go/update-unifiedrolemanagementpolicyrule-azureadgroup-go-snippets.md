@@ -23,7 +23,6 @@ caller := "EndUser"
 target.SetCaller(&caller) 
 operations := []string {
 	"All",
-
 }
 target.SetOperations(operations)
 level := "Assignment"

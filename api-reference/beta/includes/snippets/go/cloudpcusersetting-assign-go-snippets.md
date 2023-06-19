@@ -29,9 +29,8 @@ additionalData := map[string]interface{}{
 target.SetAdditionalData(additionalData)
 cloudPcUserSettingAssignment.SetTarget(target)
 
-assignments := []graphdevicemanagement.Objectable {
+assignments := []graphmodels.Objectable {
 	cloudPcUserSettingAssignment,
-
 }
 requestBody.SetAssignments(assignments)
 

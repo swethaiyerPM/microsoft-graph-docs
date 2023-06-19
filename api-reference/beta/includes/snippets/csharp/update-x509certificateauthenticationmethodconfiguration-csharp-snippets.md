@@ -16,9 +16,9 @@ var requestBody = new AuthenticationMethodConfiguration
 	AdditionalData = new Dictionary<string, object>
 	{
 		{
-			"certificateUserBindings" , new List<>
+			"certificateUserBindings" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					X509CertificateField = "PrincipalName",
 					UserProperty = "onPremisesUserPrincipalName",
@@ -30,15 +30,15 @@ var requestBody = new AuthenticationMethodConfiguration
 			"authenticationModeConfiguration" , new 
 			{
 				X509CertificateAuthenticationDefaultMode = "x509CertificateMultiFactor",
-				Rules = new List<>
+				Rules = new List<ObjectObject>
 				{
-					new 
+					new ObjectObject
 					{
 						X509CertificateRuleType = "issuerSubject",
 						Identifier = "CN=ContosoCA,DC=Contoso,DC=org ",
 						X509CertificateAuthenticationMode = "x509CertificateMultiFactor",
 					},
-					new 
+					new ObjectObject
 					{
 						X509CertificateRuleType = "policyOID",
 						Identifier = "1.2.3.4",
@@ -48,9 +48,9 @@ var requestBody = new AuthenticationMethodConfiguration
 			}
 		},
 		{
-			"includeTargets" , new List<>
+			"includeTargets" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					TargetType = "group",
 					Id = "all_users",

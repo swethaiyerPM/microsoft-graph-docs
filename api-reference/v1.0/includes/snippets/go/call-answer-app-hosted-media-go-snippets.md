@@ -19,10 +19,9 @@ graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes
 requestBody := graphcommunications.NewAnswerPostRequestBody()
 callbackUri := "https://bot.contoso.com/api/calls"
 requestBody.SetCallbackUri(&callbackUri) 
-acceptedModalities := []graphcommunications.Modalityable {
+acceptedModalities := []graphmodels.Modalityable {
 	modality := graphmodels.AUDIO_MODALITY 
-	requestBody.SetModality(&modality) 
-
+	requestBody.SetModality(&modality)
 }
 requestBody.SetAcceptedModalities(acceptedModalities)
 mediaConfig := graphmodels.NewMediaConfig()

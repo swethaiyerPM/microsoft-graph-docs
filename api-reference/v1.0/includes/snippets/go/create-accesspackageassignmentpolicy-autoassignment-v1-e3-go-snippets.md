@@ -33,7 +33,6 @@ subjectSet.SetAdditionalData(additionalData)
 
 specificAllowedTargets := []graphmodels.SubjectSetable {
 	subjectSet,
-
 }
 requestBody.SetSpecificAllowedTargets(specificAllowedTargets)
 automaticRequestSettings := graphmodels.NewAccessPackageAutomaticRequestSettings()

@@ -56,7 +56,7 @@ isEnabled := true
 task.SetIsEnabled(&isEnabled) 
 taskDefinitionId := "6fc52c9d-398b-4305-9763-15f42c1676fc"
 task.SetTaskDefinitionId(&taskDefinitionId) 
-arguments := []graphmodelsidentitygovernance.KeyValuePairable {
+arguments := []graphmodels.KeyValuePairable {
 
 }
 task.SetArguments(arguments)
@@ -71,15 +71,14 @@ isEnabled := true
 task1.SetIsEnabled(&isEnabled) 
 taskDefinitionId := "70b29d51-b59a-4773-9280-8841dfd3f2ea"
 task1.SetTaskDefinitionId(&taskDefinitionId) 
-arguments := []graphmodelsidentitygovernance.KeyValuePairable {
+arguments := []graphmodels.KeyValuePairable {
 
 }
 task1.SetArguments(arguments)
 
-tasks := []graphmodelsidentitygovernance.Taskable {
+tasks := []graphmodels.Taskable {
 	task,
 	task1,
-
 }
 workflow.SetTasks(tasks)
 requestBody.SetWorkflow(workflow)

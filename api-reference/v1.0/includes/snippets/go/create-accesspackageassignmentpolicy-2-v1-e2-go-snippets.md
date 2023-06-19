@@ -72,7 +72,6 @@ subjectSet := graphmodels.NewSubjectSet()
 
 primaryApprovers := []graphmodels.SubjectSetable {
 	subjectSet,
-
 }
 accessPackageApprovalStage.SetPrimaryApprovers(primaryApprovers)
 
@@ -91,7 +90,6 @@ subjectSet1.SetAdditionalData(additionalData)
 fallbackPrimaryApprovers := []graphmodels.SubjectSetable {
 	subjectSet,
 	subjectSet1,
-
 }
 accessPackageApprovalStage.SetFallbackPrimaryApprovers(fallbackPrimaryApprovers)
 escalationApprovers := []graphmodels.SubjectSetable {
@@ -131,7 +129,6 @@ subjectSet1.SetAdditionalData(additionalData)
 fallbackPrimaryApprovers := []graphmodels.SubjectSetable {
 	subjectSet,
 	subjectSet1,
-
 }
 accessPackageApprovalStage1.SetFallbackPrimaryApprovers(fallbackPrimaryApprovers)
 escalationApprovers := []graphmodels.SubjectSetable {
@@ -146,7 +143,6 @@ accessPackageApprovalStage1.SetFallbackEscalationApprovers(fallbackEscalationApp
 stages := []graphmodels.AccessPackageApprovalStageable {
 	accessPackageApprovalStage,
 	accessPackageApprovalStage1,
-
 }
 requestApprovalSettings.SetStages(stages)
 requestBody.SetRequestApprovalSettings(requestApprovalSettings)
@@ -203,7 +199,6 @@ subjectSet.SetAdditionalData(additionalData)
 
 primaryReviewers := []graphmodels.SubjectSetable {
 	subjectSet,
-
 }
 reviewSettings.SetPrimaryReviewers(primaryReviewers)
 fallbackReviewers := []graphmodels.SubjectSetable {

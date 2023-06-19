@@ -23,8 +23,7 @@ caller := "Admin"
 target.SetCaller(&caller) 
 operations := []graphmodels.UnifiedRoleManagementPolicyRuleTargetOperationsable {
 	unifiedRoleManagementPolicyRuleTargetOperations := graphmodels.ALL_UNIFIEDROLEMANAGEMENTPOLICYRULETARGETOPERATIONS 
-	target.SetUnifiedRoleManagementPolicyRuleTargetOperations(&unifiedRoleManagementPolicyRuleTargetOperations) 
-
+	target.SetUnifiedRoleManagementPolicyRuleTargetOperations(&unifiedRoleManagementPolicyRuleTargetOperations)
 }
 target.SetOperations(operations)
 level := "Assignment"
@@ -42,7 +41,6 @@ additionalData := map[string]interface{}{
 	enabledRules := []string {
 		"Justification",
 		"MultiFactorAuthentication",
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

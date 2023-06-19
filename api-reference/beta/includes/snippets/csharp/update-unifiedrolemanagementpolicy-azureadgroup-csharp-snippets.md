@@ -40,17 +40,17 @@ var requestBody = new UnifiedRoleManagementPolicy
 						IsApprovalRequiredForExtension = false,
 						IsRequestorJustificationRequired = true,
 						ApprovalMode = "SingleStage",
-						ApprovalStages = new List<>
+						ApprovalStages = new List<ObjectObject>
 						{
-							new 
+							new ObjectObject
 							{
 								ApprovalStageTimeOutInDays = 1,
 								IsApproverJustificationRequired = true,
 								EscalationTimeInMinutes = 0,
 								IsEscalationEnabled = false,
-								PrimaryApprovers = new List<>
+								PrimaryApprovers = new List<ObjectObject>
 								{
-									new 
+									new ObjectObject
 									{
 										OdataType = "#microsoft.graph.singleUser",
 										IsBackup = false,

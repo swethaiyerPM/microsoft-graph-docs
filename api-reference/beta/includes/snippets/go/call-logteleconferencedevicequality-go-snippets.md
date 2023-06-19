@@ -164,7 +164,6 @@ mediaQualityList := []graphmodels.TeleconferenceDeviceMediaQualityable {
 	teleconferenceDeviceMediaQuality,
 	teleconferenceDeviceMediaQuality1,
 	teleconferenceDeviceMediaQuality2,
-
 }
 quality.SetMediaQualityList(mediaQualityList)
 requestBody.SetQuality(quality)

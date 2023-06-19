@@ -13,14 +13,14 @@ var requestBody = new CustomSecurityAttributeDefinition
 	AdditionalData = new Dictionary<string, object>
 	{
 		{
-			"allowedValues@delta" , new List<>
+			"allowedValues@delta" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					Id = "Baker",
 					IsActive = false,
 				},
-				new 
+				new ObjectObject
 				{
 					Id = "Skagit",
 					IsActive = true,

@@ -34,7 +34,6 @@ recipient.SetEmailAddress(emailAddress)
 
 toRecipients := []graphmodels.Recipientable {
 	recipient,
-
 }
 requestBody.SetToRecipients(toRecipients)
 
@@ -50,7 +49,6 @@ extension.SetAdditionalData(additionalData)
 
 extensions := []graphmodels.Extensionable {
 	extension,
-
 }
 requestBody.SetExtensions(extensions)
 

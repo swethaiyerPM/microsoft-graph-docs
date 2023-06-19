@@ -27,7 +27,7 @@ requestBody.SetUseBusinessHours(&useBusinessHours)
 	"odataType" : "#Collection(microsoft.graph.bookingWorkHours)", 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 odataType := "#microsoft.graph.dayOfWeek"
 .SetOdataType(&odataType) 
 day := "monday"
@@ -36,7 +36,7 @@ odataType := "#Collection(microsoft.graph.bookingWorkTimeSlot)"
 .SetOdataType(&odataType) 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 endTime := "17:00:00.0000000"
 .SetEndTime(&endTime) 
 startTime := "08:00:00.0000000"
@@ -44,10 +44,9 @@ startTime := "08:00:00.0000000"
 
 timeSlots := []graphmodels.Objectable {
 	,
-
 }
 .SetTimeSlots(timeSlots)
- := graphmodels.New()
+ := graphmodels.NewObject()
 odataType := "#microsoft.graph.dayOfWeek"
 .SetOdataType(&odataType) 
 day := "tuesday"
@@ -56,7 +55,7 @@ odataType := "#Collection(microsoft.graph.bookingWorkTimeSlot)"
 .SetOdataType(&odataType) 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 endTime := "17:00:00.0000000"
 .SetEndTime(&endTime) 
 startTime := "08:00:00.0000000"
@@ -64,10 +63,9 @@ startTime := "08:00:00.0000000"
 
 timeSlots := []graphmodels.Objectable {
 	,
-
 }
 .SetTimeSlots(timeSlots)
- := graphmodels.New()
+ := graphmodels.NewObject()
 odataType := "#microsoft.graph.dayOfWeek"
 .SetOdataType(&odataType) 
 day := "wednesday"
@@ -76,7 +74,7 @@ odataType := "#Collection(microsoft.graph.bookingWorkTimeSlot)"
 .SetOdataType(&odataType) 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 endTime := "17:00:00.0000000"
 .SetEndTime(&endTime) 
 startTime := "08:00:00.0000000"
@@ -84,10 +82,9 @@ startTime := "08:00:00.0000000"
 
 timeSlots := []graphmodels.Objectable {
 	,
-
 }
 .SetTimeSlots(timeSlots)
- := graphmodels.New()
+ := graphmodels.NewObject()
 odataType := "#microsoft.graph.dayOfWeek"
 .SetOdataType(&odataType) 
 day := "thursday"
@@ -96,7 +93,7 @@ odataType := "#Collection(microsoft.graph.bookingWorkTimeSlot)"
 .SetOdataType(&odataType) 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 endTime := "17:00:00.0000000"
 .SetEndTime(&endTime) 
 startTime := "08:00:00.0000000"
@@ -104,10 +101,9 @@ startTime := "08:00:00.0000000"
 
 timeSlots := []graphmodels.Objectable {
 	,
-
 }
 .SetTimeSlots(timeSlots)
- := graphmodels.New()
+ := graphmodels.NewObject()
 odataType := "#microsoft.graph.dayOfWeek"
 .SetOdataType(&odataType) 
 day := "friday"
@@ -116,7 +112,7 @@ odataType := "#Collection(microsoft.graph.bookingWorkTimeSlot)"
 .SetOdataType(&odataType) 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 endTime := "17:00:00.0000000"
 .SetEndTime(&endTime) 
 startTime := "08:00:00.0000000"
@@ -124,7 +120,6 @@ startTime := "08:00:00.0000000"
 
 timeSlots := []graphmodels.Objectable {
 	,
-
 }
 .SetTimeSlots(timeSlots)
 
@@ -134,7 +129,6 @@ timeSlots := []graphmodels.Objectable {
 		,
 		,
 		,
-
 	}
 	isEmailNotificationEnabled := false
 requestBody.SetIsEmailNotificationEnabled(&isEmailNotificationEnabled) 

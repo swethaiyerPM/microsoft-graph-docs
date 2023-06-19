@@ -20,9 +20,9 @@ var requestBody = new BookingCustomerBase
 			"emailAddress" , "jonis@relecloud.com"
 		},
 		{
-			"addresses" , new List<>
+			"addresses" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					PostOfficeBox = "",
 					Street = "4567 Main Street",
@@ -32,7 +32,7 @@ var requestBody = new BookingCustomerBase
 					PostalCode = "98052",
 					Type = "home",
 				},
-				new 
+				new ObjectObject
 				{
 					PostOfficeBox = "",
 					Street = "4570 Main Street",
@@ -45,14 +45,14 @@ var requestBody = new BookingCustomerBase
 			}
 		},
 		{
-			"phones" , new List<>
+			"phones" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					Number = "206-555-0100",
 					Type = "home",
 				},
-				new 
+				new ObjectObject
 				{
 					Number = "206-555-0200",
 					Type = "business",

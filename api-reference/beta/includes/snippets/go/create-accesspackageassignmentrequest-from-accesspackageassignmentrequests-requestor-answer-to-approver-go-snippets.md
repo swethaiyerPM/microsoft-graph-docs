@@ -50,7 +50,6 @@ accessPackageAnswer1.SetAdditionalData(additionalData)
 answers := []graphmodels.AccessPackageAnswerable {
 	accessPackageAnswer,
 	accessPackageAnswer1,
-
 }
 requestBody.SetAnswers(answers)
 

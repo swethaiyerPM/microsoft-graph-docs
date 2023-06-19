@@ -18,9 +18,9 @@ var requestBody = new NamedLocation
 			"isTrusted" , false
 		},
 		{
-			"ipRanges" , new List<>
+			"ipRanges" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					OdataType = "#microsoft.graph.iPv4CidrRange",
 					CidrAddress = "6.5.4.3/18",

@@ -103,11 +103,11 @@ $questionsAccessPackageQuestion1->setText($questionsAccessPackageQuestion1Text);
 $questionsAccessPackageQuestion1->set@odatatype('#microsoft.graph.accessPackageMultipleChoiceQuestion');
 
 $additionalData = [
-'choices' => $choices1 = new ();
+'choices' => $choices1 = new Object();
 $choices1->setActualValue('AZ');
 
 $choices1DisplayValue = new DisplayValue();
-$localizedTexts1 = new ();
+$localizedTexts1 = new Object();
 $localizedTexts1->setText('Arizona');
 
 $localizedTexts1->setLanguageCode('es');
@@ -121,11 +121,11 @@ $choices1DisplayValue->setLocalizedTexts($localizedTextsArray);
 $choices1->setDisplayValue($choices1DisplayValue);
 
 $choicesArray []= $choices1;
-$choices2 = new ();
+$choices2 = new Object();
 $choices2->setActualValue('CA');
 
 $choices2DisplayValue = new DisplayValue();
-$localizedTexts1 = new ();
+$localizedTexts1 = new Object();
 $localizedTexts1->setText('California');
 
 $localizedTexts1->setLanguageCode('es');

@@ -76,10 +76,6 @@ GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilitySch
 [!INCLUDE [sample-code](../includes/snippets/go/get-unifiedroleeligibilityschedulerequest-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-unifiedroleeligibilityschedulerequest-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [PHP](#tab/php)
 [!INCLUDE [sample-code](../includes/snippets/php/get-unifiedroleeligibilityschedulerequest-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]

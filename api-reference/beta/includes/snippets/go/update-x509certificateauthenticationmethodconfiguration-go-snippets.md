@@ -23,7 +23,7 @@ requestBody.SetState(&state)
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 x509CertificateField := "PrincipalName"
 .SetX509CertificateField(&x509CertificateField) 
 userProperty := "onPremisesUserPrincipalName"
@@ -33,21 +33,20 @@ priority := int32(1)
 
 	certificateUserBindings := []graphmodels.Objectable {
 		,
-
 	}
 authenticationModeConfiguration := graphmodels.New()
 x509CertificateAuthenticationDefaultMode := "x509CertificateMultiFactor"
 authenticationModeConfiguration.SetX509CertificateAuthenticationDefaultMode(&x509CertificateAuthenticationDefaultMode) 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 x509CertificateRuleType := "issuerSubject"
 .SetX509CertificateRuleType(&x509CertificateRuleType) 
 identifier := "CN=ContosoCA,DC=Contoso,DC=org "
 .SetIdentifier(&identifier) 
 x509CertificateAuthenticationMode := "x509CertificateMultiFactor"
 .SetX509CertificateAuthenticationMode(&x509CertificateAuthenticationMode) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 x509CertificateRuleType := "policyOID"
 .SetX509CertificateRuleType(&x509CertificateRuleType) 
 identifier := "1.2.3.4"
@@ -58,13 +57,12 @@ x509CertificateAuthenticationMode := "x509CertificateMultiFactor"
 	rules := []graphmodels.Objectable {
 		,
 		,
-
 	}
 	authenticationModeConfiguration.SetRules(rules)
 	requestBody.SetAuthenticationModeConfiguration(authenticationModeConfiguration)
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 targetType := "group"
 .SetTargetType(&targetType) 
 id := "all_users"
@@ -74,7 +72,6 @@ isRegistrationRequired := false
 
 	includeTargets := []graphmodels.Objectable {
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

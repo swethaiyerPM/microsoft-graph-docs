@@ -21,14 +21,14 @@ var requestBody = new Microsoft.Graph.Communications.Calls.Item.Answer.AnswerPos
 		AdditionalData = new Dictionary<string, object>
 		{
 			{
-				"preFetchMedia" , new List<>
+				"preFetchMedia" , new List<ObjectObject>
 				{
-					new 
+					new ObjectObject
 					{
 						Uri = "https://cdn.contoso.com/beep.wav",
 						ResourceId = "1D6DE2D4-CD51-4309-8DAA-70768651088E",
 					},
-					new 
+					new ObjectObject
 					{
 						Uri = "https://cdn.contoso.com/cool.wav",
 						ResourceId = "1D6DE2D4-CD51-4309-8DAA-70768651088F",

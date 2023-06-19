@@ -13,7 +13,7 @@ $requestBody = new EducationOutcome();
 $requestBody->set@odatatype('#microsoft.graph.educationRubricOutcome');
 
 $additionalData = [
-		'rubricQualityFeedback' => $rubricQualityFeedback1 = new ();
+		'rubricQualityFeedback' => $rubricQualityFeedback1 = new Object();
 $		rubricQualityFeedback1->setQualityId('9a145aa8-f3d9-43a1-8f77-5387ff0693f2');
 
 $rubricQualityFeedback1Feedback = new Feedback();
@@ -25,7 +25,7 @@ $		rubricQualityFeedback1Feedback->setContentType('text');
 $rubricQualityFeedback1->setFeedback($rubricQualityFeedback1Feedback);
 
 $rubricQualityFeedbackArray []= $rubricQualityFeedback1;
-$rubricQualityFeedback2 = new ();
+$rubricQualityFeedback2 = new Object();
 $		rubricQualityFeedback2->setQualityId('d2331fb2-2761-402e-8de6-93e0afaa076e');
 
 $rubricQualityFeedback2Feedback = new Feedback();
@@ -40,14 +40,14 @@ $rubricQualityFeedbackArray []= $rubricQualityFeedback2;
 $requestBody->setRubricQualityFeedback($rubricQualityFeedbackArray);
 
 
-	'rubricQualitySelectedLevels' => $rubricQualitySelectedLevels1 = new ();
+	'rubricQualitySelectedLevels' => $rubricQualitySelectedLevels1 = new Object();
 $	rubricQualitySelectedLevels1->setQualityId('9a145aa8-f3d9-43a1-8f77-5387ff0693f2');
 
 $	rubricQualitySelectedLevels1->setColumnId('4fb17a1d-5681-46c2-a295-4e305c3eae23');
 
 
 $rubricQualitySelectedLevelsArray []= $rubricQualitySelectedLevels1;
-$rubricQualitySelectedLevels2 = new ();
+$rubricQualitySelectedLevels2 = new Object();
 $	rubricQualitySelectedLevels2->setQualityId('d2331fb2-2761-402e-8de6-93e0afaa076e');
 
 $	rubricQualitySelectedLevels2->setColumnId('aac076bf-51ba-48c5-a2e0-ee235b0b9740');
