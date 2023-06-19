@@ -26,9 +26,8 @@ localizedLabel.SetLanguageTag(&languageTag)
 isDefault := true
 localizedLabel.SetIsDefault(&isDefault) 
 
-labels := []graphmodelstermstore.LocalizedLabelable {
+labels := []graphmodels.LocalizedLabelable {
 	localizedLabel,
-
 }
 requestBody.SetLabels(labels)
 

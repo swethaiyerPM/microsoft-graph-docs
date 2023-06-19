@@ -28,9 +28,8 @@ monitoringRule.SetThreshold(&threshold)
 action := graphmodels.PAUSEDEPLOYMENT_MONITORINGACTION 
 monitoringRule.SetAction(&action) 
 
-monitoringRules := []graphmodelswindowsupdates.MonitoringRuleable {
+monitoringRules := []graphmodels.MonitoringRuleable {
 	monitoringRule,
-
 }
 monitoring.SetMonitoringRules(monitoringRules)
 settings.SetMonitoring(monitoring)

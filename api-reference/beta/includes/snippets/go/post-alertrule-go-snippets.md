@@ -45,10 +45,9 @@ notificationChannelType := graphmodels.PORTAL_NOTIFICATIONCHANNELTYPE
 notificationChannel.SetNotificationChannelType(&notificationChannelType) 
 receivers := []string {
 	"",
-
 }
 notificationChannel.SetReceivers(receivers)
-notificationReceivers := []graphmodelsdevicemanagement.NotificationReceiverable {
+notificationReceivers := []graphmodels.NotificationReceiverable {
 
 }
 notificationChannel.SetNotificationReceivers(notificationReceivers)
@@ -57,7 +56,6 @@ notificationChannelType := graphmodels.EMAIL_NOTIFICATIONCHANNELTYPE
 notificationChannel1.SetNotificationChannelType(&notificationChannelType) 
 receivers := []string {
 	"serena.davis@contoso.com",
-
 }
 notificationChannel1.SetReceivers(receivers)
 
@@ -68,16 +66,14 @@ notificationReceiver.SetLocale(&locale)
 contactInformation := "serena.davis@contoso.com"
 notificationReceiver.SetContactInformation(&contactInformation) 
 
-notificationReceivers := []graphmodelsdevicemanagement.NotificationReceiverable {
+notificationReceivers := []graphmodels.NotificationReceiverable {
 	notificationReceiver,
-
 }
 notificationChannel1.SetNotificationReceivers(notificationReceivers)
 
-notificationChannels := []graphmodelsdevicemanagement.NotificationChannelable {
+notificationChannels := []graphmodels.NotificationChannelable {
 	notificationChannel,
 	notificationChannel1,
-
 }
 requestBody.SetNotificationChannels(notificationChannels)
 

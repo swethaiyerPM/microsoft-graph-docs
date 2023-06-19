@@ -12,18 +12,13 @@ var requestBody = new Microsoft.Graph.Beta.Me.Messages.Item.ReplyAll.ReplyAllPos
 {
 	Message = new Message
 	{
-		Attachments = new List<Attachment>
+		Attachments = new List<FileAttachment>
 		{
-			new Attachment
+			new FileAttachment
 			{
 				OdataType = "#microsoft.graph.fileAttachment",
 				Name = "guidelines.txt",
-				AdditionalData = new Dictionary<string, object>
-				{
-					{
-						"contentBytes" , "bWFjIGFuZCBjaGVlc2UgdG9kYXk="
-					},
-				},
+				ContentBytes = Convert.FromBase64String("bWFjIGFuZCBjaGVlc2UgdG9kYXk="),
 			},
 		},
 	},

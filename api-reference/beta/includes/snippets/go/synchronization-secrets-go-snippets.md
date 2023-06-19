@@ -19,22 +19,22 @@ requestBody := graphserviceprincipals.NewSynchronizationSecretKeyStringValuePair
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 key := "BaseAddress"
 .SetKey(&key) 
 value := "user@domain.com"
 .SetValue(&value) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 key := "SecretToken"
 .SetKey(&key) 
 value := "password-value"
 .SetValue(&value) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 key := "SyncNotificationSettings"
 .SetKey(&key) 
 value := "{\"Enabled\":false,\"DeleteThresholdEnabled\":false}"
 .SetValue(&value) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 key := "SyncAll"
 .SetKey(&key) 
 value := "false"
@@ -45,7 +45,6 @@ value := "false"
 		,
 		,
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

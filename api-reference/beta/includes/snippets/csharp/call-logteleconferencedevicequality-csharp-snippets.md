@@ -18,9 +18,9 @@ var requestBody = new Microsoft.Graph.Beta.Communications.Calls.LogTeleconferenc
 		MediaLegId = Guid.Parse("bd9ee398-4b9d-42c7-8b8d-4e8efad9435f"),
 		DeviceName = "TestAgent",
 		DeviceDescription = "TestDescription",
-		MediaQualityList = new List<TeleconferenceDeviceMediaQuality>
+		MediaQualityList = new List<TeleconferenceDeviceAudioQuality>
 		{
-			new TeleconferenceDeviceMediaQuality
+			new TeleconferenceDeviceAudioQuality
 			{
 				OdataType = "#microsoft.graph.teleconferenceDeviceAudioQuality",
 				ChannelIndex = 1,
@@ -45,7 +45,7 @@ var requestBody = new Microsoft.Graph.Beta.Communications.Calls.LogTeleconferenc
 				MaximumInboundJitter = TimeSpan.Parse("PT0.023S"),
 				MaximumOutboundJitter = TimeSpan.Parse("PT0.024S"),
 			},
-			new TeleconferenceDeviceMediaQuality
+			new TeleconferenceDeviceVideoQuality
 			{
 				OdataType = "#microsoft.graph.teleconferenceDeviceVideoQuality",
 				ChannelIndex = 1,
@@ -70,7 +70,7 @@ var requestBody = new Microsoft.Graph.Beta.Communications.Calls.LogTeleconferenc
 				MaximumInboundJitter = TimeSpan.Parse("PT0.023S"),
 				MaximumOutboundJitter = TimeSpan.Parse("PT0.024S"),
 			},
-			new TeleconferenceDeviceMediaQuality
+			new TeleconferenceDeviceScreenSharingQuality
 			{
 				OdataType = "#microsoft.graph.teleconferenceDeviceScreenSharingQuality",
 				ChannelIndex = 1,

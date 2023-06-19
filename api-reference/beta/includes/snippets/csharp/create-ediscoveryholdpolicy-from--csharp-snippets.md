@@ -15,9 +15,9 @@ var requestBody = new Microsoft.Graph.Beta.Models.Security.EdiscoveryHoldPolicy
 	AdditionalData = new Dictionary<string, object>
 	{
 		{
-			"userSources@odata.bind" , new List<>
+			"userSources@odata.bind" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					OdataType = "microsoft.graph.security.userSource",
 					Email = "SalesTeam@M365x809305.OnMicrosoft.com",
@@ -25,9 +25,9 @@ var requestBody = new Microsoft.Graph.Beta.Models.Security.EdiscoveryHoldPolicy
 			}
 		},
 		{
-			"siteSources@odata.bind" , new List<>
+			"siteSources@odata.bind" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					OdataType = "microsoft.graph.security.siteSource",
 					Site = new 

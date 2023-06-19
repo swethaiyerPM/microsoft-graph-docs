@@ -13,9 +13,9 @@ var requestBody = new Microsoft.Graph.Identity.B2xUserFlows.Item.Languages.Item.
 	AdditionalData = new Dictionary<string, object>
 	{
 		{
-			"LocalizedStrings" , new List<>
+			"LocalizedStrings" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					ElementType = "UxElement",
 					ElementId = null,

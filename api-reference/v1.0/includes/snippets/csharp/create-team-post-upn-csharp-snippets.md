@@ -12,9 +12,9 @@ var requestBody = new Team
 {
 	DisplayName = "My Sample Team",
 	Description = "My Sample Team’s Description",
-	Members = new List<ConversationMember>
+	Members = new List<AadUserConversationMember>
 	{
-		new ConversationMember
+		new AadUserConversationMember
 		{
 			OdataType = "#microsoft.graph.aadUserConversationMember",
 			Roles = new List<string>

@@ -12,32 +12,25 @@ var requestBody = new AccessReviewScheduleDefinition
 {
 	DisplayName = "Review employee access to LinkedIn",
 	DescriptionForAdmins = "Review employee access to LinkedIn",
-	Scope = new AccessReviewScope
+	Scope = new PrincipalResourceMembershipsScope
 	{
 		OdataType = "#microsoft.graph.principalResourceMembershipsScope",
-		AdditionalData = new Dictionary<string, object>
+		PrincipalScopes = new List<AccessReviewQueryScope>
 		{
+			new AccessReviewQueryScope
 			{
-				"principalScopes" , new List<>
-				{
-					new 
-					{
-						OdataType = "#microsoft.graph.accessReviewQueryScope",
-						Query = "/users",
-						QueryType = "MicrosoftGraph",
-					},
-				}
+				OdataType = "#microsoft.graph.accessReviewQueryScope",
+				Query = "/users",
+				QueryType = "MicrosoftGraph",
 			},
+		},
+		ResourceScopes = new List<AccessReviewQueryScope>
+		{
+			new AccessReviewQueryScope
 			{
-				"resourceScopes" , new List<>
-				{
-					new 
-					{
-						OdataType = "#microsoft.graph.accessReviewQueryScope",
-						Query = "/servicePrincipals/bae11f90-7d5d-46ba-9f55-8112b59d92ae",
-						QueryType = "MicrosoftGraph",
-					},
-				}
+				OdataType = "#microsoft.graph.accessReviewQueryScope",
+				Query = "/servicePrincipals/bae11f90-7d5d-46ba-9f55-8112b59d92ae",
+				QueryType = "MicrosoftGraph",
 			},
 		},
 	},
@@ -87,9 +80,9 @@ var requestBody = new AccessReviewScheduleDefinition
 	AdditionalData = new Dictionary<string, object>
 	{
 		{
-			"backupReviewers" , new List<>
+			"backupReviewers" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					Query = "/groups/072ac5f4-3f13-4088-ab30-0a276f3e6322/transitiveMembers",
 					QueryType = "MicrosoftGraph",
