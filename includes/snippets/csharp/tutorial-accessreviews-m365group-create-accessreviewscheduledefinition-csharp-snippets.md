@@ -88,9 +88,9 @@ var requestBody = new AccessReviewScheduleDefinition
 				EndDate = new Date(DateTime.Parse("2022-12-21")),
 			},
 		},
-		ApplyActions = new List<AccessReviewApplyAction>
+		ApplyActions = new List<RemoveAccessApplyAction>
 		{
-			new AccessReviewApplyAction
+			new RemoveAccessApplyAction
 			{
 				OdataType = "#microsoft.graph.removeAccessApplyAction",
 			},

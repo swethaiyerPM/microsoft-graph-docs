@@ -11,14 +11,14 @@ $graphServiceClient = new GraphServiceClient($requestAdapter);
 
 $requestBody = new CustomSecurityAttributeDefinition();
 $additionalData = [
-		'allowedValues@delta' => $allowedValues@delta1 = new ();
+		'allowedValues@delta' => $allowedValues@delta1 = new Object();
 $		allowedValues@delta1->setId('Baker');
 
 		$allowedValues@delta1->setIsActive(false);
 
 
 $allowedValues@deltaArray []= $allowedValues@delta1;
-$allowedValues@delta2 = new ();
+$allowedValues@delta2 = new Object();
 $		allowedValues@delta2->setId('Skagit');
 
 		$allowedValues@delta2->setIsActive(true);

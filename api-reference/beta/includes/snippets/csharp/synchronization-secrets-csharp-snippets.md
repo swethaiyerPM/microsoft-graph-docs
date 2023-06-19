@@ -13,24 +13,24 @@ var requestBody = new Microsoft.Graph.Beta.ServicePrincipals.Item.Synchronizatio
 	AdditionalData = new Dictionary<string, object>
 	{
 		{
-			"value" , new List<>
+			"value" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					Key = "BaseAddress",
 					Value = "user@domain.com",
 				},
-				new 
+				new ObjectObject
 				{
 					Key = "SecretToken",
 					Value = "password-value",
 				},
-				new 
+				new ObjectObject
 				{
 					Key = "SyncNotificationSettings",
 					Value = "{\"Enabled\":false,\"DeleteThresholdEnabled\":false}",
 				},
-				new 
+				new ObjectObject
 				{
 					Key = "SyncAll",
 					Value = "false",

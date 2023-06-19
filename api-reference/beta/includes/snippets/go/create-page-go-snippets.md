@@ -78,7 +78,6 @@ webPart.SetAdditionalData(additionalData)
 
 webparts := []graphmodels.WebPartable {
 	webPart,
-
 }
 horizontalSectionColumn.SetWebparts(webparts)
 horizontalSectionColumn1 := graphmodels.NewHorizontalSectionColumn()
@@ -129,7 +128,7 @@ properties.SetAlignment(&alignment)
 serverProcessedContent := graphmodels.New()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 key := "imageSource"
 .SetKey(&key) 
 value := "/_LAYOUTS/IMAGES/VISUALTEMPLATEIMAGE1.JPG"
@@ -137,12 +136,11 @@ value := "/_LAYOUTS/IMAGES/VISUALTEMPLATEIMAGE1.JPG"
 
 	imageSources := []graphmodels.Objectable {
 		,
-
 	}
 	serverProcessedContent.SetImageSources(imageSources)
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 key := "imageSource"
 .SetKey(&key) 
 value := graphmodels.New()
@@ -162,7 +160,6 @@ value.SetHeight(&height)
 
 	customMetadata := []graphmodels.Objectable {
 		,
-
 	}
 	serverProcessedContent.SetCustomMetadata(customMetadata)
 	data.SetServerProcessedContent(serverProcessedContent)
@@ -172,20 +169,17 @@ webPart.SetAdditionalData(additionalData)
 
 webparts := []graphmodels.WebPartable {
 	webPart,
-
 }
 horizontalSectionColumn1.SetWebparts(webparts)
 
 columns := []graphmodels.HorizontalSectionColumnable {
 	horizontalSectionColumn,
 	horizontalSectionColumn1,
-
 }
 horizontalSection.SetColumns(columns)
 
 horizontalSections := []graphmodels.HorizontalSectionable {
 	horizontalSection,
-
 }
 canvasLayout.SetHorizontalSections(horizontalSections)
 requestBody.SetCanvasLayout(canvasLayout)

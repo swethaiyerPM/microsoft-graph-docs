@@ -26,20 +26,17 @@ isEnabled := true
 requestBody.SetIsEnabled(&isEnabled) 
 isSchedulingEnabled := false
 requestBody.SetIsSchedulingEnabled(&isSchedulingEnabled) 
-executionConditions := graphmodelsidentitygovernance.NewWorkflowExecutionConditions()
-additionalData := map[string]interface{}{
-scope := graphmodels.New()
+executionConditions := graphmodelsidentitygovernance.NewTriggerAndScopeBasedConditions()
+scope := graphmodelsidentitygovernance.NewRuleBasedSubjectSet()
 rule := "department eq 'Marketing'"
 scope.SetRule(&rule) 
-	executionConditions.SetScope(scope)
-trigger := graphmodels.New()
-timeBasedAttribute := "employeeLeaveDateTime"
+executionConditions.SetScope(scope)
+trigger := graphmodelsidentitygovernance.NewTimeBasedAttributeTrigger()
+timeBasedAttribute := graphmodels.EMPLOYEELEAVEDATETIME_WORKFLOWTRIGGERTIMEBASEDATTRIBUTE 
 trigger.SetTimeBasedAttribute(&timeBasedAttribute) 
 offsetInDays := int32(7)
 trigger.SetOffsetInDays(&offsetInDays) 
-	executionConditions.SetTrigger(trigger)
-}
-executionConditions.SetAdditionalData(additionalData)
+executionConditions.SetTrigger(trigger)
 requestBody.SetExecutionConditions(executionConditions)
 
 
@@ -58,7 +55,7 @@ isEnabled := true
 task.SetIsEnabled(&isEnabled) 
 taskDefinitionId := "8fa97d28-3e52-4985-b3a9-a1126f9b8b4e"
 task.SetTaskDefinitionId(&taskDefinitionId) 
-arguments := []graphmodelsidentitygovernance.KeyValuePairable {
+arguments := []graphmodels.KeyValuePairable {
 
 }
 task.SetArguments(arguments)
@@ -77,7 +74,7 @@ isEnabled := true
 task1.SetIsEnabled(&isEnabled) 
 taskDefinitionId := "81f7b200-2816-4b3b-8c5d-dc556f07b024"
 task1.SetTaskDefinitionId(&taskDefinitionId) 
-arguments := []graphmodelsidentitygovernance.KeyValuePairable {
+arguments := []graphmodels.KeyValuePairable {
 
 }
 task1.SetArguments(arguments)
@@ -96,16 +93,15 @@ isEnabled := true
 task2.SetIsEnabled(&isEnabled) 
 taskDefinitionId := "8d18588d-9ad3-4c0f-99d0-ec215f0e3dff"
 task2.SetTaskDefinitionId(&taskDefinitionId) 
-arguments := []graphmodelsidentitygovernance.KeyValuePairable {
+arguments := []graphmodels.KeyValuePairable {
 
 }
 task2.SetArguments(arguments)
 
-tasks := []graphmodelsidentitygovernance.Taskable {
+tasks := []graphmodels.Taskable {
 	task,
 	task1,
 	task2,
-
 }
 requestBody.SetTasks(tasks)
 

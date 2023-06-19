@@ -23,7 +23,7 @@ headers.Add("Prefer", "outlook.timezone=\"Pacific Standard Time\"")
 configuration := &graphusers.ItemFindMeetingTimesRequestBuilderPostRequestConfiguration{
 	Headers: headers,
 }
-requestBody := graphusers.NewFindMeetingTimesPostRequestBody()
+requestBody := graphusers.NewItemFindMeetingTimesPostRequestBody()
 
 
 attendeeBase := graphmodels.NewAttendeeBase()
@@ -36,9 +36,8 @@ address := "alexw@contoso.onmicrosoft.com"
 emailAddress.SetAddress(&address) 
 attendeeBase.SetEmailAddress(emailAddress)
 
-attendees := []graphusers.Objectable {
+attendees := []graphmodels.Objectable {
 	attendeeBase,
-
 }
 requestBody.SetAttendees(attendees)
 locationConstraint := graphmodels.NewLocationConstraint()
@@ -56,7 +55,6 @@ locationConstraintItem.SetDisplayName(&displayName)
 
 locations := []graphmodels.Objectable {
 	locationConstraintItem,
-
 }
 locationConstraint.SetLocations(locations)
 requestBody.SetLocationConstraint(locationConstraint)
@@ -81,7 +79,6 @@ timeSlot.SetEnd(end)
 
 timeSlots := []graphmodels.TimeSlotable {
 	timeSlot,
-
 }
 timeConstraint.SetTimeSlots(timeSlots)
 requestBody.SetTimeConstraint(timeConstraint)

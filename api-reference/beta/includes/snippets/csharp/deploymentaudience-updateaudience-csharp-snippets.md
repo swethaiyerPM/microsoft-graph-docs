@@ -10,9 +10,9 @@ var graphClient = new GraphServiceClient(requestAdapter);
 
 var requestBody = new Microsoft.Graph.Beta.Admin.Windows.Updates.DeploymentAudiences.Item.MicrosoftGraphWindowsUpdatesUpdateAudience.UpdateAudiencePostRequestBody
 {
-	AddMembers = new List<Microsoft.Graph.Beta.Models.WindowsUpdates.UpdatableAsset>
+	AddMembers = new List<Microsoft.Graph.Beta.Models.WindowsUpdates.AzureADDevice>
 	{
-		new Microsoft.Graph.Beta.Models.WindowsUpdates.UpdatableAsset
+		new Microsoft.Graph.Beta.Models.WindowsUpdates.AzureADDevice
 		{
 			OdataType = "#microsoft.graph.windowsUpdates.azureADDevice",
 			Id = "String (identifier)",

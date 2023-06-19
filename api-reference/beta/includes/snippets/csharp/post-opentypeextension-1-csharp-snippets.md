@@ -26,16 +26,14 @@ var requestBody = new Message
 			},
 		},
 	},
-	Extensions = new List<Extension>
+	Extensions = new List<OpenTypeExtension>
 	{
-		new Extension
+		new OpenTypeExtension
 		{
 			OdataType = "microsoft.graph.openTypeExtension",
+			ExtensionName = "Com.Contoso.Referral",
 			AdditionalData = new Dictionary<string, object>
 			{
-				{
-					"extensionName" , "Com.Contoso.Referral"
-				},
 				{
 					"companyName" , "Wingtip Toys"
 				},

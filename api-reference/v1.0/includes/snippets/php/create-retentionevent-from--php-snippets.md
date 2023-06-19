@@ -39,7 +39,7 @@ $requestBody->setEventStatus($eventStatus);
 $requestBody->setLastStatusUpdateDateTime(new DateTime('String (timestamp)'));
 
 $additionalData = [
-	'eventQuery' => $eventQuery1 = new ();
+	'eventQuery' => $eventQuery1 = new Object();
 $	eventQuery1->set@odatatype('microsoft.graph.security.eventQuery');
 
 

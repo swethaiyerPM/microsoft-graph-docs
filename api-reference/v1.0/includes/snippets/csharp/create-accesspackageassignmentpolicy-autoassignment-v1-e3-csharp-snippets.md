@@ -13,20 +13,13 @@ var requestBody = new AccessPackageAssignmentPolicy
 	DisplayName = "Sales department users",
 	Description = "All users from sales department",
 	AllowedTargetScope = AllowedTargetScope.SpecificDirectoryUsers,
-	SpecificAllowedTargets = new List<SubjectSet>
+	SpecificAllowedTargets = new List<AttributeRuleMembers>
 	{
-		new SubjectSet
+		new AttributeRuleMembers
 		{
 			OdataType = "#microsoft.graph.attributeRuleMembers",
-			AdditionalData = new Dictionary<string, object>
-			{
-				{
-					"description" , "Membership rule for all users from sales department"
-				},
-				{
-					"membershipRule" , "(user.department -eq \"Sales\")"
-				},
-			},
+			Description = "Membership rule for all users from sales department",
+			MembershipRule = "(user.department -eq \"Sales\")",
 		},
 	},
 	AutomaticRequestSettings = new AccessPackageAutomaticRequestSettings

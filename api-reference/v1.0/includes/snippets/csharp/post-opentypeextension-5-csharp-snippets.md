@@ -24,16 +24,14 @@ var requestBody = new Conversation
 						ContentType = BodyType.Html,
 						Content = "This is urgent!",
 					},
-					Extensions = new List<Extension>
+					Extensions = new List<OpenTypeExtension>
 					{
-						new Extension
+						new OpenTypeExtension
 						{
 							OdataType = "microsoft.graph.openTypeExtension",
+							ExtensionName = "Com.Contoso.Benefits",
 							AdditionalData = new Dictionary<string, object>
 							{
-								{
-									"extensionName" , "Com.Contoso.Benefits"
-								},
 								{
 									"companyName" , "Contoso"
 								},

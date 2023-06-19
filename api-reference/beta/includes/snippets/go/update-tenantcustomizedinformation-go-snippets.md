@@ -32,9 +32,8 @@ tenantContactInformation.SetPhone(&phone)
 notes := "String"
 tenantContactInformation.SetNotes(&notes) 
 
-contacts := []graphmodelsmanagedtenants.TenantContactInformationable {
+contacts := []graphmodels.TenantContactInformationable {
 	tenantContactInformation,
-
 }
 requestBody.SetContacts(contacts)
 website := "String"

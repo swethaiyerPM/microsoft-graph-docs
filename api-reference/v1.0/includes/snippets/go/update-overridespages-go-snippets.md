@@ -19,7 +19,7 @@ requestBody := graphidentity.New$valuePutRequestBody()
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 elementType := "UxElement"
 .SetElementType(&elementType) 
 elementId := null
@@ -33,7 +33,6 @@ value := "Are you sure that you want to cancel entering your information?"
 
 	localizedStrings := []graphmodels.Objectable {
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

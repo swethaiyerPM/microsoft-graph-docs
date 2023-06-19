@@ -30,9 +30,8 @@ requestBody.SetCreatedBy(createdBy)
 
 eventPropagationResult := graphmodelssecurity.NewEventPropagationResult()
 
-eventPropagationResults := []graphmodelssecurity.EventPropagationResultable {
+eventPropagationResults := []graphmodels.EventPropagationResultable {
 	eventPropagationResult,
-
 }
 requestBody.SetEventPropagationResults(eventPropagationResults)
 eventStatus := graphmodelssecurity.NewRetentionEventStatus()
@@ -42,11 +41,10 @@ requestBody.SetLastStatusUpdateDateTime(&lastStatusUpdateDateTime)
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 
 	eventQuery := []graphmodels.Objectable {
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)
