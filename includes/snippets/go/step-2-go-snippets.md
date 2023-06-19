@@ -23,7 +23,6 @@ requestBody.SetChatType(&chatType)
 conversationMember := graphmodels.NewConversationMember()
 roles := []string {
 	"owner",
-
 }
 conversationMember.SetRoles(roles)
 additionalData := map[string]interface{}{
@@ -33,7 +32,6 @@ conversationMember.SetAdditionalData(additionalData)
 conversationMember1 := graphmodels.NewConversationMember()
 roles := []string {
 	"owner",
-
 }
 conversationMember1.SetRoles(roles)
 additionalData := map[string]interface{}{
@@ -43,7 +41,6 @@ conversationMember1.SetAdditionalData(additionalData)
 conversationMember2 := graphmodels.NewConversationMember()
 roles := []string {
 	"owner",
-
 }
 conversationMember2.SetRoles(roles)
 additionalData := map[string]interface{}{
@@ -55,7 +52,6 @@ members := []graphmodels.ConversationMemberable {
 	conversationMember,
 	conversationMember1,
 	conversationMember2,
-
 }
 requestBody.SetMembers(members)
 

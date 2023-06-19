@@ -58,7 +58,6 @@ recipient.SetEmailAddress(emailAddress)
 
 newParticipants := []graphmodels.Recipientable {
 	recipient,
-
 }
 post.SetNewParticipants(newParticipants)
 conversationId := "conversationId-value"
@@ -71,7 +70,6 @@ changeKey := "changeKey-value"
 post.SetChangeKey(&changeKey) 
 categories := []string {
 	"categories-value",
-
 }
 post.SetCategories(categories)
 id := "id-value"
@@ -96,7 +94,6 @@ attachment.SetId(&id)
 
 attachments := []graphmodels.Attachmentable {
 	attachment,
-
 }
 post.SetAttachments(attachments)
 requestBody.SetPost(post)

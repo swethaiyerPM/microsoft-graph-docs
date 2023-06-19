@@ -18,17 +18,17 @@ $additionalData = [
 		'onAuthenticationMethodLoadStart' => $requestBody = new OnAuthenticationMethodLoadStart();
 $		requestBody->set@odatatype('#microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp');
 
-$identityProviders1 = new ();
+$identityProviders1 = new Object();
 $		identityProviders1->setId('EmailPassword-OAUTH');
 
 
 $identityProvidersArray []= $identityProviders1;
-$identityProviders2 = new ();
+$identityProviders2 = new Object();
 $		identityProviders2->setId('Google-OAUTH');
 
 
 $identityProvidersArray []= $identityProviders2;
-$identityProviders3 = new ();
+$identityProviders3 = new Object();
 $		identityProviders3->setId('Facebook-OAUTH');
 
 
@@ -50,7 +50,7 @@ $requestBody->setOnInteractiveAuthFlowStart($onInteractiveAuthFlowStart);
 	'onAttributeCollection' => $requestBody = new OnAttributeCollection();
 $	requestBody->set@odatatype('#microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp');
 
-$attributes1 = new ();
+$attributes1 = new Object();
 $	attributes1->setId('email');
 
 $	attributes1->setDisplayName('Email Address');
@@ -63,7 +63,7 @@ $	attributes1->setDataType('string');
 
 
 $attributesArray []= $attributes1;
-$attributes2 = new ();
+$attributes2 = new Object();
 $	attributes2->setId('displayName');
 
 $	attributes2->setDisplayName('Display Name');
@@ -76,7 +76,7 @@ $	attributes2->setDataType('string');
 
 
 $attributesArray []= $attributes2;
-$attributes3 = new ();
+$attributes3 = new Object();
 $	attributes3->setId('extension_6ea3bc85aec24b1c92ff4a117afb6621_Favoritecolor');
 
 $	attributes3->setDisplayName('Favorite color');
@@ -93,8 +93,8 @@ $requestBody->setAttributes($attributesArray);
 
 
 $attributeCollectionPage = new AttributeCollectionPage();
-$views1 = new ();
-$inputs1 = new ();
+$views1 = new Object();
+$inputs1 = new Object();
 $inputs1->setAttribute('email');
 
 $inputs1->setLabel('Email Address');
@@ -113,7 +113,7 @@ $inputs1->setValidationRegEx('^[a-zA-Z0-9.!#$%&amp;&#8217;\'*+/=?^_`{|}~-]+@[a-z
 
 
 $inputsArray []= $inputs1;
-$inputs2 = new ();
+$inputs2 = new Object();
 $inputs2->setAttribute('displayName');
 
 $inputs2->setLabel('Display Name');
@@ -132,7 +132,7 @@ $inputs2->setValidationRegEx('^[a-zA-Z_][0-9a-zA-Z_ ]*[0-9a-zA-Z_]+$');
 
 
 $inputsArray []= $inputs2;
-$inputs3 = new ();
+$inputs3 = new Object();
 $inputs3->setAttribute('extension_6ea3bc85aec24b1c92ff4a117afb6621_Favoritecolor');
 
 $inputs3->setLabel('Favorite color');

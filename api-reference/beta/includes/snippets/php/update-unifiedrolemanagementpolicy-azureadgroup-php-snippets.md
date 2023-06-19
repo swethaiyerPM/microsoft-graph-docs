@@ -38,7 +38,7 @@ $rulesUnifiedRoleManagementPolicyRule1->setIsRequestorJustificationRequired(true
 
 $rulesUnifiedRoleManagementPolicyRule1->setApprovalMode('SingleStage');
 
-$approvalStages1 = new ();
+$approvalStages1 = new Object();
 $approvalStages1->setApprovalStageTimeOutInDays(1);
 
 $approvalStages1->setIsApproverJustificationRequired(true);
@@ -47,7 +47,7 @@ $approvalStages1->setEscalationTimeInMinutes(0);
 
 $approvalStages1->setIsEscalationEnabled(false);
 
-$primaryApprovers1 = new ();
+$primaryApprovers1 = new Object();
 $primaryApprovers1->set@odatatype('#microsoft.graph.singleUser');
 
 $primaryApprovers1->setIsBackup(false);

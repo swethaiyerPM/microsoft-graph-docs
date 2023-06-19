@@ -21,7 +21,7 @@ additionalData := map[string]interface{}{
 	"emailAddress" : "jonis@relecloud.com", 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 postOfficeBox := ""
 .SetPostOfficeBox(&postOfficeBox) 
 street := "4567 Main Street"
@@ -36,7 +36,7 @@ postalCode := "98052"
 .SetPostalCode(&postalCode) 
 type := "home"
 .SetType(&type) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 postOfficeBox := ""
 .SetPostOfficeBox(&postOfficeBox) 
 street := "4570 Main Street"
@@ -55,16 +55,15 @@ type := "business"
 	addresses := []graphmodels.Objectable {
 		,
 		,
-
 	}
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 number := "206-555-0100"
 .SetNumber(&number) 
 type := "home"
 .SetType(&type) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 number := "206-555-0200"
 .SetNumber(&number) 
 type := "business"
@@ -73,7 +72,6 @@ type := "business"
 	phones := []graphmodels.Objectable {
 		,
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

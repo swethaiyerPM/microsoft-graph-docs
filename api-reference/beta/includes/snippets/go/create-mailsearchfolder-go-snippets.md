@@ -23,7 +23,6 @@ additionalData := map[string]interface{}{
 requestBody.SetIncludeNestedFolders(&includeNestedFolders) 
 	sourceFolderIds := []string {
 		"AQMkADYAAAIBDAAAAA==",
-
 	}
 	"filterQuery" : "contains(subject, 'weekly digest')", 
 }

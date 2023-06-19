@@ -217,7 +217,7 @@ $customersBookingCustomerInformationBase1->setCoordinates($coordinates);
 $customersBookingCustomerInformationBase1->setLocation($location);
 
 	'timeZone' => 'America/Chicago', 
-	'customQuestionAnswers' => $customQuestionAnswers1 = new ();
+	'customQuestionAnswers' => $customQuestionAnswers1 = new Object();
 $	customQuestionAnswers1->setQuestionId('3bc6fde0-4ad3-445d-ab17-0fc15dba0774');
 
 $	customQuestionAnswers1->setQuestion('What is your age?');

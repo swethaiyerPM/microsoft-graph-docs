@@ -20,7 +20,7 @@ $additionalData = [
 		'timeZone' => 'America/Chicago', 
 		'useBusinessHours' => true,
 		'workingHours@odata.type' => '#Collection(microsoft.graph.bookingWorkHours)', 
-		'workingHours' => $workingHours1 = new ();
+		'workingHours' => $workingHours1 = new Object();
 $		workingHours1->set@odatatype('#microsoft.graph.bookingWorkHours');
 
 $		workingHours1->setDay@odatatype('#microsoft.graph.dayOfWeek');
@@ -29,7 +29,7 @@ $		workingHours1->setDay('monday');
 
 $		workingHours1->setTimeSlots@odatatype('#Collection(microsoft.graph.bookingWorkTimeSlot)');
 
-$timeSlots1 = new ();
+$timeSlots1 = new Object();
 $		timeSlots1->set@odatatype('#microsoft.graph.bookingWorkTimeSlot');
 
 $		timeSlots1->setEndTime('17:00:00.0000000');
@@ -43,7 +43,7 @@ $workingHours1->setTimeSlots($timeSlotsArray);
 
 
 $workingHoursArray []= $workingHours1;
-$workingHours2 = new ();
+$workingHours2 = new Object();
 $	workingHours2->set@odatatype('#microsoft.graph.bookingWorkHours');
 
 $	workingHours2->setDay@odatatype('#microsoft.graph.dayOfWeek');
@@ -52,7 +52,7 @@ $	workingHours2->setDay('tuesday');
 
 $	workingHours2->setTimeSlots@odatatype('#Collection(microsoft.graph.bookingWorkTimeSlot)');
 
-$timeSlots1 = new ();
+$timeSlots1 = new Object();
 $	timeSlots1->set@odatatype('#microsoft.graph.bookingWorkTimeSlot');
 
 $	timeSlots1->setEndTime('17:00:00.0000000');
@@ -66,7 +66,7 @@ $workingHours2->setTimeSlots($timeSlotsArray);
 
 
 $workingHoursArray []= $workingHours2;
-$workingHours3 = new ();
+$workingHours3 = new Object();
 $workingHours3->set@odatatype('#microsoft.graph.bookingWorkHours');
 
 $workingHours3->setDay@odatatype('#microsoft.graph.dayOfWeek');
@@ -75,7 +75,7 @@ $workingHours3->setDay('wednesday');
 
 $workingHours3->setTimeSlots@odatatype('#Collection(microsoft.graph.bookingWorkTimeSlot)');
 
-$timeSlots1 = new ();
+$timeSlots1 = new Object();
 $timeSlots1->set@odatatype('#microsoft.graph.bookingWorkTimeSlot');
 
 $timeSlots1->setEndTime('17:00:00.0000000');
@@ -89,7 +89,7 @@ $workingHours3->setTimeSlots($timeSlotsArray);
 
 
 $workingHoursArray []= $workingHours3;
-$workingHours4 = new ();
+$workingHours4 = new Object();
 $workingHours4->set@odatatype('#microsoft.graph.bookingWorkHours');
 
 $workingHours4->setDay@odatatype('#microsoft.graph.dayOfWeek');
@@ -98,7 +98,7 @@ $workingHours4->setDay('thursday');
 
 $workingHours4->setTimeSlots@odatatype('#Collection(microsoft.graph.bookingWorkTimeSlot)');
 
-$timeSlots1 = new ();
+$timeSlots1 = new Object();
 $timeSlots1->set@odatatype('#microsoft.graph.bookingWorkTimeSlot');
 
 $timeSlots1->setEndTime('17:00:00.0000000');
@@ -112,7 +112,7 @@ $workingHours4->setTimeSlots($timeSlotsArray);
 
 
 $workingHoursArray []= $workingHours4;
-$workingHours5 = new ();
+$workingHours5 = new Object();
 $workingHours5->set@odatatype('#microsoft.graph.bookingWorkHours');
 
 $workingHours5->setDay@odatatype('#microsoft.graph.dayOfWeek');
@@ -121,7 +121,7 @@ $workingHours5->setDay('friday');
 
 $workingHours5->setTimeSlots@odatatype('#Collection(microsoft.graph.bookingWorkTimeSlot)');
 
-$timeSlots1 = new ();
+$timeSlots1 = new Object();
 $timeSlots1->set@odatatype('#microsoft.graph.bookingWorkTimeSlot');
 
 $timeSlots1->setEndTime('17:00:00.0000000');

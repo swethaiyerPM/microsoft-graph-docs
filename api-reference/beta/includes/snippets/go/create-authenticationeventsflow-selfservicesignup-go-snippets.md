@@ -22,13 +22,12 @@ additionalData := map[string]interface{}{
 onAuthenticationMethodLoadStart := graphmodels.New()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "EmailPassword-OAUTH"
 .SetId(&id) 
 
 	identityProviders := []graphmodels.Objectable {
 		,
-
 	}
 	onAuthenticationMethodLoadStart.SetIdentityProviders(identityProviders)
 	requestBody.SetOnAuthenticationMethodLoadStart(onAuthenticationMethodLoadStart)
@@ -39,7 +38,7 @@ onInteractiveAuthFlowStart.SetIsSignUpAllowed(&isSignUpAllowed)
 onAttributeCollection := graphmodels.New()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "email"
 .SetId(&id) 
 displayName := "Email Address"
@@ -50,7 +49,7 @@ userFlowAttributeType := "builtIn"
 .SetUserFlowAttributeType(&userFlowAttributeType) 
 dataType := "string"
 .SetDataType(&dataType) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 id := "displayName"
 .SetId(&id) 
 displayName := "Display Name"
@@ -65,16 +64,15 @@ dataType := "string"
 	attributes := []graphmodels.Objectable {
 		,
 		,
-
 	}
 	onAttributeCollection.SetAttributes(attributes)
 attributeCollectionPage := graphmodels.New()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 attribute := "email"
 .SetAttribute(&attribute) 
 label := "Email Address"
@@ -91,7 +89,7 @@ required := true
 .SetRequired(&required) 
 validationRegEx := "^[a-zA-Z0-9.!#$%&amp;&#8217;'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$"
 .SetValidationRegEx(&validationRegEx) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 attribute := "displayName"
 .SetAttribute(&attribute) 
 label := "Display Name"
@@ -112,13 +110,11 @@ validationRegEx := "^[a-zA-Z_][0-9a-zA-Z_ ]*[0-9a-zA-Z_]+$"
 inputs := []graphmodels.Objectable {
 	,
 	,
-
 }
 .SetInputs(inputs)
 
 	views := []graphmodels.Objectable {
 		,
-
 	}
 	attributeCollectionPage.SetViews(views)
 	onAttributeCollection.SetAttributeCollectionPage(attributeCollectionPage)

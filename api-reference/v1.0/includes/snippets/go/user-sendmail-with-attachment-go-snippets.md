@@ -16,7 +16,7 @@ import (
 graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes)
 
 
-requestBody := graphusers.NewSendMailPostRequestBody()
+requestBody := graphusers.NewItemSendMailPostRequestBody()
 message := graphmodels.NewMessage()
 subject := "Meet for lunch?"
 message.SetSubject(&subject) 
@@ -36,7 +36,6 @@ recipient.SetEmailAddress(emailAddress)
 
 toRecipients := []graphmodels.Recipientable {
 	recipient,
-
 }
 message.SetToRecipients(toRecipients)
 
@@ -53,7 +52,6 @@ attachment.SetAdditionalData(additionalData)
 
 attachments := []graphmodels.Attachmentable {
 	attachment,
-
 }
 message.SetAttachments(attachments)
 requestBody.SetMessage(message)

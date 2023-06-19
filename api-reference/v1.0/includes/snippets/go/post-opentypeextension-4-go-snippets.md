@@ -35,14 +35,12 @@ additionalData := map[string]interface{}{
 		"Employees only",
 		"Add spouse or guest",
 		"Add family",
-
 	}
 }
 extension.SetAdditionalData(additionalData)
 
 extensions := []graphmodels.Extensionable {
 	extension,
-
 }
 post.SetExtensions(extensions)
 requestBody.SetPost(post)

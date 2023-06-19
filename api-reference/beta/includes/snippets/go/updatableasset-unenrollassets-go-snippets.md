@@ -25,9 +25,8 @@ updatableAsset := graphmodelswindowsupdates.NewUpdatableAsset()
 id := "String (identifier)"
 updatableAsset.SetId(&id) 
 
-assets := []graphadmin.Objectable {
+assets := []graphmodels.Objectable {
 	updatableAsset,
-
 }
 requestBody.SetAssets(assets)
 

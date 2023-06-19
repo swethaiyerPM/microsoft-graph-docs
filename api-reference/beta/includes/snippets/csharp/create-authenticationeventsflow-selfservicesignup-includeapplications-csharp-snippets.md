@@ -31,9 +31,9 @@ var requestBody = new AuthenticationEventsFlow
 			"onAuthenticationMethodLoadStart" , new 
 			{
 				OdataType = "#microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp",
-				IdentityProviders = new List<>
+				IdentityProviders = new List<ObjectObject>
 				{
-					new 
+					new ObjectObject
 					{
 						Id = "EmailPassword-OAUTH",
 					},
@@ -51,9 +51,9 @@ var requestBody = new AuthenticationEventsFlow
 			"onAttributeCollection" , new 
 			{
 				OdataType = "#microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp",
-				Attributes = new List<>
+				Attributes = new List<ObjectObject>
 				{
-					new 
+					new ObjectObject
 					{
 						Id = "email",
 						DisplayName = "Email Address",
@@ -61,7 +61,7 @@ var requestBody = new AuthenticationEventsFlow
 						UserFlowAttributeType = "builtIn",
 						DataType = "string",
 					},
-					new 
+					new ObjectObject
 					{
 						Id = "displayName",
 						DisplayName = "Display Name",
@@ -72,13 +72,13 @@ var requestBody = new AuthenticationEventsFlow
 				},
 				AttributeCollectionPage = new 
 				{
-					Views = new List<>
+					Views = new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
-							Inputs = new List<>
+							Inputs = new List<ObjectObject>
 							{
-								new 
+								new ObjectObject
 								{
 									Attribute = "email",
 									Label = "Email Address",
@@ -89,7 +89,7 @@ var requestBody = new AuthenticationEventsFlow
 									Required = true,
 									ValidationRegEx = "^[a-zA-Z0-9.!#$%&amp;&#8217;'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$",
 								},
-								new 
+								new ObjectObject
 								{
 									Attribute = "displayName",
 									Label = "Display Name",

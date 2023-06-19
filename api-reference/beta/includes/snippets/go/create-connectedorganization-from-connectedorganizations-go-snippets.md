@@ -31,7 +31,6 @@ identitySource.SetAdditionalData(additionalData)
 
 identitySources := []graphmodels.IdentitySourceable {
 	identitySource,
-
 }
 requestBody.SetIdentitySources(identitySources)
 state := graphmodels.PROPOSED_CONNECTEDORGANIZATIONSTATE 

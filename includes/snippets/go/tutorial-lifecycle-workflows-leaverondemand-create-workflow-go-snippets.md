@@ -43,7 +43,7 @@ isEnabled := true
 task.SetIsEnabled(&isEnabled) 
 taskDefinitionId := "b3a31406-2a15-4c9a-b25b-a658fa5f07fc"
 task.SetTaskDefinitionId(&taskDefinitionId) 
-arguments := []graphmodelsidentitygovernance.KeyValuePairable {
+arguments := []graphmodels.KeyValuePairable {
 
 }
 task.SetArguments(arguments)
@@ -60,7 +60,7 @@ isEnabled := true
 task1.SetIsEnabled(&isEnabled) 
 taskDefinitionId := "81f7b200-2816-4b3b-8c5d-dc556f07b024"
 task1.SetTaskDefinitionId(&taskDefinitionId) 
-arguments := []graphmodelsidentitygovernance.KeyValuePairable {
+arguments := []graphmodels.KeyValuePairable {
 
 }
 task1.SetArguments(arguments)
@@ -77,16 +77,15 @@ isEnabled := true
 task2.SetIsEnabled(&isEnabled) 
 taskDefinitionId := "8d18588d-9ad3-4c0f-99d0-ec215f0e3dff"
 task2.SetTaskDefinitionId(&taskDefinitionId) 
-arguments := []graphmodelsidentitygovernance.KeyValuePairable {
+arguments := []graphmodels.KeyValuePairable {
 
 }
 task2.SetArguments(arguments)
 
-tasks := []graphmodelsidentitygovernance.Taskable {
+tasks := []graphmodels.Taskable {
 	task,
 	task1,
 	task2,
-
 }
 requestBody.SetTasks(tasks)
 

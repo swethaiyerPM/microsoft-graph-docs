@@ -54,13 +54,11 @@ invitationParticipantInfo.SetIdentity(identity)
 
 targets := []graphmodels.InvitationParticipantInfoable {
 	invitationParticipantInfo,
-
 }
 requestBody.SetTargets(targets)
 requestedModalities := []graphmodels.Modalityable {
 	modality := graphmodels.AUDIO_MODALITY 
-	requestBody.SetModality(&modality) 
-
+	requestBody.SetModality(&modality)
 }
 requestBody.SetRequestedModalities(requestedModalities)
 mediaConfig := graphmodels.NewMediaConfig()

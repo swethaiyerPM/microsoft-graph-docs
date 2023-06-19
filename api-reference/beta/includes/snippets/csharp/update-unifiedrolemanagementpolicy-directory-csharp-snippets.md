@@ -40,9 +40,9 @@ var requestBody = new UnifiedRoleManagementPolicy
 						IsApprovalRequiredForExtension = false,
 						IsRequestorJustificationRequired = true,
 						ApprovalMode = "SingleStage",
-						ApprovalStages = new List<>
+						ApprovalStages = new List<ObjectObject>
 						{
-							new 
+							new ObjectObject
 							{
 								ApprovalStageTimeOutInDays = 1,
 								IsApproverJustificationRequired = true,

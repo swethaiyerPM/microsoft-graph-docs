@@ -24,7 +24,7 @@ scope := graphmodels.NewAccessReviewScope()
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 query := "/users"
 .SetQuery(&query) 
 queryType := "MicrosoftGraph"
@@ -32,11 +32,10 @@ queryType := "MicrosoftGraph"
 
 	principalScopes := []graphmodels.Objectable {
 		,
-
 	}
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 query := "/servicePrincipals/bae11f90-7d5d-46ba-9f55-8112b59d92ae"
 .SetQuery(&query) 
 queryType := "MicrosoftGraph"
@@ -44,7 +43,6 @@ queryType := "MicrosoftGraph"
 
 	resourceScopes := []graphmodels.Objectable {
 		,
-
 	}
 }
 scope.SetAdditionalData(additionalData)
@@ -61,7 +59,6 @@ accessReviewReviewerScope.SetQueryRoot(&queryRoot)
 
 reviewers := []graphmodels.AccessReviewReviewerScopeable {
 	accessReviewReviewerScope,
-
 }
 requestBody.SetReviewers(reviewers)
 
@@ -74,7 +71,6 @@ accessReviewReviewerScope.SetQueryType(&queryType)
 
 fallbackReviewers := []graphmodels.AccessReviewReviewerScopeable {
 	accessReviewReviewerScope,
-
 }
 requestBody.SetFallbackReviewers(fallbackReviewers)
 settings := graphmodels.NewAccessReviewScheduleSettings()
@@ -116,7 +112,7 @@ requestBody.SetSettings(settings)
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 query := "/groups/072ac5f4-3f13-4088-ab30-0a276f3e6322/transitiveMembers"
 .SetQuery(&query) 
 queryType := "MicrosoftGraph"
@@ -124,7 +120,6 @@ queryType := "MicrosoftGraph"
 
 	backupReviewers := []graphmodels.Objectable {
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

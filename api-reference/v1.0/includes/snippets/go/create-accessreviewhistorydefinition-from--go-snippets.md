@@ -29,8 +29,7 @@ decisions := []graphmodels.AccessReviewHistoryDecisionFilterable {
 	accessReviewHistoryDecisionFilter := graphmodels.NOTREVIEWED_ACCESSREVIEWHISTORYDECISIONFILTER 
 	requestBody.SetAccessReviewHistoryDecisionFilter(&accessReviewHistoryDecisionFilter) 
 	accessReviewHistoryDecisionFilter := graphmodels.NOTNOTIFIED_ACCESSREVIEWHISTORYDECISIONFILTER 
-	requestBody.SetAccessReviewHistoryDecisionFilter(&accessReviewHistoryDecisionFilter) 
-
+	requestBody.SetAccessReviewHistoryDecisionFilter(&accessReviewHistoryDecisionFilter)
 }
 requestBody.SetDecisions(decisions)
 reviewHistoryPeriodStartDateTime , err := time.Parse(time.RFC3339, "2021-01-01T00:00:00Z")
@@ -59,7 +58,6 @@ accessReviewScope1.SetAdditionalData(additionalData)
 scopes := []graphmodels.AccessReviewScopeable {
 	accessReviewScope,
 	accessReviewScope1,
-
 }
 requestBody.SetScopes(scopes)
 

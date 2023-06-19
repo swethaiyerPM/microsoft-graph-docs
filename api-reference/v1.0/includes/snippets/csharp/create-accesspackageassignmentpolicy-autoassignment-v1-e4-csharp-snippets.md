@@ -74,33 +74,33 @@ var requestBody = new AccessPackageAssignmentPolicy
 					"isMultipleSelectionAllowed" , "false"
 				},
 				{
-					"choices" , new List<>
+					"choices" , new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
 							OdataType = "microsoft.graph.accessPackageAnswerChoice",
 							ActualValue = "KE",
 							Text = "Kenya",
 						},
-						new 
+						new ObjectObject
 						{
 							OdataType = "microsoft.graph.accessPackageAnswerChoice",
 							ActualValue = "US",
 							Text = "United States",
 						},
-						new 
+						new ObjectObject
 						{
 							OdataType = "microsoft.graph.accessPackageAnswerChoice",
 							ActualValue = "GY",
 							Text = "Guyana",
 						},
-						new 
+						new ObjectObject
 						{
 							OdataType = "microsoft.graph.accessPackageAnswerChoice",
 							ActualValue = "BD",
 							Text = "Bangladesh",
 						},
-						new 
+						new ObjectObject
 						{
 							OdataType = "microsoft.graph.accessPackageAnswerChoice",
 							ActualValue = "JP",

@@ -48,7 +48,6 @@ accessReviewReviewerScope.SetQueryRoot(&queryRoot)
 
 reviewers := []graphmodels.AccessReviewReviewerScopeable {
 	accessReviewReviewerScope,
-
 }
 requestBody.SetReviewers(reviewers)
 
@@ -63,7 +62,6 @@ accessReviewReviewerScope.SetQueryRoot(&queryRoot)
 
 fallbackReviewers := []graphmodels.AccessReviewReviewerScopeable {
 	accessReviewReviewerScope,
-
 }
 requestBody.SetFallbackReviewers(fallbackReviewers)
 settings := graphmodels.NewAccessReviewScheduleSettings()
@@ -121,7 +119,6 @@ accessReviewApplyAction := graphmodels.NewAccessReviewApplyAction()
 
 applyActions := []graphmodels.AccessReviewApplyActionable {
 	accessReviewApplyAction,
-
 }
 settings.SetApplyActions(applyActions)
 requestBody.SetSettings(settings)

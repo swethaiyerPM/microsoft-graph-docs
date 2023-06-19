@@ -33,10 +33,9 @@ acl1.SetValue(&value)
 accessType := graphmodels.DENY_ACCESSTYPE 
 acl1.SetAccessType(&accessType) 
 
-acl := []graphmodelsexternalconnectors.Aclable {
+acl := []graphmodels.Aclable {
 	acl,
 	acl1,
-
 }
 requestBody.SetAcl(acl)
 properties := graphmodelsexternalconnectors.NewProperties()

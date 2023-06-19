@@ -41,7 +41,6 @@ accessReviewStageSettings.SetRecommendationsEnabled(&recommendationsEnabled)
 decisionsThatWillMoveToNextStage := []string {
 	"NotReviewed",
 	"Approve",
-
 }
 accessReviewStageSettings.SetDecisionsThatWillMoveToNextStage(decisionsThatWillMoveToNextStage)
 
@@ -54,7 +53,6 @@ accessReviewReviewerScope.SetQueryType(&queryType)
 
 reviewers := []graphmodels.Objectable {
 	accessReviewReviewerScope,
-
 }
 accessReviewStageSettings.SetReviewers(reviewers)
 accessReviewStageSettings1 := graphmodels.NewAccessReviewStageSettings()
@@ -62,7 +60,6 @@ stageId := "2"
 accessReviewStageSettings1.SetStageId(&stageId) 
 dependsOn := []string {
 	"1",
-
 }
 accessReviewStageSettings1.SetDependsOn(dependsOn)
 durationInDays := int32(2)
@@ -81,7 +78,6 @@ accessReviewReviewerScope.SetQueryRoot(&queryRoot)
 
 reviewers := []graphmodels.Objectable {
 	accessReviewReviewerScope,
-
 }
 accessReviewStageSettings1.SetReviewers(reviewers)
 
@@ -94,14 +90,12 @@ accessReviewReviewerScope.SetQueryType(&queryType)
 
 fallbackReviewers := []graphmodels.Objectable {
 	accessReviewReviewerScope,
-
 }
 accessReviewStageSettings1.SetFallbackReviewers(fallbackReviewers)
 
 stageSettings := []graphmodels.AccessReviewStageSettingsable {
 	accessReviewStageSettings,
 	accessReviewStageSettings1,
-
 }
 requestBody.SetStageSettings(stageSettings)
 settings := graphmodels.NewAccessReviewScheduleSettings()

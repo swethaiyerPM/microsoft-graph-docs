@@ -82,7 +82,7 @@ $questionsAccessPackageQuestion1->setText('What country are you working from?');
 
 $additionalData = [
 'isMultipleSelectionAllowed' => 'false', 
-'choices' => $choices1 = new ();
+'choices' => $choices1 = new Object();
 $choices1->set@odatatype('microsoft.graph.accessPackageAnswerChoice');
 
 $choices1->setActualValue('KE');
@@ -91,7 +91,7 @@ $choices1->setText('Kenya');
 
 
 $choicesArray []= $choices1;
-$choices2 = new ();
+$choices2 = new Object();
 $choices2->set@odatatype('microsoft.graph.accessPackageAnswerChoice');
 
 $choices2->setActualValue('US');
@@ -100,7 +100,7 @@ $choices2->setText('United States');
 
 
 $choicesArray []= $choices2;
-$choices3 = new ();
+$choices3 = new Object();
 $choices3->set@odatatype('microsoft.graph.accessPackageAnswerChoice');
 
 $choices3->setActualValue('GY');
@@ -109,7 +109,7 @@ $choices3->setText('Guyana');
 
 
 $choicesArray []= $choices3;
-$choices4 = new ();
+$choices4 = new Object();
 $choices4->set@odatatype('microsoft.graph.accessPackageAnswerChoice');
 
 $choices4->setActualValue('BD');
@@ -118,7 +118,7 @@ $choices4->setText('Bangladesh');
 
 
 $choicesArray []= $choices4;
-$choices5 = new ();
+$choices5 = new Object();
 $choices5->set@odatatype('microsoft.graph.accessPackageAnswerChoice');
 
 $choices5->setActualValue('JP');

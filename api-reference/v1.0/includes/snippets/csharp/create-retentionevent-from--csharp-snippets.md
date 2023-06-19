@@ -33,9 +33,9 @@ var requestBody = new Microsoft.Graph.Models.Security.RetentionEvent
 	AdditionalData = new Dictionary<string, object>
 	{
 		{
-			"eventQuery" , new List<>
+			"eventQuery" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					OdataType = "microsoft.graph.security.eventQuery",
 				},

@@ -44,7 +44,6 @@ userSet.SetAdditionalData(additionalData)
 
 allowedRequestors := []graphmodels.UserSetable {
 	userSet,
-
 }
 requestorSettings.SetAllowedRequestors(allowedRequestors)
 requestBody.SetRequestorSettings(requestorSettings)

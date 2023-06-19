@@ -16,7 +16,7 @@ $requestBody->setDisplayName('Untrusted named location with only IPv4 address');
 
 $additionalData = [
 		'isTrusted' => false,
-		'ipRanges' => $ipRanges1 = new ();
+		'ipRanges' => $ipRanges1 = new Object();
 $		ipRanges1->set@odatatype('#microsoft.graph.iPv4CidrRange');
 
 $		ipRanges1->setCidrAddress('6.5.4.3/18');

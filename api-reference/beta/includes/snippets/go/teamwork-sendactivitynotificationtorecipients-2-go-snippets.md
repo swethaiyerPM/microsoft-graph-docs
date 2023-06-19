@@ -39,9 +39,8 @@ keyValuePair.SetName(&name)
 value := "6788662"
 keyValuePair.SetValue(&value) 
 
-templateParameters := []graphteamwork.KeyValuePairable {
+templateParameters := []graphmodels.KeyValuePairable {
 	keyValuePair,
-
 }
 requestBody.SetTemplateParameters(templateParameters)
 
@@ -62,11 +61,10 @@ additionalData := map[string]interface{}{
 }
 teamworkNotificationRecipient2.SetAdditionalData(additionalData)
 
-recipients := []graphteamwork.TeamworkNotificationRecipientable {
+recipients := []graphmodels.TeamworkNotificationRecipientable {
 	teamworkNotificationRecipient,
 	teamworkNotificationRecipient1,
 	teamworkNotificationRecipient2,
-
 }
 requestBody.SetRecipients(recipients)
 

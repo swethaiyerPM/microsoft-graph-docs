@@ -19,12 +19,12 @@ $		requestBody->set@odatatype('#microsoft.graph.onAttributeCollectionExternalUse
 $attributeCollectionPage = new AttributeCollectionPage();
 		$AttributeCollectionPage->setCustomStringsFileId(null);
 
-$views1 = new ();
+$views1 = new Object();
 		$views1->setTitle(null);
 
 		$views1->setDescription(null);
 
-$inputs1 = new ();
+$inputs1 = new Object();
 $		inputs1->setAttribute('email');
 
 $		inputs1->setLabel('Email Address');
@@ -47,7 +47,7 @@ $inputs1->setOptions([]);
 
 
 $inputsArray []= $inputs1;
-$inputs2 = new ();
+$inputs2 = new Object();
 $	inputs2->setAttribute('displayName');
 
 $	inputs2->setLabel('Display Name');
@@ -70,7 +70,7 @@ $inputs2->setOptions([]);
 
 
 $inputsArray []= $inputs2;
-$inputs3 = new ();
+$inputs3 = new Object();
 $inputs3->setAttribute('extension_6ea3bc85aec24b1c92ff4a117afb6621_Favoritecolor');
 
 $inputs3->setLabel('Favorite color');

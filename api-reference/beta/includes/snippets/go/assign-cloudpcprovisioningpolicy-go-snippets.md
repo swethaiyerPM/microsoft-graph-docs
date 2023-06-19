@@ -29,9 +29,8 @@ additionalData := map[string]interface{}{
 target.SetAdditionalData(additionalData)
 cloudPcProvisioningPolicyAssignment.SetTarget(target)
 
-assignments := []graphdevicemanagement.Objectable {
+assignments := []graphmodels.Objectable {
 	cloudPcProvisioningPolicyAssignment,
-
 }
 requestBody.SetAssignments(assignments)
 additionalData := map[string]interface{}{

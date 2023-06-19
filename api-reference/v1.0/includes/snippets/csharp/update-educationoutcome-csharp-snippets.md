@@ -14,9 +14,9 @@ var requestBody = new EducationOutcome
 	AdditionalData = new Dictionary<string, object>
 	{
 		{
-			"rubricQualityFeedback" , new List<>
+			"rubricQualityFeedback" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					QualityId = "9a145aa8-f3d9-43a1-8f77-5387ff0693f2",
 					Feedback = new 
@@ -25,7 +25,7 @@ var requestBody = new EducationOutcome
 						ContentType = "text",
 					},
 				},
-				new 
+				new ObjectObject
 				{
 					QualityId = "d2331fb2-2761-402e-8de6-93e0afaa076e",
 					Feedback = new 
@@ -37,14 +37,14 @@ var requestBody = new EducationOutcome
 			}
 		},
 		{
-			"rubricQualitySelectedLevels" , new List<>
+			"rubricQualitySelectedLevels" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					QualityId = "9a145aa8-f3d9-43a1-8f77-5387ff0693f2",
 					ColumnId = "4fb17a1d-5681-46c2-a295-4e305c3eae23",
 				},
-				new 
+				new ObjectObject
 				{
 					QualityId = "d2331fb2-2761-402e-8de6-93e0afaa076e",
 					ColumnId = "aac076bf-51ba-48c5-a2e0-ee235b0b9740",

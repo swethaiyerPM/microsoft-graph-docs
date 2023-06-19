@@ -28,7 +28,6 @@ authenticationConditionApplication.SetAppId(&appId)
 
 includeApplications := []graphmodels.AuthenticationConditionApplicationable {
 	authenticationConditionApplication,
-
 }
 applications.SetIncludeApplications(includeApplications)
 conditions.SetApplications(applications)

@@ -38,22 +38,22 @@ var requestBody = new UnifiedRoleManagementPolicyRule
 				IsApprovalRequiredForExtension = false,
 				IsRequestorJustificationRequired = true,
 				ApprovalMode = "SingleStage",
-				ApprovalStages = new List<>
+				ApprovalStages = new List<ObjectObject>
 				{
-					new 
+					new ObjectObject
 					{
 						OdataType = "microsoft.graph.unifiedApprovalStage",
 						ApprovalStageTimeOutInDays = 1,
 						IsApproverJustificationRequired = true,
 						EscalationTimeInMinutes = 0,
-						PrimaryApprovers = new List<>
+						PrimaryApprovers = new List<ObjectObject>
 						{
-							new 
+							new ObjectObject
 							{
 								OdataType = "#microsoft.graph.singleUser",
 								UserId = "10a08e2e-3ea2-4ce0-80cb-d5fdd4b05ea6",
 							},
-							new 
+							new ObjectObject
 							{
 								OdataType = "#microsoft.graph.groupMembers",
 								GroupId = "14f2746d-7d6f-4ac6-acd8-8cac318b041b",

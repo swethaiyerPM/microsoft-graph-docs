@@ -34,9 +34,8 @@ mediaInfo.SetResourceId(&resourceId)
 }
 prompt.SetAdditionalData(additionalData)
 
-prompts := []graphcommunications.Promptable {
+prompts := []graphmodels.Promptable {
 	prompt,
-
 }
 requestBody.SetPrompts(prompts)
 maxRecordDurationInSeconds := int32(10)
@@ -51,7 +50,6 @@ stopTones := []string {
 	"#",
 	"1",
 	"*",
-
 }
 requestBody.SetStopTones(stopTones)
 

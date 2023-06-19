@@ -32,7 +32,6 @@ includedAccountTarget.SetType(&type)
 additionalData := map[string]interface{}{
 	accountTargetEmails := []string {
 		"faiza@contoso.com",
-
 	}
 }
 includedAccountTarget.SetAdditionalData(additionalData)
@@ -43,7 +42,6 @@ excludedAccountTarget.SetType(&type)
 additionalData := map[string]interface{}{
 	accountTargetEmails := []string {
 		"sam@contoso.com",
-
 	}
 }
 excludedAccountTarget.SetAdditionalData(additionalData)

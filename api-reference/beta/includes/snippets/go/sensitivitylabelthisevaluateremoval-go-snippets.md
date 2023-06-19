@@ -67,7 +67,7 @@ keyValuePair6.SetName(&name)
 value := "00000000-0000-0000-0000-000000000000"
 keyValuePair6.SetValue(&value) 
 
-metadata := []graphmodelssecurity.KeyValuePairable {
+metadata := []graphmodels.KeyValuePairable {
 	keyValuePair,
 	keyValuePair1,
 	keyValuePair2,
@@ -75,7 +75,6 @@ metadata := []graphmodelssecurity.KeyValuePairable {
 	keyValuePair4,
 	keyValuePair5,
 	keyValuePair6,
-
 }
 contentInfo.SetMetadata(metadata)
 requestBody.SetContentInfo(contentInfo)

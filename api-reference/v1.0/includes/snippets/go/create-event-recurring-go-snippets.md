@@ -44,8 +44,7 @@ interval := int32(1)
 pattern.SetInterval(&interval) 
 daysOfWeek := []graphmodels.DayOfWeekable {
 	dayOfWeek := graphmodels.MONDAY_DAYOFWEEK 
-	pattern.SetDayOfWeek(&dayOfWeek) 
-
+	pattern.SetDayOfWeek(&dayOfWeek)
 }
 pattern.SetDaysOfWeek(daysOfWeek)
 recurrence.SetPattern(pattern)
@@ -76,7 +75,6 @@ attendee.SetType(&type)
 
 attendees := []graphmodels.Objectable {
 	attendee,
-
 }
 requestBody.SetAttendees(attendees)
 allowNewTimeProposals := true

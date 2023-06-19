@@ -24,12 +24,12 @@ scope := graphmodels.NewAccessReviewScope()
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 query := "/users"
 .SetQuery(&query) 
 queryType := "MicrosoftGraph"
 .SetQueryType(&queryType) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 query := "/groups"
 .SetQuery(&query) 
 queryType := "MicrosoftGraph"
@@ -38,11 +38,10 @@ queryType := "MicrosoftGraph"
 	principalScopes := []graphmodels.Objectable {
 		,
 		,
-
 	}
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 query := "/roleManagement/directory/roleDefinitions/fe930be7-5e62-47db-91af-98c3a49a38b1"
 .SetQuery(&query) 
 queryType := "MicrosoftGraph"
@@ -50,7 +49,6 @@ queryType := "MicrosoftGraph"
 
 	resourceScopes := []graphmodels.Objectable {
 		,
-
 	}
 }
 scope.SetAdditionalData(additionalData)
@@ -65,7 +63,6 @@ accessReviewReviewerScope.SetQueryType(&queryType)
 
 reviewers := []graphmodels.AccessReviewReviewerScopeable {
 	accessReviewReviewerScope,
-
 }
 requestBody.SetReviewers(reviewers)
 settings := graphmodels.NewAccessReviewScheduleSettings()

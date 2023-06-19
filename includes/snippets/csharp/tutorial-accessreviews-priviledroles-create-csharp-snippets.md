@@ -18,15 +18,15 @@ var requestBody = new AccessReviewScheduleDefinition
 		AdditionalData = new Dictionary<string, object>
 		{
 			{
-				"principalScopes" , new List<>
+				"principalScopes" , new List<ObjectObject>
 				{
-					new 
+					new ObjectObject
 					{
 						OdataType = "#microsoft.graph.accessReviewQueryScope",
 						Query = "/users",
 						QueryType = "MicrosoftGraph",
 					},
-					new 
+					new ObjectObject
 					{
 						OdataType = "#microsoft.graph.accessReviewQueryScope",
 						Query = "/groups",
@@ -35,9 +35,9 @@ var requestBody = new AccessReviewScheduleDefinition
 				}
 			},
 			{
-				"resourceScopes" , new List<>
+				"resourceScopes" , new List<ObjectObject>
 				{
-					new 
+					new ObjectObject
 					{
 						OdataType = "#microsoft.graph.accessReviewQueryScope",
 						Query = "/roleManagement/directory/roleDefinitions/fe930be7-5e62-47db-91af-98c3a49a38b1",

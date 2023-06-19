@@ -70,13 +70,11 @@ subjectSet.SetAdditionalData(additionalData)
 
 primaryApprovers := []graphmodels.SubjectSetable {
 	subjectSet,
-
 }
 accessPackageApprovalStage.SetPrimaryApprovers(primaryApprovers)
 
 stages := []graphmodels.AccessPackageApprovalStageable {
 	accessPackageApprovalStage,
-
 }
 requestApprovalSettings.SetStages(stages)
 requestBody.SetRequestApprovalSettings(requestApprovalSettings)
@@ -95,27 +93,27 @@ additionalData := map[string]interface{}{
 	"isMultipleSelectionAllowed" : "false", 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 actualValue := "KE"
 .SetActualValue(&actualValue) 
 text := "Kenya"
 .SetText(&text) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 actualValue := "US"
 .SetActualValue(&actualValue) 
 text := "United States"
 .SetText(&text) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 actualValue := "GY"
 .SetActualValue(&actualValue) 
 text := "Guyana"
 .SetText(&text) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 actualValue := "BD"
 .SetActualValue(&actualValue) 
 text := "Bangladesh"
 .SetText(&text) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 actualValue := "JP"
 .SetActualValue(&actualValue) 
 text := "Japan"
@@ -127,7 +125,6 @@ text := "Japan"
 		,
 		,
 		,
-
 	}
 }
 accessPackageQuestion.SetAdditionalData(additionalData)
@@ -150,7 +147,6 @@ accessPackageLocalizedText.SetText(&text)
 
 localizations := []graphmodels.AccessPackageLocalizedTextable {
 	accessPackageLocalizedText,
-
 }
 accessPackageQuestion1.SetLocalizations(localizations)
 additionalData := map[string]interface{}{
@@ -162,7 +158,6 @@ accessPackageQuestion1.SetAdditionalData(additionalData)
 questions := []graphmodels.AccessPackageQuestionable {
 	accessPackageQuestion,
 	accessPackageQuestion1,
-
 }
 requestBody.SetQuestions(questions)
 accessPackage := graphmodels.NewAccessPackage()

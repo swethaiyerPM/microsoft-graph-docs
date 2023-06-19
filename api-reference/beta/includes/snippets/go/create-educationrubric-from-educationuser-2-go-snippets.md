@@ -60,7 +60,6 @@ rubricLevel1.SetGrading(grading)
 levels := []graphmodels.RubricLevelable {
 	rubricLevel,
 	rubricLevel1,
-
 }
 requestBody.SetLevels(levels)
 
@@ -92,7 +91,6 @@ rubricCriterion1.SetDescription(description)
 criteria := []graphmodels.RubricCriterionable {
 	rubricCriterion,
 	rubricCriterion1,
-
 }
 rubricQuality.SetCriteria(criteria)
 weight := float32(50.0)
@@ -124,7 +122,6 @@ rubricCriterion1.SetDescription(description)
 criteria := []graphmodels.RubricCriterionable {
 	rubricCriterion,
 	rubricCriterion1,
-
 }
 rubricQuality1.SetCriteria(criteria)
 weight := float32(50.0)
@@ -133,7 +130,6 @@ rubricQuality1.SetWeight(&weight)
 qualities := []graphmodels.RubricQualityable {
 	rubricQuality,
 	rubricQuality1,
-
 }
 requestBody.SetQualities(qualities)
 grading := graphmodels.NewEducationAssignmentGradeType()

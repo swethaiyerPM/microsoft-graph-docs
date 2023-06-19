@@ -23,7 +23,6 @@ requestBody.SetChatType(&chatType)
 conversationMember := graphmodels.NewConversationMember()
 roles := []string {
 	"owner",
-
 }
 conversationMember.SetRoles(roles)
 additionalData := map[string]interface{}{
@@ -33,7 +32,6 @@ conversationMember.SetAdditionalData(additionalData)
 conversationMember1 := graphmodels.NewConversationMember()
 roles := []string {
 	"owner",
-
 }
 conversationMember1.SetRoles(roles)
 additionalData := map[string]interface{}{
@@ -44,7 +42,6 @@ conversationMember1.SetAdditionalData(additionalData)
 members := []graphmodels.ConversationMemberable {
 	conversationMember,
 	conversationMember1,
-
 }
 requestBody.SetMembers(members)
 
@@ -57,7 +54,6 @@ teamsAppInstallation.SetAdditionalData(additionalData)
 
 installedApps := []graphmodels.TeamsAppInstallationable {
 	teamsAppInstallation,
-
 }
 requestBody.SetInstalledApps(installedApps)
 

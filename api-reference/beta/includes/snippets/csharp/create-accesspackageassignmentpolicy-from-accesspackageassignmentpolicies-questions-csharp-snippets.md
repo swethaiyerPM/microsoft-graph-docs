@@ -81,16 +81,16 @@ var requestBody = new AccessPackageAssignmentPolicy
 			AdditionalData = new Dictionary<string, object>
 			{
 				{
-					"choices" , new List<>
+					"choices" , new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
 							ActualValue = "AZ",
 							DisplayValue = new 
 							{
-								LocalizedTexts = new List<>
+								LocalizedTexts = new List<ObjectObject>
 								{
-									new 
+									new ObjectObject
 									{
 										Text = "Arizona",
 										LanguageCode = "es",
@@ -98,14 +98,14 @@ var requestBody = new AccessPackageAssignmentPolicy
 								},
 							},
 						},
-						new 
+						new ObjectObject
 						{
 							ActualValue = "CA",
 							DisplayValue = new 
 							{
-								LocalizedTexts = new List<>
+								LocalizedTexts = new List<ObjectObject>
 								{
-									new 
+									new ObjectObject
 									{
 										Text = "California",
 										LanguageCode = "es",
@@ -113,14 +113,14 @@ var requestBody = new AccessPackageAssignmentPolicy
 								},
 							},
 						},
-						new 
+						new ObjectObject
 						{
 							ActualValue = "OH",
 							DisplayValue = new 
 							{
-								LocalizedTexts = new List<>
+								LocalizedTexts = new List<ObjectObject>
 								{
-									new 
+									new ObjectObject
 									{
 										Text = "Ohio",
 										LanguageCode = "es",

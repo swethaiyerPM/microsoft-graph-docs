@@ -23,14 +23,14 @@ var requestBody = new MeetingRegistrantBase
 			"email" , "frederick.cormier@contoso.com"
 		},
 		{
-			"customQuestionAnswers" , new List<>
+			"customQuestionAnswers" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					QuestionId = "MSM5YjlmM2Q4ZS03ZmVkLTRmN3gwMDIw94MDAyMF9hX3gwMDIwX2RldmU=",
 					Value = "No",
 				},
-				new 
+				new ObjectObject
 				{
 					QuestionId = "MSM5M2E2OWQ1Ni1jZTc4LTQDAwMjBfZGlkX3gwMDIwX3lvdV94MDAyMF8=",
 					Value = "Internet",

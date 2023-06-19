@@ -50,12 +50,12 @@ $clientConfiguration->setAdditionalData($additionalData);
 
 $requestBody->setClientConfiguration($clientConfiguration);
 $additionalData = [
-		'claimsForTokenConfiguration' => $claimsForTokenConfiguration1 = new ();
+		'claimsForTokenConfiguration' => $claimsForTokenConfiguration1 = new Object();
 $		claimsForTokenConfiguration1->setClaimIdInApiResponse('DateOfBirth');
 
 
 $claimsForTokenConfigurationArray []= $claimsForTokenConfiguration1;
-$claimsForTokenConfiguration2 = new ();
+$claimsForTokenConfiguration2 = new Object();
 $		claimsForTokenConfiguration2->setClaimIdInApiResponse('CustomRoles');
 
 

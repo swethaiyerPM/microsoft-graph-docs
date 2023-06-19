@@ -35,17 +35,17 @@ var requestBody = new BookingStaffMemberBase
 			"workingHours@odata.type" , "#Collection(microsoft.graph.bookingWorkHours)"
 		},
 		{
-			"workingHours" , new List<>
+			"workingHours" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					OdataType = "#microsoft.graph.bookingWorkHours",
 					DayOdataType = "#microsoft.graph.dayOfWeek",
 					Day = "monday",
 					TimeSlotsOdataType = "#Collection(microsoft.graph.bookingWorkTimeSlot)",
-					TimeSlots = new List<>
+					TimeSlots = new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
 							OdataType = "#microsoft.graph.bookingWorkTimeSlot",
 							EndTime = "17:00:00.0000000",
@@ -53,15 +53,15 @@ var requestBody = new BookingStaffMemberBase
 						},
 					},
 				},
-				new 
+				new ObjectObject
 				{
 					OdataType = "#microsoft.graph.bookingWorkHours",
 					DayOdataType = "#microsoft.graph.dayOfWeek",
 					Day = "tuesday",
 					TimeSlotsOdataType = "#Collection(microsoft.graph.bookingWorkTimeSlot)",
-					TimeSlots = new List<>
+					TimeSlots = new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
 							OdataType = "#microsoft.graph.bookingWorkTimeSlot",
 							EndTime = "17:00:00.0000000",
@@ -69,15 +69,15 @@ var requestBody = new BookingStaffMemberBase
 						},
 					},
 				},
-				new 
+				new ObjectObject
 				{
 					OdataType = "#microsoft.graph.bookingWorkHours",
 					DayOdataType = "#microsoft.graph.dayOfWeek",
 					Day = "wednesday",
 					TimeSlotsOdataType = "#Collection(microsoft.graph.bookingWorkTimeSlot)",
-					TimeSlots = new List<>
+					TimeSlots = new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
 							OdataType = "#microsoft.graph.bookingWorkTimeSlot",
 							EndTime = "17:00:00.0000000",
@@ -85,15 +85,15 @@ var requestBody = new BookingStaffMemberBase
 						},
 					},
 				},
-				new 
+				new ObjectObject
 				{
 					OdataType = "#microsoft.graph.bookingWorkHours",
 					DayOdataType = "#microsoft.graph.dayOfWeek",
 					Day = "thursday",
 					TimeSlotsOdataType = "#Collection(microsoft.graph.bookingWorkTimeSlot)",
-					TimeSlots = new List<>
+					TimeSlots = new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
 							OdataType = "#microsoft.graph.bookingWorkTimeSlot",
 							EndTime = "17:00:00.0000000",
@@ -101,15 +101,15 @@ var requestBody = new BookingStaffMemberBase
 						},
 					},
 				},
-				new 
+				new ObjectObject
 				{
 					OdataType = "#microsoft.graph.bookingWorkHours",
 					DayOdataType = "#microsoft.graph.dayOfWeek",
 					Day = "friday",
 					TimeSlotsOdataType = "#Collection(microsoft.graph.bookingWorkTimeSlot)",
-					TimeSlots = new List<>
+					TimeSlots = new List<ObjectObject>
 					{
-						new 
+						new ObjectObject
 						{
 							OdataType = "#microsoft.graph.bookingWorkTimeSlot",
 							EndTime = "17:00:00.0000000",

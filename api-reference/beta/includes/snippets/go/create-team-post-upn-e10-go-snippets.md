@@ -25,7 +25,6 @@ requestBody.SetDescription(&description)
 conversationMember := graphmodels.NewConversationMember()
 roles := []string {
 	"owner",
-
 }
 conversationMember.SetRoles(roles)
 additionalData := map[string]interface{}{
@@ -35,7 +34,6 @@ conversationMember.SetAdditionalData(additionalData)
 
 members := []graphmodels.ConversationMemberable {
 	conversationMember,
-
 }
 requestBody.SetMembers(members)
 additionalData := map[string]interface{}{

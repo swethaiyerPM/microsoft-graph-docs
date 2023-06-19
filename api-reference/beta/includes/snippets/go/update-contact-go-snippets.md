@@ -38,7 +38,6 @@ typedEmailAddress1.SetOtherLabel(&otherLabel)
 emailAddresses := []graphmodels.Objectable {
 	typedEmailAddress,
 	typedEmailAddress1,
-
 }
 requestBody.SetEmailAddresses(emailAddresses)
 

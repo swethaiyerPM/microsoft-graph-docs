@@ -22,12 +22,12 @@ additionalData := map[string]interface{}{
 	"email" : "lisa.adkins@contoso.com", 
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 questionId := "MSM5YjlmM2Q4ZS03ZmVkLTRmN3gwMDIw94MDAyMF9hX3gwMDIwX2RldmU="
 .SetQuestionId(&questionId) 
 value := "No"
 .SetValue(&value) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 questionId := "MSM5M2E2OWQ1Ni1jZTc4LTQDAwMjBfZGlkX3gwMDIwX3lvdV94MDAyMF8="
 .SetQuestionId(&questionId) 
 value := "Internet"
@@ -36,7 +36,6 @@ value := "Internet"
 	customQuestionAnswers := []graphmodels.Objectable {
 		,
 		,
-
 	}
 }
 requestBody.SetAdditionalData(additionalData)

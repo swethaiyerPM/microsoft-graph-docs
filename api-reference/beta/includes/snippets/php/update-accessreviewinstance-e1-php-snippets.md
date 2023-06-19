@@ -14,7 +14,7 @@ $scope = new AccessReviewScope();
 $scope->set@odatatype('#microsoft.graph.principalResourceMembershipsScope');
 
 $additionalData = [
-		'principalScopes' => $principalScopes1 = new ();
+		'principalScopes' => $principalScopes1 = new Object();
 $		principalScopes1->set@odatatype('#microsoft.graph.accessReviewQueryScope');
 
 $		principalScopes1->setQuery('/v1.0/users');
@@ -23,7 +23,7 @@ $		principalScopes1->setQueryType('MicrosoftGraph');
 
 
 $principalScopesArray []= $principalScopes1;
-$principalScopes2 = new ();
+$principalScopes2 = new Object();
 $		principalScopes2->set@odatatype('#microsoft.graph.accessReviewQueryScope');
 
 $		principalScopes2->setQuery('/v1.0/groups');
@@ -35,7 +35,7 @@ $principalScopesArray []= $principalScopes2;
 $scope->setPrincipalScopes($principalScopesArray);
 
 
-	'resourceScopes' => $resourceScopes1 = new ();
+	'resourceScopes' => $resourceScopes1 = new Object();
 $	resourceScopes1->set@odatatype('#microsoft.graph.accessReviewQueryScope');
 
 $	resourceScopes1->setQuery('/beta/roleManagement/directory/roleDefinitions/9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3');

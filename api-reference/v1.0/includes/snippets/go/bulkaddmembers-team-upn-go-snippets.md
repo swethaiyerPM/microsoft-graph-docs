@@ -31,7 +31,6 @@ conversationMember.SetAdditionalData(additionalData)
 conversationMember1 := graphmodels.NewConversationMember()
 roles := []string {
 	"owner",
-
 }
 conversationMember1.SetRoles(roles)
 additionalData := map[string]interface{}{
@@ -39,10 +38,9 @@ additionalData := map[string]interface{}{
 }
 conversationMember1.SetAdditionalData(additionalData)
 
-values := []graphteams.Objectable {
+values := []graphmodels.Objectable {
 	conversationMember,
 	conversationMember1,
-
 }
 requestBody.SetValues(values)
 

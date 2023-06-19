@@ -24,9 +24,8 @@ requestBody.SetAudience(audience)
 
 complianceChange := graphmodelswindowsupdates.NewComplianceChange()
 
-complianceChanges := []graphmodelswindowsupdates.ComplianceChangeable {
+complianceChanges := []graphmodels.ComplianceChangeable {
 	complianceChange,
-
 }
 requestBody.SetComplianceChanges(complianceChanges)
 
@@ -39,9 +38,8 @@ contentFilter := graphmodels.New()
 }
 complianceChangeRule.SetAdditionalData(additionalData)
 
-complianceChangeRules := []graphmodelswindowsupdates.ComplianceChangeRuleable {
+complianceChangeRules := []graphmodels.ComplianceChangeRuleable {
 	complianceChangeRule,
-
 }
 requestBody.SetComplianceChangeRules(complianceChangeRules)
 deploymentSettings := graphmodelswindowsupdates.NewDeploymentSettings()

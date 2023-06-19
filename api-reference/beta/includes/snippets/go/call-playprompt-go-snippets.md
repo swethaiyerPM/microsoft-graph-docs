@@ -32,9 +32,8 @@ mediaInfo.SetResourceId(&resourceId)
 }
 prompt.SetAdditionalData(additionalData)
 
-prompts := []graphcommunications.Promptable {
+prompts := []graphmodels.Promptable {
 	prompt,
-
 }
 requestBody.SetPrompts(prompts)
 loop := false

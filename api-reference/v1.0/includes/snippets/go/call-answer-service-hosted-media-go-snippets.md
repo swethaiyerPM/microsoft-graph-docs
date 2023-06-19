@@ -19,22 +19,21 @@ graphClient, err := msgraphsdk.NewGraphServiceClientWithCredentials(cred, scopes
 requestBody := graphcommunications.NewAnswerPostRequestBody()
 callbackUri := "https://bot.contoso.com/api/calls"
 requestBody.SetCallbackUri(&callbackUri) 
-acceptedModalities := []graphcommunications.Modalityable {
+acceptedModalities := []graphmodels.Modalityable {
 	modality := graphmodels.AUDIO_MODALITY 
-	requestBody.SetModality(&modality) 
-
+	requestBody.SetModality(&modality)
 }
 requestBody.SetAcceptedModalities(acceptedModalities)
 mediaConfig := graphmodels.NewMediaConfig()
 additionalData := map[string]interface{}{
 
 
- := graphmodels.New()
+ := graphmodels.NewObject()
 uri := "https://cdn.contoso.com/beep.wav"
 .SetUri(&uri) 
 resourceId := "1D6DE2D4-CD51-4309-8DAA-70768651088E"
 .SetResourceId(&resourceId) 
- := graphmodels.New()
+ := graphmodels.NewObject()
 uri := "https://cdn.contoso.com/cool.wav"
 .SetUri(&uri) 
 resourceId := "1D6DE2D4-CD51-4309-8DAA-70768651088F"
@@ -43,7 +42,6 @@ resourceId := "1D6DE2D4-CD51-4309-8DAA-70768651088F"
 	preFetchMedia := []graphmodels.Objectable {
 		,
 		,
-
 	}
 }
 mediaConfig.SetAdditionalData(additionalData)

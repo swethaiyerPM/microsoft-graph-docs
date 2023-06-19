@@ -15,7 +15,7 @@ $requestBody->set@odatatype('#microsoft.graph.bookingCustomer');
 $additionalData = [
 		'displayName' => 'Joni Sherman', 
 		'emailAddress' => 'jonis@relecloud.com', 
-		'addresses' => $addresses1 = new ();
+		'addresses' => $addresses1 = new Object();
 $		addresses1->setPostOfficeBox('');
 
 $		addresses1->setStreet('4567 Main Street');
@@ -32,7 +32,7 @@ $		addresses1->setType('home');
 
 
 $addressesArray []= $addresses1;
-$addresses2 = new ();
+$addresses2 = new Object();
 $		addresses2->setPostOfficeBox('');
 
 $		addresses2->setStreet('4570 Main Street');
@@ -52,14 +52,14 @@ $addressesArray []= $addresses2;
 $requestBody->setAddresses($addressesArray);
 
 
-	'phones' => $phones1 = new ();
+	'phones' => $phones1 = new Object();
 $	phones1->setNumber('206-555-0100');
 
 $	phones1->setType('home');
 
 
 $phonesArray []= $phones1;
-$phones2 = new ();
+$phones2 = new Object();
 $	phones2->setNumber('206-555-0200');
 
 $	phones2->setType('business');

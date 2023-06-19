@@ -46,13 +46,13 @@ var requestBody = new CustomAuthenticationExtension
 	AdditionalData = new Dictionary<string, object>
 	{
 		{
-			"claimsForTokenConfiguration" , new List<>
+			"claimsForTokenConfiguration" , new List<ObjectObject>
 			{
-				new 
+				new ObjectObject
 				{
 					ClaimIdInApiResponse = "DateOfBirth",
 				},
-				new 
+				new ObjectObject
 				{
 					ClaimIdInApiResponse = "CustomRoles",
 				},

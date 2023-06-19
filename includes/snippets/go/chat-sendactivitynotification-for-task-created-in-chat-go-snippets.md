@@ -43,9 +43,8 @@ keyValuePair.SetName(&name)
 value := "12322"
 keyValuePair.SetValue(&value) 
 
-templateParameters := []graphchats.KeyValuePairable {
+templateParameters := []graphmodels.KeyValuePairable {
 	keyValuePair,
-
 }
 requestBody.SetTemplateParameters(templateParameters)
 
