@@ -55,8 +55,6 @@ Do not supply a request body for this method.
 
 If successful, this method returns a `204 No Content` response code.
 
-If deleting transcript is still being generated, this method returns a `405 Method Not Allowed` response code.
-
 ## Examples
 
 ### Request

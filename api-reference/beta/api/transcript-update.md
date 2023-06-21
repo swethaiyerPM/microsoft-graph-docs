@@ -65,8 +65,6 @@ PATCH /users/{userId}/drive/root:/{item-path}/media/transcripts/{transcript-id}
 
 If successful, this method returns a `200 OK` response code and an updated [transcript](../resources/transcript.md) object in the response body.
 
-If updating transcript is still being generated, this method returns a `405 Method Not Allowed` response code.
-
 ## Examples
 
 ### Request

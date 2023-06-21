@@ -45,10 +45,6 @@ GET /users/{userId}/drive/root:/{item-path}/media/transcripts/{transcript-id}/co
 ## Optional query parameters
 This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
 
-|Name|Description|
-|:---|:---|
-|format|If this query parameter is included, transcript content will be returned in the requested format. Supported formats: `vtt`, `json`. If this parameter is not included, transcript is returned in WEBVTT format.|
-
 ## Request headers
 |Name|Description|
 |:---|:---|

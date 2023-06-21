@@ -58,8 +58,6 @@ Body of the request is well-formed [WebVTT](https://www.w3.org/TR/webvtt1/).
 
 If successful, this method returns a `201 Created` response code. If WebVTT contains formatting errors, `400 Bad Request` response code is returned with an error message. 
 
-This method will return `405 Method Not Allowed`, if uploading a transcript content for a machine-generated transcript that is still being generated.
-
 ## Examples
 
 ### Request
