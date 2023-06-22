@@ -69,6 +69,7 @@ The following is an example of the response.
 
 <!-- {
   "blockType": "response"
+  "@odata.type": "Edm.Boolean"
 } -->
 
 ```http
