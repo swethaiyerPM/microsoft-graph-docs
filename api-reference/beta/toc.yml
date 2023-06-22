@@ -13247,8 +13247,11 @@ items:
           - name: List
             href: api/authenticationbehaviors-list.md
           - name: Create
+            href: api/authenticationbehaviors-create.md
           - name: Get
+            href: api/authenticationbehaviors-get.md
           - name: Update
+            href: api/authenticationbehaviors-update.md
           items: 
         - name: Authentication event listeners (preview)
           href: resources/authenticationeventlistener.md
