@@ -13241,6 +13241,15 @@ items:
               href: api/agreement-list-files.md
       - name: Identity and sign-in
         items:
+        - name: Authentication behaviors (preview)
+          href: resources/authenticationbehaviors.md
+          items: 
+          - name: List
+            href: api/authenticationbehaviors-list.md
+          - name: Create
+          - name: Get
+          - name: Update
+          items: 
         - name: Authentication event listeners (preview)
           href: resources/authenticationeventlistener.md
           items:
