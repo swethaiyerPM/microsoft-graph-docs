@@ -57,9 +57,9 @@ This method supports some of the OData query parameters to help customize the re
 |Property|Type|Description|
 |:---|:---|:---|
 |displayName|String|User provided name of the transcript. Optional.|
-|languageTag|String|Language tag specifying which language the transcript is in. The tag consists of an [ISO 639-1] two letter code, optionally followed by an [ISO 3166 alpha-2] code. Eg, `"en"`, `"en-US"`, `"sv-SE"`. Optional.|
+|languageTag|String|Language tag specifying the language of the transcript. The tag consists of an [ISO 639-1] two letter code, optionally followed by an [ISO 3166 alpha-2] code. Eg, `"en"`, `"en-US"`, `"sv-SE"`. Optional.|
 |transcriptType|microsoft.graph.media.transcriptType|Enumeration value specifying what type of transcript this resource describes. Optional.|
-|isVisible|Boolean|Whether the transcript should be visible to pick from, eg when viewing the media. Optional.|
+|isVisible|Boolean|Whether the transcript should be visible to choose, for example, e.g. when viewing the media. Optional.|
 
 [iso 639-1]: https://www.iso.org/iso-639-language-codes.html
 [iso 3166 alpha-2]: https://www.iso.org/iso-3166-country-codes.html
