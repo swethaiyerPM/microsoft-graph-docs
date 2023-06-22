@@ -8083,6 +8083,24 @@ items:
             href: api/learningcontent-update.md
           - name: Delete
             href: api/learningprovider-delete-learningcontents.md
+        - name: Learning course activities
+          items:
+          - name: Learning course activity
+            href: resources/learningcourseactivity.md
+          - name: Learning assignment
+            href: resources/learningassignment.md
+          - name: Learning selfInitiated course
+            href: resources/learningselfinitiatedcourse.md
+          - name: List
+            href: api/learningcourseactivity-list.md
+          - name: Create
+            href: api/employeeexperienceuser-post-learningcourseactivities.md
+          - name: Get
+            href: api/learningcourseactivity-get.md
+          - name: Update
+            href: api/learningcourseactivity-update.md
+          - name: Delete
+            href: api/learningcourseactivity-delete.md
       - name: Messaging
         items:
         - name: Activity feed

@@ -17401,10 +17401,14 @@ items:
             href: api/learningcontent-update.md
           - name: Delete
             href: api/learningprovider-delete-learningcontents.md
-        - name: Learning course activities (preview)
+        - name: Learning course activities
           items:
           - name: Learning course activity
             href: resources/learningcourseactivity.md
+          - name: Learning assignment
+            href: resources/learningassignment.md
+          - name: Learning selfInitiated course
+            href: resources/learningselfinitiatedcourse.md
           - name: List
             href: api/learningcourseactivity-list.md
           - name: Create
