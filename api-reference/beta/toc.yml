@@ -13249,7 +13249,6 @@ items:
             href: api/authenticationbehaviors-get.md
           - name: Update
             href: api/authenticationbehaviors-update.md
-          items: 
         - name: Authentication event listeners (preview)
           href: resources/authenticationeventlistener.md
           items:
