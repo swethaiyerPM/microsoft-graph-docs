@@ -56,7 +56,7 @@ The following is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_authenticationBehaviors"
+  "name": "get_authenticationBehavior"
 }-->
 
 ```http
@@ -69,7 +69,7 @@ The following is an example of the response.
 
 <!-- {
   "blockType": "response",
-  "@odata.type": "microsoft.graph.authenticationBehaviors"
+  "@odata.type": "microsoft.graph.authenticationBehaviors.removeUnverifiedEmailClaim"
 } -->
 
 ```http

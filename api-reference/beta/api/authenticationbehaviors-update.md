@@ -65,7 +65,7 @@ The following is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_authenticationBehaviors"
+  "name": "update_authenticationBehaviors"
 }-->
 
 ```http
@@ -83,7 +83,6 @@ The following is an example of the response.
 
 <!-- {
   "blockType": "response",
-  "@odata.type": "microsoft.graph.authenticationBehaviors"
 } -->
 
 ```http
@@ -100,7 +99,7 @@ The following is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_authenticationBehaviors"
+  "name": "update_authenticationBehaviors"
 }-->
 
 ```http
@@ -118,7 +117,6 @@ The following is an example of the response.
 
 <!-- {
   "blockType": "response",
-  "@odata.type": "microsoft.graph.authenticationBehaviors"
 } -->
 
 ```http
@@ -136,7 +134,7 @@ The following is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_authenticationBehaviors"
+  "name": "update_authenticationBehaviors"
 }-->
 
 ```http
@@ -154,7 +152,6 @@ The following is an example of the response.
 
 <!-- {
   "blockType": "response",
-  "@odata.type": "microsoft.graph.authenticationBehaviors"
 } -->
 
 ```http
