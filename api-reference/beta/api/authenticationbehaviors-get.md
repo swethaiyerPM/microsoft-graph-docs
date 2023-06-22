@@ -68,7 +68,7 @@ GET /applications(appId='{appId}')/authenticationBehaviors/removeUnverifiedEmail
 The following is an example of the response.
 
 <!-- {
-  "blockType": "response"
+  "blockType": "response",
   "@odata.type": "Edm.Boolean"
 } -->
 
