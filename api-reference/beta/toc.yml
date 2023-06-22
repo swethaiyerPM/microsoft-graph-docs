@@ -13240,6 +13240,7 @@ items:
             - name: List localized files
               href: api/agreement-list-files.md
       - name: Identity and sign-in
+        items:
         - name: Authentication behaviors (preview)
           href: resources/authenticationbehaviors.md
           items: 
