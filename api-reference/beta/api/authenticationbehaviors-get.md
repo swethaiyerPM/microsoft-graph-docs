@@ -68,8 +68,7 @@ GET /applications(appId='{appId}')/authenticationBehaviors/removeUnverifiedEmail
 The following is an example of the response.
 
 <!-- {
-  "blockType": "response",
-  "@odata.type": "microsoft.graph.authenticationBehaviors.removeUnverifiedEmailClaim"
+  "blockType": "response"
 } -->
 
 ```http

@@ -78,8 +78,7 @@ Content-Type: application/json
 
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#applications('{appId}')/authenticationBehaviors",
-    "value": {
-        "removeUnverifiedEmailClaim": true
-    }
+    "@odata.type": "#microsoft.graph.authenticationBehaviors",
+    "removeUnverifiedEmailClaim": true
 }
 ```
