@@ -11,7 +11,7 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-[!INCLUDE `[beta-disclaimer](../../includes/beta-disclaimer.md)`]
+[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
 Update the collection of [authenticationBehaviors](../resources/authenticationbehaviors.md). Updating can be used to either set, un-set, or update the value of authentication behaviors in the context of an application.
 

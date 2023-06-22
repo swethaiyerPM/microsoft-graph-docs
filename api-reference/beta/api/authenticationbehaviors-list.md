@@ -11,7 +11,7 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-[!INCLUDE `[beta-disclaimer](../../includes/beta-disclaimer.md)`]
+[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
 Retrieve a list of [authenticationBehaviors](../resources/authenticationbehaviors.md).
 

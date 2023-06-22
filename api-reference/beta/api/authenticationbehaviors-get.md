@@ -11,7 +11,7 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-[!INCLUDE `[beta-disclaimer](../../includes/beta-disclaimer.md)`]
+[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
 Retrieves the value of a single authentication behavior from the [authenticationBehaviors](../resources/authenticationbehaviors.md) object.
 
