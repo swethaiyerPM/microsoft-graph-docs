@@ -60,7 +60,7 @@ The following is an example of the request.
 }-->
 
 ```http
-GET /applications(appId='{appId}'/authenticationBehaviors
+GET /applications(appId='{appId}')/authenticationBehaviors
 ```
 
 ### Response

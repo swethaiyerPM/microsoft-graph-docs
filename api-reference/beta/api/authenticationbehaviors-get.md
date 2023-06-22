@@ -1,19 +1,19 @@
 ---
-title: "List authenticationBehaviors"
-description: "Get a list of authentication behaviors"
+title: "Get authenticationBehavior"
+description: "Get a single authentication behavior"
 author: "medhir"
 ms.localizationpriority: medium
 ms.prod: "identity-and-sign-in"
 doc_type: apiPageType
 ---
 
-# List authenticationBehaviors
+# Get authenticationBehavior
 
 Namespace: microsoft.graph
 
 [!INCLUDE `[beta-disclaimer](../../includes/beta-disclaimer.md)`]
 
-Retrieve a list of [authenticationBehaviors](../resources/authenticationbehaviors.md).
+Retrieves the value of a single authentication behavior from the [authenticationBehaviors](../resources/authenticationbehaviors.md) object.
 
 ## Permissions
 
@@ -30,7 +30,7 @@ One of the following permissions is required to call this API. To learn more, in
 <!-- { "blockType": "ignored" } -->
 
 ```http
-GET /applications/{applicationObjectId}/authenticationBehaviors
+GET /applications/{applicationObjectId}/authenticationBehaviors/{authenticationBehavior}
 ```
 
 ## Request headers
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 
 ## Response
 
-If successful, this method returns a `200 OK` response code and a single [authenticationBehaviors](../resources/authenticationbehaviors.md)  object in the response body.
+If successful, this method returns a `200 OK` response code and a single authentication behavior from the [authenticationBehaviors](../resources/authenticationbehaviors.md) object in the response body.
 
 ## Examples
 
@@ -60,7 +60,7 @@ The following is an example of the request.
 }-->
 
 ```http
-GET /applications(appId='{appId}'/authenticationBehaviors
+GET /applications(appId='{appId}')/authenticationBehaviors/removeUnverifiedEmailClaim
 ```
 
 ### Response
@@ -77,9 +77,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 
 {
-    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#applications('{appId}')/authenticationBehaviors",
-    "value": {
-        "removeUnverifiedEmailClaim": true
-    }
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#applications('{appId}')/authenticationBehaviors/removeUnverifiedEmailClaim",
+    "value": true
 }
 ```

@@ -13246,8 +13246,6 @@ items:
           items: 
           - name: List
             href: api/authenticationbehaviors-list.md
-          - name: Create
-            href: api/authenticationbehaviors-create.md
           - name: Get
             href: api/authenticationbehaviors-get.md
           - name: Update
