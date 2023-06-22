@@ -215,14 +215,8 @@
           "ChangeType": "Addition",
           "Description": "Added the **isCourseActivitySyncEnabled** property to the [learningProvider](https://learn.microsoft.com/en-us/graph/api/resources/learningProvider?view=graph-rest-1.0) resource.",
           "Target": "learningProvider"
-        }
-      ],
-      "Id": "d140e1fa-9488-4922-9b71-4f75148cf1e0",
-      "Cloud": "Prod",
-      "Version": "v1.0",
-      "CreatedDateTime": "2023-06-07T09:01:19.001Z",
-      "WorkloadArea": "Teamwork and communications",
-      "SubArea": "Employee learning"
+        },
+        {
           "Id": "a0d7aeb6-2a11-4412-9cc5-0c33f301ccf4",
           "ApiChange": "Resource",
           "ChangedApiName": "learningCourseActivity",
