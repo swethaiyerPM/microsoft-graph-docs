@@ -69,7 +69,7 @@ The following is an example of the response.
 
 <!-- {
   "blockType": "response",
-  "@odata.type": "microsoft.graph.removeUnverifiedEmailClaim"
+  "@odata.type": "Boolean"
 } -->
 
 ```http
