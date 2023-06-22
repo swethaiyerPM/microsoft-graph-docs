@@ -37,14 +37,6 @@
         {
           "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
           "ApiChange": "Method",
-          "ChangedApiName": "GET",
-          "ChangeType": "Addition",
-          "Description": "Added the [list](https://learn.microsoft.com/en-us/graph/api/transcript-list?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
-          "Target": "transcript"
-        },
-        {
-          "Id": "3d4f03b8-00c5-4689-b9e8-01b0be114cec",
-          "ApiChange": "Method",
           "ChangedApiName": "POST",
           "ChangeType": "Addition",
           "Description": "Added the [create](https://learn.microsoft.com/en-us/graph/api/transcript-create?view=graph-rest-beta) operation to the [transcript](https://learn.microsoft.com/en-us/graph/api/resources/transcript?view=graph-rest-beta) resource.",
