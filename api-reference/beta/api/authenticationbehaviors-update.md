@@ -69,7 +69,7 @@ The following is an example of the request.
 }-->
 
 ```http
-PATCH /applications(appId='{appId}')/authenticationBehaviors
+PATCH /applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
 Content-Type: application/json
 
 {
@@ -103,7 +103,7 @@ The following is an example of the request.
 }-->
 
 ```http
-PATCH /applications(appId='{appId}')/authenticationBehaviors
+PATCH /applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
 Content-Type: application/json
 
 {
@@ -138,7 +138,7 @@ The following is an example of the request.
 }-->
 
 ```http
-PATCH /applications(appId='{appId}')/authenticationBehaviors
+PATCH /applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
 Content-Type: application/json
 
 {

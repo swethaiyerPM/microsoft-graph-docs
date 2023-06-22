@@ -60,7 +60,7 @@ The following is an example of the request.
 }-->
 
 ```http
-GET /applications(appId='{appId}')/authenticationBehaviors/removeUnverifiedEmailClaim
+GET /applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors/removeUnverifiedEmailClaim
 ```
 
 ### Response
@@ -77,7 +77,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 
 {
-    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#applications('{appId}')/authenticationBehaviors/removeUnverifiedEmailClaim",
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors/removeUnverifiedEmailClaim",
     "value": true
 }
 ```
