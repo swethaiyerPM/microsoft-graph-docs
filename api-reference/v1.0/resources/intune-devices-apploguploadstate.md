@@ -1,9 +1,9 @@
 ---
 title: "appLogUploadState enum type"
 description: "AppLogUploadStatus"
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: enumPageType
 ---
 
@@ -22,7 +22,3 @@ AppLogUploadStatus
 |completed|1|Indicates that request is completed with file uploaded to Azure blob for download.|
 |failed|2|Indicates that request is completed with file uploaded to Azure blob for download.|
 |unknownFutureValue|3|Evolvable enumeration sentinel value. Do not use.|
-
-
-
-

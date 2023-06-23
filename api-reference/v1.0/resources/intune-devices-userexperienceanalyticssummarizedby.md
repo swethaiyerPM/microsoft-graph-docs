@@ -1,9 +1,9 @@
 ---
 title: "userExperienceAnalyticsSummarizedBy enum type"
 description: "Indicates type of summarization. Possible values are: None, Model, AllRegressions, ModelRegression, ManufacturerRegression, OperatingSystemVersionRegression."
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: enumPageType
 ---
 
@@ -25,7 +25,3 @@ Indicates type of summarization. Possible values are: None, Model, AllRegression
 |manufacturerRegression|5|Indicates that the summarization is by manufacturer regression.|
 |operatingSystemVersionRegression|6|Indicates that the summarization is by operating system version regression.|
 |unknownFutureValue|7|Evolvable enumeration sentinel value. Do not use.|
-
-
-
-

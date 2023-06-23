@@ -1,9 +1,9 @@
 ---
 title: "microsoftTunnelServerHealthStatus enum type"
 description: "Enum of possible MicrosoftTunnelServer health status types"
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: enumPageType
 ---
 
@@ -26,7 +26,3 @@ Enum of possible MicrosoftTunnelServer health status types
 |upgradeInProgress|5|Indicates the upgrade in progress during the upgrade cycle of when Intune begins upgrading servers, one server at a time|
 |upgradeFailed|6|Indicates the failure of the upgrade during the upgrade cycle of when Intune begins upgrading servers, one server at a time|
 |unknownFutureValue|7|Evolvable enumeration sentinel value. Do not use enums.|
-
-
-
-

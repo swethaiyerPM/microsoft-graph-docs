@@ -75,7 +75,6 @@ The following table shows the properties that are required when you create the [
 |deviceNameTemplate|String|Sets a literal or name pattern. Inherited from [depEnrollmentBaseProfile](../resources/intune-enrollment-depenrollmentbaseprofile.md)|
 |configurationWebUrl|Boolean|URL for setup assistant login Inherited from [depEnrollmentBaseProfile](../resources/intune-enrollment-depenrollmentbaseprofile.md)|
 |enabledSkipKeys|String collection|enabledSkipKeys contains all the enabled skip keys as strings Inherited from [depEnrollmentBaseProfile](../resources/intune-enrollment-depenrollmentbaseprofile.md)|
-|enrollmentTimeAzureAdGroupIds|Guid collection|EnrollmentTimeAzureAdGroupIds contains list of enrollment time Azure Group Ids to be associated with profile Inherited from [depEnrollmentBaseProfile](../resources/intune-enrollment-depenrollmentbaseprofile.md)|
 |registrationDisabled|Boolean|Indicates if registration is disabled|
 |fileVaultDisabled|Boolean|Indicates if file vault is disabled|
 |iCloudDiagnosticsDisabled|Boolean|Indicates if iCloud Analytics screen is disabled|
@@ -96,7 +95,6 @@ The following table shows the properties that are required when you create the [
 |adminAccountPassword|String|Indicates what the password for the admin account is|
 |hideAdminAccount|Boolean|Indicates whether the admin account should be hidded or not|
 |requestRequiresNetworkTether|Boolean|Indicates if the device is network-tethered to run the command|
-|autoAdvanceSetupEnabled|Boolean|Indicates if Setup Assistant will automatically advance through its screen|
 
 
 
@@ -110,7 +108,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/beta/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/defaultMacOsEnrollmentProfile
 Content-type: application/json
-Content-length: 2075
+Content-length: 1951
 
 {
   "@odata.type": "#microsoft.graph.depMacOSEnrollmentProfile",
@@ -142,9 +140,6 @@ Content-length: 2075
   "enabledSkipKeys": [
     "Enabled Skip Keys value"
   ],
-  "enrollmentTimeAzureAdGroupIds": [
-    "7f64eb6c-eb6c-7f64-6ceb-647f6ceb647f"
-  ],
   "registrationDisabled": true,
   "fileVaultDisabled": true,
   "iCloudDiagnosticsDisabled": true,
@@ -164,8 +159,7 @@ Content-length: 2075
   "adminAccountFullName": "Admin Account Full Name value",
   "adminAccountPassword": "Admin Account Password value",
   "hideAdminAccount": true,
-  "requestRequiresNetworkTether": true,
-  "autoAdvanceSetupEnabled": true
+  "requestRequiresNetworkTether": true
 }
 ```
 
@@ -174,7 +168,7 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2124
+Content-Length: 2000
 
 {
   "@odata.type": "#microsoft.graph.depMacOSEnrollmentProfile",
@@ -207,9 +201,6 @@ Content-Length: 2124
   "enabledSkipKeys": [
     "Enabled Skip Keys value"
   ],
-  "enrollmentTimeAzureAdGroupIds": [
-    "7f64eb6c-eb6c-7f64-6ceb-647f6ceb647f"
-  ],
   "registrationDisabled": true,
   "fileVaultDisabled": true,
   "iCloudDiagnosticsDisabled": true,
@@ -229,7 +220,6 @@ Content-Length: 2124
   "adminAccountFullName": "Admin Account Full Name value",
   "adminAccountPassword": "Admin Account Password value",
   "hideAdminAccount": true,
-  "requestRequiresNetworkTether": true,
-  "autoAdvanceSetupEnabled": true
+  "requestRequiresNetworkTether": true
 }
 ```

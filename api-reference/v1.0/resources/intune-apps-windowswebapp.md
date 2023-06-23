@@ -1,9 +1,9 @@
 ---
 title: "windowsWebApp resource type"
 description: "Contains properties and inherited properties for Windows web apps."
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: resourcePageType
 ---
 
@@ -84,7 +84,3 @@ Here is a JSON representation of the resource.
   "appUrl": "String"
 }
 ```
-
-
-
-

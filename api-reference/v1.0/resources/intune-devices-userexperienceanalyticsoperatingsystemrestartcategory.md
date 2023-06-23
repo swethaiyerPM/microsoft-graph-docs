@@ -1,9 +1,9 @@
 ---
 title: "userExperienceAnalyticsOperatingSystemRestartCategory enum type"
 description: "Operating System restart category."
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: enumPageType
 ---
 
@@ -28,7 +28,3 @@ Operating System restart category.
 |bootError|7|Indicates that the device operating system restart is due to boot error.|
 |update|8|Indicates that the device operating system restarted after an update.|
 |unknownFutureValue|9|Evolvable enumeration sentinel value. Do not use.|
-
-
-
-

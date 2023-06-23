@@ -1,9 +1,9 @@
 ---
 title: "userExperienceAnalyticsInsightSeverity enum type"
 description: "Indicates severity of insights. Possible values are: None, Informational, Warning, Error."
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: enumPageType
 ---
 
@@ -23,7 +23,3 @@ Indicates severity of insights. Possible values are: None, Informational, Warnin
 |warning|2|Indicates that the insight severity is warning.|
 |error|3|Indicates that the insight severity is error.|
 |unknownFutureValue|4|Evolvable enumeration sentinel value. Do not use.|
-
-
-
-

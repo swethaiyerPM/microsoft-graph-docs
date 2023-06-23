@@ -1,9 +1,9 @@
 ---
 title: "userExperienceAnalyticsWorkFromAnywhereMetric resource type"
 description: "The user experience analytics metric for work from anywhere report."
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: resourcePageType
 ---
 
@@ -48,7 +48,3 @@ Here is a JSON representation of the resource.
   "id": "String (identifier)"
 }
 ```
-
-
-
-

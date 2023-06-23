@@ -1,9 +1,9 @@
 ---
 title: "iosHomeScreenApp resource type"
 description: "Represents an icon for an app on the Home Screen"
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: resourcePageType
 ---
 
@@ -41,7 +41,3 @@ Here is a JSON representation of the resource.
   "bundleID": "String"
 }
 ```
-
-
-
-

@@ -1,9 +1,9 @@
 ---
 title: "deviceManagementReportFileFormat enum type"
 description: "Possible values for the file format of a report"
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: enumPageType
 ---
 
@@ -22,7 +22,3 @@ Possible values for the file format of a report
 |pdf|1|PDF Format (Deprecate later)|
 |json|2|JSON Format|
 |unknownFutureValue|3|Evolvable enumeration sentinel value. Do not use.|
-
-
-
-

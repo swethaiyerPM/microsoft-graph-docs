@@ -1,9 +1,9 @@
 ---
 title: "deviceOperatingSystemSummary resource type"
 description: "Device operating system summary."
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: resourcePageType
 ---
 
@@ -58,7 +58,3 @@ Here is a JSON representation of the resource.
   "configMgrDeviceCount": 1024
 }
 ```
-
-
-
-

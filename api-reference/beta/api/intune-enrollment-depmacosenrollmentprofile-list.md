@@ -60,7 +60,7 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2373
+Content-Length: 2233
 
 {
   "value": [
@@ -95,9 +95,6 @@ Content-Length: 2373
       "enabledSkipKeys": [
         "Enabled Skip Keys value"
       ],
-      "enrollmentTimeAzureAdGroupIds": [
-        "7f64eb6c-eb6c-7f64-6ceb-647f6ceb647f"
-      ],
       "registrationDisabled": true,
       "fileVaultDisabled": true,
       "iCloudDiagnosticsDisabled": true,
@@ -117,8 +114,7 @@ Content-Length: 2373
       "adminAccountFullName": "Admin Account Full Name value",
       "adminAccountPassword": "Admin Account Password value",
       "hideAdminAccount": true,
-      "requestRequiresNetworkTether": true,
-      "autoAdvanceSetupEnabled": true
+      "requestRequiresNetworkTether": true
     }
   ]
 }

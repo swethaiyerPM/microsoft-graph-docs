@@ -1,9 +1,9 @@
 ---
 title: "userExperienceAnalyticsHealthState enum type"
 description: "Not yet documented"
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: enumPageType
 ---
 
@@ -23,7 +23,3 @@ Not yet documented
 |needsAttention|2|Indicates that the health state needs attention.|
 |meetingGoals|3|Indicates that the health state is meeting goals.|
 |unknownFutureValue|4|Evolvable enumeration sentinel value. Do not use.|
-
-
-
-

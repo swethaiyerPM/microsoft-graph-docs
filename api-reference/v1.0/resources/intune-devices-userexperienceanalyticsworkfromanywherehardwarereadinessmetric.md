@@ -1,9 +1,9 @@
 ---
 title: "userExperienceAnalyticsWorkFromAnywhereHardwareReadinessMetric resource type"
 description: "The user experience analytics hardware readiness entity contains account level information about hardware blockers for windows upgrade."
-author: "dougeby"
+author: "jaiprakashmb"
 localization_priority: Normal
-ms.prod: "Intune"
+ms.prod: "intune"
 doc_type: resourcePageType
 ---
 
@@ -65,7 +65,3 @@ Here is a JSON representation of the resource.
   "osCheckFailedPercentage": "4.2"
 }
 ```
-
-
-
-

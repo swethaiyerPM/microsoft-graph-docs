@@ -56,7 +56,6 @@ Inherits from [enrollmentProfile](../resources/intune-enrollment-enrollmentprofi
 |deviceNameTemplate|String|Sets a literal or name pattern.|
 |configurationWebUrl|Boolean|URL for setup assistant login|
 |enabledSkipKeys|String collection|enabledSkipKeys contains all the enabled skip keys as strings|
-|enrollmentTimeAzureAdGroupIds|Guid collection|EnrollmentTimeAzureAdGroupIds contains list of enrollment time Azure Group Ids to be associated with profile|
 
 ## Relationships
 None
@@ -100,9 +99,6 @@ Here is a JSON representation of the resource.
   "configurationWebUrl": true,
   "enabledSkipKeys": [
     "String"
-  ],
-  "enrollmentTimeAzureAdGroupIds": [
-    "Guid"
   ]
 }
 ```
