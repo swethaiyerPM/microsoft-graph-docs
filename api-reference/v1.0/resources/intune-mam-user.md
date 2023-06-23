@@ -1,9 +1,9 @@
 ---
 title: "user resource type"
 description: "Represents an Azure Active Directory user object."
-author: "jaiprakashmb"
+author: "dougeby"
 localization_priority: Normal
-ms.prod: "intune"
+ms.prod: "Intune"
 doc_type: resourcePageType
 ---
 
@@ -51,3 +51,7 @@ Here is a JSON representation of the resource.
   "id": "String (identifier)"
 }
 ```
+
+
+
+

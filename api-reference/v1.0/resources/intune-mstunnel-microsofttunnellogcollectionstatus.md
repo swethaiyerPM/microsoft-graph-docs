@@ -1,9 +1,9 @@
 ---
 title: "microsoftTunnelLogCollectionStatus enum type"
 description: "Enum type that represent the status of log collection"
-author: "jaiprakashmb"
+author: "dougeby"
 localization_priority: Normal
-ms.prod: "intune"
+ms.prod: "Intune"
 doc_type: enumPageType
 ---
 
@@ -22,3 +22,7 @@ Enum type that represent the status of log collection
 |completed|1|Indicates that the log collection is completed|
 |failed|2|Indicates that the log collection has failed|
 |unknownFutureValue|3|Placeholder value for future expansion enums|
+
+
+
+

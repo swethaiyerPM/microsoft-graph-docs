@@ -1,9 +1,9 @@
 ---
 title: "managedAppDataStorageLocation enum type"
 description: "Storage locations where managed apps can potentially store their data"
-author: "jaiprakashmb"
+author: "dougeby"
 localization_priority: Normal
-ms.prod: "intune"
+ms.prod: "Intune"
 doc_type: enumPageType
 ---
 
@@ -22,3 +22,7 @@ Storage locations where managed apps can potentially store their data
 |sharePoint|2|SharePoint|
 |box|3|Box|
 |localStorage|6|Local storage on the device|
+
+
+
+

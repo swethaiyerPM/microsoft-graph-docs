@@ -1,9 +1,9 @@
 ---
 title: "policyPlatformType enum type"
 description: "Supported platform types for policies."
-author: "jaiprakashmb"
+author: "dougeby"
 localization_priority: Normal
-ms.prod: "intune"
+ms.prod: "Intune"
 doc_type: enumPageType
 ---
 
@@ -26,3 +26,7 @@ Supported platform types for policies.
 |windows10AndLater|6|Windows 10 and later.|
 |androidWorkProfile|7|AndroidWorkProfile.|
 |all|100|All platforms.|
+
+
+
+
