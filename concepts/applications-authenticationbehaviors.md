@@ -27,6 +27,43 @@ The authenticationBehaviors property of the application object allows you to con
 
 Today, the default behavior is to accept unverified email addresses in claims. To remove unverified email addresses, set the **removeUnverifiedEmailClaim** property of [authenticationBehaviors](/graph/api/resources/authenticationbhevaiors) to `true` as follows. The request returns a `204 No Content` response code.  
 
+### Read the authenticationBehaviors setting for an application
+
+The authenticationBehaviors property is returned only on `$select` requests as follows.
+
+To read the authenticationBehaviors property and other properties of all apps in the tenant, run the following sample request. The request returns a `200 OK` response code and a JSON representation of the application object that shows only the selected properties.
+
+<!-- {
+  "blockType": "request",
+  "name": "list_applications_authenticationBehaviors"
+}-->
+
+```http
+GET https://graph.microsoft.com/beta/applications?$select=id,displayName,appId,authenticationBehaviors
+```
+
+To read only the authenticationBehaviors property for a single app, run the following sample request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_application_authenticationBehaviors"
+}-->
+
+```http
+GET https://graph.microsoft.com/beta/applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
+```
+
+You can also use the **appId** property as follows:
+
+<!-- {
+  "blockType": "request",
+  "name": "get_application_authenticationBehaviors_via_appId"
+}-->
+
+```http
+GET https://graph.microsoft.com/beta/applications(appId='37bf1fd4-78b0-4fea-ac2d-6c82829e9365')/authenticationBehaviors
+```
+
 ### Remove unverified email addresses from claims
 
 <!-- {
@@ -35,7 +72,7 @@ Today, the default behavior is to accept unverified email addresses in claims. T
 }-->
 
 ```http
-PATCH /applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
+PATCH https://graph.microsoft.com/beta/applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
 Content-Type: application/json
 
 {
@@ -51,7 +88,7 @@ Content-Type: application/json
 }-->
 
 ```http
-PATCH /applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
+PATCH https://graph.microsoft.com/beta/applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
 Content-Type: application/json
 
 {
@@ -67,7 +104,7 @@ Content-Type: application/json
 }-->
 
 ```http
-PATCH /applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
+PATCH https://graph.microsoft.com/beta/applications/03ef14b0-ca33-4840-8f4f-d6e91916010e/authenticationBehaviors
 Content-Type: application/json
 
 {
