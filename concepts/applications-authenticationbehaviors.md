@@ -3,23 +3,23 @@ title: "Manage application authenticationBehaviors to avoid unverified use of em
 description: "Apps should never use the email claim for authorization purposes. Use this guidance to manage the application authenticationBehaviors to avoid unverified use of email claims for user identification or authorization."
 author: "FaithOmbongi"
 ms.author: ombongifaith
-ms.reviewer: medhir
+ms.reviewer: medbhargava
 ms.localizationpriority: high
 ms.custom: scenarios:getting-started
 ms.prod: applications
-ms.date: 23/06/2023
+ms.date: 06/23/2023
 ---
 
 # Manage application authenticationBehaviors to avoid unverified use of email claims for user identification or authorization
 
-As described in [this Microsoft security advisory](https://msrc.microsoft.com/blog/2023/06/potential-risk-of-privilege-escalation-in-azure-ad-applications/), **apps should never use the email claim for authorization purposes**. If your application uses the email claim for authorization or primary user identification purposes, it is subject to account and privilege escalation attacks. This risk of unauthorized access is especially identified in the following scenarions:
+As described in [this Microsoft security advisory](https://msrc.microsoft.com/blog/2023/06/potential-risk-of-privilege-escalation-in-azure-ad-applications/), **apps should never use the email claim for authorization purposes**. If your application uses the email claim for authorization or primary user identification purposes, it's subject to account and privilege escalation attacks. This risk of unauthorized access is especially identified in the following scenarios:
 
-- When the **mail** attribute of the [user](/graph/api/resources/user) object contains an unverified email address.
-- For multi-tenant apps where as a user from one tenant could escalate their privileges to access resources from another tenant through modification of their **mail** attribute.
+- When the **mail** attribute of the [user](/graph/api/resources/user) object contains an unverified email address
+- For multi-tenant apps where a user from one tenant could escalate their privileges to access resources from another tenant through modification of their **mail** attribute
 
 For more information about identifying these cases in your tenant, see [Migrate away from using email claims for user identification or authorization](/azure/active-directory/develop/migrate-off-email-claim-authorization).
 
-This article provides guidance to help you use of unverified emails in email claims for user identification or authorization.
+This article provides guidance for using the applications API in Microsoft Graph to configure the use of unverified emails in claims for user identification or authorization.
 
 ## Configure authenticationBehaviors to prevent email claims based off unverified email address
 
@@ -43,7 +43,7 @@ Content-Type: application/json
 }
 ```
 
-### Accept unverifid email addresses in claims
+### Accept unverified email addresses in claims
 
 <!-- {
   "blockType": "request",
