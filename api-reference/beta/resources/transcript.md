@@ -13,7 +13,18 @@ Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-The **Transcript** resource represents the metadata of a transcript of a [media item]. This is often associated with a meeting recording or another kind of video. This metadata has the following shape:
+The **Transcript** resource represents the metadata of a transcript of a [media item].
+
+Teams meetings and events can not just be recorded, but also automatically transcribed. These transcripts can be used for many things. Perhaps most importantly:
+
+* As subtitles or captions during playback of the recording, making it significantly more accessible to a wider range of audience.
+* To make the recording searchable -- both in the sense of a user looking for a specific point in the video, and in the sense of a user looking for a specific video where they know a certain phrase is spoken.
+
+In the larger ecosystem, Teams meetings are far from the only video type that may have an associated transcript, subtitle, or caption. In fact, just about any video may have a subtitle track that could be used for the above scenarios. It is also plausible that transcription could be added to other media types, such as audio recordings, in the future.
+
+We believe the customers may see additional benefit if the APIs to interact with these transcripts are public. It would, for example, allow them to automate tasks such as uploading transcripts of videos/meetings/recordings from other sources than Teams.
+
+Transcript metadata has the following shape:
 
 [media item]: ./media.md
 
