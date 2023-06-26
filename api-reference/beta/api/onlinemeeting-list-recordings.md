@@ -45,6 +45,10 @@ GET /me/onlineMeetings({meetingId})/recordings
 GET /users({userId})/onlineMeetings({meetingId})/recordings
 ```
 
+## Optional query parameters
+
+This method doesn't support any [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 
 | Header       | Value |
