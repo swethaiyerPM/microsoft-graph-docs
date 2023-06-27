@@ -63,6 +63,10 @@ The authorization code flow enables native and web apps to securely obtain token
 
 The [Azure Identity Client Module for Go](https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/azidentity) does not support the authorization code flow.
 
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateClients.php" id="AuthorizationCodeSnippet":::
+
 # [Python](#tab/python)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
@@ -127,6 +131,16 @@ The client credential flow enables service applications to run without user inte
 
 :::code language="go" source="./snippets/go/src/snippets/create_clients.go" id="ClientSecretSnippet":::
 
+# [PHP](#tab/php)
+
+### Using a client certificate
+
+:::code language="php" source="./snippets/php/snippets/CreateClients.php" id="ClientCertificateSnippet":::
+
+### Using a client secret
+
+:::code language="php" source="./snippets/php/snippets/CreateClients.php" id="ClientSecretSnippet":::
+
 # [Python](#tab/python)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
@@ -165,6 +179,10 @@ The on-behalf-of flow is applicable when your application calls a service/web AP
 # [Go](#tab/go)
 
 :::code language="go" source="./snippets/go/src/snippets/create_clients.go" id="OnBehalfOfSnippet":::
+
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateClients.php" id="OnBehalfOfSnippet":::
 
 # [Python](#tab/python)
 
@@ -210,6 +228,18 @@ The device code flow enables sign in to devices by way of another device. For de
 
 :::code language="go" source="./snippets/go/src/snippets/create_clients.go" id="DeviceCodeSnippet":::
 
+# [PHP](#tab/php)
+
+The Microsoft Graph PHP SDK does not provide a token context for the device code flow. To use this flow, you must implement a custom token provider.
+
+### Token provider
+
+:::code language="php" source="./snippets/php/DeviceCodeTokenProvider.php" id="TokenProviderSnippet":::
+
+### Client configuration
+
+:::code language="php" source="./snippets/php/snippets/CreateClients.php" id="DeviceCodeSnippet":::
+
 # [Python](#tab/python)
 
 ```python
@@ -252,6 +282,10 @@ Not applicable.
 
 Not applicable.
 
+# [PHP](#tab/php)
+
+Not applicable.
+
 # [Python](#tab/python)
 
 Not applicable.
@@ -277,6 +311,10 @@ The interactive flow is used by mobile applications (Xamarin and UWP) and deskto
 # [Go](#tab/go)
 
 :::code language="go" source="./snippets/go/src/snippets/create_clients.go" id="InteractiveSnippet":::
+
+# [PHP](#tab/php)
+
+Not supported.
 
 # [Python](#tab/python)
 
@@ -311,6 +349,10 @@ The username/password provider allows an application to sign in a user by using 
 # [Go](#tab/go)
 
 :::code language="go" source="./snippets/go/src/snippets/create_clients.go" id="UserNamePasswordSnippet":::
+
+# [PHP](#tab/php)
+
+Not supported.
 
 # [Python](#tab/python)
 
