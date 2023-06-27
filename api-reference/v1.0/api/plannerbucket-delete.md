@@ -57,7 +57,7 @@ DELETE https://graph.microsoft.com/v1.0/planner/buckets/{id}
 If-Match: W/"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAWCc="
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-plannerbucket-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

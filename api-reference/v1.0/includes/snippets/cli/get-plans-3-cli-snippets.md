@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me planner plans list
+mgc users planner plans list --user-id {user-id}
 
 ```

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me check-member-objects post --body '{\
+mgc users check-member-objects post --user-id {user-id} --body '{\
   "ids": [\
     "80a963dd-84af-4eb8-b2a6-781e444d4fb0",\
     "62e90394-69f5-4237-9190-012177145e10",\

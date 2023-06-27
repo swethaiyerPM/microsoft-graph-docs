@@ -60,7 +60,7 @@ If successful, this method returns a `200 OK` response code and the requested [a
 GET https://graph.microsoft.com/v1.0/identityGovernance/entitlementManagement/accessPackageAssignmentApprovals/abd306ef-f7b2-4a10-9fd1-493454322489
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-approval-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

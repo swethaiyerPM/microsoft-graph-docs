@@ -119,7 +119,7 @@ The following is an example of a request.
 GET https://graph.microsoft.com/v1.0/drive/bundles?filter=bundle/album%20ne%20null
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-album-bundles-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

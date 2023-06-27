@@ -71,7 +71,7 @@ content-type: application/json
 }
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/create-conversation-member-with-specific-visiblehistorystartdatetime-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -118,7 +118,7 @@ Content-type: application/json
 }
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/create-conversation-member-with-no-visiblehistorystartdatetime-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -166,7 +166,7 @@ content-type: application/json
 }
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/create-conversation-member-with-all-visiblehistorystartdatetime-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -213,7 +213,7 @@ content-type: application/json
 }
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/create-conversation-member-upn-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

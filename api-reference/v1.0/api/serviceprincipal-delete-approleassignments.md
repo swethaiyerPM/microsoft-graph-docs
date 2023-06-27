@@ -70,7 +70,7 @@ Here is an example of the request to delete an app role assignment.
 DELETE https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appRoleAssignments/{appRoleAssignment-id}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/serviceprincipal-delete-approleassignment-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

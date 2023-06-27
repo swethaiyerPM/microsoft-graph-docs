@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me mailbox-settings patch --body '{\
+mgc users mailbox-settings patch --user-id {user-id} --body '{\
   "workingHours": {\
       "endTime" : "18:30:00.0000000", \
       "daysOfWeek": [ \

@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me direct-reports list
+mgc users direct-reports list --user-id {user-id}
 
 ```

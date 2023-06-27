@@ -68,7 +68,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/policies/homeRealmDiscoveryPolicies/{id}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-homerealmdiscoverypolicy-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

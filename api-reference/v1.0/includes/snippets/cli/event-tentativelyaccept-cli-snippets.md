@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events tentatively-accept post --event-id {event-id} --body '{\
+mgc users events tentatively-accept post --user-id {user-id} --event-id {event-id} --body '{\
   "comment": "I may not be able to make this week. How about next week?",\
   "sendResponse": true,\
   "proposedNewTime": {\

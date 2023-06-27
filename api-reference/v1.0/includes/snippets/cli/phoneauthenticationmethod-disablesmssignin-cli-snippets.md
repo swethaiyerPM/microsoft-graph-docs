@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me authentication phone-methods disable-sms-sign-in post --phone-authentication-method-id {phoneAuthenticationMethod-id}
+mgc users authentication phone-methods disable-sms-sign-in post --user-id {user-id} --phone-authentication-method-id {phoneAuthenticationMethod-id}
 
 ```

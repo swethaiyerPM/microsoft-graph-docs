@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages attachments create --message-id {message-id} --body '{\
+mgc users messages attachments create --user-id {user-id} --message-id {message-id} --body '{\
   "@odata.type": "microsoft.graph.fileAttachment",\
   "name": "name-value",\
   "contentType": "contentType-value",\

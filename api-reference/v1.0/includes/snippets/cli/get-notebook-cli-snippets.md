@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me onenote notebooks get --notebook-id {notebook-id}
+mgc users onenote notebooks get --user-id {user-id} --notebook-id {notebook-id}
 
 ```

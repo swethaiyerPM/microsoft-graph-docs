@@ -107,7 +107,7 @@ The following example shows how to get all the [room](../resources/room.md) obje
 GET https://graph.microsoft.com/v1.0/places/microsoft.graph.room
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-all-rooms-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -208,6 +208,7 @@ Content-type: application/json
 The following example shows how to get all the [roomList](../resources/roomlist.md) objects in the tenant.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_all_roomlists"
@@ -216,6 +217,12 @@ The following example shows how to get all the [roomList](../resources/roomlist.
 ```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/places/microsoft.graph.roomlist
 ```
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/get-all-roomlists-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 #### Response
 

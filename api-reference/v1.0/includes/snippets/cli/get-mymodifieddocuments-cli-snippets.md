@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me insights used list
+mgc users insights used list --user-id {user-id}
 
 ```

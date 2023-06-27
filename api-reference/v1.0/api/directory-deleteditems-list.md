@@ -115,7 +115,7 @@ If successful, this method returns a `200 OK` response code and collection of [d
 GET https://graph.microsoft.com/v1.0/directory/deletedItems/microsoft.graph.group
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-deleteditems-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

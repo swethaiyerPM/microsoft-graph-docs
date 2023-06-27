@@ -74,7 +74,7 @@ Here is an example of the request.
 GET https://graph.microsoft.com/v1.0/applications
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-application-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -162,7 +162,7 @@ GET https://graph.microsoft.com/v1.0/applications?$filter=startswith(displayName
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-applications-startswith-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -217,7 +217,7 @@ GET https://graph.microsoft.com/v1.0/applications?$search="displayName:Web"&$cou
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-applications-search-count-select-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -273,7 +273,7 @@ GET https://graph.microsoft.com/v1.0/applications?$filter=owners/$count eq 0 or 
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-application-lessthan2owners-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

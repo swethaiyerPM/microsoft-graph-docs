@@ -60,7 +60,7 @@ This example removes the permission identified as {perm-id} from the item {item-
 DELETE /me/drive/items/{item-id}/permissions/{perm-id}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-permission-1-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

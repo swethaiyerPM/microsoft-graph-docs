@@ -74,7 +74,7 @@ POST https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/58399dff-ce
 }
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/create-ediscoveryreviewtag-id-tags-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -135,7 +135,7 @@ POST https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/58399dff-ce
 }
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/create-ediscoveryreviewtag-with-a-parent-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

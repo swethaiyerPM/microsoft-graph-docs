@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me contacts patch --contact-id {contact-id} --body '{\
+mgc users contacts patch --user-id {user-id} --contact-id {contact-id} --body '{\
   "homeAddress": {\
     "street": "123 Some street",\
     "city": "Seattle",\

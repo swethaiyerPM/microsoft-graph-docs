@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me mailbox-settings get
+mgc users mailbox-settings get --user-id {user-id}
 
 ```

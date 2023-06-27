@@ -63,7 +63,7 @@ The following is an example of a request.
 GET https://graph.microsoft.com/v1.0/teams/893075dd-2487-4122-925f-022c42e20265
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-team-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

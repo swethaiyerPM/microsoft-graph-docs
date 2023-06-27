@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events dismiss-reminder post --event-id {event-id}
+mgc users events dismiss-reminder post --user-id {user-id} --event-id {event-id}
 
 ```

@@ -60,7 +60,7 @@ If successful, this method returns `204 No Content` response code. It does not r
 POST https://graph.microsoft.com/v1.0/groups/{id}/renew
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/group-renew-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

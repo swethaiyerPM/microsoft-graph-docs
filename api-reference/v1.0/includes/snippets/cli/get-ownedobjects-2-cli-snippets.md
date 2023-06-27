@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me owned-objects list
+mgc users owned-objects list --user-id {user-id}
 
 ```

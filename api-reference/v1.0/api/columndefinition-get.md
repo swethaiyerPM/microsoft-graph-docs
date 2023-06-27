@@ -74,7 +74,7 @@ The following is an example of a request.
 GET /sites/{site-id}/contentTypes/{contentType-id}/columns/{column-id}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-column-from-contenttype-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

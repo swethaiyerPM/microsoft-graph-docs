@@ -68,7 +68,7 @@ The following is an example of a request.
 GET https://graph.microsoft.com/v1.0/drive/bundles/{bundle-id}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-bundle-metadata-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -119,7 +119,7 @@ The following is an example of a request.
 GET https://graph.microsoft.com/v1.0/drive/items/{bundle-id}?expand=children
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-bundle-and-children-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

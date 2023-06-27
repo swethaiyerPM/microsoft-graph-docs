@@ -66,7 +66,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/identity/identityProviders/availableProviderTypes
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/identityprovider-availableprovidertypes-azure-ad-dir-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -116,7 +116,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/identity/identityProviders/availableProviderTypes
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/identityprovider-availableprovidertypes-b2c-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

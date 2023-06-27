@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me authentication email-methods get --email-authentication-method-id {emailAuthenticationMethod-id}
+mgc users authentication email-methods get --user-id {user-id} --email-authentication-method-id {emailAuthenticationMethod-id}
 
 ```

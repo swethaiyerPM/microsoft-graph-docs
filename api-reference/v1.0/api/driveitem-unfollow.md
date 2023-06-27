@@ -56,7 +56,7 @@ This example unfollows an item identified by `{item-id}`.
 POST /me/drive/items/{item-id}/unfollow
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/unfollow-item-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

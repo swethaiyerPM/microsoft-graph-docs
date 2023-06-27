@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events snooze-reminder post --event-id {event-id} --body '{\
+mgc users events snooze-reminder post --user-id {user-id} --event-id {event-id} --body '{\
   "newReminderTime": {\
     "dateTime": "dateTime-value",\
     "timeZone": "timeZone-value"\

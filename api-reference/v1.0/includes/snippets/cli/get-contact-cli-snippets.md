@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me contacts get --contact-id {contact-id}
+mgc users contacts get --user-id {user-id} --contact-id {contact-id}
 
 ```

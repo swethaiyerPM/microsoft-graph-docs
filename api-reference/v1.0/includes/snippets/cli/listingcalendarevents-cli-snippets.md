@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me calendar events list
+mgc users calendar events list --user-id {user-id}
 
 ```

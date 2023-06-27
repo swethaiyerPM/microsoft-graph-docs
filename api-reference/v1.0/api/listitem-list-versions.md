@@ -54,7 +54,7 @@ This example retrieves the versions of a listItem in a SharePoint list:
 GET /sites/{site-id}/lists/{list-id}/items/{item-id}/versions
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-previous-versions-listitem-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me online-meetings patch --online-meeting-id {onlineMeeting-id} --body '{\
+mgc users online-meetings patch --user-id {user-id} --online-meeting-id {onlineMeeting-id} --body '{\
   "lobbyBypassSettings": {\
       "isDialInBypassEnabled": true\
   }\

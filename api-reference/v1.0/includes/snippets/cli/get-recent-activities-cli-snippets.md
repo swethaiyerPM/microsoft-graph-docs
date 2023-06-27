@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me activities recent get
+mgc users activities recent get --user-id {user-id}
 
 ```

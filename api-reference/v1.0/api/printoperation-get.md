@@ -58,7 +58,7 @@ If successful, this method returns a `200 OK` response code and a [printOperatio
 GET https://graph.microsoft.com/v1.0/print/operations/{printOperationId}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-printoperation-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

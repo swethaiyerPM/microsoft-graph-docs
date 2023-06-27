@@ -62,7 +62,7 @@ If successful, this method returns a `200 OK` response code and an [unifiedRoleA
 GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleInstances/lAPpYvVpN0KRkAEhdxReEJ2SvT9WjGJEhR4OuaezoqU-1
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-unifiedroleassignmentscheduleinstance-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

@@ -62,7 +62,7 @@ This example retrieves a version of a file in the current user's drive.
 GET /me/drive/items/{item-id}/versions/{version-id}/content
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-version-contents-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

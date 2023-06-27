@@ -41,7 +41,7 @@ If a user's OneDrive is not provisioned but the user has a license to use OneDri
 GET /me/drive
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-drive-default-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -63,7 +63,7 @@ If a user's OneDrive is not provisioned but the user has a license to use OneDri
 GET https://graph.microsoft.com/v1.0/users/{48d31887-5fad-4d73-a9f5-3c356e68a038}/drive
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-drive-by-user-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -89,7 +89,7 @@ To access a Group's default document library, your app requests the **drive** re
 GET /groups/{groupId}/drive
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-drive-by-group-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -115,7 +115,7 @@ To access a [Site's](../resources/site.md) default document library, your app re
 GET /sites/{siteId}/drive
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-drive-by-site-id-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -141,7 +141,7 @@ If you have the unique identifier for a drive, you can access it directly from t
 GET /drives/{drive-id}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-drive-by-id-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

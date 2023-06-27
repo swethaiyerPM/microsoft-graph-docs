@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me people list
+mgc users people list --user-id {user-id}
 
 ```

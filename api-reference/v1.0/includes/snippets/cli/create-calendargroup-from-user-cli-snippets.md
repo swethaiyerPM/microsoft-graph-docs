@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me calendar-groups create --body '{\
+mgc users calendar-groups create --user-id {user-id} --body '{\
   "name": "Personal events"\
 }\
 '

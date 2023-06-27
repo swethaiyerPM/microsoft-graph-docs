@@ -58,7 +58,7 @@ This example retrieves the versions of a file in the current user's drive.
 GET /me/drive/items/{item-id}/versions
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-previous-versions-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

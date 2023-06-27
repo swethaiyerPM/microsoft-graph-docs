@@ -56,7 +56,7 @@ Here is an example of the request.
 GET https://graph.microsoft.com/v1.0/me/onenote/resources/{id}/content
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-resource-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

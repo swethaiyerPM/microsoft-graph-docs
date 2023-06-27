@@ -129,7 +129,7 @@ Because the app has permissions to access only user and group objects in the gro
 GET https://graph.microsoft.com/v1.0/groups/{id}/members
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/permissions-overview-limitedinfo-example-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

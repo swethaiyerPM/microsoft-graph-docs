@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me send-mail post --body '{\
+mgc users send-mail post --user-id {user-id} --body '{\
   "message": {\
     "subject": "9/9/2018: concert",\
     "body": {\

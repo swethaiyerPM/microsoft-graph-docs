@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me onenote notebooks sections create --notebook-id {notebook-id} --body '{\
+mgc users onenote notebooks sections create --user-id {user-id} --notebook-id {notebook-id} --body '{\
   "displayName": "Section name"\
 }\
 '

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me inference-classification overrides create --body '{\
+mgc users inference-classification overrides create --user-id {user-id} --body '{\
   "classifyAs": "focused",\
   "senderEmailAddress": {\
     "name": "Samantha Booth",\

@@ -57,7 +57,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/me/outlook/masterCategories/feafe4e8-52ff-488a-817f-cfea7e43ff8b
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-outlookcategory-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

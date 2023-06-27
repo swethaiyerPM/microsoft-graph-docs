@@ -69,7 +69,7 @@ If successful, this method returns a `200 OK` response code and an [emailAuthent
 GET /policies/authenticationMethodsPolicy/authenticationMethodConfigurations/email
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-emailauthenticationmethodconfiguration-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

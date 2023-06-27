@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me calendar-view delta get
+mgc users calendar-view delta get --user-id {user-id}
 
 ```

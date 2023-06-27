@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me contacts create --body '{\
+mgc users contacts create --user-id {user-id} --body '{\
   "givenName": "Pavel",\
   "surname": "Bansky",\
   "emailAddresses": [\

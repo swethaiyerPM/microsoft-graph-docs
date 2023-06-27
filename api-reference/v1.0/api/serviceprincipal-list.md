@@ -71,7 +71,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/servicePrincipals
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-serviceprincipal-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -155,7 +155,7 @@ GET https://graph.microsoft.com/v1.0/servicePrincipals?$filter=startswith(displa
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-serviceprincipals-startswith-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -209,7 +209,7 @@ GET https://graph.microsoft.com/v1.0/servicePrincipals?$search="displayName:Team
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-serviceprincipals-search-count-select-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -265,7 +265,7 @@ GET https://graph.microsoft.com/v1.0/serviceprincipals?$filter=owners/$count eq 
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-serviceprincipals-lessthan2owners-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

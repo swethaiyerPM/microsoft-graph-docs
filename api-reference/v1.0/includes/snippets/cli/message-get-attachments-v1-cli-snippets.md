@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages attachments list --message-id {message-id}
+mgc users messages attachments list --user-id {user-id} --message-id {message-id}
 
 ```

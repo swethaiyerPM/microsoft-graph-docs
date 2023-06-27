@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events create --body '{\
+mgc users events create --user-id {user-id} --body '{\
   "subject": "Let's go for lunch",\
   "body": {\
     "contentType": "HTML",\

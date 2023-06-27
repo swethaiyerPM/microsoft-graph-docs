@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages content get --message-id {message-id}
+mgc users messages content get --user-id {user-id} --message-id {message-id}
 
 ```

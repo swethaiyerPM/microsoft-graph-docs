@@ -53,7 +53,7 @@ Here is an example of the request.
 GET https://graph.microsoft.com/v1.0/planner/plans/{plan-id}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-plannerplan-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

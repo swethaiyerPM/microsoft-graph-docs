@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me calendar get-schedule post --body '{\
+mgc users calendar get-schedule post --user-id {user-id} --body '{\
     "schedules": ["adelev@contoso.onmicrosoft.com", "meganb@contoso.onmicrosoft.com"],\
     "startTime": {\
         "dateTime": "2019-03-15T09:00:00",\

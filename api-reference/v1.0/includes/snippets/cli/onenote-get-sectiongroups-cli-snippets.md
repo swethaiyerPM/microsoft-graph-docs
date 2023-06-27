@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me onenote section-groups list
+mgc users onenote section-groups list --user-id {user-id}
 
 ```

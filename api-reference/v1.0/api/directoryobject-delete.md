@@ -76,7 +76,7 @@ If successful, this method returns `204 No Content` response code. It does not r
 DELETE https://graph.microsoft.com/v1.0/directoryObjects/ffab4dce-9b82-49a6-b7c7-1a143106598c
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-directoryobject-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

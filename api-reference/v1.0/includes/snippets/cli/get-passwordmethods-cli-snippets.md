@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me authentication password-methods list
+mgc users authentication password-methods list --user-id {user-id}
 
 ```

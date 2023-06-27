@@ -77,7 +77,7 @@ Here is an example of the request.
 GET https://graph.microsoft.com/v1.0/servicePrincipals/00063ffc-54e9-405d-b8f3-56124728e051
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-serviceprincipal-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -155,7 +155,7 @@ Here is an example of the request.
 GET https://graph.microsoft.com/v1.0/servicePrincipals/7408235b-7540-4850-82fe-a5f15ed019e2?$select=id,appId,displayName,appRoles,oauth2PermissionScopes
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-serviceprincipal-select-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

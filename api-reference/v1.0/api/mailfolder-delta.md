@@ -91,7 +91,7 @@ GET https://graph.microsoft.com/v1.0/me/mailFolders/delta
 Prefer: odata.maxpagesize=2
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/mailfolder-delta-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

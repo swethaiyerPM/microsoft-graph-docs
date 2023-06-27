@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events forward post --event-id {event-id} --body '{\
+mgc users events forward post --user-id {user-id} --event-id {event-id} --body '{\
   "ToRecipients":[\
       {\
         "emailAddress": {\

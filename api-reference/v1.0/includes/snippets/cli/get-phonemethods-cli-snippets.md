@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me authentication phone-methods list
+mgc users authentication phone-methods list --user-id {user-id}
 
 ```

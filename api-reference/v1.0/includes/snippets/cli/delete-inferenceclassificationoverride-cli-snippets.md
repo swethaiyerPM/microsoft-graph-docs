@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me inference-classification overrides delete --inference-classification-override-id {inferenceClassificationOverride-id}
+mgc users inference-classification overrides delete --user-id {user-id} --inference-classification-override-id {inferenceClassificationOverride-id}
 
 ```

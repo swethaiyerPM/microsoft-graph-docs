@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me mail-folders delete --mail-folder-id {mailFolder-id}
+mgc users mail-folders delete --user-id {user-id} --mail-folder-id {mailFolder-id}
 
 ```

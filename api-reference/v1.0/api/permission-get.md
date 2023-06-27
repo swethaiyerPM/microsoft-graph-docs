@@ -62,7 +62,7 @@ Here is an example of the request to access a permission on a folder.
 GET /me/drive/items/{item-id}/permissions/{perm-id}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-item-permission-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

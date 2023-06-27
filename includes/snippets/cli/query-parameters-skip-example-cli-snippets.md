@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events list --skip 20 --orderby createdDateTime
+mgc users events list --user-id {user-id} --skip 20 --orderby createdDateTime
 
 ```

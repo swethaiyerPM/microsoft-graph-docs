@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages reply post --message-id {message-id} --body '{\
+mgc users messages reply post --user-id {user-id} --message-id {message-id} --body '{\
   "message":{  \
     "toRecipients":[\
       {\

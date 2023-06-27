@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me onenote notebooks get-notebook-from-web-url post --body '{"webUrl":"webUrl value"}\
+mgc users onenote notebooks get-notebook-from-web-url post --user-id {user-id} --body '{"webUrl":"webUrl value"}\
 '
 
 ```

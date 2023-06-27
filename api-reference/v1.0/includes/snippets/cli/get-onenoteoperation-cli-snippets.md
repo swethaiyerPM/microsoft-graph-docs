@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me onenote operations get --onenote-operation-id {onenoteOperation-id}
+mgc users onenote operations get --user-id {user-id} --onenote-operation-id {onenoteOperation-id}
 
 ```

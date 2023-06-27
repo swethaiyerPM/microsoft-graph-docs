@@ -68,7 +68,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/policies/claimsMappingPolicies
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-claimsmappingpolicies-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

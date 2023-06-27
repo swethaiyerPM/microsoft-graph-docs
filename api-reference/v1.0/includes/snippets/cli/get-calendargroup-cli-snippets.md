@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me calendar-groups get --calendar-group-id {calendarGroup-id}
+mgc users calendar-groups get --user-id {user-id} --calendar-group-id {calendarGroup-id}
 
 ```

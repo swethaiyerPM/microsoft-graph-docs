@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me mailbox-settings patch --body '{\
+mgc users mailbox-settings patch --user-id {user-id} --body '{\
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Me/mailboxSettings",\
     "automaticRepliesSetting": {\
         "status": "Scheduled",\

@@ -97,7 +97,7 @@ GET https://graph.microsoft.com/v1.0/me/events?$select=subject,body,bodyPreview,
 Prefer: outlook.timezone="Pacific Standard Time"
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-events-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me mail-folders message-rules create --mail-folder-id {mailFolder-id} --body '{\
+mgc users mail-folders message-rules create --user-id {user-id} --mail-folder-id {mailFolder-id} --body '{\
     "displayName": "From partner",      \
     "sequence": 2,      \
     "isEnabled": true,          \

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me mail-folders create --body '{\
+mgc users mail-folders create --user-id {user-id} --body '{\
   "displayName": "Clutter",\
   "isHidden": true\
 }\

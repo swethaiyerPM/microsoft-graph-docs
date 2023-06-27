@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me online-meetings get --online-meeting-id {onlineMeeting-id}
+mgc users online-meetings get --user-id {user-id} --online-meeting-id {onlineMeeting-id}
 
 ```

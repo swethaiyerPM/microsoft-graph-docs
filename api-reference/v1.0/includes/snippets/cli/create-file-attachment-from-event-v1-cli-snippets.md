@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events attachments create --event-id {event-id} --body '{\
+mgc users events attachments create --user-id {user-id} --event-id {event-id} --body '{\
     "@odata.type": "#microsoft.graph.fileAttachment",\
     "name": "menu.txt",\
     "contentBytes": "base64bWFjIGFuZCBjaGVlc2UgdG9kYXk="   \

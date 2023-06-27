@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages create --body '{\
+mgc users messages create --user-id {user-id} --body '{\
     "subject":"Did you see last night's game?",\
     "importance":"Low",\
     "body":{\

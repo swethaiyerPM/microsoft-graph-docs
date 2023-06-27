@@ -60,7 +60,7 @@ If successful, this method returns a `204 No Content` response code. It does not
 DELETE https://graph.microsoft.com/v1.0/print/shares/{printerShareId}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-printershare-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

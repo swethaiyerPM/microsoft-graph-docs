@@ -72,7 +72,7 @@ The following example gets the signed-in user's default calendar.
 GET https://graph.microsoft.com/v1.0/me/calendar
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-calendar-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

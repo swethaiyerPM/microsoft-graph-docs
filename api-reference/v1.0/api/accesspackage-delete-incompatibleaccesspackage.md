@@ -62,7 +62,7 @@ The following is an example of the request.
 DELETE https://graph.microsoft.com/v1.0/identityGovernance/entitlementManagement/accessPackages/73eb2497-3b88-4c0a-8bb3-68ba8162beff/incompatibleAccessPackages/c0a74b4d-2694-4d5d-a964-1bee4ff0aaf2/$ref
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/remove-incompatibleaccesspackage-from-accesspackage-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

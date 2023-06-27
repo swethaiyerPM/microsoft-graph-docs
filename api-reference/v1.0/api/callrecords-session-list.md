@@ -68,7 +68,7 @@ The following is an example of the request to get the list of [sessions](../reso
 GET https://graph.microsoft.com/v1.0/communications/callRecords/{id}/sessions
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-callrecord-sessions-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -170,7 +170,7 @@ The following is an example of the request to get the list of [sessions](../reso
 GET https://graph.microsoft.com/v1.0/communications/callRecords/{id}/sessions?$expand=segments
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-callrecord-sessions-expanded-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

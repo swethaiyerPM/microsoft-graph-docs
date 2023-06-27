@@ -65,7 +65,7 @@ The following is an example of a request.
 GET https://graph.microsoft.com/v1.0/sites/root/operations
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-richlongrunningoperation-for-sites-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me outlook master-categories list
+mgc users outlook master-categories list --user-id {user-id}
 
 ```

@@ -65,7 +65,7 @@ If successful, this method returns a `200 OK` response code and a [serviceUpdate
 GET https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/MC172851
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-serviceupdatemessage-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

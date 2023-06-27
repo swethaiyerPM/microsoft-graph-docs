@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages patch --message-id {message-id} --body '{\
+mgc users messages patch --user-id {user-id} --message-id {message-id} --body '{\
   "subject": "subject-value",\
   "body": {\
     "contentType": "",\

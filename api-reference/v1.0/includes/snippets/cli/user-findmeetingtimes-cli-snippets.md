@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me find-meeting-times post --body '{\
+mgc users find-meeting-times post --user-id {user-id} --body '{\
   "attendees": [ \
     { \
       "type": "required",  \

@@ -55,7 +55,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/contacts/25caf6a2-d5cb-470d-8940-20ba795ef62d
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-orgcontact-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

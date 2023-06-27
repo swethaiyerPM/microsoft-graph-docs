@@ -62,7 +62,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/education/me/rubrics/bf040af7-a5ff-4abe-a8c8-1bdc532344c2
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-educationrubric-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

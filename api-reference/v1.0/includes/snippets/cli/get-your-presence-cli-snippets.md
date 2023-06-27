@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me presence get
+mgc users presence get --user-id {user-id}
 
 ```

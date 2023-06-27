@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me mail-folders delta get
+mgc users mail-folders delta get --user-id {user-id}
 
 ```

@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me planner tasks list
+mgc users planner tasks list --user-id {user-id}
 
 ```

@@ -75,7 +75,7 @@ Here is an example of the request which retrieves available thumbnails for an it
 GET /me/drive/items/{item-id}/thumbnails
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/enum-item-thumbnails-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -186,7 +186,7 @@ This enables your app to retrieve thumbnails and items in a single request, inst
 GET /me/drive/items/{item-id}/children?$expand=thumbnails
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-thumbnail-while-listing-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -259,7 +259,7 @@ For example if your app needs thumbnails that are 300x400, it can request that s
 GET /me/drive/items/{item-id}/thumbnails?select=c300x400_crop
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-thumbnail-custom-size-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

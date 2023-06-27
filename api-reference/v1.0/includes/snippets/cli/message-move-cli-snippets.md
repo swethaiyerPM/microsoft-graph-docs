@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages move post --message-id {message-id} --body '{\
+mgc users messages move post --user-id {user-id} --message-id {message-id} --body '{\
   "destinationId": "deleteditems"\
 }\
 '

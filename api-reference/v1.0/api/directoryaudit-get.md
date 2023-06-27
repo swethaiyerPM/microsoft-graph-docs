@@ -67,7 +67,7 @@ Here is an example of the request.
 GET https://graph.microsoft.com/v1.0/auditLogs/directoryAudits/{id}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-directoryaudit-1-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

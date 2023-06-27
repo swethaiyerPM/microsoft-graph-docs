@@ -65,7 +65,7 @@ If successful, this call returns a `200 OK` response and a Boolean value that sp
 POST https://graph.microsoft.com/v1.0/domains/contoso.com/promote
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/domain-promote-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

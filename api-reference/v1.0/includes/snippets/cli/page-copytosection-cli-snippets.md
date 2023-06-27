@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me onenote pages copy-to-section post --onenote-page-id {onenotePage-id} --body '{\
+mgc users onenote pages copy-to-section post --user-id {user-id} --onenote-page-id {onenotePage-id} --body '{\
   "id": "id-value",\
   "groupId": "groupId-value"\
 }\

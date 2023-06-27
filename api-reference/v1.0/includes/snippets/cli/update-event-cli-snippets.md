@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events patch --event-id {event-id} --body '{\
+mgc users events patch --user-id {user-id} --event-id {event-id} --body '{\
   "originalStartTimeZone": "originalStartTimeZone-value",\
   "originalEndTimeZone": "originalEndTimeZone-value",\
   "responseStatus": {\

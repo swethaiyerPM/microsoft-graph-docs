@@ -69,7 +69,7 @@ If successful, this method returns a `200 OK` response code and a [printService]
 GET https://graph.microsoft.com/v1.0/print/services/{printServiceId}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-printservice-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

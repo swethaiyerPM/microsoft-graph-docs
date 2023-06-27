@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages delete --message-id {message-id}
+mgc users messages delete --user-id {user-id} --message-id {message-id}
 
 ```

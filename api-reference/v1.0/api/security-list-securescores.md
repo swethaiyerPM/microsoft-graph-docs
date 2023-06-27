@@ -72,7 +72,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/security/secureScores?$top=1
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-securescores-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

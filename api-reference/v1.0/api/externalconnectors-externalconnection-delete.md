@@ -62,7 +62,7 @@ If successful, this method returns `202 Accepted` response code. It does not ret
 DELETE https://graph.microsoft.com/v1.0/external/connections/contosohr
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-externalconnection-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

@@ -118,7 +118,7 @@ Counting directory objects is only supported using the advanced queries paramete
 GET https://graph.microsoft.com/v1.0/users/$count
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-users-count-missing-advancedqueryparams-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -155,7 +155,7 @@ For directory objects, `$search` works only in advanced queries. If the **Consis
 GET https://graph.microsoft.com/v1.0/applications?$search="displayName:Browser"
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-applications-missing-advancedqueryparams-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -187,7 +187,7 @@ If a property or query parameter in the URL is supported only in advanced querie
 GET https://graph.microsoft.com/v1.0/users?$filter=endsWith(mail,'@outlook.com')
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-users-missing-advancedqueryparams-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

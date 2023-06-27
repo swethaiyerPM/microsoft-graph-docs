@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events delete --event-id {event-id}
+mgc users events delete --user-id {user-id} --event-id {event-id}
 
 ```

@@ -61,7 +61,7 @@ If successful, this method returns `200 OK` response code and [domain](../resour
 POST https://graph.microsoft.com/v1.0/domains/{domain-name}/verify
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/domain-verify-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

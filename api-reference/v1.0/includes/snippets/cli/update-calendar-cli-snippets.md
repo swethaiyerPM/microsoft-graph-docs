@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me calendar patch --body '{\
+mgc users calendar patch --user-id {user-id} --body '{\
   "name": "Social events"\
 }\
 '

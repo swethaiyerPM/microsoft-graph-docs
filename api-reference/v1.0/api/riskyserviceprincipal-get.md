@@ -61,7 +61,7 @@ If successful, this method returns a `200 OK` response code and a [riskyServiceP
 GET https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals/9089a539-a539-9089-39a5-899039a58990
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-riskyserviceprincipal-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

@@ -71,7 +71,7 @@ If successful, this action returns a `200 OK` response code and an [extensionPro
 POST https://graph.microsoft.com/v1.0/directoryObjects/getAvailableExtensionProperties
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/directoryobject-getavailableextensionproperties-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

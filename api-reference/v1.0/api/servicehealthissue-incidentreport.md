@@ -61,7 +61,7 @@ If successful, this function returns a `200 OK` response code and a file stream 
 GET https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/issues/MO248163/incidentReport
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/servicehealthissue-incidentreport-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

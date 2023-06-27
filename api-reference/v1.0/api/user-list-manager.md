@@ -83,7 +83,7 @@ The following example shows a request to get the manager.
 GET https://graph.microsoft.com/v1.0/users/{id|userPrincipalName}/manager
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-manager-2-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -128,7 +128,7 @@ GET https://graph.microsoft.com/v1.0/me?$expand=manager($levels=max;$select=id,d
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-transitive-managers-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

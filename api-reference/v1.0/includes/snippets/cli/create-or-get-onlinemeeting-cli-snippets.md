@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me online-meetings create-or-get post --body '{\
+mgc users online-meetings create-or-get post --user-id {user-id} --body '{\
     "startDateTime": "2020-02-06T01:49:21.3524945+00:00",\
     "endDateTime": "2020-02-06T02:19:21.3524945+00:00",\
     "subject": "Create a meeting with customId provided",\

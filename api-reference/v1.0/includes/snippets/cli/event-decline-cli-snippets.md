@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events decline post --event-id {event-id} --body '{\
+mgc users events decline post --user-id {user-id} --event-id {event-id} --body '{\
   "comment": "I won't be able to make this week. How about next week?",\
   "sendResponse": true,\
   "proposedNewTime": {\

@@ -59,7 +59,7 @@ If successful, this method returns a `204 No Content` response code. It does not
 POST https://graph.microsoft.com/v1.0/print/printers/{printerId}/restoreFactoryDefaults
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/printer-restorefactorydefaults-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

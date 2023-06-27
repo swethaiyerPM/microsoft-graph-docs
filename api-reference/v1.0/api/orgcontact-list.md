@@ -61,7 +61,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/contacts
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-orgcontact-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -166,7 +166,7 @@ GET https://graph.microsoft.com/v1.0/contacts?$filter=startswith(displayName,'A'
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-orgcontacts-startswith-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -220,7 +220,7 @@ GET https://graph.microsoft.com/v1.0/contacts?$search="displayName:wa"&$count=tr
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-phone-count-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

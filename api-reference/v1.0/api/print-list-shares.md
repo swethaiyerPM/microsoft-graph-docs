@@ -75,7 +75,7 @@ You can get additional properties via a [Get printerShare](printershare-get.md) 
 GET https://graph.microsoft.com/v1.0/print/shares
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-printershare-1-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

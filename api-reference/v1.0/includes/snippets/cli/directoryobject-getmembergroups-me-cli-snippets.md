@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me get-member-groups post --body '{\
+mgc users get-member-groups post --user-id {user-id} --body '{\
   "securityEnabledOnly": true\
 }\
 '

@@ -68,7 +68,7 @@ If successful, this method returns a `200 OK` response code and a [serviceHealth
 GET https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/healthOverviews/Microsoft 365 suite
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-servicehealth-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -111,7 +111,7 @@ Content-Type: application/json
 GET https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/healthOverviews/Microsoft 365 suite?$expand=issues
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-servicehealth-with-issues-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

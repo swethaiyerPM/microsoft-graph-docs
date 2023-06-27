@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me outlook master-categories patch --outlook-category-id {outlookCategory-id} --body '{\
+mgc users outlook master-categories patch --user-id {user-id} --outlook-category-id {outlookCategory-id} --body '{\
   "color":"preset15"\
 }\
 '

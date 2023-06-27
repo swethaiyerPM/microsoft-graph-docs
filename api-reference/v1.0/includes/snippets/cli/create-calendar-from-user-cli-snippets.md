@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me calendars create --body '{\
+mgc users calendars create --user-id {user-id} --body '{\
   "name": "Volunteer"\
 }\
 '

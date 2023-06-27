@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages extensions create --message-id {message-id}
+mgc users messages extensions create --user-id {user-id} --message-id {message-id}
 
 ```

@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me contact-folders get --contact-folder-id {contactFolder-id}
+mgc users contact-folders get --user-id {user-id} --contact-folder-id {contactFolder-id}
 
 ```

@@ -70,7 +70,7 @@ For example, the **imAddresses** property of the `user` resource contains a coll
 GET https://graph.microsoft.com/v1.0/users?$filter=imAddresses/any(i:i eq 'admin@contoso.com')
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/filter-query-parameter-string-collection-example-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -88,7 +88,7 @@ The **assignedLicenses** property of the `user` resource contains a collection o
 GET https://graph.microsoft.com/v1.0/users?$filter=assignedLicenses/any(s:s/skuId eq 184efa21-98c3-4e5d-95ab-d07053a96e67)
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/filter-query-parameter-complex-collection-example-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -108,7 +108,7 @@ GET https://graph.microsoft.com/v1.0/users?$filter=NOT(imAddresses/any(i:i eq 'a
 ConsistencyLevel: eventual
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/filter-query-parameter-complex-collection-advancedquery-example-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

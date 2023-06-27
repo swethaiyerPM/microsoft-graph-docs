@@ -62,7 +62,7 @@ The following is an example of a request.
 POST https://graph.microsoft.com/v1.0/sites/root/lists/Documents/items/2/documentSetVersions/1/restore
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/documentsetversionthisrestore-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

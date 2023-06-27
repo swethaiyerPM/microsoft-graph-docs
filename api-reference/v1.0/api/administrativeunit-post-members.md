@@ -109,7 +109,7 @@ Content-type: application/json
 }
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/post-administrativeunits-members-ref-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -136,6 +136,7 @@ The following example creates a new group in the administrative unit. You must s
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "post_administrativeunits_members"
@@ -156,6 +157,12 @@ Content-type: application/json
   "securityEnabled": false
 }
 ```
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/post-administrativeunits-members-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 In the request body, provide the properties of the [group](../resources/group.md) object you want to add.
 

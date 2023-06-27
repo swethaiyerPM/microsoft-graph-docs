@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me contact-folders delete --contact-folder-id {contactFolder-id}
+mgc users contact-folders delete --user-id {user-id} --contact-folder-id {contactFolder-id}
 
 ```

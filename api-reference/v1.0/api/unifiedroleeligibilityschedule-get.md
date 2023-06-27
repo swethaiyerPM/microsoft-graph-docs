@@ -60,7 +60,7 @@ If successful, this method returns a `200 OK` response code and an [unifiedRoleE
 GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilitySchedules/1f06eafc-7532-429b-abf1-ab5a5f4a7052
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-unifiedroleeligibilityschedule-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

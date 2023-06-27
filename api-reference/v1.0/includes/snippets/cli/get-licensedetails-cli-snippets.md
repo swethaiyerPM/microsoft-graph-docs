@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me license-details list
+mgc users license-details list --user-id {user-id}
 
 ```

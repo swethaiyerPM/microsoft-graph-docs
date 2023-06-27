@@ -90,7 +90,7 @@ Here is an example of the request to retrieve a shared item:
 GET /shares/{shareIdOrEncodedSharingUrl}
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-shared-root-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -137,7 +137,7 @@ By requesting the **driveItem** relationship, the **DriveItem** that was shared 
 GET /shares/{shareIdOrUrl}/driveItem
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-shared-driveitem-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -174,7 +174,7 @@ By requesting the **driveItem** relationship and expanding the **children** coll
 GET /shares/{shareIdOrUrl}/driveItem?$expand=children
 ```
 
-# [cli](#tab/cli)
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-shared-driveitem-expand-children-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

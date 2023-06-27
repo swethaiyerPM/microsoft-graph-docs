@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me onenote notebooks create --body '{\
+mgc users onenote notebooks create --user-id {user-id} --body '{\
     "displayName": "My Private notebook"\
 }\
 '
