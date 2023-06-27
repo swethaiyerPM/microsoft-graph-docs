@@ -46,8 +46,8 @@ The result of a Cloud PC Azure network connection health check.
 |adJoinCheckComputerObjectAlreadyExists|The computer account can't be found in the organizational unit (OU) provided in the Azure network connection but the computer name already exists in the domain. This often occurs after the computer object was moved out of the OU configured in the Azure network connection. Please move the computer object back to the target OU.|
 |adJoinCheckCredentialsExpired|The domain join check failed because the password of the domain join user has expired. Please, first update the password and then update the Azure network connection with the new credentials.|
 |adJoinCheckFqdnNotFound|The domain join check failed because the domain name couldn't be found. Please make sure a domain controller for the domain name can be contacted by the vNet defined in the Azure network connection.|
-|adJoinCheckOrganizationalUnitIncorrectFormat|The domain join check failed because the organizational unit (OU) can't be found. Please provide an OU in the domain. The OU must be in distinguished name format. Example format: “OU=OU1,OU=OU2,OU=OU3,DC=DC1”.|
 |adJoinCheckIncorrectCredentials|The domain join check failed because the credentials provided for the domain aren't correct. Please update the Azure network connection with correct credentials.|
+|adJoinCheckOrganizationalUnitIncorrectFormat|The domain join check failed because the organizational unit (OU) can't be found. Please provide an OU in the domain. The OU must be in distinguished name format. Example format: “OU=OU1,OU=OU2,OU=OU3,DC=DC1”.|
 |adJoinCheckOrganizationalUnitNotFound|The domain join check failed because the organizational unit (OU) can't be found. Please provide an OU in the domain. The OU must be in distinguished name format. Example format: “OU=OU1,OU=OU2,OU=OU3,DC=DC1”.|
 |adJoinCheckUnknownError|The domain join check failed due to an unknown error. Please make sure that the Azure network connection can successfully join the domain using the details provided.|
 |azureAdDeviceSyncCheckDeviceNotFound|The Cloud PC computer object can't be found in Azure Active Directory (Azure AD). Please make sure that Azure AD connect works and syncs frequently so that the Cloud PC computer objects are synced to Azure AD. Azure AD device sync must be enabled and synced within the last 60 minutes.|
@@ -66,8 +66,8 @@ The result of a Cloud PC Azure network connection health check.
 |endpointConnectivityCheckAzureADUrlNotAllowListed|During provisioning, one or more required Azure Active Directory (Azure AD) URLs couldn't be contacted. Please make sure that all of the required URLs are allowed through the firewalls and proxies.|
 |endpointConnectivityCheckLocaleUrlNotAllowListed|During provisioning, one or more language pack URLs couldn't be contacted. If you choose a non-English (United States) **Language & Region** setting in a provisioning policy, the language pack might not be successfully installed. Please make sure that all of the required URLs are allowed through your firewalls and proxies. For a list or required URLs, see [Azure network connections health checks](https://go.microsoft.com/fwlink/?linkid=2156206).|
 |endpointConnectivityCheckUnknownError|During provisioning, one or more required URLs couldn't be contacted. Please make sure that all of the required URLs are allowed through the firewalls and proxies.|
-|internalServerErrorDeploymentCanceled|The deployment was canceled. Please try again later. If the problem persists, please contact support.|
 |internalServerErrorAllocateResourceFailed|The allocation of resources failed. Please try again later. If the problem persists, please contact support.|
+|internalServerErrorDeploymentCanceled|The deployment was canceled. Please try again later. If the problem persists, please contact support.|
 |internalServerErrorVMDeploymentTimeout|The virtual machine deployment timed out. Please try again later. If the problem persists, please contact support.|
 |internalServerErrorUnableToRunDscScript|During provisioning, some PowerShell DSC scripts are executed on the Cloud PC. Unable to either download these DSC scripts or execute them during the health check. Please ensure vNet has unrestricted access to the required endpoints, and PowerShell isn't blocked in the environment or Group Policy.|
 |ssoCheckKerberosConfigurationError|The Azure Active Directory (Azure AD) Kerberos is not configured properly, so the user failed to sign in to the Cloud PC through single sign-on (SSO) or receive SSO access to Kerberos-based resources on the network.|
@@ -121,13 +121,13 @@ The following is a JSON representation of the resource.
 ``` json
 {
   "@odata.type": "#microsoft.graph.cloudPcOnPremisesConnectionHealthCheck",
+  "additionalDetails": "String",
+  "correlationId": "String",
   "displayName": "String",
-  "status": "String",
-  "startDateTime": "String (timestamp)",
   "endDateTime": "String (timestamp)",
   "errorType": "String",
   "recommendedAction": "String",
-  "additionalDetails": "String",
-  "correlationId": "String"
+  "startDateTime": "String (timestamp)",
+  "status": "String" 
 }
 ```
